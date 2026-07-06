@@ -1,5 +1,5 @@
 window.PREDICTOR_DATA = {
-  "generatedAt": "2026-07-06T23:54:08",
+  "generatedAt": "2026-07-07T00:31:24",
   "params": {
     "home_adv": 45,
     "elo_k": 16,

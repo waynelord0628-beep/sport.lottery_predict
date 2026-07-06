@@ -16,6 +16,34 @@ DATA = ROOT / "data"
 REPORTS = ROOT / "reports"
 REPORTS.mkdir(exist_ok=True)
 
+DEFAULT_SCORE_KEYS = [
+    "soccer_fifa_world_cup",
+    "baseball_mlb",
+    "basketball_nba",
+    "basketball_wnba",
+    "tennis_atp_wimbledon",
+    "tennis_wta_wimbledon",
+    "cricket_odi",
+    "cricket_test_match",
+    "esports_lol",
+    "esports_cs2",
+    "esports_dota2",
+]
+
+FIELDNAMES = [
+    "id",
+    "sport_key",
+    "sport_title",
+    "commence_time",
+    "home",
+    "away",
+    "home_score",
+    "away_score",
+    "result",
+    "completed",
+    "source",
+]
+
 
 def get_json(url: str) -> tuple[list | dict, dict[str, str]]:
     req = urllib.request.Request(url, headers={"User-Agent": "private-predictor/1.0"})
@@ -38,8 +66,20 @@ def fetch_json(url: str) -> tuple[list | dict | None, dict[str, str], str | None
         return None, {}, str(exc)
 
 
-def read_upcoming_sport_keys() -> list[str]:
-    keys = []
+def append_unique(keys: list[str], value: str) -> None:
+    if value and value != "upcoming" and value not in keys:
+        keys.append(value)
+
+
+def read_csv(path: Path) -> list[dict[str, str]]:
+    if not path.exists():
+        return []
+    with path.open("r", encoding="utf-8-sig", newline="") as handle:
+        return list(csv.DictReader(handle))
+
+
+def read_score_sport_keys() -> list[str]:
+    keys: list[str] = []
     path = DATA / "upcoming_matches.csv"
     if path.exists():
         with path.open("r", encoding="utf-8-sig", newline="") as handle:
@@ -47,13 +87,40 @@ def read_upcoming_sport_keys() -> list[str]:
                 source = row.get("source", "")
                 if source.startswith("the-odds-api:"):
                     key = source.split(":", 2)[1]
-                    if key and key not in keys:
-                        keys.append(key)
+                    append_unique(keys, key)
+
+    for row in read_csv(DATA / "settled_results.csv"):
+        append_unique(keys, row.get("sport_key", ""))
+
     env_keys = [item.strip() for item in os.environ.get("ODDS_SPORT_KEYS", "").split(",") if item.strip()]
     for key in env_keys:
-        if key != "upcoming" and key not in keys:
-            keys.append(key)
-    return keys or ["baseball_mlb", "soccer_fifa_world_cup"]
+        append_unique(keys, key)
+
+    for key in DEFAULT_SCORE_KEYS:
+        append_unique(keys, key)
+
+    return keys
+
+
+def merge_results(existing: list[dict[str, str]], incoming: list[dict[str, str]]) -> list[dict[str, str]]:
+    merged: dict[str, dict[str, str]] = {}
+    for row in existing:
+        match_id = row.get("id", "")
+        if match_id:
+            merged[match_id] = {field: row.get(field, "") for field in FIELDNAMES}
+
+    for row in incoming:
+        match_id = row.get("id", "")
+        if not match_id:
+            continue
+        current = merged.get(match_id)
+        if current and current.get("source", "").startswith("manual:"):
+            continue
+        merged[match_id] = {field: row.get(field, "") for field in FIELDNAMES}
+
+    rows = list(merged.values())
+    rows.sort(key=lambda item: item.get("commence_time", ""), reverse=True)
+    return rows
 
 
 def winner_from_scores(scores: list[dict]) -> tuple[str, str, str] | None:
@@ -88,10 +155,10 @@ def main() -> int:
         "requests_used": None,
     }
 
-    for sport_key in read_upcoming_sport_keys():
+    for sport_key in read_score_sport_keys():
         query = {
             "apiKey": api_key,
-            "daysFrom": "3",
+            "daysFrom": os.environ.get("ODDS_SCORE_DAYS", "7"),
             "dateFormat": "iso",
         }
         url = f"https://api.the-odds-api.com/v4/sports/{sport_key}/scores/?" + urllib.parse.urlencode(query)
@@ -127,25 +194,16 @@ def main() -> int:
             count += 1
         report["sports"][sport_key] = {"finished": count}
 
-    fieldnames = [
-        "id",
-        "sport_key",
-        "sport_title",
-        "commence_time",
-        "home",
-        "away",
-        "home_score",
-        "away_score",
-        "result",
-        "completed",
-        "source",
-    ]
+    existing = read_csv(DATA / "settled_results.csv")
+    rows = merge_results(existing, rows)
     with (DATA / "settled_results.csv").open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fieldnames)
+        writer = csv.DictWriter(handle, fieldnames=FIELDNAMES)
         writer.writeheader()
         writer.writerows(rows)
 
     report["written_rows"] = len(rows)
+    report["incoming_rows"] = sum(item.get("finished", 0) for item in report["sports"].values() if isinstance(item.get("finished", 0), int))
+    report["preserved_existing_rows"] = len(existing)
     (REPORTS / "results_report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Wrote settled results: {len(rows)}")
     return 0
