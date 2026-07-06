@@ -239,6 +239,14 @@ function formatKickoff(value) {
   }).format(date);
 }
 
+function isFutureMatch(match) {
+  const value = match.kickoff || "";
+  if (!/^\d{4}-\d{2}-\d{2}T/.test(value)) return true;
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return true;
+  return date.getTime() > Date.now();
+}
+
 function sportOf(match) {
   if (match.sport) return match.sport;
   return (match.league || "").toLowerCase().includes("mlb") ? "baseball" : "soccer";
@@ -391,7 +399,7 @@ function pct(value) {
 function renderSportFilters() {
   const holder = document.querySelector("#sportFilters");
   const preferred = ["soccer", "basketball", "baseball", "esports"];
-  const available = new Set(upcomingMatches.map((match) => sportOf(match)));
+  const available = new Set(upcomingMatches.filter(isFutureMatch).map((match) => sportOf(match)));
   const sports = ["all", ...preferred, ...[...available].filter((sport) => !preferred.includes(sport))];
   holder.innerHTML = sports
     .map((sport) => `<button class="sport-chip ${sport === activeSportFilter ? "active" : ""}" data-sport="${sport}">${sportLabels[sport] || sport}</button>`)
@@ -415,6 +423,7 @@ function renderBacktestFilters() {
 function renderPredictions() {
   const grid = document.querySelector("#matchGrid");
   const cards = upcomingMatches
+    .filter(isFutureMatch)
     .map((match) => ({ match, p: predict(match) }))
     .filter(({ match, p }) => {
       if (activeSportFilter !== "all" && sportOf(match) !== activeSportFilter) return false;

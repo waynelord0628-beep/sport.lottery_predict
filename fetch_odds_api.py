@@ -7,7 +7,7 @@ import sys
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 
@@ -52,6 +52,16 @@ def decimal_price(price) -> float | None:
     if price is None:
         return None
     return float(price)
+
+
+def is_future_event(commence_time: str) -> bool:
+    if not commence_time:
+        return True
+    try:
+        dt = datetime.fromisoformat(commence_time.replace("Z", "+00:00"))
+    except ValueError:
+        return True
+    return dt > datetime.now(timezone.utc)
 
 
 def sport_group(sport_key: str) -> str:
@@ -137,6 +147,8 @@ def main() -> int:
             home = event.get("home_team")
             away = event.get("away_team")
             if not home or not away:
+                continue
+            if not is_future_event(event.get("commence_time", "")):
                 continue
             home_odds, draw_odds, away_odds, books = best_h2h(event.get("bookmakers", []), home, away)
             if not home_odds or not away_odds:
