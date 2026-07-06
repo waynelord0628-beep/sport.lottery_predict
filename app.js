@@ -257,7 +257,9 @@ function pct(value) {
 
 function renderSportFilters() {
   const holder = document.querySelector("#sportFilters");
-  const sports = ["all", ...new Set(upcomingMatches.map((match) => sportOf(match)))];
+  const preferred = ["soccer", "basketball", "baseball", "esports"];
+  const available = new Set(upcomingMatches.map((match) => sportOf(match)));
+  const sports = ["all", ...preferred, ...[...available].filter((sport) => !preferred.includes(sport))];
   holder.innerHTML = sports
     .map((sport) => `<button class="sport-chip ${sport === activeSportFilter ? "active" : ""}" data-sport="${sport}">${sportLabels[sport] || sport}</button>`)
     .join("");
@@ -305,7 +307,8 @@ function renderPredictions() {
     .join("");
 
   if (!cards.length) {
-    grid.innerHTML = '<article class="match-card">目前沒有符合條件的比賽。</article>';
+    const label = sportLabels[activeSportFilter] || activeSportFilter;
+    grid.innerHTML = `<article class="match-card">目前沒有${activeSportFilter === "all" ? "" : label}符合條件的比賽。</article>`;
   }
 }
 
