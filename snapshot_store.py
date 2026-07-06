@@ -4,6 +4,7 @@ import csv
 import json
 from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 
 ROOT = Path(__file__).resolve().parent
@@ -20,6 +21,7 @@ SNAPSHOT_FIELDS = [
     "top_key",
     "top_label",
     "top_prob",
+    "top_odds",
     "best_key",
     "best_label",
     "best_ev",
@@ -37,6 +39,7 @@ BACKTEST_FIELDS = [
     "kickoff",
     "home",
     "away",
+    "pick_type",
     "pick_key",
     "pick_label",
     "pick_prob",
@@ -78,6 +81,13 @@ def append_csv(path: Path, rows: list[dict[str, str]], fieldnames: list[str]) ->
         writer.writerows(rows)
 
 
+def rewrite_csv_with_fields(path: Path, fieldnames: list[str]) -> None:
+    rows = read_csv(path)
+    if not rows:
+        return
+    write_csv(path, rows, fieldnames)
+
+
 def snapshot_rows(dashboard: dict) -> list[dict[str, str]]:
     now = datetime.now().isoformat(timespec="seconds")
     rows = []
@@ -98,6 +108,7 @@ def snapshot_rows(dashboard: dict) -> list[dict[str, str]]:
                 "top_key": top.get("key", ""),
                 "top_label": top.get("label", ""),
                 "top_prob": top.get("prob", ""),
+                "top_odds": top.get("odds", ""),
                 "best_key": best.get("key", ""),
                 "best_label": best.get("label", ""),
                 "best_ev": best.get("ev", ""),
@@ -114,56 +125,107 @@ def result_won(pick_key: str, result: str) -> bool:
     return pick_key == result
 
 
-def dedupe_latest_snapshots(rows: list[dict[str, str]]) -> dict[str, dict[str, str]]:
-    latest: dict[str, dict[str, str]] = {}
+def parse_snapshot_time(value: str) -> datetime | None:
+    if not value:
+        return None
+    try:
+        return datetime.fromisoformat(value).replace(tzinfo=ZoneInfo("Asia/Taipei"))
+    except ValueError:
+        return None
+
+
+def parse_kickoff(value: str) -> datetime | None:
+    if not value:
+        return None
+    try:
+        return datetime.fromisoformat(value.replace("Z", "+00:00")).astimezone(ZoneInfo("Asia/Taipei"))
+    except ValueError:
+        return None
+
+
+def snapshot_by_match(rows: list[dict[str, str]]) -> dict[str, list[dict[str, str]]]:
+    grouped: dict[str, list[dict[str, str]]] = {}
     for row in rows:
         match_id = row.get("id", "")
-        if not match_id:
-            continue
-        if match_id not in latest or row.get("snapshot_at", "") > latest[match_id].get("snapshot_at", ""):
-            latest[match_id] = row
-    return latest
+        if match_id:
+            grouped.setdefault(match_id, []).append(row)
+    for match_rows in grouped.values():
+        match_rows.sort(key=lambda item: item.get("snapshot_at", ""))
+    return grouped
+
+
+def pick_snapshot_for_result(match_rows: list[dict[str, str]], result: dict[str, str]) -> dict[str, str] | None:
+    if not match_rows:
+        return None
+    kickoff = parse_kickoff(result.get("commence_time", ""))
+    if not kickoff:
+        return match_rows[0]
+    before_kickoff = [
+        row
+        for row in match_rows
+        if (snapshot_time := parse_snapshot_time(row.get("snapshot_at", ""))) and snapshot_time <= kickoff
+    ]
+    return before_kickoff[-1] if before_kickoff else match_rows[0]
+
+
+def to_float(value: str | None) -> float:
+    try:
+        return float(value or 0)
+    except ValueError:
+        return 0.0
+
+
+def backtest_pick_row(result: dict[str, str], snap: dict[str, str], pick_type: str) -> dict[str, str]:
+    match_id = result.get("id", "")
+    is_value = pick_type == "value"
+    pick_key = snap.get("best_key" if is_value else "top_key", "")
+    pick_label = snap.get("best_label" if is_value else "top_label", "")
+    pick_prob = snap.get(f"prob_{pick_key}", "") if is_value else snap.get("top_prob", "")
+    pick_odds = snap.get("best_odds", "") if is_value else snap.get("top_odds", "")
+    pick_ev = snap.get("best_ev", "") if is_value else ""
+    won = result_won(pick_key, result.get("result", ""))
+    odds = to_float(pick_odds)
+    profit = (odds - 1) if won and odds else (1 if won else -1)
+    return {
+        "id": match_id,
+        "snapshot_at": snap.get("snapshot_at", ""),
+        "sport": snap.get("sport", ""),
+        "league": snap.get("league", ""),
+        "kickoff": snap.get("kickoff", ""),
+        "home": snap.get("home", ""),
+        "away": snap.get("away", ""),
+        "pick_type": pick_type,
+        "pick_key": pick_key,
+        "pick_label": pick_label,
+        "pick_prob": pick_prob,
+        "pick_odds": pick_odds,
+        "pick_ev": pick_ev,
+        "result": result.get("result", ""),
+        "score": f'{result.get("home_score", "")}-{result.get("away_score", "")}',
+        "won": "true" if won else "false",
+        "profit": round(profit, 4),
+        "source": result.get("source", ""),
+    }
 
 
 def build_snapshot_backtest() -> list[dict[str, str]]:
-    snapshots = dedupe_latest_snapshots(read_csv(DATA / "prediction_snapshots.csv"))
+    snapshots = snapshot_by_match(read_csv(DATA / "prediction_snapshots.csv"))
     results = read_csv(DATA / "settled_results.csv")
     rows = []
     for result in results:
         match_id = result.get("id", "")
-        snap = snapshots.get(match_id)
+        snap = pick_snapshot_for_result(snapshots.get(match_id, []), result)
         if not snap:
             continue
-        pick_key = snap.get("top_key", "")
-        won = result_won(pick_key, result.get("result", ""))
-        odds = float(snap.get("best_odds") or 0) if pick_key == snap.get("best_key") else 0.0
-        profit = (odds - 1) if won and odds else (1 if won else -1)
-        rows.append(
-            {
-                "id": match_id,
-                "snapshot_at": snap.get("snapshot_at", ""),
-                "sport": snap.get("sport", ""),
-                "league": snap.get("league", ""),
-                "kickoff": snap.get("kickoff", ""),
-                "home": snap.get("home", ""),
-                "away": snap.get("away", ""),
-                "pick_key": pick_key,
-                "pick_label": snap.get("top_label", ""),
-                "pick_prob": snap.get("top_prob", ""),
-                "pick_odds": snap.get("best_odds", "") if pick_key == snap.get("best_key") else "",
-                "pick_ev": snap.get("best_ev", "") if pick_key == snap.get("best_key") else "",
-                "result": result.get("result", ""),
-                "score": f'{result.get("home_score", "")}-{result.get("away_score", "")}',
-                "won": "true" if won else "false",
-                "profit": round(profit, 4),
-                "source": result.get("source", ""),
-            }
-        )
+        rows.append(backtest_pick_row(result, snap, "top"))
+        if snap.get("best_key"):
+            rows.append(backtest_pick_row(result, snap, "value"))
     rows.sort(key=lambda item: (item["kickoff"], item["snapshot_at"]), reverse=True)
     return rows
 
 
 def main() -> int:
+    rewrite_csv_with_fields(DATA / "prediction_snapshots.csv", SNAPSHOT_FIELDS)
     dashboard = read_dashboard()
     rows = snapshot_rows(dashboard)
     append_csv(DATA / "prediction_snapshots.csv", rows, SNAPSHOT_FIELDS)

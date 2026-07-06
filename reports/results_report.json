@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T17:19:23",
+  "generated_at": "2026-07-06T23:49:09",
   "sports": {
     "cricket_odi": {
       "finished": 0
@@ -18,12 +18,9 @@
     },
     "baseball_mlb": {
       "finished": 43
-    },
-    "esports_lol": {
-      "finished": 0
     }
   },
-  "requests_remaining": "386",
-  "requests_used": "114",
+  "requests_remaining": "22",
+  "requests_used": "478",
   "written_rows": 50
 }

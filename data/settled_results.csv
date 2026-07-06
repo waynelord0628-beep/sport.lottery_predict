@@ -1,51 +1,53 @@
 id,sport_key,sport_title,commence_time,home,away,home_score,away_score,result,completed,source
-fb270a3dac2b682c861bd674a5ff4a04,soccer_fifa_world_cup,FIFA World Cup,2026-07-03T18:00:00Z,Australia,Egypt,1,1,draw,true,the-odds-api:scores:soccer_fifa_world_cup
-3e161b2448ed76d6b0c0f5bda6fd5bf2,soccer_fifa_world_cup,FIFA World Cup,2026-07-03T22:00:00Z,Argentina,Cape Verde,3,2,home,true,the-odds-api:scores:soccer_fifa_world_cup
-88e032a2b2e5042d26db3f0da1df924a,soccer_fifa_world_cup,FIFA World Cup,2026-07-04T01:30:00Z,Colombia,Ghana,1,0,home,true,the-odds-api:scores:soccer_fifa_world_cup
-9c7073ae2c29ee4881bb695f92168c68,soccer_fifa_world_cup,FIFA World Cup,2026-07-04T17:00:00Z,Canada,Morocco,0,3,away,true,the-odds-api:scores:soccer_fifa_world_cup
-c798a1ffdeda28e82d930e7145a8ff10,soccer_fifa_world_cup,FIFA World Cup,2026-07-04T21:03:00Z,Paraguay,France,0,1,away,true,the-odds-api:scores:soccer_fifa_world_cup
-a4634eae056c18d705e3feffb347163f,soccer_fifa_world_cup,FIFA World Cup,2026-07-05T20:00:00Z,Brazil,Norway,1,2,away,true,the-odds-api:scores:soccer_fifa_world_cup
+d8b6d9e196b22bb6a224ec404730c671,tennis_wta_wimbledon,WTA Wimbledon,2026-07-06T12:30:00Z,Jasmine Paolini,Alexandra Eala,2,1,home,true,manual:verified:2026-07-06
+5aadb0dbbad4128c3faf3df033ae5878,tennis_atp_wimbledon,ATP Wimbledon,2026-07-06T12:00:00Z,Alex de Minaur,Flavio Cobolli,0,3,away,true,manual:verified:2026-07-06
+0351ac13f45c028104c1b860422817ef,baseball_mlb,MLB,2026-07-06T01:31:00Z,Los Angeles Angels,Boston Red Sox,5,7,away,true,the-odds-api:scores:baseball_mlb
 e61a7b471cadc8e3849158ed59d49cab,soccer_fifa_world_cup,FIFA World Cup,2026-07-06T01:00:00Z,Mexico,England,2,3,away,true,the-odds-api:scores:soccer_fifa_world_cup
-471b2b7bb19f52be5e618aec359cd8e5,baseball_mlb,MLB,2026-07-03T20:15:09Z,Chicago Cubs,St. Louis Cardinals,1,17,away,true,the-odds-api:scores:baseball_mlb
-14423828314cc83167d6c7ce88323746,baseball_mlb,MLB,2026-07-03T22:46:38Z,Washington Nationals,Pittsburgh Pirates,9,5,home,true,the-odds-api:scores:baseball_mlb
-0a7769461d3b3126c2e4bb98b8cee225,baseball_mlb,MLB,2026-07-03T23:07:15Z,New York Yankees,Minnesota Twins,5,2,home,true,the-odds-api:scores:baseball_mlb
-b854e09aa9677136666533dc8d2459ff,baseball_mlb,MLB,2026-07-03T23:10:34Z,Cleveland Guardians,Chicago White Sox,4,3,home,true,the-odds-api:scores:baseball_mlb
-6a7d6767bd4da0f044ab6d250c233769,baseball_mlb,MLB,2026-07-03T23:10:53Z,Cincinnati Reds,Baltimore Orioles,0,3,away,true,the-odds-api:scores:baseball_mlb
-02a01af3575ee92bb974caaf28f76911,baseball_mlb,MLB,2026-07-03T23:16:39Z,Atlanta Braves,New York Mets,5,3,home,true,the-odds-api:scores:baseball_mlb
-3bf177f10d546535921fa6be841880f7,baseball_mlb,MLB,2026-07-04T00:12:16Z,Colorado Rockies,San Francisco Giants,15,3,home,true,the-odds-api:scores:baseball_mlb
-f0e24a50674443856bff31b645ff5572,baseball_mlb,MLB,2026-07-04T00:15:27Z,Houston Astros,Tampa Bay Rays,1,3,away,true,the-odds-api:scores:baseball_mlb
-10e96b5a6a3e81aac49e9771082a5bea,baseball_mlb,MLB,2026-07-04T01:38:52Z,Los Angeles Angels,Boston Red Sox,2,5,away,true,the-odds-api:scores:baseball_mlb
-5434f34b7e8232a7091f0e3efdd4a175,baseball_mlb,MLB,2026-07-04T01:40:39Z,Athletics,Miami Marlins,5,12,away,true,the-odds-api:scores:baseball_mlb
-bb4dc431a7347100e9781696b2bcf256,baseball_mlb,MLB,2026-07-04T01:45:15Z,Arizona Diamondbacks,Milwaukee Brewers,4,7,away,true,the-odds-api:scores:baseball_mlb
-0341580e2426c65b63d7fb929214eb65,baseball_mlb,MLB,2026-07-04T02:09:54Z,Los Angeles Dodgers,San Diego Padres,4,3,home,true,the-odds-api:scores:baseball_mlb
-90671747520f496e2e8e3b667c7c4286,baseball_mlb,MLB,2026-07-04T02:10:15Z,Seattle Mariners,Toronto Blue Jays,0,2,away,true,the-odds-api:scores:baseball_mlb
-cf30692398660f7bad608a5e820b0d31,baseball_mlb,MLB,2026-07-04T15:06:00Z,Washington Nationals,Pittsburgh Pirates,1,7,away,true,the-odds-api:scores:baseball_mlb
-612d9a4c3240e9ad249a9e03681b4a6c,baseball_mlb,MLB,2026-07-04T17:39:00Z,New York Yankees,Minnesota Twins,4,11,away,true,the-odds-api:scores:baseball_mlb
-ec4b853359310a5bcf7395eeb51dc121,baseball_mlb,MLB,2026-07-04T20:06:00Z,Texas Rangers,Detroit Tigers,0,3,away,true,the-odds-api:scores:baseball_mlb
-984229c1b91fa0876a5f4e5c584d4387,baseball_mlb,MLB,2026-07-04T20:11:00Z,Seattle Mariners,Toronto Blue Jays,11,0,home,true,the-odds-api:scores:baseball_mlb
+2991d31eedcff470d7105f7237e66e03,baseball_mlb,MLB,2026-07-05T23:21:00Z,Los Angeles Dodgers,San Diego Padres,2,5,away,true,the-odds-api:scores:baseball_mlb
+2cf5f7fa6ed79ae90ee9f6aa70ceb1e2,baseball_mlb,MLB,2026-07-05T21:05:58Z,Seattle Mariners,Toronto Blue Jays,4,0,home,true,the-odds-api:scores:baseball_mlb
+5fb0c67a8c660b822db6b5a2a9d75125,baseball_mlb,MLB,2026-07-05T20:31:00Z,Athletics,Miami Marlins,8,9,away,true,the-odds-api:scores:baseball_mlb
+a2dde9d9ca56dc238d564ace87b244f0,baseball_mlb,MLB,2026-07-05T20:07:34Z,Colorado Rockies,San Francisco Giants,7,6,home,true,the-odds-api:scores:baseball_mlb
+acc7a54706d2d24e201d069a00e76d50,baseball_mlb,MLB,2026-07-05T20:05:53Z,Arizona Diamondbacks,Milwaukee Brewers,2,3,away,true,the-odds-api:scores:baseball_mlb
+a4634eae056c18d705e3feffb347163f,soccer_fifa_world_cup,FIFA World Cup,2026-07-05T20:00:00Z,Brazil,Norway,1,2,away,true,the-odds-api:scores:soccer_fifa_world_cup
+8ea201bdda2a6a63bd3a6bc19250e4a0,baseball_mlb,MLB,2026-07-05T19:32:02Z,Cleveland Guardians,Chicago White Sox,6,7,away,true,the-odds-api:scores:baseball_mlb
+12eaa8dfb716d6ed545a6e1fed88cc2a,baseball_mlb,MLB,2026-07-05T19:31:00Z,Texas Rangers,Detroit Tigers,3,6,away,true,the-odds-api:scores:baseball_mlb
+1dea84746e977d3a57b78a0a47ba6935,baseball_mlb,MLB,2026-07-05T19:31:00Z,Houston Astros,Tampa Bay Rays,2,0,home,true,the-odds-api:scores:baseball_mlb
+4dea73f21196e43153d6355e7f5d1266,baseball_mlb,MLB,2026-07-05T19:01:00Z,Kansas City Royals,Philadelphia Phillies,5,2,home,true,the-odds-api:scores:baseball_mlb
+5aed324537c72e3b3cd7d1f3e3905db5,baseball_mlb,MLB,2026-07-05T18:35:36Z,Chicago Cubs,St. Louis Cardinals,6,4,home,true,the-odds-api:scores:baseball_mlb
+6f0fa1db67e69c8f534003061fdedee9,baseball_mlb,MLB,2026-07-05T18:17:11Z,Atlanta Braves,New York Mets,9,10,away,true,the-odds-api:scores:baseball_mlb
+29749cde930adfaf1cbc374908eeac88,baseball_mlb,MLB,2026-07-05T17:37:09Z,New York Yankees,Minnesota Twins,1,6,away,true,the-odds-api:scores:baseball_mlb
+ff0f58dec0d0f4a36d53233a99151d06,baseball_mlb,MLB,2026-07-05T17:06:21Z,Cincinnati Reds,Baltimore Orioles,3,2,home,true,the-odds-api:scores:baseball_mlb
+e7bb88c6da50433a86db985ff3c21afe,baseball_mlb,MLB,2026-07-05T17:01:00Z,Washington Nationals,Pittsburgh Pirates,5,11,away,true,the-odds-api:scores:baseball_mlb
+937c0d8ee53bf0a6f8f1e472832b86c5,baseball_mlb,MLB,2026-07-05T02:11:00Z,Los Angeles Dodgers,San Diego Padres,3,0,home,true,the-odds-api:scores:baseball_mlb
+a523c1ba668649088416935d2bc9a573,baseball_mlb,MLB,2026-07-05T01:41:00Z,Arizona Diamondbacks,Milwaukee Brewers,4,3,home,true,the-odds-api:scores:baseball_mlb
+33b4c5f526bcc56b10bb39d97a8b942d,baseball_mlb,MLB,2026-07-05T01:41:00Z,Athletics,Miami Marlins,2,7,away,true,the-odds-api:scores:baseball_mlb
+56eb72104fb4612dbd0953df70201727,baseball_mlb,MLB,2026-07-05T01:39:00Z,Los Angeles Angels,Boston Red Sox,1,8,away,true,the-odds-api:scores:baseball_mlb
+ee9972cacf647720c50225d0f8004a91,baseball_mlb,MLB,2026-07-05T01:07:02Z,Chicago Cubs,St. Louis Cardinals,0,3,away,true,the-odds-api:scores:baseball_mlb
+01abcc9d9a9408b8be4a4acc7dc53ec5,baseball_mlb,MLB,2026-07-05T00:55:00Z,Colorado Rockies,San Francisco Giants,4,6,away,true,the-odds-api:scores:baseball_mlb
+478dd82a6850dc38220b29a31ad54938,baseball_mlb,MLB,2026-07-05T00:11:00Z,Kansas City Royals,Philadelphia Phillies,1,6,away,true,the-odds-api:scores:baseball_mlb
+304cfd624e72dea59a61624cfad305d8,baseball_mlb,MLB,2026-07-05T00:09:00Z,Atlanta Braves,New York Mets,14,3,home,true,the-odds-api:scores:baseball_mlb
 e9d56acb32e4662dcb7e8858362e887a,baseball_mlb,MLB,2026-07-04T23:11:00Z,Cincinnati Reds,Baltimore Orioles,5,8,away,true,the-odds-api:scores:baseball_mlb
 929b8a02afe41332232a35f04aba423a,baseball_mlb,MLB,2026-07-04T23:11:00Z,Cleveland Guardians,Chicago White Sox,1,3,away,true,the-odds-api:scores:baseball_mlb
 516860d105f26cb11a4c57a773a851f5,baseball_mlb,MLB,2026-07-04T23:11:00Z,Houston Astros,Tampa Bay Rays,10,8,home,true,the-odds-api:scores:baseball_mlb
-304cfd624e72dea59a61624cfad305d8,baseball_mlb,MLB,2026-07-05T00:09:00Z,Atlanta Braves,New York Mets,14,3,home,true,the-odds-api:scores:baseball_mlb
-478dd82a6850dc38220b29a31ad54938,baseball_mlb,MLB,2026-07-05T00:11:00Z,Kansas City Royals,Philadelphia Phillies,1,6,away,true,the-odds-api:scores:baseball_mlb
-01abcc9d9a9408b8be4a4acc7dc53ec5,baseball_mlb,MLB,2026-07-05T00:55:00Z,Colorado Rockies,San Francisco Giants,4,6,away,true,the-odds-api:scores:baseball_mlb
-ee9972cacf647720c50225d0f8004a91,baseball_mlb,MLB,2026-07-05T01:07:02Z,Chicago Cubs,St. Louis Cardinals,0,3,away,true,the-odds-api:scores:baseball_mlb
-56eb72104fb4612dbd0953df70201727,baseball_mlb,MLB,2026-07-05T01:39:00Z,Los Angeles Angels,Boston Red Sox,1,8,away,true,the-odds-api:scores:baseball_mlb
-a523c1ba668649088416935d2bc9a573,baseball_mlb,MLB,2026-07-05T01:41:00Z,Arizona Diamondbacks,Milwaukee Brewers,4,3,home,true,the-odds-api:scores:baseball_mlb
-33b4c5f526bcc56b10bb39d97a8b942d,baseball_mlb,MLB,2026-07-05T01:41:00Z,Athletics,Miami Marlins,2,7,away,true,the-odds-api:scores:baseball_mlb
-937c0d8ee53bf0a6f8f1e472832b86c5,baseball_mlb,MLB,2026-07-05T02:11:00Z,Los Angeles Dodgers,San Diego Padres,3,0,home,true,the-odds-api:scores:baseball_mlb
-e7bb88c6da50433a86db985ff3c21afe,baseball_mlb,MLB,2026-07-05T17:01:00Z,Washington Nationals,Pittsburgh Pirates,5,11,away,true,the-odds-api:scores:baseball_mlb
-ff0f58dec0d0f4a36d53233a99151d06,baseball_mlb,MLB,2026-07-05T17:06:21Z,Cincinnati Reds,Baltimore Orioles,3,2,home,true,the-odds-api:scores:baseball_mlb
-29749cde930adfaf1cbc374908eeac88,baseball_mlb,MLB,2026-07-05T17:37:09Z,New York Yankees,Minnesota Twins,1,6,away,true,the-odds-api:scores:baseball_mlb
-6f0fa1db67e69c8f534003061fdedee9,baseball_mlb,MLB,2026-07-05T18:17:11Z,Atlanta Braves,New York Mets,9,10,away,true,the-odds-api:scores:baseball_mlb
-5aed324537c72e3b3cd7d1f3e3905db5,baseball_mlb,MLB,2026-07-05T18:35:36Z,Chicago Cubs,St. Louis Cardinals,6,4,home,true,the-odds-api:scores:baseball_mlb
-4dea73f21196e43153d6355e7f5d1266,baseball_mlb,MLB,2026-07-05T19:01:00Z,Kansas City Royals,Philadelphia Phillies,5,2,home,true,the-odds-api:scores:baseball_mlb
-12eaa8dfb716d6ed545a6e1fed88cc2a,baseball_mlb,MLB,2026-07-05T19:31:00Z,Texas Rangers,Detroit Tigers,3,6,away,true,the-odds-api:scores:baseball_mlb
-1dea84746e977d3a57b78a0a47ba6935,baseball_mlb,MLB,2026-07-05T19:31:00Z,Houston Astros,Tampa Bay Rays,2,0,home,true,the-odds-api:scores:baseball_mlb
-8ea201bdda2a6a63bd3a6bc19250e4a0,baseball_mlb,MLB,2026-07-05T19:32:02Z,Cleveland Guardians,Chicago White Sox,6,7,away,true,the-odds-api:scores:baseball_mlb
-acc7a54706d2d24e201d069a00e76d50,baseball_mlb,MLB,2026-07-05T20:05:53Z,Arizona Diamondbacks,Milwaukee Brewers,2,3,away,true,the-odds-api:scores:baseball_mlb
-a2dde9d9ca56dc238d564ace87b244f0,baseball_mlb,MLB,2026-07-05T20:07:34Z,Colorado Rockies,San Francisco Giants,7,6,home,true,the-odds-api:scores:baseball_mlb
-5fb0c67a8c660b822db6b5a2a9d75125,baseball_mlb,MLB,2026-07-05T20:31:00Z,Athletics,Miami Marlins,8,9,away,true,the-odds-api:scores:baseball_mlb
-2cf5f7fa6ed79ae90ee9f6aa70ceb1e2,baseball_mlb,MLB,2026-07-05T21:05:58Z,Seattle Mariners,Toronto Blue Jays,4,0,home,true,the-odds-api:scores:baseball_mlb
-2991d31eedcff470d7105f7237e66e03,baseball_mlb,MLB,2026-07-05T23:21:00Z,Los Angeles Dodgers,San Diego Padres,2,5,away,true,the-odds-api:scores:baseball_mlb
-0351ac13f45c028104c1b860422817ef,baseball_mlb,MLB,2026-07-06T01:31:00Z,Los Angeles Angels,Boston Red Sox,5,7,away,true,the-odds-api:scores:baseball_mlb
+c798a1ffdeda28e82d930e7145a8ff10,soccer_fifa_world_cup,FIFA World Cup,2026-07-04T21:03:00Z,Paraguay,France,0,1,away,true,the-odds-api:scores:soccer_fifa_world_cup
+984229c1b91fa0876a5f4e5c584d4387,baseball_mlb,MLB,2026-07-04T20:11:00Z,Seattle Mariners,Toronto Blue Jays,11,0,home,true,the-odds-api:scores:baseball_mlb
+ec4b853359310a5bcf7395eeb51dc121,baseball_mlb,MLB,2026-07-04T20:06:00Z,Texas Rangers,Detroit Tigers,0,3,away,true,the-odds-api:scores:baseball_mlb
+612d9a4c3240e9ad249a9e03681b4a6c,baseball_mlb,MLB,2026-07-04T17:39:00Z,New York Yankees,Minnesota Twins,4,11,away,true,the-odds-api:scores:baseball_mlb
+9c7073ae2c29ee4881bb695f92168c68,soccer_fifa_world_cup,FIFA World Cup,2026-07-04T17:00:00Z,Canada,Morocco,0,3,away,true,the-odds-api:scores:soccer_fifa_world_cup
+cf30692398660f7bad608a5e820b0d31,baseball_mlb,MLB,2026-07-04T15:06:00Z,Washington Nationals,Pittsburgh Pirates,1,7,away,true,the-odds-api:scores:baseball_mlb
+90671747520f496e2e8e3b667c7c4286,baseball_mlb,MLB,2026-07-04T02:10:15Z,Seattle Mariners,Toronto Blue Jays,0,2,away,true,the-odds-api:scores:baseball_mlb
+0341580e2426c65b63d7fb929214eb65,baseball_mlb,MLB,2026-07-04T02:09:54Z,Los Angeles Dodgers,San Diego Padres,4,3,home,true,the-odds-api:scores:baseball_mlb
+bb4dc431a7347100e9781696b2bcf256,baseball_mlb,MLB,2026-07-04T01:45:15Z,Arizona Diamondbacks,Milwaukee Brewers,4,7,away,true,the-odds-api:scores:baseball_mlb
+5434f34b7e8232a7091f0e3efdd4a175,baseball_mlb,MLB,2026-07-04T01:40:39Z,Athletics,Miami Marlins,5,12,away,true,the-odds-api:scores:baseball_mlb
+10e96b5a6a3e81aac49e9771082a5bea,baseball_mlb,MLB,2026-07-04T01:38:52Z,Los Angeles Angels,Boston Red Sox,2,5,away,true,the-odds-api:scores:baseball_mlb
+88e032a2b2e5042d26db3f0da1df924a,soccer_fifa_world_cup,FIFA World Cup,2026-07-04T01:30:00Z,Colombia,Ghana,1,0,home,true,the-odds-api:scores:soccer_fifa_world_cup
+f0e24a50674443856bff31b645ff5572,baseball_mlb,MLB,2026-07-04T00:15:27Z,Houston Astros,Tampa Bay Rays,1,3,away,true,the-odds-api:scores:baseball_mlb
+3bf177f10d546535921fa6be841880f7,baseball_mlb,MLB,2026-07-04T00:12:16Z,Colorado Rockies,San Francisco Giants,15,3,home,true,the-odds-api:scores:baseball_mlb
+02a01af3575ee92bb974caaf28f76911,baseball_mlb,MLB,2026-07-03T23:16:39Z,Atlanta Braves,New York Mets,5,3,home,true,the-odds-api:scores:baseball_mlb
+6a7d6767bd4da0f044ab6d250c233769,baseball_mlb,MLB,2026-07-03T23:10:53Z,Cincinnati Reds,Baltimore Orioles,0,3,away,true,the-odds-api:scores:baseball_mlb
+b854e09aa9677136666533dc8d2459ff,baseball_mlb,MLB,2026-07-03T23:10:34Z,Cleveland Guardians,Chicago White Sox,4,3,home,true,the-odds-api:scores:baseball_mlb
+0a7769461d3b3126c2e4bb98b8cee225,baseball_mlb,MLB,2026-07-03T23:07:15Z,New York Yankees,Minnesota Twins,5,2,home,true,the-odds-api:scores:baseball_mlb
+14423828314cc83167d6c7ce88323746,baseball_mlb,MLB,2026-07-03T22:46:38Z,Washington Nationals,Pittsburgh Pirates,9,5,home,true,the-odds-api:scores:baseball_mlb
+3e161b2448ed76d6b0c0f5bda6fd5bf2,soccer_fifa_world_cup,FIFA World Cup,2026-07-03T22:00:00Z,Argentina,Cape Verde,3,2,home,true,the-odds-api:scores:soccer_fifa_world_cup
+471b2b7bb19f52be5e618aec359cd8e5,baseball_mlb,MLB,2026-07-03T20:15:09Z,Chicago Cubs,St. Louis Cardinals,1,17,away,true,the-odds-api:scores:baseball_mlb
+fb270a3dac2b682c861bd674a5ff4a04,soccer_fifa_world_cup,FIFA World Cup,2026-07-03T18:00:00Z,Australia,Egypt,1,1,draw,true,the-odds-api:scores:soccer_fifa_world_cup

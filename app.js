@@ -566,7 +566,7 @@ function renderBacktest() {
     .map(({ match, p, pick, won, kind, item }) => kind === "snapshot" ? `
       <tr>
         <td>${match.date}</td>
-        <td><span class="league">${sportLeagueLabel(match)} · 快照</span><br />${zhTeam(match.home)} vs ${zhTeam(match.away)}</td>
+        <td><span class="league">${sportLeagueLabel(match)} · ${item.pick_type === "value" ? "價值方向" : "勝率最高"}</span><br />${zhTeam(match.home)} vs ${zhTeam(match.away)}</td>
         <td>${marketLabel(match, { key: item.pick_key, label: item.pick_label })}</td>
         <td>${item.pick_prob ? pct(Number(item.pick_prob)) : "—"}</td>
         <td class="${item.won === "true" ? "win" : "loss"}">${item.won === "true" ? "命中" : "未中"} (${match.result}${match.score ? ` ${match.score}` : ""})</td>
