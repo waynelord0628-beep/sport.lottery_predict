@@ -93,6 +93,67 @@ const settledMatches = generatedData ? generatedData.backtest : fallbackSettledM
 
 const fmt = new Intl.NumberFormat("zh-TW", { style: "percent", maximumFractionDigits: 1 });
 const num = new Intl.NumberFormat("zh-TW", { maximumFractionDigits: 2 });
+let activeQualityFilter = "all";
+let activeSportFilter = "all";
+
+const sportLabels = {
+  all: "全部",
+  soccer: "足球",
+  basketball: "籃球",
+  baseball: "棒球",
+  esports: "電競",
+  football: "美足",
+  hockey: "冰球",
+  cricket: "板球",
+  tennis: "網球",
+  mma: "格鬥",
+  boxing: "拳擊",
+  rugby: "橄欖球",
+  mixed: "其他",
+};
+
+const teamZh = {
+  Arsenal: "兵工廠",
+  Chelsea: "切爾西",
+  "Man City": "曼城",
+  "Manchester City": "曼城",
+  Liverpool: "利物浦",
+  "Real Madrid": "皇家馬德里",
+  Barcelona: "巴塞隆納",
+  Inter: "國際米蘭",
+  Milan: "AC 米蘭",
+  "Bayern Munich": "拜仁慕尼黑",
+  Dortmund: "多特蒙德",
+  "Paris SG": "巴黎聖日耳曼",
+  Marseille: "馬賽",
+  "New York Yankees": "紐約洋基",
+  "Boston Red Sox": "波士頓紅襪",
+  "Los Angeles Dodgers": "洛杉磯道奇",
+  "San Francisco Giants": "舊金山巨人",
+  "New York Mets": "紐約大都會",
+  "Philadelphia Phillies": "費城費城人",
+  "T1": "T1",
+  "Gen.G": "Gen.G",
+};
+
+function zhTeam(name) {
+  return teamZh[name] || name;
+}
+
+function sportOf(match) {
+  if (match.sport) return match.sport;
+  return (match.league || "").toLowerCase().includes("mlb") ? "baseball" : "soccer";
+}
+
+function marketLabel(match, market) {
+  if (!market) return "";
+  if (market.key === "home") return `${zhTeam(match.home)} 勝`;
+  if (market.key === "away") return `${zhTeam(match.away)} 勝`;
+  if (market.key === "draw") return "和局";
+  if (market.key === "over25") return "大 2.5";
+  if (market.key === "btts") return "雙方進球";
+  return market.label;
+}
 
 function poisson(k, lambda) {
   let factorial = 1;
@@ -180,13 +241,22 @@ function pct(value) {
   return fmt.format(value || 0);
 }
 
-function renderPredictions(filter = "all") {
+function renderSportFilters() {
+  const holder = document.querySelector("#sportFilters");
+  const sports = ["all", ...new Set(upcomingMatches.map((match) => sportOf(match)))];
+  holder.innerHTML = sports
+    .map((sport) => `<button class="sport-chip ${sport === activeSportFilter ? "active" : ""}" data-sport="${sport}">${sportLabels[sport] || sport}</button>`)
+    .join("");
+}
+
+function renderPredictions() {
   const grid = document.querySelector("#matchGrid");
   const cards = upcomingMatches
     .map((match) => ({ match, p: predict(match) }))
-    .filter(({ p }) => {
-      if (filter === "value") return p.isValue;
-      if (filter === "high") return p.tier === "high";
+    .filter(({ match, p }) => {
+      if (activeSportFilter !== "all" && sportOf(match) !== activeSportFilter) return false;
+      if (activeQualityFilter === "value") return p.isValue;
+      if (activeQualityFilter === "high") return p.tier === "high";
       return true;
     });
 
@@ -196,7 +266,7 @@ function renderPredictions(filter = "all") {
         <div class="match-head">
           <div>
             <div class="league">${match.league}</div>
-            <div class="teams">${match.home}<br />${match.away}</div>
+            <div class="teams">${zhTeam(match.home)}<br />${zhTeam(match.away)}</div>
           </div>
           <div class="kickoff">${match.kickoff}</div>
         </div>
@@ -212,7 +282,7 @@ function renderPredictions(filter = "all") {
         <div class="pick-line">
           <div>
             <span class="league">最佳方向</span><br />
-            <b>${p.best.label}</b> <span class="league">@${p.best.odds}</span>
+            <b>${marketLabel(match, p.best)}</b> <span class="league">@${p.best.odds}</span>
           </div>
           <button class="details-btn" data-match="${match.id}">細節</button>
         </div>
@@ -267,8 +337,8 @@ function renderBacktest() {
     .map(({ match, p, pick, won }) => `
       <tr>
         <td>${match.date}</td>
-        <td>${match.home} vs ${match.away}</td>
-        <td>${pick.label}</td>
+        <td>${zhTeam(match.home)} vs ${zhTeam(match.away)}</td>
+        <td>${marketLabel(match, pick)}</td>
         <td>${pct(p.confidence)}</td>
         <td>${pick.odds}</td>
         <td class="${won ? "win" : "loss"}">${won ? "命中" : "未中"} (${match.result}${match.score ? ` ${match.score}` : ""})</td>
@@ -281,19 +351,21 @@ function openDetails(matchId) {
   const match = upcomingMatches.find((item) => item.id === matchId);
   if (!match) return;
   const p = predict(match);
+  const expectedHome = p.expectedHomeGoals ?? p.homeGoals;
+  const expectedAway = p.expectedAwayGoals ?? p.awayGoals;
   const drawer = document.querySelector("#drawer");
   drawer.classList.add("open");
   drawer.innerHTML = `
     <div class="drawer-head">
       <div>
         <p class="eyebrow">${match.league}</p>
-        <h3>${match.home} vs ${match.away}</h3>
+        <h3>${zhTeam(match.home)} vs ${zhTeam(match.away)}</h3>
       </div>
       <button class="details-btn" id="closeDrawer">關閉</button>
     </div>
     <div class="drawer-body">
-      <p><b>模型推薦：</b>${p.best.label} @${p.best.odds}，EV ${pct(p.best.ev)}</p>
-      <p><b>預期進球：</b>${match.home} ${num.format(p.homeGoals)}，${match.away} ${num.format(p.awayGoals)}</p>
+      <p><b>模型推薦：</b>${marketLabel(match, p.best)} @${p.best.odds}，EV ${pct(p.best.ev)}</p>
+      <p><b>預期得分：</b>${zhTeam(match.home)} ${num.format(expectedHome)}，${zhTeam(match.away)} ${num.format(expectedAway)}</p>
       <p><b>大小分：</b>大 2.5 ${pct(p.over25)}，BTTS ${pct(p.btts)}</p>
       <p><b>最可能比分：</b>${p.scoreGrid[0].score} (${pct(p.scoreGrid[0].prob)})</p>
       <div class="score-grid">
@@ -317,8 +389,18 @@ document.querySelectorAll(".seg").forEach((button) => {
   button.addEventListener("click", () => {
     document.querySelectorAll(".seg").forEach((seg) => seg.classList.remove("active"));
     button.classList.add("active");
-    renderPredictions(button.dataset.filter);
+    activeQualityFilter = button.dataset.filter;
+    renderPredictions();
   });
+});
+
+document.querySelector("#sportFilters").addEventListener("click", (event) => {
+  const button = event.target.closest("[data-sport]");
+  if (!button) return;
+  activeSportFilter = button.dataset.sport;
+  document.querySelectorAll(".sport-chip").forEach((chip) => chip.classList.remove("active"));
+  button.classList.add("active");
+  renderPredictions();
 });
 
 document.addEventListener("click", (event) => {
@@ -326,5 +408,6 @@ document.addEventListener("click", (event) => {
   if (button) openDetails(button.dataset.match);
 });
 
+renderSportFilters();
 renderPredictions();
 renderBacktest();

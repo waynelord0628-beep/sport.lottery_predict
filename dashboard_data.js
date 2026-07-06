@@ -1,5 +1,5 @@
 window.PREDICTOR_DATA = {
-  "generatedAt": "2026-07-06T16:02:33",
+  "generatedAt": "2026-07-06T16:26:10",
   "params": {
     "home_adv": 45,
     "elo_k": 16,
@@ -240,404 +240,16 @@ window.PREDICTOR_DATA = {
   },
   "predictions": [
     {
-      "id": "m1",
-      "sport": "soccer",
-      "league": "Premier League",
-      "kickoff": "手動更新",
-      "home": "Arsenal",
-      "away": "Chelsea",
+      "id": "1c2ab6c7f27b71ee78d71e3ac1a56bf7",
+      "sport": "cricket",
+      "league": "One Day Internationals",
+      "kickoff": "2026-07-06T07:30:00Z",
+      "home": "Zimbabwe",
+      "away": "Bangladesh",
       "odds": {
-        "home": 1.82,
-        "draw": 3.75,
-        "away": 4.4,
-        "over25": 1.86,
-        "btts": 1.74
-      },
-      "prediction": {
-        "homeElo": 1695.9,
-        "awayElo": 1543.2,
-        "probs": {
-          "home": 0.5266,
-          "away": 0.2178,
-          "draw": 0.2556
-        },
-        "marketProbs": {
-          "home": 0.5266,
-          "away": 0.2178,
-          "draw": 0.2556
-        },
-        "modelProbs": {
-          "home": 0.621,
-          "draw": 0.18,
-          "away": 0.199
-        },
-        "expectedHomeGoals": 1.89,
-        "expectedAwayGoals": 0.74,
-        "over25": 0.4447,
-        "btts": 0.4204,
-        "scoreGrid": [
-          {
-            "score": "1-0",
-            "prob": 0.1363
-          },
-          {
-            "score": "2-0",
-            "prob": 0.1287
-          },
-          {
-            "score": "1-1",
-            "prob": 0.1008
-          },
-          {
-            "score": "2-1",
-            "prob": 0.0953
-          },
-          {
-            "score": "3-0",
-            "prob": 0.0811
-          },
-          {
-            "score": "0-0",
-            "prob": 0.0722
-          },
-          {
-            "score": "3-1",
-            "prob": 0.06
-          },
-          {
-            "score": "0-1",
-            "prob": 0.0534
-          },
-          {
-            "score": "4-0",
-            "prob": 0.0383
-          },
-          {
-            "score": "1-2",
-            "prob": 0.0373
-          }
-        ],
-        "best": {
-          "key": "draw",
-          "label": "Draw",
-          "prob": 0.2556,
-          "odds": 3.75,
-          "ev": -0.0416
-        },
-        "topSide": {
-          "key": "home",
-          "label": "Arsenal win",
-          "prob": 0.5266,
-          "odds": 1.82,
-          "ev": -0.0416
-        },
-        "confidence": 0.5266,
-        "tier": "medium",
-        "isValue": false
-      }
-    },
-    {
-      "id": "m2",
-      "sport": "soccer",
-      "league": "Premier League",
-      "kickoff": "手動更新",
-      "home": "Man City",
-      "away": "Liverpool",
-      "odds": {
-        "home": 2.05,
-        "draw": 3.7,
-        "away": 3.35,
-        "over25": 1.62,
-        "btts": 1.54
-      },
-      "prediction": {
-        "homeElo": 1670.9,
-        "awayElo": 1603.7,
-        "probs": {
-          "home": 0.4617,
-          "away": 0.2825,
-          "draw": 0.2558
-        },
-        "marketProbs": {
-          "home": 0.4617,
-          "away": 0.2825,
-          "draw": 0.2558
-        },
-        "modelProbs": {
-          "home": 0.5119,
-          "draw": 0.2199,
-          "away": 0.2683
-        },
-        "expectedHomeGoals": 1.65,
-        "expectedAwayGoals": 0.9,
-        "over25": 0.4415,
-        "btts": 0.4633,
-        "scoreGrid": [
-          {
-            "score": "1-0",
-            "prob": 0.1282
-          },
-          {
-            "score": "1-1",
-            "prob": 0.1159
-          },
-          {
-            "score": "2-0",
-            "prob": 0.1059
-          },
-          {
-            "score": "2-1",
-            "prob": 0.0957
-          },
-          {
-            "score": "0-0",
-            "prob": 0.0776
-          },
-          {
-            "score": "0-1",
-            "prob": 0.0702
-          },
-          {
-            "score": "3-0",
-            "prob": 0.0583
-          },
-          {
-            "score": "3-1",
-            "prob": 0.0527
-          },
-          {
-            "score": "1-2",
-            "prob": 0.0524
-          },
-          {
-            "score": "2-2",
-            "prob": 0.0433
-          }
-        ],
-        "best": {
-          "key": "home",
-          "label": "Man City win",
-          "prob": 0.4617,
-          "odds": 2.05,
-          "ev": -0.0536
-        },
-        "topSide": {
-          "key": "home",
-          "label": "Man City win",
-          "prob": 0.4617,
-          "odds": 2.05,
-          "ev": -0.0536
-        },
-        "confidence": 0.4617,
-        "tier": "low",
-        "isValue": false
-      }
-    },
-    {
-      "id": "m3",
-      "sport": "soccer",
-      "league": "La Liga",
-      "kickoff": "手動更新",
-      "home": "Real Madrid",
-      "away": "Barcelona",
-      "odds": {
-        "home": 2.18,
-        "draw": 3.65,
-        "away": 3.05,
-        "over25": 1.66,
-        "btts": 1.58
-      },
-      "prediction": {
-        "homeElo": 1707.8,
-        "awayElo": 1734.1,
-        "probs": {
-          "home": 0.4325,
-          "away": 0.3091,
-          "draw": 0.2583
-        },
-        "marketProbs": {
-          "home": 0.4325,
-          "away": 0.3091,
-          "draw": 0.2583
-        },
-        "modelProbs": {
-          "home": 0.3802,
-          "draw": 0.2783,
-          "away": 0.3415
-        },
-        "expectedHomeGoals": 1.39,
-        "expectedAwayGoals": 1.08,
-        "over25": 0.431,
-        "btts": 0.4843,
-        "scoreGrid": [
-          {
-            "score": "1-1",
-            "prob": 0.1269
-          },
-          {
-            "score": "1-0",
-            "prob": 0.117
-          },
-          {
-            "score": "0-1",
-            "prob": 0.0912
-          },
-          {
-            "score": "2-1",
-            "prob": 0.0883
-          },
-          {
-            "score": "0-0",
-            "prob": 0.0841
-          },
-          {
-            "score": "2-0",
-            "prob": 0.0814
-          },
-          {
-            "score": "1-2",
-            "prob": 0.0688
-          },
-          {
-            "score": "0-2",
-            "prob": 0.0494
-          },
-          {
-            "score": "2-2",
-            "prob": 0.0479
-          },
-          {
-            "score": "3-1",
-            "prob": 0.041
-          }
-        ],
-        "best": {
-          "key": "home",
-          "label": "Real Madrid win",
-          "prob": 0.4325,
-          "odds": 2.18,
-          "ev": -0.0571
-        },
-        "topSide": {
-          "key": "home",
-          "label": "Real Madrid win",
-          "prob": 0.4325,
-          "odds": 2.18,
-          "ev": -0.0571
-        },
-        "confidence": 0.4325,
-        "tier": "low",
-        "isValue": false
-      }
-    },
-    {
-      "id": "m4",
-      "sport": "soccer",
-      "league": "Serie A",
-      "kickoff": "手動更新",
-      "home": "Inter",
-      "away": "Milan",
-      "odds": {
-        "home": 2.12,
-        "draw": 3.28,
-        "away": 3.55,
-        "over25": 1.94,
-        "btts": 1.82
-      },
-      "prediction": {
-        "homeElo": 1714.8,
-        "awayElo": 1598.3,
-        "probs": {
-          "home": 0.4457,
-          "away": 0.2662,
-          "draw": 0.2881
-        },
-        "marketProbs": {
-          "home": 0.4457,
-          "away": 0.2662,
-          "draw": 0.2881
-        },
-        "modelProbs": {
-          "home": 0.5814,
-          "draw": 0.1891,
-          "away": 0.2295
-        },
-        "expectedHomeGoals": 1.79,
-        "expectedAwayGoals": 0.81,
-        "over25": 0.4441,
-        "btts": 0.4412,
-        "scoreGrid": [
-          {
-            "score": "1-0",
-            "prob": 0.1331
-          },
-          {
-            "score": "2-0",
-            "prob": 0.119
-          },
-          {
-            "score": "1-1",
-            "prob": 0.1077
-          },
-          {
-            "score": "2-1",
-            "prob": 0.0964
-          },
-          {
-            "score": "0-0",
-            "prob": 0.0744
-          },
-          {
-            "score": "3-0",
-            "prob": 0.071
-          },
-          {
-            "score": "0-1",
-            "prob": 0.0602
-          },
-          {
-            "score": "3-1",
-            "prob": 0.0574
-          },
-          {
-            "score": "1-2",
-            "prob": 0.0436
-          },
-          {
-            "score": "2-2",
-            "prob": 0.039
-          }
-        ],
-        "best": {
-          "key": "home",
-          "label": "Inter win",
-          "prob": 0.4457,
-          "odds": 2.12,
-          "ev": -0.0551
-        },
-        "topSide": {
-          "key": "home",
-          "label": "Inter win",
-          "prob": 0.4457,
-          "odds": 2.12,
-          "ev": -0.0551
-        },
-        "confidence": 0.4457,
-        "tier": "low",
-        "isValue": false
-      }
-    },
-    {
-      "id": "m5",
-      "sport": "baseball",
-      "league": "MLB",
-      "kickoff": "手動更新",
-      "home": "New York Yankees",
-      "away": "Boston Red Sox",
-      "odds": {
-        "home": 1.78,
+        "home": 5.3,
         "draw": null,
-        "away": 2.08,
+        "away": 1.67,
         "over25": null,
         "btts": null
       },
@@ -645,12 +257,12 @@ window.PREDICTOR_DATA = {
         "homeElo": 1500,
         "awayElo": 1500,
         "probs": {
-          "home": 0.5389,
-          "away": 0.4611
+          "home": 0.2396,
+          "away": 0.7604
         },
         "marketProbs": {
-          "home": 0.5389,
-          "away": 0.4611
+          "home": 0.2396,
+          "away": 0.7604
         },
         "modelProbs": {
           "home": 0.5644,
@@ -704,114 +316,1527 @@ window.PREDICTOR_DATA = {
         ],
         "best": {
           "key": "home",
-          "label": "New York Yankees win",
-          "prob": 0.5389,
-          "odds": 1.78,
-          "ev": -0.0408
-        },
-        "topSide": {
-          "key": "home",
-          "label": "New York Yankees win",
-          "prob": 0.5389,
-          "odds": 1.78,
-          "ev": -0.0408
-        },
-        "confidence": 0.5389,
-        "tier": "medium",
-        "isValue": false
-      }
-    },
-    {
-      "id": "m6",
-      "sport": "esports",
-      "league": "LoL",
-      "kickoff": "手動更新",
-      "home": "T1",
-      "away": "Gen.G",
-      "odds": {
-        "home": 1.92,
-        "draw": null,
-        "away": 1.88,
-        "over25": null,
-        "btts": null
-      },
-      "prediction": {
-        "homeElo": 1500,
-        "awayElo": 1500,
-        "probs": {
-          "home": 0.4947,
-          "away": 0.5053
-        },
-        "marketProbs": {
-          "home": 0.4947,
-          "away": 0.5053
-        },
-        "modelProbs": {
-          "home": 0.5644,
-          "away": 0.4356
-        },
-        "expectedHomeGoals": 1.47,
-        "expectedAwayGoals": 1.03,
-        "over25": 0.4347,
-        "btts": 0.4813,
-        "scoreGrid": [
-          {
-            "score": "1-1",
-            "prob": 0.1245
-          },
-          {
-            "score": "1-0",
-            "prob": 0.1204
-          },
-          {
-            "score": "2-1",
-            "prob": 0.0912
-          },
-          {
-            "score": "2-0",
-            "prob": 0.0882
-          },
-          {
-            "score": "0-1",
-            "prob": 0.085
-          },
-          {
-            "score": "0-0",
-            "prob": 0.0822
-          },
-          {
-            "score": "1-2",
-            "prob": 0.0643
-          },
-          {
-            "score": "2-2",
-            "prob": 0.0471
-          },
-          {
-            "score": "3-1",
-            "prob": 0.0445
-          },
-          {
-            "score": "0-2",
-            "prob": 0.0439
-          }
-        ],
-        "best": {
-          "key": "home",
-          "label": "T1 win",
-          "prob": 0.4947,
-          "odds": 1.92,
-          "ev": -0.0501
+          "label": "Zimbabwe win",
+          "prob": 0.2396,
+          "odds": 5.3,
+          "ev": 0.2699
         },
         "topSide": {
           "key": "away",
-          "label": "Gen.G win",
-          "prob": 0.5053,
-          "odds": 1.88,
-          "ev": -0.0501
+          "label": "Bangladesh win",
+          "prob": 0.7604,
+          "odds": 1.67,
+          "ev": 0.2699
         },
-        "confidence": 0.5053,
+        "confidence": 0.7604,
+        "tier": "high",
+        "isValue": true
+      }
+    },
+    {
+      "id": "971037c4456589deb8b3c49b8c4c57ec",
+      "sport": "tennis",
+      "league": "WTA Wimbledon",
+      "kickoff": "2026-07-06T10:00:00Z",
+      "home": "Ashlyn Krueger",
+      "away": "Marta Kostyuk",
+      "odds": {
+        "home": 3.3,
+        "draw": null,
+        "away": 1.44,
+        "over25": null,
+        "btts": null
+      },
+      "prediction": {
+        "homeElo": 1500,
+        "awayElo": 1500,
+        "probs": {
+          "home": 0.3038,
+          "away": 0.6962
+        },
+        "marketProbs": {
+          "home": 0.3038,
+          "away": 0.6962
+        },
+        "modelProbs": {
+          "home": 0.5644,
+          "away": 0.4356
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.4347,
+        "btts": 0.4813,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1245
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-1",
+            "prob": 0.085
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0822
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0445
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Ashlyn Krueger win",
+          "prob": 0.3038,
+          "odds": 3.3,
+          "ev": 0.0025
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Marta Kostyuk win",
+          "prob": 0.6962,
+          "odds": 1.44,
+          "ev": 0.0025
+        },
+        "confidence": 0.6962,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "id": "5aadb0dbbad4128c3faf3df033ae5878",
+      "sport": "tennis",
+      "league": "ATP Wimbledon",
+      "kickoff": "2026-07-06T12:00:00Z",
+      "home": "Alex de Minaur",
+      "away": "Flavio Cobolli",
+      "odds": {
+        "home": 1.3,
+        "draw": null,
+        "away": 4.4,
+        "over25": null,
+        "btts": null
+      },
+      "prediction": {
+        "homeElo": 1500,
+        "awayElo": 1500,
+        "probs": {
+          "home": 0.7719,
+          "away": 0.2281
+        },
+        "marketProbs": {
+          "home": 0.7719,
+          "away": 0.2281
+        },
+        "modelProbs": {
+          "home": 0.5644,
+          "away": 0.4356
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.4347,
+        "btts": 0.4813,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1245
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-1",
+            "prob": 0.085
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0822
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0445
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Flavio Cobolli win",
+          "prob": 0.2281,
+          "odds": 4.4,
+          "ev": 0.0035
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Alex de Minaur win",
+          "prob": 0.7719,
+          "odds": 1.3,
+          "ev": 0.0035
+        },
+        "confidence": 0.7719,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "id": "b71326c6ab94b85aeced23088bd99df2",
+      "sport": "tennis",
+      "league": "WTA Wimbledon",
+      "kickoff": "2026-07-06T12:00:00Z",
+      "home": "Marie Bouzkova",
+      "away": "Elise Mertens",
+      "odds": {
+        "home": 2.14,
+        "draw": null,
+        "away": 1.87,
+        "over25": null,
+        "btts": null
+      },
+      "prediction": {
+        "homeElo": 1500,
+        "awayElo": 1500,
+        "probs": {
+          "home": 0.4663,
+          "away": 0.5337
+        },
+        "marketProbs": {
+          "home": 0.4663,
+          "away": 0.5337
+        },
+        "modelProbs": {
+          "home": 0.5644,
+          "away": 0.4356
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.4347,
+        "btts": 0.4813,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1245
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-1",
+            "prob": 0.085
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0822
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0445
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Marie Bouzkova win",
+          "prob": 0.4663,
+          "odds": 2.14,
+          "ev": -0.002
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Elise Mertens win",
+          "prob": 0.5337,
+          "odds": 1.87,
+          "ev": -0.002
+        },
+        "confidence": 0.5337,
         "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "id": "d8b6d9e196b22bb6a224ec404730c671",
+      "sport": "tennis",
+      "league": "WTA Wimbledon",
+      "kickoff": "2026-07-06T12:30:00Z",
+      "home": "Jasmine Paolini",
+      "away": "Alexandra Eala",
+      "odds": {
+        "home": 2.48,
+        "draw": null,
+        "away": 1.66,
+        "over25": null,
+        "btts": null
+      },
+      "prediction": {
+        "homeElo": 1500,
+        "awayElo": 1500,
+        "probs": {
+          "home": 0.401,
+          "away": 0.599
+        },
+        "marketProbs": {
+          "home": 0.401,
+          "away": 0.599
+        },
+        "modelProbs": {
+          "home": 0.5644,
+          "away": 0.4356
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.4347,
+        "btts": 0.4813,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1245
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-1",
+            "prob": 0.085
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0822
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0445
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Jasmine Paolini win",
+          "prob": 0.401,
+          "odds": 2.48,
+          "ev": -0.0056
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Alexandra Eala win",
+          "prob": 0.599,
+          "odds": 1.66,
+          "ev": -0.0056
+        },
+        "confidence": 0.599,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "id": "b6bcec433c38e3e38d3dd446569d2812",
+      "sport": "tennis",
+      "league": "WTA Wimbledon",
+      "kickoff": "2026-07-06T14:00:00Z",
+      "home": "Madison Keys",
+      "away": "Linda Noskova",
+      "odds": {
+        "home": 1.74,
+        "draw": null,
+        "away": 2.36,
+        "over25": null,
+        "btts": null
+      },
+      "prediction": {
+        "homeElo": 1500,
+        "awayElo": 1500,
+        "probs": {
+          "home": 0.5756,
+          "away": 0.4244
+        },
+        "marketProbs": {
+          "home": 0.5756,
+          "away": 0.4244
+        },
+        "modelProbs": {
+          "home": 0.5644,
+          "away": 0.4356
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.4347,
+        "btts": 0.4813,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1245
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-1",
+            "prob": 0.085
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0822
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0445
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Madison Keys win",
+          "prob": 0.5756,
+          "odds": 1.74,
+          "ev": 0.0016
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Madison Keys win",
+          "prob": 0.5756,
+          "odds": 1.74,
+          "ev": 0.0016
+        },
+        "confidence": 0.5756,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "id": "fd8ee510baf056e9e2fdcfda17993f2e",
+      "sport": "cricket",
+      "league": "Test Matches",
+      "kickoff": "2026-07-06T14:00:00Z",
+      "home": "West Indies",
+      "away": "Sri Lanka",
+      "odds": {
+        "home": 7.6,
+        "draw": 1.35,
+        "away": 7.8,
+        "over25": null,
+        "btts": null
+      },
+      "prediction": {
+        "homeElo": 1500,
+        "awayElo": 1500,
+        "probs": {
+          "home": 0.1315,
+          "away": 0.1281,
+          "draw": 0.7404
+        },
+        "marketProbs": {
+          "home": 0.1315,
+          "away": 0.1281,
+          "draw": 0.7404
+        },
+        "modelProbs": {
+          "home": 0.4166,
+          "draw": 0.2619,
+          "away": 0.3215
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.4347,
+        "btts": 0.4813,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1245
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-1",
+            "prob": 0.085
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0822
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0445
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Sri Lanka win",
+          "prob": 0.1281,
+          "odds": 7.8,
+          "ev": -0.0005
+        },
+        "topSide": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.7404,
+          "odds": 1.35,
+          "ev": -0.0005
+        },
+        "confidence": 0.7404,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "id": "deb46b10eff833cb32c724e825c99114",
+      "sport": "tennis",
+      "league": "ATP Wimbledon",
+      "kickoff": "2026-07-06T14:30:00Z",
+      "home": "Grigor Dimitrov",
+      "away": "Arthur Fery",
+      "odds": {
+        "home": 1.48,
+        "draw": null,
+        "away": 3.05,
+        "over25": null,
+        "btts": null
+      },
+      "prediction": {
+        "homeElo": 1500,
+        "awayElo": 1500,
+        "probs": {
+          "home": 0.6733,
+          "away": 0.3267
+        },
+        "marketProbs": {
+          "home": 0.6733,
+          "away": 0.3267
+        },
+        "modelProbs": {
+          "home": 0.5644,
+          "away": 0.4356
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.4347,
+        "btts": 0.4813,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1245
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-1",
+            "prob": 0.085
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0822
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0445
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Arthur Fery win",
+          "prob": 0.3267,
+          "odds": 3.05,
+          "ev": -0.0035
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Grigor Dimitrov win",
+          "prob": 0.6733,
+          "odds": 1.48,
+          "ev": -0.0035
+        },
+        "confidence": 0.6733,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "id": "a66a7b940b5acab677add3367c1bef0e",
+      "sport": "tennis",
+      "league": "ATP Wimbledon",
+      "kickoff": "2026-07-06T16:00:00Z",
+      "home": "Taylor Fritz",
+      "away": "Alexander Bublik",
+      "odds": {
+        "home": 1.52,
+        "draw": null,
+        "away": 2.9,
+        "over25": null,
+        "btts": null
+      },
+      "prediction": {
+        "homeElo": 1500,
+        "awayElo": 1500,
+        "probs": {
+          "home": 0.6561,
+          "away": 0.3439
+        },
+        "marketProbs": {
+          "home": 0.6561,
+          "away": 0.3439
+        },
+        "modelProbs": {
+          "home": 0.5644,
+          "away": 0.4356
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.4347,
+        "btts": 0.4813,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1245
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-1",
+            "prob": 0.085
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0822
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0445
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Taylor Fritz win",
+          "prob": 0.6561,
+          "odds": 1.52,
+          "ev": -0.0027
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Taylor Fritz win",
+          "prob": 0.6561,
+          "odds": 1.52,
+          "ev": -0.0027
+        },
+        "confidence": 0.6561,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "id": "caea4c3449e9f30ffe2c708a884e3296",
+      "sport": "baseball",
+      "league": "MLB",
+      "kickoff": "2026-07-06T18:11:00Z",
+      "home": "Kansas City Royals",
+      "away": "Philadelphia Phillies",
+      "odds": {
+        "home": 2.8,
+        "draw": null,
+        "away": 1.55,
+        "over25": null,
+        "btts": null
+      },
+      "prediction": {
+        "homeElo": 1500,
+        "awayElo": 1500,
+        "probs": {
+          "home": 0.3563,
+          "away": 0.6437
+        },
+        "marketProbs": {
+          "home": 0.3563,
+          "away": 0.6437
+        },
+        "modelProbs": {
+          "home": 0.5644,
+          "away": 0.4356
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.4347,
+        "btts": 0.4813,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1245
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-1",
+            "prob": 0.085
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0822
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0445
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Philadelphia Phillies win",
+          "prob": 0.6437,
+          "odds": 1.55,
+          "ev": -0.0023
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Philadelphia Phillies win",
+          "prob": 0.6437,
+          "odds": 1.55,
+          "ev": -0.0023
+        },
+        "confidence": 0.6437,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "id": "8708f0b1ad493caa280c8d963be2dc0b",
+      "sport": "baseball",
+      "league": "MLB",
+      "kickoff": "2026-07-06T22:41:00Z",
+      "home": "Tampa Bay Rays",
+      "away": "New York Yankees",
+      "odds": {
+        "home": 1.93,
+        "draw": null,
+        "away": 2.05,
+        "over25": null,
+        "btts": null
+      },
+      "prediction": {
+        "homeElo": 1500,
+        "awayElo": 1500,
+        "probs": {
+          "home": 0.5151,
+          "away": 0.4849
+        },
+        "marketProbs": {
+          "home": 0.5151,
+          "away": 0.4849
+        },
+        "modelProbs": {
+          "home": 0.5644,
+          "away": 0.4356
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.4347,
+        "btts": 0.4813,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1245
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-1",
+            "prob": 0.085
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0822
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0445
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Tampa Bay Rays win",
+          "prob": 0.5151,
+          "odds": 1.93,
+          "ev": -0.0059
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Tampa Bay Rays win",
+          "prob": 0.5151,
+          "odds": 1.93,
+          "ev": -0.0059
+        },
+        "confidence": 0.5151,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "id": "14986526f62254742f296b0eda680507",
+      "sport": "baseball",
+      "league": "MLB",
+      "kickoff": "2026-07-06T22:46:00Z",
+      "home": "Washington Nationals",
+      "away": "Houston Astros",
+      "odds": {
+        "home": 1.88,
+        "draw": null,
+        "away": 2.15,
+        "over25": null,
+        "btts": null
+      },
+      "prediction": {
+        "homeElo": 1500,
+        "awayElo": 1500,
+        "probs": {
+          "home": 0.5335,
+          "away": 0.4665
+        },
+        "marketProbs": {
+          "home": 0.5335,
+          "away": 0.4665
+        },
+        "modelProbs": {
+          "home": 0.5644,
+          "away": 0.4356
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.4347,
+        "btts": 0.4813,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1245
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-1",
+            "prob": 0.085
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0822
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0445
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Washington Nationals win",
+          "prob": 0.5335,
+          "odds": 1.88,
+          "ev": 0.003
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Washington Nationals win",
+          "prob": 0.5335,
+          "odds": 1.88,
+          "ev": 0.003
+        },
+        "confidence": 0.5335,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "id": "ceda0420b6aec99d07f85f99472f8c68",
+      "sport": "baseball",
+      "league": "MLB",
+      "kickoff": "2026-07-06T23:16:00Z",
+      "home": "Atlanta Braves",
+      "away": "New York Mets",
+      "odds": {
+        "home": 1.83,
+        "draw": null,
+        "away": 2.18,
+        "over25": null,
+        "btts": null
+      },
+      "prediction": {
+        "homeElo": 1500,
+        "awayElo": 1500,
+        "probs": {
+          "home": 0.5436,
+          "away": 0.4564
+        },
+        "marketProbs": {
+          "home": 0.5436,
+          "away": 0.4564
+        },
+        "modelProbs": {
+          "home": 0.5644,
+          "away": 0.4356
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.4347,
+        "btts": 0.4813,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1245
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-1",
+            "prob": 0.085
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0822
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0445
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "New York Mets win",
+          "prob": 0.4564,
+          "odds": 2.18,
+          "ev": -0.0051
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Atlanta Braves win",
+          "prob": 0.5436,
+          "odds": 1.83,
+          "ev": -0.0051
+        },
+        "confidence": 0.5436,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "id": "e5295ada7ac0d16be6bf67d6a4a2923b",
+      "sport": "baseball",
+      "league": "MLB",
+      "kickoff": "2026-07-06T23:46:00Z",
+      "home": "St. Louis Cardinals",
+      "away": "Milwaukee Brewers",
+      "odds": {
+        "home": 2.06,
+        "draw": null,
+        "away": 1.9,
+        "over25": null,
+        "btts": null
+      },
+      "prediction": {
+        "homeElo": 1500,
+        "awayElo": 1500,
+        "probs": {
+          "home": 0.4798,
+          "away": 0.5202
+        },
+        "marketProbs": {
+          "home": 0.4798,
+          "away": 0.5202
+        },
+        "modelProbs": {
+          "home": 0.5644,
+          "away": 0.4356
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.4347,
+        "btts": 0.4813,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1245
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-1",
+            "prob": 0.085
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0822
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0445
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "St. Louis Cardinals win",
+          "prob": 0.4798,
+          "odds": 2.06,
+          "ev": -0.0116
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Milwaukee Brewers win",
+          "prob": 0.5202,
+          "odds": 1.9,
+          "ev": -0.0116
+        },
+        "confidence": 0.5202,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "id": "d1ba74caa5492c9e300650c9ba7bebab",
+      "sport": "baseball",
+      "league": "MLB",
+      "kickoff": "2026-07-07T01:41:00Z",
+      "home": "San Diego Padres",
+      "away": "Arizona Diamondbacks",
+      "odds": {
+        "home": 1.94,
+        "draw": null,
+        "away": 2.04,
+        "over25": null,
+        "btts": null
+      },
+      "prediction": {
+        "homeElo": 1500,
+        "awayElo": 1500,
+        "probs": {
+          "home": 0.5126,
+          "away": 0.4874
+        },
+        "marketProbs": {
+          "home": 0.5126,
+          "away": 0.4874
+        },
+        "modelProbs": {
+          "home": 0.5644,
+          "away": 0.4356
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.4347,
+        "btts": 0.4813,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1245
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-1",
+            "prob": 0.085
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0822
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0445
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "San Diego Padres win",
+          "prob": 0.5126,
+          "odds": 1.94,
+          "ev": -0.0056
+        },
+        "topSide": {
+          "key": "home",
+          "label": "San Diego Padres win",
+          "prob": 0.5126,
+          "odds": 1.94,
+          "ev": -0.0056
+        },
+        "confidence": 0.5126,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "id": "92bad434cf32ec6dd5e2b856708a6596",
+      "sport": "baseball",
+      "league": "MLB",
+      "kickoff": "2026-07-07T01:46:00Z",
+      "home": "San Francisco Giants",
+      "away": "Toronto Blue Jays",
+      "odds": {
+        "home": 2.02,
+        "draw": null,
+        "away": 1.95,
+        "over25": null,
+        "btts": null
+      },
+      "prediction": {
+        "homeElo": 1500,
+        "awayElo": 1500,
+        "probs": {
+          "home": 0.4912,
+          "away": 0.5088
+        },
+        "marketProbs": {
+          "home": 0.4912,
+          "away": 0.5088
+        },
+        "modelProbs": {
+          "home": 0.5644,
+          "away": 0.4356
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.4347,
+        "btts": 0.4813,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1245
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-1",
+            "prob": 0.085
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0822
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0445
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Toronto Blue Jays win",
+          "prob": 0.5088,
+          "odds": 1.95,
+          "ev": -0.0078
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Toronto Blue Jays win",
+          "prob": 0.5088,
+          "odds": 1.95,
+          "ev": -0.0078
+        },
+        "confidence": 0.5088,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "id": "ce47831dfdb0f68ba311fd79cc19d68a",
+      "sport": "baseball",
+      "league": "MLB",
+      "kickoff": "2026-07-07T02:11:00Z",
+      "home": "Los Angeles Dodgers",
+      "away": "Colorado Rockies",
+      "odds": {
+        "home": 1.52,
+        "draw": null,
+        "away": 2.95,
+        "over25": null,
+        "btts": null
+      },
+      "prediction": {
+        "homeElo": 1500,
+        "awayElo": 1500,
+        "probs": {
+          "home": 0.66,
+          "away": 0.34
+        },
+        "marketProbs": {
+          "home": 0.66,
+          "away": 0.34
+        },
+        "modelProbs": {
+          "home": 0.5644,
+          "away": 0.4356
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.4347,
+        "btts": 0.4813,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1245
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-1",
+            "prob": 0.085
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0822
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0445
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Los Angeles Dodgers win",
+          "prob": 0.66,
+          "odds": 1.52,
+          "ev": 0.0031
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Los Angeles Dodgers win",
+          "prob": 0.66,
+          "odds": 1.52,
+          "ev": 0.0031
+        },
+        "confidence": 0.66,
+        "tier": "high",
         "isValue": false
       }
     }

@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-07-06T16:25:34",
+  "sports": {
+    "upcoming": {
+      "events": 9
+    },
+    "baseball_mlb": {
+      "events": 8
+    },
+    "esports_lol": {
+      "events": 0
+    }
+  },
+  "requests_remaining": "478",
+  "requests_used": "22",
+  "written_rows": 17
+}
