@@ -1,0 +1,7 @@
+team,injury_impact,form_impact,rest_days,travel_impact,notes,source,updated_at
+Argentina,0.00,0.02,5,0.00,近期狀態穩定；未輸入重大傷兵,manual,2026-07-06
+France,-0.01,0.01,5,0.00,留意主力輪換；未輸入重大傷兵,manual,2026-07-06
+Brazil,0.00,0.01,5,0.00,未輸入重大傷兵,manual,2026-07-06
+Germany,0.00,0.00,5,0.00,未輸入重大傷兵,manual,2026-07-06
+New York Yankees,-0.02,0.01,1,0.00,範例：若主力打者/先發投手缺陣可調低 injury_impact,manual,2026-07-06
+Boston Red Sox,0.00,0.00,1,0.00,未輸入重大傷兵,manual,2026-07-06

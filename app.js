@@ -113,6 +113,56 @@ const sportLabels = {
 };
 
 const teamZh = {
+  Afghanistan: "阿富汗",
+  Argentina: "阿根廷",
+  Australia: "澳洲",
+  Austria: "奧地利",
+  Belgium: "比利時",
+  Brazil: "巴西",
+  Canada: "加拿大",
+  Chile: "智利",
+  China: "中國",
+  Colombia: "哥倫比亞",
+  Croatia: "克羅埃西亞",
+  Denmark: "丹麥",
+  Ecuador: "厄瓜多",
+  Egypt: "埃及",
+  England: "英格蘭",
+  France: "法國",
+  Germany: "德國",
+  Ghana: "迦納",
+  India: "印度",
+  Iran: "伊朗",
+  Ireland: "愛爾蘭",
+  Italy: "義大利",
+  Japan: "日本",
+  Mexico: "墨西哥",
+  Morocco: "摩洛哥",
+  Netherlands: "荷蘭",
+  "New Zealand": "紐西蘭",
+  Nigeria: "奈及利亞",
+  Norway: "挪威",
+  Pakistan: "巴基斯坦",
+  Paraguay: "巴拉圭",
+  Poland: "波蘭",
+  Portugal: "葡萄牙",
+  Qatar: "卡達",
+  Scotland: "蘇格蘭",
+  Senegal: "塞內加爾",
+  Serbia: "塞爾維亞",
+  Spain: "西班牙",
+  "South Africa": "南非",
+  "Sri Lanka": "斯里蘭卡",
+  Sweden: "瑞典",
+  Switzerland: "瑞士",
+  Tunisia: "突尼西亞",
+  Turkey: "土耳其",
+  Ukraine: "烏克蘭",
+  Uruguay: "烏拉圭",
+  USA: "美國",
+  "United States": "美國",
+  Wales: "威爾斯",
+  "West Indies": "西印度群島",
   Arsenal: "兵工廠",
   Chelsea: "切爾西",
   "Man City": "曼城",
@@ -136,8 +186,39 @@ const teamZh = {
   "Gen.G": "Gen.G",
 };
 
+const leagueZh = {
+  "One Day Internationals": "單日國際賽",
+  "International Twenty20": "國際 Twenty20",
+  "T20 Blast": "T20 Blast",
+  "Test Matches": "國際測試賽",
+  "FIFA World Cup": "世界盃",
+  "FIFA World Cup Winner": "世界盃冠軍",
+  "EPL": "英超",
+  "Premier League": "英超",
+  "La Liga": "西甲",
+  "Serie A": "義甲",
+  "Bundesliga": "德甲",
+  "Ligue 1": "法甲",
+  "MLB": "美國職棒 MLB",
+  "WNBA": "美國女子職籃 WNBA",
+  "NBA Summer League": "NBA 夏季聯賽",
+  "CFL": "加拿大美式足球 CFL",
+  "NCAAF": "美國大學美足 NCAAF",
+  "NFL": "NFL 美式足球",
+  "NFL Preseason": "NFL 季前賽",
+  "AFL": "澳式足球 AFL",
+  "MMA": "綜合格鬥 MMA",
+  "Boxing": "拳擊",
+  "ATP Wimbledon": "溫布頓 ATP",
+  "WTA Wimbledon": "溫布頓 WTA",
+};
+
 function zhTeam(name) {
   return teamZh[name] || name;
+}
+
+function zhLeague(name) {
+  return leagueZh[name] || name || "";
 }
 
 function formatKickoff(value) {
@@ -167,6 +248,31 @@ function marketLabel(match, market) {
   if (market.key === "over25") return "大 2.5";
   if (market.key === "btts") return "雙方進球";
   return market.label;
+}
+
+function signedPct(value) {
+  const number = Number(value || 0);
+  const sign = number > 0 ? "+" : "";
+  return `${sign}${pct(number)}`;
+}
+
+function factorRows(p) {
+  const factors = p.factors;
+  if (!factors) return '<p class="muted-line">尚未輸入傷兵/狀態資料。</p>';
+  const rows = [factors.home, factors.away].map((factor) => `
+    <div class="factor-row">
+      <b>${zhTeam(factor.team)}</b>
+      <span>傷兵 ${signedPct(factor.injuryImpact)}</span>
+      <span>狀態 ${signedPct(factor.formImpact)}</span>
+      <span>休息 ${factor.restDays ?? "?"} 天</span>
+      <span>旅途 ${signedPct(factor.travelImpact)}</span>
+      ${factor.notes ? `<small>${factor.notes}</small>` : ""}
+      ${factor.source ? `<small>來源：${factor.source}${factor.updatedAt ? ` · ${factor.updatedAt}` : ""}</small>` : ""}
+    </div>
+  `);
+  const adj = p.factorAdjustment;
+  const edge = adj?.applied ? `<p class="muted-line">因素調整 edge：${signedPct(adj.edge)}，已反映到勝率。</p>` : '<p class="muted-line">目前因素分數接近，未調整勝率。</p>';
+  return `${edge}<div class="factor-list">${rows.join("")}</div>`;
 }
 
 function poisson(k, lambda) {
@@ -281,7 +387,7 @@ function renderPredictions() {
       <article class="match-card">
         <div class="match-head">
           <div>
-            <div class="league">${match.league}</div>
+            <div class="league">${zhLeague(match.league)}</div>
             <div class="teams">${zhTeam(match.home)}<br />${zhTeam(match.away)}</div>
           </div>
           <div class="kickoff">${formatKickoff(match.kickoff)}</div>
@@ -375,7 +481,7 @@ function openDetails(matchId) {
   drawer.innerHTML = `
     <div class="drawer-head">
       <div>
-        <p class="eyebrow">${match.league}</p>
+        <p class="eyebrow">${zhLeague(match.league)}</p>
         <h3>${zhTeam(match.home)} vs ${zhTeam(match.away)}</h3>
       </div>
       <button class="details-btn" id="closeDrawer">關閉</button>
@@ -385,6 +491,10 @@ function openDetails(matchId) {
       <p><b>預期得分：</b>${zhTeam(match.home)} ${num.format(expectedHome)}，${zhTeam(match.away)} ${num.format(expectedAway)}</p>
       <p><b>大小分：</b>大 2.5 ${pct(p.over25)}，BTTS ${pct(p.btts)}</p>
       <p><b>最可能比分：</b>${p.scoreGrid[0].score} (${pct(p.scoreGrid[0].prob)})</p>
+      <div class="factor-box">
+        <b>客觀因素</b>
+        ${factorRows(p)}
+      </div>
       <div class="score-grid">
         ${p.scoreGrid.slice(0, 10).map((item) => `<div class="score-cell"><b>${item.score}</b>${pct(item.prob)}</div>`).join("")}
       </div>

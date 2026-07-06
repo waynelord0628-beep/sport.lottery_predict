@@ -114,13 +114,62 @@ def blended_probs(model: dict[str, float], market: dict[str, float], params: Par
     return normalize({key: w * model[key] + (1 - w) * market[key] for key in market})
 
 
-def predict(home: str, away: str, ratings: dict[str, float], odds: Odds, params: Params) -> dict:
+def factor_score(factor: dict[str, str] | None) -> float:
+    if not factor:
+        return 0.0
+    injury = to_float(factor.get("injury_impact"), 0.0) or 0.0
+    form = to_float(factor.get("form_impact"), 0.0) or 0.0
+    travel = to_float(factor.get("travel_impact"), 0.0) or 0.0
+    rest_days = to_float(factor.get("rest_days"), 5.0) or 5.0
+    rest = max(-0.03, min(0.03, (rest_days - 4.0) * 0.0075))
+    return max(-0.12, min(0.12, injury + form + travel + rest))
+
+
+def apply_factor_adjustment(probs: dict[str, float], home_factor: dict[str, str] | None, away_factor: dict[str, str] | None) -> tuple[dict[str, float], dict]:
+    home_score = factor_score(home_factor)
+    away_score = factor_score(away_factor)
+    edge = max(-0.12, min(0.12, home_score - away_score))
+    if abs(edge) < 0.0001:
+        return probs, {"homeScore": round(home_score, 4), "awayScore": round(away_score, 4), "edge": 0.0, "applied": False}
+    adjusted = dict(probs)
+    draw_share = 0.35 if "draw" in adjusted else 0.0
+    side_shift = edge * (1 - draw_share)
+    adjusted["home"] = max(0.01, adjusted["home"] + side_shift)
+    adjusted["away"] = max(0.01, adjusted["away"] - side_shift)
+    if "draw" in adjusted:
+        adjusted["draw"] = max(0.01, adjusted["draw"] - abs(edge) * draw_share)
+    return normalize(adjusted), {
+        "homeScore": round(home_score, 4),
+        "awayScore": round(away_score, 4),
+        "edge": round(edge, 4),
+        "applied": True,
+    }
+
+
+def factor_view(team: str, factor: dict[str, str] | None) -> dict:
+    factor = factor or {}
+    return {
+        "team": team,
+        "injuryImpact": to_float(factor.get("injury_impact"), 0.0) or 0.0,
+        "formImpact": to_float(factor.get("form_impact"), 0.0) or 0.0,
+        "restDays": to_float(factor.get("rest_days"), None),
+        "travelImpact": to_float(factor.get("travel_impact"), 0.0) or 0.0,
+        "notes": factor.get("notes", ""),
+        "source": factor.get("source", ""),
+        "updatedAt": factor.get("updated_at", ""),
+    }
+
+
+def predict(home: str, away: str, ratings: dict[str, float], odds: Odds, params: Params, factors: dict[str, dict[str, str]] | None = None) -> dict:
     home_elo = ratings.get(home, 1500)
     away_elo = ratings.get(away, 1500)
     has_draw = odds.draw is not None
     model = elo_probs(home_elo, away_elo, params, has_draw)
     market = market_probs(odds)
     probs = blended_probs(model, market, params)
+    home_factor = (factors or {}).get(home)
+    away_factor = (factors or {}).get(away)
+    probs, factor_adjustment = apply_factor_adjustment(probs, home_factor, away_factor)
 
     diff = home_elo + params.home_adv - away_elo
     home_goals = max(0.55, 1.34 + diff / 360)
@@ -162,6 +211,11 @@ def predict(home: str, away: str, ratings: dict[str, float], odds: Odds, params:
         "probs": {key: round(value, 4) for key, value in probs.items()},
         "marketProbs": {key: round(value, 4) for key, value in market.items()},
         "modelProbs": {key: round(value, 4) for key, value in model.items()},
+        "factorAdjustment": factor_adjustment,
+        "factors": {
+            "home": factor_view(home, home_factor),
+            "away": factor_view(away, away_factor),
+        },
         "expectedHomeGoals": round(home_goals, 2),
         "expectedAwayGoals": round(away_goals, 2),
         "over25": round(over25, 4),
@@ -307,6 +361,13 @@ def train_ratings(rows: list[dict[str, str]], params: Params) -> dict[str, float
     return ratings
 
 
+def read_factors() -> dict[str, dict[str, str]]:
+    path = DATA / "team_factors.csv"
+    if not path.exists():
+        return {}
+    return {row["team"]: row for row in read_csv(path) if row.get("team")}
+
+
 def build_dashboard() -> dict:
     historical = sorted(read_csv(DATA / "historical_matches.csv"), key=lambda item: item["date"])
     params, leaderboard = calibrate(historical)
@@ -315,6 +376,7 @@ def build_dashboard() -> dict:
     test_items = all_seq[test_start:]
     display_items = test_items[-350:]
     ratings = train_ratings(historical, params)
+    factors = read_factors()
 
     upcoming_path = DATA / "upcoming_matches.csv"
     upcoming = read_csv(upcoming_path) if upcoming_path.exists() else []
@@ -330,7 +392,7 @@ def build_dashboard() -> dict:
                 "home": row["home"],
                 "away": row["away"],
                 "odds": odds.__dict__,
-                "prediction": predict(row["home"], row["away"], ratings, odds, params),
+                "prediction": predict(row["home"], row["away"], ratings, odds, params, factors),
             }
         )
 

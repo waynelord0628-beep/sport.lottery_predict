@@ -1,5 +1,5 @@
 window.PREDICTOR_DATA = {
-  "generatedAt": "2026-07-06T16:40:00",
+  "generatedAt": "2026-07-06T16:49:12",
   "params": {
     "home_adv": 45,
     "elo_k": 16,
@@ -268,6 +268,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5644,
           "away": 0.4356
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Zimbabwe",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Bangladesh",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.47,
         "expectedAwayGoals": 1.03,
         "over25": 0.4347,
@@ -361,6 +389,34 @@ window.PREDICTOR_DATA = {
         "modelProbs": {
           "home": 0.5644,
           "away": 0.4356
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Ashlyn Krueger",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Marta Kostyuk",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.47,
         "expectedAwayGoals": 1.03,
@@ -456,6 +512,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5644,
           "away": 0.4356
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Alex de Minaur",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Flavio Cobolli",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.47,
         "expectedAwayGoals": 1.03,
         "over25": 0.4347,
@@ -549,6 +633,34 @@ window.PREDICTOR_DATA = {
         "modelProbs": {
           "home": 0.5644,
           "away": 0.4356
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Marie Bouzkova",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Elise Mertens",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.47,
         "expectedAwayGoals": 1.03,
@@ -644,6 +756,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5644,
           "away": 0.4356
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Jasmine Paolini",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Alexandra Eala",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.47,
         "expectedAwayGoals": 1.03,
         "over25": 0.4347,
@@ -737,6 +877,34 @@ window.PREDICTOR_DATA = {
         "modelProbs": {
           "home": 0.5644,
           "away": 0.4356
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Madison Keys",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Linda Noskova",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.47,
         "expectedAwayGoals": 1.03,
@@ -835,6 +1003,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2619,
           "away": 0.3215
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "West Indies",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Sri Lanka",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.47,
         "expectedAwayGoals": 1.03,
         "over25": 0.4347,
@@ -929,6 +1125,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5644,
           "away": 0.4356
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Grigor Dimitrov",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Arthur Fery",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.47,
         "expectedAwayGoals": 1.03,
         "over25": 0.4347,
@@ -1022,6 +1246,34 @@ window.PREDICTOR_DATA = {
         "modelProbs": {
           "home": 0.5644,
           "away": 0.4356
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Taylor Fritz",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Alexander Bublik",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.47,
         "expectedAwayGoals": 1.03,
@@ -1120,6 +1372,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2619,
           "away": 0.3215
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Portugal",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Spain",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.47,
         "expectedAwayGoals": 1.03,
         "over25": 0.4347,
@@ -1217,6 +1497,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2619,
           "away": 0.3215
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "USA",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Belgium",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.47,
         "expectedAwayGoals": 1.03,
         "over25": 0.4347,
@@ -1300,9 +1608,9 @@ window.PREDICTOR_DATA = {
         "homeElo": 1500,
         "awayElo": 1500,
         "probs": {
-          "home": 0.7062,
-          "away": 0.0918,
-          "draw": 0.202
+          "home": 0.7311,
+          "away": 0.0747,
+          "draw": 0.1942
         },
         "marketProbs": {
           "home": 0.7062,
@@ -1313,6 +1621,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4166,
           "draw": 0.2619,
           "away": 0.3215
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0275,
+          "awayScore": 0.0,
+          "edge": 0.0275,
+          "applied": true
+        },
+        "factors": {
+          "home": {
+            "team": "Argentina",
+            "injuryImpact": 0.0,
+            "formImpact": 0.02,
+            "restDays": 5.0,
+            "travelImpact": 0.0,
+            "notes": "近期狀態穩定；未輸入重大傷兵",
+            "source": "manual",
+            "updatedAt": "2026-07-06"
+          },
+          "away": {
+            "team": "Egypt",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.47,
         "expectedAwayGoals": 1.03,
@@ -1363,20 +1699,20 @@ window.PREDICTOR_DATA = {
         "best": {
           "key": "home",
           "label": "Argentina win",
-          "prob": 0.7062,
+          "prob": 0.7311,
           "odds": 1.43,
-          "ev": 0.0099
+          "ev": 0.0455
         },
         "topSide": {
           "key": "home",
           "label": "Argentina win",
-          "prob": 0.7062,
+          "prob": 0.7311,
           "odds": 1.43,
-          "ev": 0.0099
+          "ev": 0.0455
         },
-        "confidence": 0.7062,
+        "confidence": 0.7311,
         "tier": "high",
-        "isValue": false
+        "isValue": true
       }
     },
     {
@@ -1410,6 +1746,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4166,
           "draw": 0.2619,
           "away": 0.3215
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Switzerland",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Colombia",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.47,
         "expectedAwayGoals": 1.03,
@@ -1494,9 +1858,9 @@ window.PREDICTOR_DATA = {
         "homeElo": 1500,
         "awayElo": 1500,
         "probs": {
-          "home": 0.6143,
-          "away": 0.1399,
-          "draw": 0.2457
+          "home": 0.6208,
+          "away": 0.1354,
+          "draw": 0.2437
         },
         "marketProbs": {
           "home": 0.6143,
@@ -1507,6 +1871,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4166,
           "draw": 0.2619,
           "away": 0.3215
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0075,
+          "awayScore": 0.0,
+          "edge": 0.0075,
+          "applied": true
+        },
+        "factors": {
+          "home": {
+            "team": "France",
+            "injuryImpact": -0.01,
+            "formImpact": 0.01,
+            "restDays": 5.0,
+            "travelImpact": 0.0,
+            "notes": "留意主力輪換；未輸入重大傷兵",
+            "source": "manual",
+            "updatedAt": "2026-07-06"
+          },
+          "away": {
+            "team": "Morocco",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.47,
         "expectedAwayGoals": 1.03,
@@ -1555,20 +1947,20 @@ window.PREDICTOR_DATA = {
           }
         ],
         "best": {
-          "key": "draw",
-          "label": "Draw",
-          "prob": 0.2457,
-          "odds": 4.1,
-          "ev": 0.0075
+          "key": "home",
+          "label": "France win",
+          "prob": 0.6208,
+          "odds": 1.64,
+          "ev": 0.0182
         },
         "topSide": {
           "key": "home",
           "label": "France win",
-          "prob": 0.6143,
+          "prob": 0.6208,
           "odds": 1.64,
-          "ev": 0.0075
+          "ev": 0.0182
         },
-        "confidence": 0.6143,
+        "confidence": 0.6208,
         "tier": "high",
         "isValue": false
       }
@@ -1604,6 +1996,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4166,
           "draw": 0.2619,
           "away": 0.3215
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Norway",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "England",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.47,
         "expectedAwayGoals": 1.03,
@@ -1699,6 +2119,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5644,
           "away": 0.4356
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Kansas City Royals",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Philadelphia Phillies",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.47,
         "expectedAwayGoals": 1.03,
         "over25": 0.4347,
@@ -1782,8 +2230,8 @@ window.PREDICTOR_DATA = {
         "homeElo": 1500,
         "awayElo": 1500,
         "probs": {
-          "home": 0.5151,
-          "away": 0.4849
+          "home": 0.5476,
+          "away": 0.4524
         },
         "marketProbs": {
           "home": 0.5151,
@@ -1792,6 +2240,34 @@ window.PREDICTOR_DATA = {
         "modelProbs": {
           "home": 0.5644,
           "away": 0.4356
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": -0.0325,
+          "edge": 0.0325,
+          "applied": true
+        },
+        "factors": {
+          "home": {
+            "team": "Tampa Bay Rays",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "New York Yankees",
+            "injuryImpact": -0.02,
+            "formImpact": 0.01,
+            "restDays": 1.0,
+            "travelImpact": 0.0,
+            "notes": "範例：若主力打者/先發投手缺陣可調低 injury_impact",
+            "source": "manual",
+            "updatedAt": "2026-07-06"
+          }
         },
         "expectedHomeGoals": 1.47,
         "expectedAwayGoals": 1.03,
@@ -1842,20 +2318,20 @@ window.PREDICTOR_DATA = {
         "best": {
           "key": "home",
           "label": "Tampa Bay Rays win",
-          "prob": 0.5151,
+          "prob": 0.5476,
           "odds": 1.93,
-          "ev": -0.0059
+          "ev": 0.0568
         },
         "topSide": {
           "key": "home",
           "label": "Tampa Bay Rays win",
-          "prob": 0.5151,
+          "prob": 0.5476,
           "odds": 1.93,
-          "ev": -0.0059
+          "ev": 0.0568
         },
-        "confidence": 0.5151,
+        "confidence": 0.5476,
         "tier": "medium",
-        "isValue": false
+        "isValue": true
       }
     },
     {
@@ -1886,6 +2362,34 @@ window.PREDICTOR_DATA = {
         "modelProbs": {
           "home": 0.5644,
           "away": 0.4356
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Washington Nationals",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Houston Astros",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.47,
         "expectedAwayGoals": 1.03,
@@ -1981,6 +2485,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5644,
           "away": 0.4356
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Atlanta Braves",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "New York Mets",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.47,
         "expectedAwayGoals": 1.03,
         "over25": 0.4347,
@@ -2074,6 +2606,34 @@ window.PREDICTOR_DATA = {
         "modelProbs": {
           "home": 0.5644,
           "away": 0.4356
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "St. Louis Cardinals",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Milwaukee Brewers",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.47,
         "expectedAwayGoals": 1.03,
@@ -2169,6 +2729,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5644,
           "away": 0.4356
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "San Diego Padres",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Arizona Diamondbacks",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.47,
         "expectedAwayGoals": 1.03,
         "over25": 0.4347,
@@ -2262,6 +2850,34 @@ window.PREDICTOR_DATA = {
         "modelProbs": {
           "home": 0.5644,
           "away": 0.4356
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "San Francisco Giants",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Toronto Blue Jays",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.47,
         "expectedAwayGoals": 1.03,
@@ -2357,6 +2973,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5644,
           "away": 0.4356
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Los Angeles Dodgers",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Colorado Rockies",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.47,
         "expectedAwayGoals": 1.03,
         "over25": 0.4347,
@@ -2451,6 +3095,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2388,
           "away": 0.4688
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Verona",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Fiorentina",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.11,
         "expectedAwayGoals": 1.28,
         "over25": 0.4121,
@@ -2542,6 +3214,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5822,
           "draw": 0.1887,
           "away": 0.2291
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Ein Frankfurt",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "FC Koln",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.79,
         "expectedAwayGoals": 0.81,
@@ -2635,6 +3335,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2405,
           "away": 0.2946
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Union Berlin",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "St Pauli",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.56,
         "expectedAwayGoals": 0.97,
         "over25": 0.4386,
@@ -2726,6 +3454,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3539,
           "draw": 0.289,
           "away": 0.3571
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Alaves",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Osasuna",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.34,
         "expectedAwayGoals": 1.12,
@@ -2819,6 +3575,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2744,
           "away": 0.3889
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Getafe",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Ath Bilbao",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.27,
         "expectedAwayGoals": 1.17,
         "over25": 0.4237,
@@ -2910,6 +3694,34 @@ window.PREDICTOR_DATA = {
           "home": 0.414,
           "draw": 0.263,
           "away": 0.3229
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Oviedo",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Sevilla",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.46,
         "expectedAwayGoals": 1.04,
@@ -3003,6 +3815,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2786,
           "away": 0.3417
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Valencia",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Celta",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.39,
         "expectedAwayGoals": 1.08,
         "over25": 0.431,
@@ -3094,6 +3934,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3053,
           "draw": 0.2489,
           "away": 0.4459
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Angers",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Lyon",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.16,
         "expectedAwayGoals": 1.25,
@@ -3187,6 +4055,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2697,
           "away": 0.3311
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Le Havre",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Auxerre",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.43,
         "expectedAwayGoals": 1.06,
         "over25": 0.433,
@@ -3278,6 +4174,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3986,
           "draw": 0.27,
           "away": 0.3314
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Lorient",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Paris FC",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.43,
         "expectedAwayGoals": 1.06,
@@ -3371,6 +4295,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2759,
           "away": 0.3386
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Metz",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Nantes",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.4,
         "expectedAwayGoals": 1.08,
         "over25": 0.4316,
@@ -3462,6 +4414,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4257,
           "draw": 0.2578,
           "away": 0.3165
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Monaco",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Marseille",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.48,
         "expectedAwayGoals": 1.02,
@@ -3555,6 +4535,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2653,
           "away": 0.4091
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Cremonese",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Bologna",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.23,
         "expectedAwayGoals": 1.2,
         "over25": 0.421,
@@ -3646,6 +4654,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5676,
           "draw": 0.1952,
           "away": 0.2371
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Inter",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Roma",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.76,
         "expectedAwayGoals": 0.83,
@@ -3739,6 +4775,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2874,
           "away": 0.3521
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Pisa",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Torino",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.35,
         "expectedAwayGoals": 1.11,
         "over25": 0.4288,
@@ -3830,6 +4894,34 @@ window.PREDICTOR_DATA = {
           "home": 0.2892,
           "draw": 0.2362,
           "away": 0.4746
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Girona",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Villarreal",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.1,
         "expectedAwayGoals": 1.29,
@@ -3923,6 +5015,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.2079
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Juventus",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Genoa",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.86,
         "expectedAwayGoals": 0.76,
         "over25": 0.4446,
@@ -4014,6 +5134,34 @@ window.PREDICTOR_DATA = {
           "home": 0.2422,
           "draw": 0.1993,
           "away": 0.5586
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Lecce",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Atalanta",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 0.94,
         "expectedAwayGoals": 1.4,
@@ -4107,6 +5255,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2566,
           "away": 0.3149
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Napoli",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Milan",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.49,
         "expectedAwayGoals": 1.02,
         "over25": 0.4358,
@@ -4198,6 +5374,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3056,
           "draw": 0.2492,
           "away": 0.4452
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Udinese",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Como",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.16,
         "expectedAwayGoals": 1.25,
@@ -4291,6 +5495,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2875,
           "away": 0.3603
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Augsburg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Hoffenheim",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.33,
         "expectedAwayGoals": 1.13,
         "over25": 0.4274,
@@ -4382,6 +5614,34 @@ window.PREDICTOR_DATA = {
           "home": 0.6603,
           "draw": 0.18,
           "away": 0.1597
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Real Madrid",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Girona",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 2.03,
         "expectedAwayGoals": 0.65,
@@ -4475,6 +5735,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.1523
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Marseille",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Metz",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 2.05,
         "expectedAwayGoals": 0.63,
         "over25": 0.4433,
@@ -4566,6 +5854,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3078,
           "draw": 0.2509,
           "away": 0.4412
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Paris FC",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Monaco",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.17,
         "expectedAwayGoals": 1.24,
@@ -4659,6 +5975,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2356,
           "away": 0.2884
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "West Ham",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Wolves",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.58,
         "expectedAwayGoals": 0.95,
         "over25": 0.4394,
@@ -4750,6 +6094,34 @@ window.PREDICTOR_DATA = {
           "home": 0.639,
           "draw": 0.18,
           "away": 0.181
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Roma",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Pisa",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.95,
         "expectedAwayGoals": 0.7,
@@ -4843,6 +6215,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2521,
           "away": 0.3093
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Dortmund",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Leverkusen",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.51,
         "expectedAwayGoals": 1.0,
         "over25": 0.4366,
@@ -4934,6 +6334,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3294,
           "draw": 0.2683,
           "away": 0.4023
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Heidenheim",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Union Berlin",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.24,
         "expectedAwayGoals": 1.19,
@@ -5027,6 +6455,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.1837,
           "away": 0.2229
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "RB Leipzig",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "M'gladbach",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.81,
         "expectedAwayGoals": 0.79,
         "over25": 0.4443,
@@ -5118,6 +6574,34 @@ window.PREDICTOR_DATA = {
           "home": 0.1524,
           "draw": 0.18,
           "away": 0.6676
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "St Pauli",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Bayern Munich",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 0.63,
         "expectedAwayGoals": 1.61,
@@ -5211,6 +6695,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2402,
           "away": 0.4654
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Wolfsburg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Ein Frankfurt",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.12,
         "expectedAwayGoals": 1.27,
         "over25": 0.4126,
@@ -5302,6 +6814,34 @@ window.PREDICTOR_DATA = {
           "home": 0.7004,
           "draw": 0.18,
           "away": 0.1196
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Barcelona",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Espanol",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 2.19,
         "expectedAwayGoals": 0.53,
@@ -5395,6 +6935,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2771,
           "away": 0.34
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Elche",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Valencia",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.4,
         "expectedAwayGoals": 1.08,
         "over25": 0.4313,
@@ -5486,6 +7054,34 @@ window.PREDICTOR_DATA = {
           "home": 0.2429,
           "draw": 0.1998,
           "away": 0.5573
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Sevilla",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Ath Madrid",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 0.94,
         "expectedAwayGoals": 1.4,
@@ -5579,6 +7175,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2281,
           "away": 0.2788
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Sociedad",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Alaves",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.62,
         "expectedAwayGoals": 0.93,
         "over25": 0.4404,
@@ -5670,6 +7294,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4956,
           "draw": 0.227,
           "away": 0.2774
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Auxerre",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Nantes",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.62,
         "expectedAwayGoals": 0.93,
@@ -5763,6 +7415,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.216,
           "away": 0.2633
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Rennes",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Angers",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.67,
         "expectedAwayGoals": 0.89,
         "over25": 0.4419,
@@ -5854,6 +7534,34 @@ window.PREDICTOR_DATA = {
           "home": 0.632,
           "draw": 0.18,
           "away": 0.188
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Arsenal",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Bournemouth",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.93,
         "expectedAwayGoals": 0.71,
@@ -5947,6 +7655,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2639,
           "away": 0.3241
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Brentford",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Everton",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.46,
         "expectedAwayGoals": 1.04,
         "over25": 0.4343,
@@ -6038,6 +7774,34 @@ window.PREDICTOR_DATA = {
           "home": 0.2568,
           "draw": 0.2108,
           "away": 0.5324
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Burnley",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Brighton",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 0.99,
         "expectedAwayGoals": 1.36,
@@ -6131,6 +7895,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2025,
           "away": 0.2462
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Liverpool",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Fulham",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.73,
         "expectedAwayGoals": 0.85,
         "over25": 0.4432,
@@ -6222,6 +8014,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4007,
           "draw": 0.269,
           "away": 0.3303
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Atalanta",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Juventus",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.43,
         "expectedAwayGoals": 1.06,
@@ -6315,6 +8135,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2748,
           "away": 0.3373
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Cagliari",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Cremonese",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.41,
         "expectedAwayGoals": 1.07,
         "over25": 0.4318,
@@ -6406,6 +8254,34 @@ window.PREDICTOR_DATA = {
           "home": 0.6241,
           "draw": 0.18,
           "away": 0.1959
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Milan",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Udinese",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.9,
         "expectedAwayGoals": 0.73,
@@ -6499,6 +8375,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.1993,
           "away": 0.2423
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Torino",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Verona",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.74,
         "expectedAwayGoals": 0.84,
         "over25": 0.4434,
@@ -6590,6 +8494,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3558,
           "draw": 0.2896,
           "away": 0.3546
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "FC Koln",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Werder Bremen",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.34,
         "expectedAwayGoals": 1.12,
@@ -6683,6 +8615,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2599,
           "away": 0.3191
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Mainz",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Freiburg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.47,
         "expectedAwayGoals": 1.03,
         "over25": 0.4351,
@@ -6774,6 +8734,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5687,
           "draw": 0.1947,
           "away": 0.2365
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Stuttgart",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Hamburg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.76,
         "expectedAwayGoals": 0.83,
@@ -6867,6 +8855,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2739,
           "away": 0.3899
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Ath Bilbao",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Villarreal",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.27,
         "expectedAwayGoals": 1.17,
         "over25": 0.4236,
@@ -6958,6 +8974,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5333,
           "draw": 0.2104,
           "away": 0.2563
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Celta",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Oviedo",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.69,
         "expectedAwayGoals": 0.88,
@@ -7051,6 +9095,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2839,
           "away": 0.348
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Mallorca",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Vallecano",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.37,
         "expectedAwayGoals": 1.1,
         "over25": 0.4297,
@@ -7142,6 +9214,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3544,
           "draw": 0.2895,
           "away": 0.3561
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Osasuna",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Betis",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.34,
         "expectedAwayGoals": 1.12,
@@ -7235,6 +9335,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2068,
           "away": 0.2517
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Lyon",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Lorient",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.71,
         "expectedAwayGoals": 0.86,
         "over25": 0.4428,
@@ -7326,6 +9454,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5009,
           "draw": 0.2247,
           "away": 0.2744
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Nice",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Le Havre",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.63,
         "expectedAwayGoals": 0.92,
@@ -7419,6 +9575,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2516,
           "away": 0.4396
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Toulouse",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Lille",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.17,
         "expectedAwayGoals": 1.24,
         "over25": 0.4166,
@@ -7510,6 +9694,34 @@ window.PREDICTOR_DATA = {
           "home": 0.326,
           "draw": 0.2655,
           "away": 0.4084
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Chelsea",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Man City",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.23,
         "expectedAwayGoals": 1.2,
@@ -7603,6 +9815,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2758,
           "away": 0.3385
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Crystal Palace",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Newcastle",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.4,
         "expectedAwayGoals": 1.08,
         "over25": 0.4316,
@@ -7694,6 +9934,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3128,
           "draw": 0.2548,
           "away": 0.4324
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Nott'm Forest",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Aston Villa",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.18,
         "expectedAwayGoals": 1.23,
@@ -7787,6 +10055,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2071,
           "away": 0.252
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Sunderland",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Tottenham",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.71,
         "expectedAwayGoals": 0.86,
         "over25": 0.4428,
@@ -7878,6 +10174,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5985,
           "draw": 0.1814,
           "away": 0.2201
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Bologna",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Lecce",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.82,
         "expectedAwayGoals": 0.79,
@@ -7971,6 +10295,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2387,
           "away": 0.469
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Como",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Inter",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.11,
         "expectedAwayGoals": 1.28,
         "over25": 0.412,
@@ -8062,6 +10414,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4238,
           "draw": 0.2586,
           "away": 0.3175
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Genoa",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Sassuolo",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.48,
         "expectedAwayGoals": 1.02,
@@ -8155,6 +10535,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2034,
           "away": 0.5492
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Parma",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Napoli",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 0.96,
         "expectedAwayGoals": 1.39,
         "over25": 0.3983,
@@ -8246,6 +10654,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3742,
           "draw": 0.2811,
           "away": 0.3447
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Levante",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Getafe",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.38,
         "expectedAwayGoals": 1.09,
@@ -8339,6 +10775,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2215,
           "away": 0.2704
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Man United",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Leeds",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.64,
         "expectedAwayGoals": 0.91,
         "over25": 0.4413,
@@ -8430,6 +10894,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3625,
           "draw": 0.2865,
           "away": 0.351
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Fiorentina",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Lazio",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.36,
         "expectedAwayGoals": 1.11,
@@ -8523,6 +11015,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2667,
           "away": 0.3275
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "St Pauli",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "FC Koln",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.44,
         "expectedAwayGoals": 1.05,
         "over25": 0.4337,
@@ -8614,6 +11134,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5634,
           "draw": 0.1971,
           "away": 0.2395
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Lens",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Toulouse",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.75,
         "expectedAwayGoals": 0.83,
@@ -8707,6 +11255,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.1057
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Inter",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Cagliari",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 2.26,
         "expectedAwayGoals": 0.48,
         "over25": 0.4375,
@@ -8798,6 +11374,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3015,
           "draw": 0.2459,
           "away": 0.4526
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Sassuolo",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Como",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.14,
         "expectedAwayGoals": 1.26,
@@ -8891,6 +11495,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2892,
           "away": 0.3567
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Ein Frankfurt",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "RB Leipzig",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.34,
         "expectedAwayGoals": 1.12,
         "over25": 0.4279,
@@ -8982,6 +11614,34 @@ window.PREDICTOR_DATA = {
           "home": 0.2949,
           "draw": 0.2407,
           "away": 0.4644
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Hoffenheim",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Dortmund",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.12,
         "expectedAwayGoals": 1.27,
@@ -9075,6 +11735,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.1797
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Leverkusen",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Augsburg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.95,
         "expectedAwayGoals": 0.7,
         "over25": 0.4445,
@@ -9166,6 +11854,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4814,
           "draw": 0.2332,
           "away": 0.2854
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Union Berlin",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Wolfsburg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.59,
         "expectedAwayGoals": 0.95,
@@ -9259,6 +11975,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2686,
           "away": 0.3298
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Werder Bremen",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Hamburg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.43,
         "expectedAwayGoals": 1.05,
         "over25": 0.4332,
@@ -9350,6 +12094,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4407,
           "draw": 0.2511,
           "away": 0.3081
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Angers",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Le Havre",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.51,
         "expectedAwayGoals": 1.0,
@@ -9443,6 +12215,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.1923,
           "away": 0.2335
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Lille",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Nice",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.77,
         "expectedAwayGoals": 0.82,
         "over25": 0.4439,
@@ -9534,6 +12334,34 @@ window.PREDICTOR_DATA = {
           "home": 0.306,
           "draw": 0.2495,
           "away": 0.4445
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Lorient",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Marseille",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.16,
         "expectedAwayGoals": 1.24,
@@ -9627,6 +12455,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2482,
           "away": 0.3044
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Brentford",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Fulham",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.53,
         "expectedAwayGoals": 0.99,
         "over25": 0.4373,
@@ -9718,6 +12574,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4467,
           "draw": 0.2485,
           "away": 0.3048
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Chelsea",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Man United",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.52,
         "expectedAwayGoals": 0.99,
@@ -9811,6 +12695,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2014,
           "away": 0.2449
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Leeds",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Wolves",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.73,
         "expectedAwayGoals": 0.85,
         "over25": 0.4433,
@@ -9902,6 +12814,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3975,
           "draw": 0.2704,
           "away": 0.332
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Newcastle",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Bournemouth",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.43,
         "expectedAwayGoals": 1.06,
@@ -9995,6 +12935,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2393,
           "away": 0.4676
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Tottenham",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Brighton",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.11,
         "expectedAwayGoals": 1.28,
         "over25": 0.4123,
@@ -10086,6 +13054,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5628,
           "draw": 0.1974,
           "away": 0.2398
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Napoli",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Lazio",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.75,
         "expectedAwayGoals": 0.84,
@@ -10179,6 +13175,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2657,
           "away": 0.3263
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Roma",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Atalanta",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.45,
         "expectedAwayGoals": 1.05,
         "over25": 0.4339,
@@ -10270,6 +13294,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4367,
           "draw": 0.2529,
           "away": 0.3104
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Udinese",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Parma",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.5,
         "expectedAwayGoals": 1.01,
@@ -10363,6 +13415,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.2068
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Bayern Munich",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Stuttgart",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.86,
         "expectedAwayGoals": 0.76,
         "over25": 0.4446,
@@ -10454,6 +13534,34 @@ window.PREDICTOR_DATA = {
           "home": 0.6021,
           "draw": 0.18,
           "away": 0.2179
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Freiburg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Heidenheim",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.83,
         "expectedAwayGoals": 0.78,
@@ -10547,6 +13655,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2864,
           "away": 0.3627
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "M'gladbach",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Mainz",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.32,
         "expectedAwayGoals": 1.13,
         "over25": 0.4271,
@@ -10638,6 +13774,34 @@ window.PREDICTOR_DATA = {
           "home": 0.2847,
           "draw": 0.2327,
           "away": 0.4826
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Metz",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Paris FC",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.09,
         "expectedAwayGoals": 1.3,
@@ -10731,6 +13895,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.2054
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Monaco",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Auxerre",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.87,
         "expectedAwayGoals": 0.75,
         "over25": 0.4446,
@@ -10822,6 +14014,34 @@ window.PREDICTOR_DATA = {
           "home": 0.2971,
           "draw": 0.2424,
           "away": 0.4605
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Nantes",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Brest",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.13,
         "expectedAwayGoals": 1.27,
@@ -10915,6 +14135,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.2107
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Paris SG",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Lyon",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.85,
         "expectedAwayGoals": 0.77,
         "over25": 0.4446,
@@ -11006,6 +14254,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4292,
           "draw": 0.2563,
           "away": 0.3146
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Strasbourg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Rennes",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.49,
         "expectedAwayGoals": 1.02,
@@ -11099,6 +14375,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2215,
           "away": 0.2704
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Aston Villa",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Sunderland",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.64,
         "expectedAwayGoals": 0.91,
         "over25": 0.4413,
@@ -11190,6 +14494,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3309,
           "draw": 0.2695,
           "away": 0.3996
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Everton",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Liverpool",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.25,
         "expectedAwayGoals": 1.18,
@@ -11283,6 +14615,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2719,
           "away": 0.3338
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Man City",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Arsenal",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.42,
         "expectedAwayGoals": 1.06,
         "over25": 0.4325,
@@ -11374,6 +14734,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5858,
           "draw": 0.1871,
           "away": 0.2271
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Nott'm Forest",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Burnley",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.8,
         "expectedAwayGoals": 0.8,
@@ -11467,6 +14855,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.289,
           "away": 0.3572
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Cremonese",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Torino",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.34,
         "expectedAwayGoals": 1.12,
         "over25": 0.4278,
@@ -11558,6 +14974,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5399,
           "draw": 0.2075,
           "away": 0.2526
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Juventus",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Bologna",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.71,
         "expectedAwayGoals": 0.87,
@@ -11651,6 +15095,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2783,
           "away": 0.3803
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Pisa",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Genoa",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.29,
         "expectedAwayGoals": 1.16,
         "over25": 0.4249,
@@ -11742,6 +15214,34 @@ window.PREDICTOR_DATA = {
           "home": 0.1947,
           "draw": 0.18,
           "away": 0.6253
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Verona",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Milan",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 0.78,
         "expectedAwayGoals": 1.51,
@@ -11835,6 +15335,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2243,
           "away": 0.274
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Crystal Palace",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "West Ham",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.63,
         "expectedAwayGoals": 0.92,
         "over25": 0.4409,
@@ -11926,6 +15454,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3014,
           "draw": 0.2458,
           "away": 0.4529
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Lecce",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Fiorentina",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.14,
         "expectedAwayGoals": 1.26,
@@ -12019,6 +15575,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2465,
           "away": 0.3023
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Ath Bilbao",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Osasuna",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.53,
         "expectedAwayGoals": 0.99,
         "over25": 0.4376,
@@ -12110,6 +15694,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3519,
           "draw": 0.2873,
           "away": 0.3608
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Girona",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Betis",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.33,
         "expectedAwayGoals": 1.13,
@@ -12203,6 +15815,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2692,
           "away": 0.3304
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Mallorca",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Valencia",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.43,
         "expectedAwayGoals": 1.06,
         "over25": 0.4331,
@@ -12294,6 +15934,34 @@ window.PREDICTOR_DATA = {
           "home": 0.682,
           "draw": 0.18,
           "away": 0.138
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Real Madrid",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Alaves",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 2.11,
         "expectedAwayGoals": 0.59,
@@ -12387,6 +16055,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2685,
           "away": 0.3297
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Brighton",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Chelsea",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.44,
         "expectedAwayGoals": 1.05,
         "over25": 0.4333,
@@ -12478,6 +16174,34 @@ window.PREDICTOR_DATA = {
           "home": 0.6708,
           "draw": 0.18,
           "away": 0.1492
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Barcelona",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Celta",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 2.07,
         "expectedAwayGoals": 0.62,
@@ -12571,6 +16295,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2281,
           "away": 0.493
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Elche",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Ath Madrid",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.06,
         "expectedAwayGoals": 1.31,
         "over25": 0.4081,
@@ -12662,6 +16414,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4644,
           "draw": 0.2407,
           "away": 0.2949
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Sociedad",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Getafe",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.56,
         "expectedAwayGoals": 0.97,
@@ -12755,6 +16535,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.0973
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Paris SG",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Nantes",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 2.31,
         "expectedAwayGoals": 0.45,
         "over25": 0.4357,
@@ -12846,6 +16654,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4765,
           "draw": 0.2354,
           "away": 0.2881
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Bournemouth",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Leeds",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.58,
         "expectedAwayGoals": 0.95,
@@ -12939,6 +16775,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.6738
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Burnley",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Man City",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 0.6,
         "expectedAwayGoals": 1.63,
         "over25": 0.3603,
@@ -13030,6 +16894,34 @@ window.PREDICTOR_DATA = {
           "home": 0.44,
           "draw": 0.2514,
           "away": 0.3085
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Levante",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Sevilla",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.51,
         "expectedAwayGoals": 1.0,
@@ -13123,6 +17015,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2188,
           "away": 0.5143
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Oviedo",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Villarreal",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.02,
         "expectedAwayGoals": 1.34,
         "over25": 0.4045,
@@ -13214,6 +17134,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4424,
           "draw": 0.2504,
           "away": 0.3072
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Vallecano",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Espanol",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.52,
         "expectedAwayGoals": 1.0,
@@ -13307,6 +17255,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.1966
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "RB Leipzig",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Union Berlin",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.9,
         "expectedAwayGoals": 0.73,
         "over25": 0.4447,
@@ -13398,6 +17374,34 @@ window.PREDICTOR_DATA = {
           "home": 0.2842,
           "draw": 0.2323,
           "away": 0.4835
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Betis",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Real Madrid",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.08,
         "expectedAwayGoals": 1.3,
@@ -13491,6 +17495,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2697,
           "away": 0.3991
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Brest",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Lens",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.25,
         "expectedAwayGoals": 1.18,
         "over25": 0.4223,
@@ -13582,6 +17614,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4506,
           "draw": 0.2468,
           "away": 0.3026
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Sunderland",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Nott'm Forest",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.53,
         "expectedAwayGoals": 0.99,
@@ -13675,6 +17735,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.1576
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Napoli",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Cremonese",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 2.03,
         "expectedAwayGoals": 0.64,
         "over25": 0.4436,
@@ -13766,6 +17854,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3486,
           "draw": 0.2844,
           "away": 0.367
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Augsburg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Ein Frankfurt",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.32,
         "expectedAwayGoals": 1.14,
@@ -13859,6 +17975,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.1955,
           "away": 0.567
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "FC Koln",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Leverkusen",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 0.92,
         "expectedAwayGoals": 1.41,
         "over25": 0.3949,
@@ -13950,6 +18094,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3439,
           "draw": 0.2804,
           "away": 0.3756
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Hamburg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Hoffenheim",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.3,
         "expectedAwayGoals": 1.15,
@@ -14043,6 +18215,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2873,
           "away": 0.352
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Heidenheim",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "St Pauli",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.35,
         "expectedAwayGoals": 1.11,
         "over25": 0.4288,
@@ -14134,6 +18334,34 @@ window.PREDICTOR_DATA = {
           "home": 0.2079,
           "draw": 0.18,
           "away": 0.6121
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Mainz",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Bayern Munich",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 0.82,
         "expectedAwayGoals": 1.48,
@@ -14227,6 +18455,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2866,
           "away": 0.3511
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Wolfsburg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "M'gladbach",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.36,
         "expectedAwayGoals": 1.11,
         "over25": 0.429,
@@ -14318,6 +18574,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4079,
           "draw": 0.2658,
           "away": 0.3263
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Alaves",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Mallorca",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.45,
         "expectedAwayGoals": 1.05,
@@ -14411,6 +18695,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2212,
           "away": 0.27
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Ath Madrid",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Ath Bilbao",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.65,
         "expectedAwayGoals": 0.91,
         "over25": 0.4413,
@@ -14502,6 +18814,34 @@ window.PREDICTOR_DATA = {
           "home": 0.193,
           "draw": 0.18,
           "away": 0.627
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Getafe",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Barcelona",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 0.77,
         "expectedAwayGoals": 1.51,
@@ -14595,6 +18935,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.272,
           "away": 0.3338
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Valencia",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Girona",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.42,
         "expectedAwayGoals": 1.06,
         "over25": 0.4325,
@@ -14686,6 +19054,34 @@ window.PREDICTOR_DATA = {
           "home": 0.1934,
           "draw": 0.18,
           "away": 0.6266
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Angers",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Paris SG",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 0.77,
         "expectedAwayGoals": 1.51,
@@ -14779,6 +19175,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.2157
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Lyon",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Auxerre",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.84,
         "expectedAwayGoals": 0.78,
         "over25": 0.4445,
@@ -14870,6 +19294,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3067,
           "draw": 0.25,
           "away": 0.4432
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Toulouse",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Monaco",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.16,
         "expectedAwayGoals": 1.24,
@@ -14963,6 +19415,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.1961
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Arsenal",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Newcastle",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.9,
         "expectedAwayGoals": 0.73,
         "over25": 0.4447,
@@ -15054,6 +19534,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3263,
           "draw": 0.2657,
           "away": 0.408
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Fulham",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Aston Villa",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.23,
         "expectedAwayGoals": 1.19,
@@ -15147,6 +19655,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.1992,
           "away": 0.2421
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Liverpool",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Crystal Palace",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.74,
         "expectedAwayGoals": 0.84,
         "over25": 0.4434,
@@ -15238,6 +19774,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3416,
           "draw": 0.2785,
           "away": 0.3799
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "West Ham",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Everton",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.29,
         "expectedAwayGoals": 1.16,
@@ -15331,6 +19895,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2769,
           "away": 0.3398
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Wolves",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Tottenham",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.4,
         "expectedAwayGoals": 1.08,
         "over25": 0.4314,
@@ -15422,6 +20014,34 @@ window.PREDICTOR_DATA = {
           "home": 0.347,
           "draw": 0.2831,
           "away": 0.3699
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Bologna",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Roma",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.31,
         "expectedAwayGoals": 1.14,
@@ -15515,6 +20135,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2156,
           "away": 0.2629
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Parma",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Pisa",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.67,
         "expectedAwayGoals": 0.89,
         "over25": 0.442,
@@ -15606,6 +20254,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3595,
           "draw": 0.2879,
           "away": 0.3526
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Verona",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Lecce",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.35,
         "expectedAwayGoals": 1.11,
@@ -15699,6 +20375,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.1957,
           "away": 0.2377
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Dortmund",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Freiburg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.76,
         "expectedAwayGoals": 0.83,
         "over25": 0.4437,
@@ -15790,6 +20494,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5813,
           "draw": 0.1891,
           "away": 0.2296
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Stuttgart",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Werder Bremen",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.79,
         "expectedAwayGoals": 0.81,
@@ -15883,6 +20615,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2239,
           "away": 0.2734
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Osasuna",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Sevilla",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.63,
         "expectedAwayGoals": 0.92,
         "over25": 0.441,
@@ -15974,6 +20734,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3906,
           "draw": 0.2736,
           "away": 0.3358
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Oviedo",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Elche",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.41,
         "expectedAwayGoals": 1.07,
@@ -16067,6 +20855,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2676,
           "away": 0.3286
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Vallecano",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Sociedad",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.44,
         "expectedAwayGoals": 1.05,
         "over25": 0.4335,
@@ -16158,6 +20974,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5563,
           "draw": 0.2003,
           "away": 0.2434
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Villarreal",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Celta",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.74,
         "expectedAwayGoals": 0.84,
@@ -16251,6 +21095,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2131,
           "away": 0.2597
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Le Havre",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Metz",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.68,
         "expectedAwayGoals": 0.88,
         "over25": 0.4422,
@@ -16342,6 +21214,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3482,
           "draw": 0.2841,
           "away": 0.3677
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Lorient",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Strasbourg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.31,
         "expectedAwayGoals": 1.14,
@@ -16435,6 +21335,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2123,
           "away": 0.2587
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Marseille",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Nice",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.69,
         "expectedAwayGoals": 0.88,
         "over25": 0.4423,
@@ -16526,6 +21454,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3209,
           "draw": 0.2614,
           "away": 0.4177
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Paris FC",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Lille",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.21,
         "expectedAwayGoals": 1.21,
@@ -16619,6 +21575,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.199
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Rennes",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Nantes",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.89,
         "expectedAwayGoals": 0.74,
         "over25": 0.4447,
@@ -16710,6 +21694,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4897,
           "draw": 0.2296,
           "away": 0.2807
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Fiorentina",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Sassuolo",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.61,
         "expectedAwayGoals": 0.93,
@@ -16803,6 +21815,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2684,
           "away": 0.402
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Genoa",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Como",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.24,
         "expectedAwayGoals": 1.19,
         "over25": 0.422,
@@ -16894,6 +21934,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3968,
           "draw": 0.2708,
           "away": 0.3324
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Milan",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Juventus",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.43,
         "expectedAwayGoals": 1.06,
@@ -16987,6 +22055,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.6156
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Torino",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Inter",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 0.81,
         "expectedAwayGoals": 1.49,
         "over25": 0.3835,
@@ -17078,6 +22174,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4057,
           "draw": 0.2668,
           "away": 0.3276
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Espanol",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Levante",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.44,
         "expectedAwayGoals": 1.05,
@@ -17171,6 +22295,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2434,
           "away": 0.2984
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Man United",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Brentford",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.55,
         "expectedAwayGoals": 0.98,
         "over25": 0.4381,
@@ -17262,6 +22414,34 @@ window.PREDICTOR_DATA = {
           "home": 0.2523,
           "draw": 0.2073,
           "away": 0.5404
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Cagliari",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Atalanta",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 0.97,
         "expectedAwayGoals": 1.37,
@@ -17355,6 +22535,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2115,
           "away": 0.2577
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Lazio",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Udinese",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.69,
         "expectedAwayGoals": 0.88,
         "over25": 0.4424,
@@ -17446,6 +22654,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4576,
           "draw": 0.2437,
           "away": 0.2987
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Girona",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Mallorca",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.55,
         "expectedAwayGoals": 0.98,
@@ -17539,6 +22775,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.2018
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Leeds",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Burnley",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.88,
         "expectedAwayGoals": 0.75,
         "over25": 0.4446,
@@ -17630,6 +22894,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4074,
           "draw": 0.266,
           "away": 0.3266
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Pisa",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Lecce",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.45,
         "expectedAwayGoals": 1.05,
@@ -17723,6 +23015,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.0768
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Bayern Munich",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Heidenheim",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 2.44,
         "expectedAwayGoals": 0.45,
         "over25": 0.4502,
@@ -17814,6 +23134,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5239,
           "draw": 0.2146,
           "away": 0.2615
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Ein Frankfurt",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Hamburg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.68,
         "expectedAwayGoals": 0.89,
@@ -17907,6 +23255,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2878,
           "away": 0.3598
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Hoffenheim",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Stuttgart",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.33,
         "expectedAwayGoals": 1.13,
         "over25": 0.4275,
@@ -17998,6 +23374,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4666,
           "draw": 0.2397,
           "away": 0.2937
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Leverkusen",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "RB Leipzig",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.56,
         "expectedAwayGoals": 0.97,
@@ -18091,6 +23495,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2575,
           "away": 0.316
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Union Berlin",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "FC Koln",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.48,
         "expectedAwayGoals": 1.02,
         "over25": 0.4356,
@@ -18182,6 +23614,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4063,
           "draw": 0.2665,
           "away": 0.3272
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Werder Bremen",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Augsburg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.44,
         "expectedAwayGoals": 1.05,
@@ -18275,6 +23735,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2773,
           "away": 0.3825
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Alaves",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Ath Bilbao",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.28,
         "expectedAwayGoals": 1.16,
         "over25": 0.4246,
@@ -18366,6 +23854,34 @@ window.PREDICTOR_DATA = {
           "home": 0.2053,
           "draw": 0.18,
           "away": 0.6147
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Osasuna",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Barcelona",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 0.81,
         "expectedAwayGoals": 1.49,
@@ -18459,6 +23975,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2419,
           "away": 0.4616
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Valencia",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Ath Madrid",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.13,
         "expectedAwayGoals": 1.27,
         "over25": 0.4132,
@@ -18550,6 +24094,34 @@ window.PREDICTOR_DATA = {
           "home": 0.6178,
           "draw": 0.18,
           "away": 0.2022
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Villarreal",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Levante",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.88,
         "expectedAwayGoals": 0.75,
@@ -18643,6 +24215,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.6036
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Metz",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Monaco",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 0.85,
         "expectedAwayGoals": 1.46,
         "over25": 0.3874,
@@ -18734,6 +24334,34 @@ window.PREDICTOR_DATA = {
           "home": 0.2496,
           "draw": 0.2052,
           "away": 0.5452
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Nantes",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Marseille",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 0.96,
         "expectedAwayGoals": 1.38,
@@ -18827,6 +24455,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2599,
           "away": 0.4211
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Nice",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Lens",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.21,
         "expectedAwayGoals": 1.21,
         "over25": 0.4193,
@@ -18918,6 +24574,34 @@ window.PREDICTOR_DATA = {
           "home": 0.6802,
           "draw": 0.18,
           "away": 0.1398
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Paris SG",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Lorient",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 2.1,
         "expectedAwayGoals": 0.59,
@@ -19011,6 +24695,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.1908
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Arsenal",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Fulham",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.92,
         "expectedAwayGoals": 0.72,
         "over25": 0.4446,
@@ -19102,6 +24814,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4862,
           "draw": 0.2311,
           "away": 0.2827
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Brentford",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "West Ham",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.6,
         "expectedAwayGoals": 0.94,
@@ -19195,6 +24935,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2868,
           "away": 0.3513
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Newcastle",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Brighton",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.35,
         "expectedAwayGoals": 1.11,
         "over25": 0.4289,
@@ -19286,6 +25054,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3031,
           "draw": 0.2472,
           "away": 0.4497
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Wolves",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Sunderland",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.15,
         "expectedAwayGoals": 1.25,
@@ -19379,6 +25175,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.1911,
           "away": 0.232
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Atalanta",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Genoa",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.78,
         "expectedAwayGoals": 0.82,
         "over25": 0.4439,
@@ -19470,6 +25294,34 @@ window.PREDICTOR_DATA = {
           "home": 0.338,
           "draw": 0.2754,
           "away": 0.3866
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Como",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Napoli",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.28,
         "expectedAwayGoals": 1.16,
@@ -19563,6 +25415,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2648,
           "away": 0.3251
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Udinese",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Torino",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.45,
         "expectedAwayGoals": 1.04,
         "over25": 0.4341,
@@ -19654,6 +25534,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5651,
           "draw": 0.1963,
           "away": 0.2385
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Freiburg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Wolfsburg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.76,
         "expectedAwayGoals": 0.83,
@@ -19747,6 +25655,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2053,
           "away": 0.5448
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "M'gladbach",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Dortmund",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 0.96,
         "expectedAwayGoals": 1.38,
         "over25": 0.3991,
@@ -19838,6 +25774,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3264,
           "draw": 0.2658,
           "away": 0.4078
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "St Pauli",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Mainz",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.23,
         "expectedAwayGoals": 1.19,
@@ -19931,6 +25895,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.1927,
           "away": 0.234
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Betis",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Oviedo",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.77,
         "expectedAwayGoals": 0.82,
         "over25": 0.4439,
@@ -20022,6 +26014,34 @@ window.PREDICTOR_DATA = {
           "home": 0.449,
           "draw": 0.2475,
           "away": 0.3035
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Celta",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Elche",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.53,
         "expectedAwayGoals": 0.99,
@@ -20115,6 +26135,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.6142
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Espanol",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Real Madrid",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 0.81,
         "expectedAwayGoals": 1.49,
         "over25": 0.384,
@@ -20206,6 +26254,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4054,
           "draw": 0.2669,
           "away": 0.3277
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Getafe",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Vallecano",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.44,
         "expectedAwayGoals": 1.05,
@@ -20299,6 +26375,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2636,
           "away": 0.3237
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Auxerre",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Angers",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.46,
         "expectedAwayGoals": 1.04,
         "over25": 0.4343,
@@ -20390,6 +26494,34 @@ window.PREDICTOR_DATA = {
           "home": 0.6365,
           "draw": 0.18,
           "away": 0.1835
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Lille",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Le Havre",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.94,
         "expectedAwayGoals": 0.7,
@@ -20483,6 +26615,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2387,
           "away": 0.2924
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Lyon",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Rennes",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.57,
         "expectedAwayGoals": 0.96,
         "over25": 0.4389,
@@ -20574,6 +26734,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3983,
           "draw": 0.2701,
           "away": 0.3316
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Paris FC",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Brest",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.43,
         "expectedAwayGoals": 1.06,
@@ -20667,6 +26855,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2208,
           "away": 0.2695
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Strasbourg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Toulouse",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.65,
         "expectedAwayGoals": 0.91,
         "over25": 0.4414,
@@ -20758,6 +26974,34 @@ window.PREDICTOR_DATA = {
           "home": 0.6176,
           "draw": 0.18,
           "away": 0.2024
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Aston Villa",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Tottenham",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.88,
         "expectedAwayGoals": 0.75,
@@ -20851,6 +27095,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.24,
           "away": 0.294
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Bournemouth",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Crystal Palace",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.56,
         "expectedAwayGoals": 0.97,
         "over25": 0.4387,
@@ -20942,6 +27214,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3436,
           "draw": 0.2801,
           "away": 0.3763
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Man United",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Liverpool",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.3,
         "expectedAwayGoals": 1.15,
@@ -21035,6 +27335,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2027,
           "away": 0.2465
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Bologna",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Cagliari",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.73,
         "expectedAwayGoals": 0.85,
         "over25": 0.4432,
@@ -21126,6 +27454,34 @@ window.PREDICTOR_DATA = {
           "home": 0.6777,
           "draw": 0.18,
           "away": 0.1423
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Inter",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Parma",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 2.09,
         "expectedAwayGoals": 0.6,
@@ -21219,6 +27575,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.1148
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Juventus",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Verona",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 2.22,
         "expectedAwayGoals": 0.51,
         "over25": 0.4392,
@@ -21310,6 +27694,34 @@ window.PREDICTOR_DATA = {
           "home": 0.2742,
           "draw": 0.2245,
           "away": 0.5013
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Sassuolo",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Milan",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.05,
         "expectedAwayGoals": 1.32,
@@ -21403,6 +27815,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2749,
           "away": 0.3878
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Sevilla",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Sociedad",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.27,
         "expectedAwayGoals": 1.17,
         "over25": 0.4239,
@@ -21494,6 +27934,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4873,
           "draw": 0.2306,
           "away": 0.2821
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Chelsea",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Nott'm Forest",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.6,
         "expectedAwayGoals": 0.94,
@@ -21587,6 +28055,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2188,
           "away": 0.5142
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Everton",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Man City",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.02,
         "expectedAwayGoals": 1.34,
         "over25": 0.4045,
@@ -21678,6 +28174,34 @@ window.PREDICTOR_DATA = {
           "home": 0.2948,
           "draw": 0.2406,
           "away": 0.4646
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Cremonese",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Lazio",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.12,
         "expectedAwayGoals": 1.27,
@@ -21771,6 +28295,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2093,
           "away": 0.2548
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Roma",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Fiorentina",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.7,
         "expectedAwayGoals": 0.87,
         "over25": 0.4426,
@@ -21862,6 +28414,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5598,
           "draw": 0.1987,
           "away": 0.2415
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Dortmund",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Ein Frankfurt",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.75,
         "expectedAwayGoals": 0.84,
@@ -21955,6 +28535,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2842,
           "away": 0.3483
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Levante",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Osasuna",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.37,
         "expectedAwayGoals": 1.1,
         "over25": 0.4296,
@@ -22046,6 +28654,34 @@ window.PREDICTOR_DATA = {
           "home": 0.6501,
           "draw": 0.18,
           "away": 0.1699
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Lens",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Nantes",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.99,
         "expectedAwayGoals": 0.67,
@@ -22139,6 +28775,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2648,
           "away": 0.3251
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Torino",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Sassuolo",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.45,
         "expectedAwayGoals": 1.04,
         "over25": 0.4341,
@@ -22230,6 +28894,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4496,
           "draw": 0.2472,
           "away": 0.3032
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Augsburg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "M'gladbach",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.53,
         "expectedAwayGoals": 0.99,
@@ -22323,6 +29015,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2182,
           "away": 0.2662
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Hoffenheim",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Werder Bremen",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.66,
         "expectedAwayGoals": 0.9,
         "over25": 0.4417,
@@ -22414,6 +29134,34 @@ window.PREDICTOR_DATA = {
           "home": 0.6467,
           "draw": 0.18,
           "away": 0.1733
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "RB Leipzig",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "St Pauli",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.98,
         "expectedAwayGoals": 0.68,
@@ -22507,6 +29255,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.281,
           "away": 0.3745
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Stuttgart",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Leverkusen",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.3,
         "expectedAwayGoals": 1.15,
         "over25": 0.4256,
@@ -22598,6 +29374,34 @@ window.PREDICTOR_DATA = {
           "home": 0.1417,
           "draw": 0.18,
           "away": 0.6783
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Wolfsburg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Bayern Munich",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 0.58,
         "expectedAwayGoals": 1.64,
@@ -22691,6 +29495,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2011,
           "away": 0.2444
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Ath Madrid",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Celta",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.74,
         "expectedAwayGoals": 0.85,
         "over25": 0.4433,
@@ -22782,6 +29614,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4477,
           "draw": 0.2481,
           "away": 0.3043
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Elche",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Alaves",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.53,
         "expectedAwayGoals": 0.99,
@@ -22875,6 +29735,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2708,
           "away": 0.3324
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Sevilla",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Espanol",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.43,
         "expectedAwayGoals": 1.06,
         "over25": 0.4328,
@@ -22966,6 +29854,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3348,
           "draw": 0.2727,
           "away": 0.3925
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Sociedad",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Betis",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.26,
         "expectedAwayGoals": 1.17,
@@ -23059,6 +29975,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.1989
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Brighton",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Wolves",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.89,
         "expectedAwayGoals": 0.74,
         "over25": 0.4447,
@@ -23150,6 +30094,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3597,
           "draw": 0.2878,
           "away": 0.3525
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Fulham",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Bournemouth",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.35,
         "expectedAwayGoals": 1.11,
@@ -23243,6 +30215,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2158,
           "away": 0.2631
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Liverpool",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Chelsea",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.67,
         "expectedAwayGoals": 0.89,
         "over25": 0.4419,
@@ -23334,6 +30334,34 @@ window.PREDICTOR_DATA = {
           "home": 0.6167,
           "draw": 0.18,
           "away": 0.2033
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Man City",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Brentford",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.88,
         "expectedAwayGoals": 0.75,
@@ -23427,6 +30455,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2769,
           "away": 0.3834
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Sunderland",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Man United",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.28,
         "expectedAwayGoals": 1.16,
         "over25": 0.4245,
@@ -23518,6 +30574,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3536,
           "draw": 0.2887,
           "away": 0.3577
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Cagliari",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Udinese",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.33,
         "expectedAwayGoals": 1.12,
@@ -23611,6 +30695,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2215,
           "away": 0.5082
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Lazio",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Inter",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.04,
         "expectedAwayGoals": 1.33,
         "over25": 0.4056,
@@ -23702,6 +30814,34 @@ window.PREDICTOR_DATA = {
           "home": 0.2239,
           "draw": 0.1845,
           "away": 0.5917
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Lecce",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Juventus",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 0.87,
         "expectedAwayGoals": 1.44,
@@ -23795,6 +30935,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2417,
           "away": 0.2962
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "FC Koln",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Heidenheim",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.55,
         "expectedAwayGoals": 0.97,
         "over25": 0.4384,
@@ -23886,6 +31054,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3531,
           "draw": 0.2883,
           "away": 0.3586
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Hamburg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Freiburg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.33,
         "expectedAwayGoals": 1.13,
@@ -23979,6 +31175,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2167,
           "away": 0.2642
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Mainz",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Union Berlin",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.67,
         "expectedAwayGoals": 0.89,
         "over25": 0.4418,
@@ -24070,6 +31294,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5008,
           "draw": 0.2247,
           "away": 0.2745
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Ath Bilbao",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Valencia",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.63,
         "expectedAwayGoals": 0.92,
@@ -24163,6 +31415,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2333,
           "away": 0.2854
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Barcelona",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Real Madrid",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.59,
         "expectedAwayGoals": 0.95,
         "over25": 0.4397,
@@ -24254,6 +31534,34 @@ window.PREDICTOR_DATA = {
           "home": 0.2704,
           "draw": 0.2215,
           "away": 0.5081
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Mallorca",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Villarreal",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.04,
         "expectedAwayGoals": 1.33,
@@ -24347,6 +31655,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2794,
           "away": 0.3428
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Oviedo",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Getafe",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.39,
         "expectedAwayGoals": 1.09,
         "over25": 0.4308,
@@ -24438,6 +31774,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3188,
           "draw": 0.2597,
           "away": 0.4215
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Angers",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Strasbourg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.21,
         "expectedAwayGoals": 1.21,
@@ -24531,6 +31895,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2895,
           "away": 0.3562
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Auxerre",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Nice",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.34,
         "expectedAwayGoals": 1.12,
         "over25": 0.4279,
@@ -24622,6 +32014,34 @@ window.PREDICTOR_DATA = {
           "home": 0.2974,
           "draw": 0.2427,
           "away": 0.4599
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Le Havre",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Marseille",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.13,
         "expectedAwayGoals": 1.27,
@@ -24715,6 +32135,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2418,
           "away": 0.462
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Metz",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Lorient",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.13,
         "expectedAwayGoals": 1.27,
         "over25": 0.4131,
@@ -24806,6 +32254,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4002,
           "draw": 0.2692,
           "away": 0.3305
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Monaco",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Lille",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.43,
         "expectedAwayGoals": 1.06,
@@ -24899,6 +32375,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.1665
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Paris SG",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Brest",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 2.0,
         "expectedAwayGoals": 0.66,
         "over25": 0.4441,
@@ -24990,6 +32494,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4675,
           "draw": 0.2394,
           "away": 0.2932
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Rennes",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Paris FC",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.57,
         "expectedAwayGoals": 0.96,
@@ -25083,6 +32615,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2532,
           "away": 0.4362
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Toulouse",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Lyon",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.18,
         "expectedAwayGoals": 1.23,
         "over25": 0.4171,
@@ -25174,6 +32734,34 @@ window.PREDICTOR_DATA = {
           "home": 0.2236,
           "draw": 0.1842,
           "away": 0.5922
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Burnley",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Aston Villa",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 0.87,
         "expectedAwayGoals": 1.45,
@@ -25267,6 +32855,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2701,
           "away": 0.3316
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Crystal Palace",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Everton",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.43,
         "expectedAwayGoals": 1.06,
         "over25": 0.4329,
@@ -25358,6 +32974,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4004,
           "draw": 0.2692,
           "away": 0.3305
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Nott'm Forest",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Newcastle",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.43,
         "expectedAwayGoals": 1.06,
@@ -25451,6 +33095,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.1822,
           "away": 0.5966
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "West Ham",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Arsenal",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 0.86,
         "expectedAwayGoals": 1.45,
         "over25": 0.389,
@@ -25542,6 +33214,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4609,
           "draw": 0.2422,
           "away": 0.2969
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Cremonese",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Pisa",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.55,
         "expectedAwayGoals": 0.97,
@@ -25635,6 +33335,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2423,
           "away": 0.297
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Fiorentina",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Genoa",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.55,
         "expectedAwayGoals": 0.97,
         "over25": 0.4383,
@@ -25726,6 +33454,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4478,
           "draw": 0.248,
           "away": 0.3042
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Milan",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Atalanta",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.53,
         "expectedAwayGoals": 0.99,
@@ -25819,6 +33575,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2405,
           "away": 0.4648
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Parma",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Roma",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.12,
         "expectedAwayGoals": 1.27,
         "over25": 0.4127,
@@ -25910,6 +33694,34 @@ window.PREDICTOR_DATA = {
           "home": 0.2338,
           "draw": 0.1925,
           "away": 0.5737
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Verona",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Como",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 0.91,
         "expectedAwayGoals": 1.42,
@@ -26003,6 +33815,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2476,
           "away": 0.3037
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Vallecano",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Girona",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.53,
         "expectedAwayGoals": 0.99,
         "over25": 0.4374,
@@ -26094,6 +33934,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3384,
           "draw": 0.2758,
           "away": 0.3858
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Tottenham",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Leeds",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.28,
         "expectedAwayGoals": 1.16,
@@ -26187,6 +34055,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.1916,
           "away": 0.2326
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Napoli",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Bologna",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.78,
         "expectedAwayGoals": 0.82,
         "over25": 0.4439,
@@ -26278,6 +34174,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5394,
           "draw": 0.2077,
           "away": 0.2529
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Betis",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Elche",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.71,
         "expectedAwayGoals": 0.87,
@@ -26371,6 +34295,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2279,
           "away": 0.2785
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Celta",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Levante",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.62,
         "expectedAwayGoals": 0.93,
         "over25": 0.4405,
@@ -26462,6 +34414,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3064,
           "draw": 0.2498,
           "away": 0.4438
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Osasuna",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Ath Madrid",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.16,
         "expectedAwayGoals": 1.24,
@@ -26555,6 +34535,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.6595
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Alaves",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Barcelona",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 0.66,
         "expectedAwayGoals": 1.59,
         "over25": 0.3669,
@@ -26646,6 +34654,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3292,
           "draw": 0.2681,
           "away": 0.4027
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Espanol",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Ath Bilbao",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.24,
         "expectedAwayGoals": 1.19,
@@ -26739,6 +34775,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2589,
           "away": 0.3179
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Getafe",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Mallorca",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.48,
         "expectedAwayGoals": 1.02,
         "over25": 0.4353,
@@ -26830,6 +34894,34 @@ window.PREDICTOR_DATA = {
           "home": 0.6364,
           "draw": 0.18,
           "away": 0.1836
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Villarreal",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Sevilla",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.94,
         "expectedAwayGoals": 0.7,
@@ -26923,6 +35015,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2804,
           "away": 0.3439
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Brest",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Strasbourg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.38,
         "expectedAwayGoals": 1.09,
         "over25": 0.4305,
@@ -27014,6 +35134,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3057,
           "draw": 0.2492,
           "away": 0.4452
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Lens",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Paris SG",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.16,
         "expectedAwayGoals": 1.25,
@@ -27107,6 +35255,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.183
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Man City",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Crystal Palace",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.94,
         "expectedAwayGoals": 0.7,
         "over25": 0.4445,
@@ -27198,6 +35374,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3953,
           "draw": 0.2715,
           "away": 0.3332
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Girona",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Sociedad",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.42,
         "expectedAwayGoals": 1.06,
@@ -27291,6 +35495,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.1288
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Real Madrid",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Oviedo",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 2.15,
         "expectedAwayGoals": 0.56,
         "over25": 0.4411,
@@ -27382,6 +35614,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4041,
           "draw": 0.2675,
           "away": 0.3284
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Valencia",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Vallecano",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.44,
         "expectedAwayGoals": 1.05,
@@ -27475,6 +35735,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2899,
           "away": 0.3553
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Aston Villa",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Liverpool",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.34,
         "expectedAwayGoals": 1.12,
         "over25": 0.4281,
@@ -27566,6 +35854,34 @@ window.PREDICTOR_DATA = {
           "home": 0.7291,
           "draw": 0.18,
           "away": 0.0909
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Bayern Munich",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "FC Koln",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 2.34,
         "expectedAwayGoals": 0.45,
@@ -27659,6 +35975,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.273,
           "away": 0.392
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Ein Frankfurt",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Stuttgart",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.26,
         "expectedAwayGoals": 1.17,
         "over25": 0.4233,
@@ -27750,6 +36094,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3224,
           "draw": 0.2626,
           "away": 0.415
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Freiburg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "RB Leipzig",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.22,
         "expectedAwayGoals": 1.2,
@@ -27843,6 +36215,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2626,
           "away": 0.415
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Heidenheim",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Mainz",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.22,
         "expectedAwayGoals": 1.2,
         "over25": 0.4201,
@@ -27934,6 +36334,34 @@ window.PREDICTOR_DATA = {
           "home": 0.6243,
           "draw": 0.18,
           "away": 0.1957
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Leverkusen",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Hamburg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.9,
         "expectedAwayGoals": 0.73,
@@ -28027,6 +36455,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2681,
           "away": 0.4028
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "M'gladbach",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Hoffenheim",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.24,
         "expectedAwayGoals": 1.19,
         "over25": 0.4218,
@@ -28118,6 +36574,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4046,
           "draw": 0.2673,
           "away": 0.3282
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "St Pauli",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Wolfsburg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.44,
         "expectedAwayGoals": 1.05,
@@ -28211,6 +36695,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2874,
           "away": 0.3606
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Union Berlin",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Augsburg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.33,
         "expectedAwayGoals": 1.13,
         "over25": 0.4274,
@@ -28302,6 +36814,34 @@ window.PREDICTOR_DATA = {
           "home": 0.2578,
           "draw": 0.2116,
           "away": 0.5306
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Werder Bremen",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Dortmund",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 0.99,
         "expectedAwayGoals": 1.36,
@@ -28395,6 +36935,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2604,
           "away": 0.3197
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Ath Bilbao",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Celta",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.47,
         "expectedAwayGoals": 1.03,
         "over25": 0.435,
@@ -28486,6 +37054,34 @@ window.PREDICTOR_DATA = {
           "home": 0.6015,
           "draw": 0.18,
           "away": 0.2185
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Ath Madrid",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Girona",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.83,
         "expectedAwayGoals": 0.78,
@@ -28579,6 +37175,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.1869
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Barcelona",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Betis",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.93,
         "expectedAwayGoals": 0.71,
         "over25": 0.4446,
@@ -28670,6 +37294,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4057,
           "draw": 0.2668,
           "away": 0.3275
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Elche",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Getafe",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.44,
         "expectedAwayGoals": 1.05,
@@ -28763,6 +37415,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2493,
           "away": 0.3058
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Levante",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Mallorca",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.52,
         "expectedAwayGoals": 0.99,
         "over25": 0.4371,
@@ -28854,6 +37534,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4581,
           "draw": 0.2435,
           "away": 0.2984
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Osasuna",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Espanol",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.55,
         "expectedAwayGoals": 0.98,
@@ -28947,6 +37655,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2802,
           "away": 0.3437
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Oviedo",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Alaves",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.38,
         "expectedAwayGoals": 1.09,
         "over25": 0.4306,
@@ -29038,6 +37774,34 @@ window.PREDICTOR_DATA = {
           "home": 0.2065,
           "draw": 0.18,
           "away": 0.6135
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Sevilla",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Real Madrid",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 0.81,
         "expectedAwayGoals": 1.48,
@@ -29131,6 +37895,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2581,
           "away": 0.3168
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Sociedad",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Valencia",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.48,
         "expectedAwayGoals": 1.02,
         "over25": 0.4355,
@@ -29222,6 +38014,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3075,
           "draw": 0.2507,
           "away": 0.4418
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Vallecano",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Villarreal",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.17,
         "expectedAwayGoals": 1.24,
@@ -29315,6 +38135,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2286,
           "away": 0.2794
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Brest",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Angers",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.61,
         "expectedAwayGoals": 0.93,
         "over25": 0.4404,
@@ -29406,6 +38254,34 @@ window.PREDICTOR_DATA = {
           "home": 0.6185,
           "draw": 0.18,
           "away": 0.2015
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Lille",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Auxerre",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.88,
         "expectedAwayGoals": 0.75,
@@ -29499,6 +38375,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2284,
           "away": 0.2792
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Lorient",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Le Havre",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.61,
         "expectedAwayGoals": 0.93,
         "over25": 0.4404,
@@ -29590,6 +38494,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4144,
           "draw": 0.2628,
           "away": 0.3227
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Lyon",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Lens",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.46,
         "expectedAwayGoals": 1.04,
@@ -29683,6 +38615,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2521,
           "away": 0.3094
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Marseille",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Rennes",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.51,
         "expectedAwayGoals": 1.0,
         "over25": 0.4366,
@@ -29774,6 +38734,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3127,
           "draw": 0.2548,
           "away": 0.4326
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Nantes",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Toulouse",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.18,
         "expectedAwayGoals": 1.23,
@@ -29867,6 +38855,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.2117
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Nice",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Metz",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.85,
         "expectedAwayGoals": 0.77,
         "over25": 0.4445,
@@ -29958,6 +38974,34 @@ window.PREDICTOR_DATA = {
           "home": 0.229,
           "draw": 0.1887,
           "away": 0.5823
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Paris FC",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Paris SG",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 0.89,
         "expectedAwayGoals": 1.43,
@@ -30051,6 +39095,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2863,
           "away": 0.3508
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Strasbourg",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Monaco",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.36,
         "expectedAwayGoals": 1.11,
         "over25": 0.429,
@@ -30142,6 +39214,34 @@ window.PREDICTOR_DATA = {
           "home": 0.444,
           "draw": 0.2497,
           "away": 0.3063
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Brentford",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Crystal Palace",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.52,
         "expectedAwayGoals": 1.0,
@@ -30235,6 +39335,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2521,
           "away": 0.3093
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Everton",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Sunderland",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.51,
         "expectedAwayGoals": 1.0,
         "over25": 0.4366,
@@ -30326,6 +39454,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3645,
           "draw": 0.2856,
           "away": 0.3499
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Leeds",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Brighton",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.36,
         "expectedAwayGoals": 1.11,
@@ -30419,6 +39575,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2246,
           "away": 0.2743
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Man United",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Nott'm Forest",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.63,
         "expectedAwayGoals": 0.92,
         "over25": 0.4409,
@@ -30510,6 +39694,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5058,
           "draw": 0.2225,
           "away": 0.2717
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Newcastle",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "West Ham",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.64,
         "expectedAwayGoals": 0.91,
@@ -30603,6 +39815,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2467,
           "away": 0.4508
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Wolves",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Fulham",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.15,
         "expectedAwayGoals": 1.25,
         "over25": 0.4149,
@@ -30694,6 +39934,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4996,
           "draw": 0.2252,
           "away": 0.2752
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Atalanta",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Bologna",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.63,
         "expectedAwayGoals": 0.92,
@@ -30787,6 +40055,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2853,
           "away": 0.3651
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Cagliari",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Torino",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.32,
         "expectedAwayGoals": 1.13,
         "over25": 0.4268,
@@ -30878,6 +40174,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5589,
           "draw": 0.1991,
           "away": 0.242
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Como",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Parma",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.74,
         "expectedAwayGoals": 0.84,
@@ -30971,6 +40295,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2448,
           "away": 0.4551
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Genoa",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Milan",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.14,
         "expectedAwayGoals": 1.26,
         "over25": 0.4142,
@@ -31062,6 +40414,34 @@ window.PREDICTOR_DATA = {
           "home": 0.7448,
           "draw": 0.18,
           "away": 0.0752
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Inter",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Verona",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 2.45,
         "expectedAwayGoals": 0.45,
@@ -31155,6 +40535,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.1846,
           "away": 0.224
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Juventus",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Fiorentina",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.81,
         "expectedAwayGoals": 0.8,
         "over25": 0.4443,
@@ -31246,6 +40654,34 @@ window.PREDICTOR_DATA = {
           "home": 0.1991,
           "draw": 0.18,
           "away": 0.6209
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Pisa",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Napoli",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 0.79,
         "expectedAwayGoals": 1.5,
@@ -31339,6 +40775,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.225,
           "away": 0.2749
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Roma",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Lazio",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.63,
         "expectedAwayGoals": 0.92,
         "over25": 0.4408,
@@ -31430,6 +40894,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5041,
           "draw": 0.2233,
           "away": 0.2726
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Sassuolo",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Lecce",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.64,
         "expectedAwayGoals": 0.91,
@@ -31523,6 +41015,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2219,
           "away": 0.2709
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Udinese",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Cremonese",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.64,
         "expectedAwayGoals": 0.91,
         "over25": 0.4412,
@@ -31614,6 +41134,34 @@ window.PREDICTOR_DATA = {
           "home": 0.7338,
           "draw": 0.18,
           "away": 0.0862
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Arsenal",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Burnley",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 2.37,
         "expectedAwayGoals": 0.45,
@@ -31707,6 +41255,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2437,
           "away": 0.4575
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Bournemouth",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Man City",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.13,
         "expectedAwayGoals": 1.26,
         "over25": 0.4138,
@@ -31798,6 +41374,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5546,
           "draw": 0.201,
           "away": 0.2444
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Chelsea",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Tottenham",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.74,
         "expectedAwayGoals": 0.85,
@@ -31891,6 +41495,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2778,
           "away": 0.3813
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Fiorentina",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Atalanta",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.29,
         "expectedAwayGoals": 1.16,
         "over25": 0.4247,
@@ -31982,6 +41614,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3783,
           "draw": 0.2792,
           "away": 0.3425
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Alaves",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Vallecano",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.39,
         "expectedAwayGoals": 1.09,
@@ -32075,6 +41735,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2137,
           "away": 0.2604
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Betis",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Levante",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.68,
         "expectedAwayGoals": 0.89,
         "over25": 0.4422,
@@ -32166,6 +41854,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5033,
           "draw": 0.2236,
           "away": 0.2731
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Celta",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Sevilla",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.63,
         "expectedAwayGoals": 0.92,
@@ -32259,6 +41975,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2736,
           "away": 0.3358
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Espanol",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Sociedad",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.41,
         "expectedAwayGoals": 1.07,
         "over25": 0.4321,
@@ -32350,6 +42094,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4131,
           "draw": 0.2634,
           "away": 0.3235
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Getafe",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Osasuna",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.46,
         "expectedAwayGoals": 1.04,
@@ -32443,6 +42215,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2663,
           "away": 0.327
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Girona",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Elche",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.45,
         "expectedAwayGoals": 1.05,
         "over25": 0.4338,
@@ -32534,6 +42334,34 @@ window.PREDICTOR_DATA = {
           "home": 0.447,
           "draw": 0.2484,
           "away": 0.3046
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Mallorca",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Oviedo",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.53,
         "expectedAwayGoals": 0.99,
@@ -32627,6 +42455,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.1757
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Real Madrid",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Ath Bilbao",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.97,
         "expectedAwayGoals": 0.69,
         "over25": 0.4444,
@@ -32718,6 +42574,34 @@ window.PREDICTOR_DATA = {
           "home": 0.1985,
           "draw": 0.18,
           "away": 0.6215
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Valencia",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Barcelona",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 0.79,
         "expectedAwayGoals": 1.5,
@@ -32811,6 +42695,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2153,
           "away": 0.5223
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Bologna",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Inter",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.01,
         "expectedAwayGoals": 1.35,
         "over25": 0.4031,
@@ -32902,6 +42814,34 @@ window.PREDICTOR_DATA = {
           "home": 0.633,
           "draw": 0.18,
           "away": 0.187
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Lazio",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Pisa",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.93,
         "expectedAwayGoals": 0.71,
@@ -32995,6 +42935,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2715,
           "away": 0.3334
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Villarreal",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Ath Madrid",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.42,
         "expectedAwayGoals": 1.06,
         "over25": 0.4326,
@@ -33086,6 +43054,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3715,
           "draw": 0.2823,
           "away": 0.3462
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Brighton",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Man United",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.37,
         "expectedAwayGoals": 1.1,
@@ -33179,6 +43175,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.283,
           "away": 0.3469
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Burnley",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Wolves",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.37,
         "expectedAwayGoals": 1.1,
         "over25": 0.4299,
@@ -33270,6 +43294,34 @@ window.PREDICTOR_DATA = {
           "home": 0.2467,
           "draw": 0.2029,
           "away": 0.5505
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Crystal Palace",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Arsenal",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 0.95,
         "expectedAwayGoals": 1.39,
@@ -33363,6 +43415,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2783,
           "away": 0.3414
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Fulham",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Newcastle",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.39,
         "expectedAwayGoals": 1.08,
         "over25": 0.431,
@@ -33454,6 +43534,34 @@ window.PREDICTOR_DATA = {
           "home": 0.5349,
           "draw": 0.2097,
           "away": 0.2554
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Liverpool",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Brentford",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.7,
         "expectedAwayGoals": 0.87,
@@ -33547,6 +43655,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.1963,
           "away": 0.2385
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Man City",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Aston Villa",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.76,
         "expectedAwayGoals": 0.83,
         "over25": 0.4436,
@@ -33638,6 +43774,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3448,
           "draw": 0.2811,
           "away": 0.3741
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Nott'm Forest",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Bournemouth",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.3,
         "expectedAwayGoals": 1.15,
@@ -33731,6 +43895,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2832,
           "away": 0.3471
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Sunderland",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Chelsea",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.37,
         "expectedAwayGoals": 1.1,
         "over25": 0.4298,
@@ -33822,6 +44014,34 @@ window.PREDICTOR_DATA = {
           "home": 0.3367,
           "draw": 0.2744,
           "away": 0.3889
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Tottenham",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Everton",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.27,
         "expectedAwayGoals": 1.17,
@@ -33915,6 +44135,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2771,
           "away": 0.383
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "West Ham",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Leeds",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.28,
         "expectedAwayGoals": 1.16,
         "over25": 0.4245,
@@ -34006,6 +44254,34 @@ window.PREDICTOR_DATA = {
           "home": 0.2806,
           "draw": 0.2295,
           "away": 0.4898
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Cremonese",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Como",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.07,
         "expectedAwayGoals": 1.31,
@@ -34099,6 +44375,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2842,
           "away": 0.3676
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Lecce",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Genoa",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.31,
         "expectedAwayGoals": 1.14,
         "over25": 0.4265,
@@ -34190,6 +44494,34 @@ window.PREDICTOR_DATA = {
           "home": 0.6339,
           "draw": 0.18,
           "away": 0.1861
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Milan",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Cagliari",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.93,
         "expectedAwayGoals": 0.71,
@@ -34283,6 +44615,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.18,
           "away": 0.2023
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Napoli",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Udinese",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.88,
         "expectedAwayGoals": 0.75,
         "over25": 0.4446,
@@ -34374,6 +44734,34 @@ window.PREDICTOR_DATA = {
           "home": 0.4285,
           "draw": 0.2566,
           "away": 0.3149
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Parma",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Sassuolo",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 1.49,
         "expectedAwayGoals": 1.02,
@@ -34467,6 +44855,34 @@ window.PREDICTOR_DATA = {
           "draw": 0.2257,
           "away": 0.4986
         },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Torino",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Juventus",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
+        },
         "expectedHomeGoals": 1.05,
         "expectedAwayGoals": 1.32,
         "over25": 0.4072,
@@ -34558,6 +44974,34 @@ window.PREDICTOR_DATA = {
           "home": 0.1965,
           "draw": 0.18,
           "away": 0.6235
+        },
+        "factorAdjustment": {
+          "homeScore": 0.0,
+          "awayScore": 0.0,
+          "edge": 0.0,
+          "applied": false
+        },
+        "factors": {
+          "home": {
+            "team": "Verona",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          },
+          "away": {
+            "team": "Roma",
+            "injuryImpact": 0.0,
+            "formImpact": 0.0,
+            "restDays": null,
+            "travelImpact": 0.0,
+            "notes": "",
+            "source": "",
+            "updatedAt": ""
+          }
         },
         "expectedHomeGoals": 0.78,
         "expectedAwayGoals": 1.51,
