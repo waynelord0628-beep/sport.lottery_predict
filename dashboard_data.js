@@ -1,0 +1,33021 @@
+window.PREDICTOR_DATA = {
+  "generatedAt": "2026-07-06T16:02:33",
+  "params": {
+    "home_adv": 45,
+    "elo_k": 16,
+    "model_weight": 0.0,
+    "draw_floor": 0.18
+  },
+  "leaderboard": [
+    {
+      "rank": 1,
+      "logLoss": 0.9567,
+      "homeAdv": 45,
+      "eloK": 16,
+      "modelWeight": 0.0,
+      "drawFloor": 0.18
+    },
+    {
+      "rank": 2,
+      "logLoss": 0.9567,
+      "homeAdv": 45,
+      "eloK": 16,
+      "modelWeight": 0.0,
+      "drawFloor": 0.21
+    },
+    {
+      "rank": 3,
+      "logLoss": 0.9567,
+      "homeAdv": 45,
+      "eloK": 16,
+      "modelWeight": 0.0,
+      "drawFloor": 0.24
+    },
+    {
+      "rank": 4,
+      "logLoss": 0.9567,
+      "homeAdv": 45,
+      "eloK": 24,
+      "modelWeight": 0.0,
+      "drawFloor": 0.18
+    },
+    {
+      "rank": 5,
+      "logLoss": 0.9567,
+      "homeAdv": 45,
+      "eloK": 24,
+      "modelWeight": 0.0,
+      "drawFloor": 0.21
+    },
+    {
+      "rank": 6,
+      "logLoss": 0.9567,
+      "homeAdv": 45,
+      "eloK": 24,
+      "modelWeight": 0.0,
+      "drawFloor": 0.24
+    },
+    {
+      "rank": 7,
+      "logLoss": 0.9567,
+      "homeAdv": 45,
+      "eloK": 32,
+      "modelWeight": 0.0,
+      "drawFloor": 0.18
+    },
+    {
+      "rank": 8,
+      "logLoss": 0.9567,
+      "homeAdv": 45,
+      "eloK": 32,
+      "modelWeight": 0.0,
+      "drawFloor": 0.21
+    }
+  ],
+  "metrics": {
+    "matches": 1577,
+    "accuracy": 0.5314,
+    "logLoss": 0.9823,
+    "brier": 0.5857,
+    "roi": -0.0238,
+    "valueBets": 114,
+    "valueRoi": 0.1322,
+    "highConfidence": {
+      "matches": 437,
+      "accuracy": 0.7002
+    },
+    "calibration": [
+      {
+        "range": "0-40%",
+        "matches": 305,
+        "avgConfidence": 0.3755,
+        "hitRate": 0.3967
+      },
+      {
+        "range": "40-50%",
+        "matches": 542,
+        "avgConfidence": 0.4489,
+        "hitRate": 0.4742
+      },
+      {
+        "range": "50-60%",
+        "matches": 350,
+        "avgConfidence": 0.5476,
+        "hitRate": 0.5457
+      },
+      {
+        "range": "60-70%",
+        "matches": 235,
+        "avgConfidence": 0.6445,
+        "hitRate": 0.6553
+      },
+      {
+        "range": "70-101%",
+        "matches": 145,
+        "avgConfidence": 0.7604,
+        "hitRate": 0.7931
+      }
+    ]
+  },
+  "ratings": {
+    "Alaves": 1477.8,
+    "Almeria": 1404.5,
+    "Angers": 1445.9,
+    "Arsenal": 1695.9,
+    "Aston Villa": 1588.5,
+    "Atalanta": 1590.5,
+    "Ath Bilbao": 1520.2,
+    "Ath Madrid": 1611.1,
+    "Augsburg": 1490.0,
+    "Auxerre": 1473.9,
+    "Barcelona": 1734.1,
+    "Bayern Munich": 1742.3,
+    "Betis": 1577.4,
+    "Bochum": 1403.3,
+    "Bologna": 1555.6,
+    "Bournemouth": 1566.1,
+    "Brentford": 1525.9,
+    "Brest": 1494.8,
+    "Brighton": 1537.3,
+    "Burnley": 1360.4,
+    "Cadiz": 1441.4,
+    "Cagliari": 1455.2,
+    "Celta": 1529.0,
+    "Chelsea": 1543.2,
+    "Clermont": 1422.5,
+    "Como": 1591.6,
+    "Cremonese": 1438.2,
+    "Crystal Palace": 1501.6,
+    "Darmstadt": 1382.3,
+    "Dortmund": 1636.8,
+    "Ein Frankfurt": 1521.5,
+    "Elche": 1486.9,
+    "Empoli": 1406.7,
+    "Espanol": 1471.4,
+    "Everton": 1505.3,
+    "FC Koln": 1422.1,
+    "Fiorentina": 1526.9,
+    "Freiburg": 1520.0,
+    "Frosinone": 1438.1,
+    "Fulham": 1513.1,
+    "Genoa": 1472.4,
+    "Getafe": 1486.6,
+    "Girona": 1478.1,
+    "Granada": 1385.1,
+    "Hamburg": 1483.6,
+    "Heidenheim": 1404.1,
+    "Hoffenheim": 1533.0,
+    "Holstein Kiel": 1428.2,
+    "Inter": 1714.8,
+    "Ipswich": 1394.1,
+    "Juventus": 1624.6,
+    "Las Palmas": 1401.4,
+    "Lazio": 1556.2,
+    "Le Havre": 1444.7,
+    "Lecce": 1434.5,
+    "Leeds": 1514.8,
+    "Leganes": 1471.2,
+    "Leicester": 1402.9,
+    "Lens": 1596.5,
+    "Levante": 1489.6,
+    "Leverkusen": 1631.7,
+    "Lille": 1599.6,
+    "Liverpool": 1603.7,
+    "Lorient": 1477.8,
+    "Luton": 1399.9,
+    "Lyon": 1577.0,
+    "M'gladbach": 1470.6,
+    "Mainz": 1507.0,
+    "Mallorca": 1468.2,
+    "Man City": 1670.9,
+    "Man United": 1586.5,
+    "Marseille": 1574.3,
+    "Metz": 1357.2,
+    "Milan": 1598.3,
+    "Monaco": 1574.5,
+    "Montpellier": 1374.1,
+    "Monza": 1359.6,
+    "Nantes": 1400.6,
+    "Napoli": 1640.1,
+    "Newcastle": 1524.2,
+    "Nice": 1487.8,
+    "Nott'm Forest": 1507.6,
+    "Osasuna": 1475.0,
+    "Oviedo": 1433.6,
+    "Paris FC": 1515.2,
+    "Paris SG": 1699.4,
+    "Parma": 1482.5,
+    "Pisa": 1382.1,
+    "RB Leipzig": 1590.8,
+    "Real Madrid": 1707.8,
+    "Reims": 1446.0,
+    "Rennes": 1545.5,
+    "Roma": 1626.7,
+    "Salernitana": 1371.2,
+    "Sassuolo": 1460.5,
+    "Sevilla": 1456.6,
+    "Sheffield United": 1362.2,
+    "Sociedad": 1491.4,
+    "Southampton": 1358.0,
+    "St Etienne": 1442.3,
+    "St Pauli": 1400.5,
+    "Strasbourg": 1551.2,
+    "Stuttgart": 1592.5,
+    "Sunderland": 1524.7,
+    "Torino": 1481.3,
+    "Tottenham": 1452.4,
+    "Toulouse": 1499.4,
+    "Udinese": 1483.2,
+    "Union Berlin": 1457.0,
+    "Valencia": 1515.1,
+    "Valladolid": 1353.9,
+    "Vallecano": 1522.3,
+    "Venezia": 1435.4,
+    "Verona": 1373.4,
+    "Villarreal": 1610.3,
+    "Werder Bremen": 1455.9,
+    "West Ham": 1466.1,
+    "Wolfsburg": 1426.8,
+    "Wolves": 1394.6
+  },
+  "predictions": [
+    {
+      "id": "m1",
+      "sport": "soccer",
+      "league": "Premier League",
+      "kickoff": "手動更新",
+      "home": "Arsenal",
+      "away": "Chelsea",
+      "odds": {
+        "home": 1.82,
+        "draw": 3.75,
+        "away": 4.4,
+        "over25": 1.86,
+        "btts": 1.74
+      },
+      "prediction": {
+        "homeElo": 1695.9,
+        "awayElo": 1543.2,
+        "probs": {
+          "home": 0.5266,
+          "away": 0.2178,
+          "draw": 0.2556
+        },
+        "marketProbs": {
+          "home": 0.5266,
+          "away": 0.2178,
+          "draw": 0.2556
+        },
+        "modelProbs": {
+          "home": 0.621,
+          "draw": 0.18,
+          "away": 0.199
+        },
+        "expectedHomeGoals": 1.89,
+        "expectedAwayGoals": 0.74,
+        "over25": 0.4447,
+        "btts": 0.4204,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1363
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1287
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1008
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0953
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0811
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0722
+          },
+          {
+            "score": "3-1",
+            "prob": 0.06
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0534
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0383
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0373
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2556,
+          "odds": 3.75,
+          "ev": -0.0416
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Arsenal win",
+          "prob": 0.5266,
+          "odds": 1.82,
+          "ev": -0.0416
+        },
+        "confidence": 0.5266,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "id": "m2",
+      "sport": "soccer",
+      "league": "Premier League",
+      "kickoff": "手動更新",
+      "home": "Man City",
+      "away": "Liverpool",
+      "odds": {
+        "home": 2.05,
+        "draw": 3.7,
+        "away": 3.35,
+        "over25": 1.62,
+        "btts": 1.54
+      },
+      "prediction": {
+        "homeElo": 1670.9,
+        "awayElo": 1603.7,
+        "probs": {
+          "home": 0.4617,
+          "away": 0.2825,
+          "draw": 0.2558
+        },
+        "marketProbs": {
+          "home": 0.4617,
+          "away": 0.2825,
+          "draw": 0.2558
+        },
+        "modelProbs": {
+          "home": 0.5119,
+          "draw": 0.2199,
+          "away": 0.2683
+        },
+        "expectedHomeGoals": 1.65,
+        "expectedAwayGoals": 0.9,
+        "over25": 0.4415,
+        "btts": 0.4633,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1282
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1159
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1059
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0957
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0776
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0702
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0583
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0527
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0524
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0433
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Man City win",
+          "prob": 0.4617,
+          "odds": 2.05,
+          "ev": -0.0536
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Man City win",
+          "prob": 0.4617,
+          "odds": 2.05,
+          "ev": -0.0536
+        },
+        "confidence": 0.4617,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "id": "m3",
+      "sport": "soccer",
+      "league": "La Liga",
+      "kickoff": "手動更新",
+      "home": "Real Madrid",
+      "away": "Barcelona",
+      "odds": {
+        "home": 2.18,
+        "draw": 3.65,
+        "away": 3.05,
+        "over25": 1.66,
+        "btts": 1.58
+      },
+      "prediction": {
+        "homeElo": 1707.8,
+        "awayElo": 1734.1,
+        "probs": {
+          "home": 0.4325,
+          "away": 0.3091,
+          "draw": 0.2583
+        },
+        "marketProbs": {
+          "home": 0.4325,
+          "away": 0.3091,
+          "draw": 0.2583
+        },
+        "modelProbs": {
+          "home": 0.3802,
+          "draw": 0.2783,
+          "away": 0.3415
+        },
+        "expectedHomeGoals": 1.39,
+        "expectedAwayGoals": 1.08,
+        "over25": 0.431,
+        "btts": 0.4843,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1269
+          },
+          {
+            "score": "1-0",
+            "prob": 0.117
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0883
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0841
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0814
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0688
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0494
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0479
+          },
+          {
+            "score": "3-1",
+            "prob": 0.041
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Real Madrid win",
+          "prob": 0.4325,
+          "odds": 2.18,
+          "ev": -0.0571
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Real Madrid win",
+          "prob": 0.4325,
+          "odds": 2.18,
+          "ev": -0.0571
+        },
+        "confidence": 0.4325,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "id": "m4",
+      "sport": "soccer",
+      "league": "Serie A",
+      "kickoff": "手動更新",
+      "home": "Inter",
+      "away": "Milan",
+      "odds": {
+        "home": 2.12,
+        "draw": 3.28,
+        "away": 3.55,
+        "over25": 1.94,
+        "btts": 1.82
+      },
+      "prediction": {
+        "homeElo": 1714.8,
+        "awayElo": 1598.3,
+        "probs": {
+          "home": 0.4457,
+          "away": 0.2662,
+          "draw": 0.2881
+        },
+        "marketProbs": {
+          "home": 0.4457,
+          "away": 0.2662,
+          "draw": 0.2881
+        },
+        "modelProbs": {
+          "home": 0.5814,
+          "draw": 0.1891,
+          "away": 0.2295
+        },
+        "expectedHomeGoals": 1.79,
+        "expectedAwayGoals": 0.81,
+        "over25": 0.4441,
+        "btts": 0.4412,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1331
+          },
+          {
+            "score": "2-0",
+            "prob": 0.119
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1077
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0964
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0744
+          },
+          {
+            "score": "3-0",
+            "prob": 0.071
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0602
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0574
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0436
+          },
+          {
+            "score": "2-2",
+            "prob": 0.039
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Inter win",
+          "prob": 0.4457,
+          "odds": 2.12,
+          "ev": -0.0551
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Inter win",
+          "prob": 0.4457,
+          "odds": 2.12,
+          "ev": -0.0551
+        },
+        "confidence": 0.4457,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "id": "m5",
+      "sport": "baseball",
+      "league": "MLB",
+      "kickoff": "手動更新",
+      "home": "New York Yankees",
+      "away": "Boston Red Sox",
+      "odds": {
+        "home": 1.78,
+        "draw": null,
+        "away": 2.08,
+        "over25": null,
+        "btts": null
+      },
+      "prediction": {
+        "homeElo": 1500,
+        "awayElo": 1500,
+        "probs": {
+          "home": 0.5389,
+          "away": 0.4611
+        },
+        "marketProbs": {
+          "home": 0.5389,
+          "away": 0.4611
+        },
+        "modelProbs": {
+          "home": 0.5644,
+          "away": 0.4356
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.4347,
+        "btts": 0.4813,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1245
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-1",
+            "prob": 0.085
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0822
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0445
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "New York Yankees win",
+          "prob": 0.5389,
+          "odds": 1.78,
+          "ev": -0.0408
+        },
+        "topSide": {
+          "key": "home",
+          "label": "New York Yankees win",
+          "prob": 0.5389,
+          "odds": 1.78,
+          "ev": -0.0408
+        },
+        "confidence": 0.5389,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "id": "m6",
+      "sport": "esports",
+      "league": "LoL",
+      "kickoff": "手動更新",
+      "home": "T1",
+      "away": "Gen.G",
+      "odds": {
+        "home": 1.92,
+        "draw": null,
+        "away": 1.88,
+        "over25": null,
+        "btts": null
+      },
+      "prediction": {
+        "homeElo": 1500,
+        "awayElo": 1500,
+        "probs": {
+          "home": 0.4947,
+          "away": 0.5053
+        },
+        "marketProbs": {
+          "home": 0.4947,
+          "away": 0.5053
+        },
+        "modelProbs": {
+          "home": 0.5644,
+          "away": 0.4356
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.4347,
+        "btts": 0.4813,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1245
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-1",
+            "prob": 0.085
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0822
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0445
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "T1 win",
+          "prob": 0.4947,
+          "odds": 1.92,
+          "ev": -0.0501
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Gen.G win",
+          "prob": 0.5053,
+          "odds": 1.88,
+          "ev": -0.0501
+        },
+        "confidence": 0.5053,
+        "tier": "medium",
+        "isValue": false
+      }
+    }
+  ],
+  "backtest": [
+    {
+      "date": "2026-04-04",
+      "league": "Serie A",
+      "home": "Verona",
+      "away": "Fiorentina",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1384.5,
+        "awayElo": 1511.5,
+        "probs": {
+          "home": 0.2406,
+          "away": 0.4589,
+          "draw": 0.3005
+        },
+        "marketProbs": {
+          "home": 0.2406,
+          "away": 0.4589,
+          "draw": 0.3005
+        },
+        "modelProbs": {
+          "home": 0.2924,
+          "draw": 0.2388,
+          "away": 0.4688
+        },
+        "expectedHomeGoals": 1.11,
+        "expectedAwayGoals": 1.28,
+        "over25": 0.4121,
+        "btts": 0.4734,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1302
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1171
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1019
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0916
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0832
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0748
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0724
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0567
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0463
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0354
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4121,
+          "odds": 2.35,
+          "ev": -0.0316
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Fiorentina win",
+          "prob": 0.4589,
+          "odds": 2.05,
+          "ev": -0.0593
+        },
+        "confidence": 0.4589,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-05",
+      "league": "Bundesliga",
+      "home": "Ein Frankfurt",
+      "away": "FC Koln",
+      "score": "2-2",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1541.8,
+        "awayElo": 1424.8,
+        "probs": {
+          "home": 0.494,
+          "away": 0.2523,
+          "draw": 0.2537
+        },
+        "marketProbs": {
+          "home": 0.494,
+          "away": 0.2523,
+          "draw": 0.2537
+        },
+        "modelProbs": {
+          "home": 0.5822,
+          "draw": 0.1887,
+          "away": 0.2291
+        },
+        "expectedHomeGoals": 1.79,
+        "expectedAwayGoals": 0.81,
+        "over25": 0.4441,
+        "btts": 0.4409,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1332
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1192
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1076
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0963
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0744
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0711
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0601
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0575
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0435
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0389
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2537,
+          "odds": 3.7,
+          "ev": -0.0614
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Ein Frankfurt win",
+          "prob": 0.494,
+          "odds": 1.9,
+          "ev": -0.0614
+        },
+        "confidence": 0.494,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-05",
+      "league": "Bundesliga",
+      "home": "Union Berlin",
+      "away": "St Pauli",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1464.0,
+        "awayElo": 1429.8,
+        "probs": {
+          "home": 0.4605,
+          "away": 0.244,
+          "draw": 0.2954
+        },
+        "marketProbs": {
+          "home": 0.4605,
+          "away": 0.244,
+          "draw": 0.2954
+        },
+        "modelProbs": {
+          "home": 0.4649,
+          "draw": 0.2405,
+          "away": 0.2946
+        },
+        "expectedHomeGoals": 1.56,
+        "expectedAwayGoals": 0.97,
+        "over25": 0.4386,
+        "btts": 0.4739,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1246
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1205
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0972
+          },
+          {
+            "score": "2-1",
+            "prob": 0.094
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0798
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0773
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0583
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0505
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0489
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0455
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4386,
+          "odds": 2.3,
+          "ev": 0.0088
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Union Berlin win",
+          "prob": 0.4605,
+          "odds": 2.04,
+          "ev": -0.0605
+        },
+        "confidence": 0.4605,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-05",
+      "league": "La Liga",
+      "home": "Alaves",
+      "away": "Osasuna",
+      "score": "2-2",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1464.3,
+        "awayElo": 1510.9,
+        "probs": {
+          "home": 0.3513,
+          "away": 0.3449,
+          "draw": 0.3037
+        },
+        "marketProbs": {
+          "home": 0.3513,
+          "away": 0.3449,
+          "draw": 0.3037
+        },
+        "modelProbs": {
+          "home": 0.3539,
+          "draw": 0.289,
+          "away": 0.3571
+        },
+        "expectedHomeGoals": 1.34,
+        "expectedAwayGoals": 1.12,
+        "over25": 0.4278,
+        "btts": 0.485,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1283
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1143
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0961
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0857
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0856
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0763
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0721
+          },
+          {
+            "score": "0-2",
+            "prob": 0.054
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0381
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4278,
+          "odds": 2.22,
+          "ev": -0.0502
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Alaves win",
+          "prob": 0.3513,
+          "odds": 2.68,
+          "ev": -0.0584
+        },
+        "confidence": 0.3513,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-05",
+      "league": "La Liga",
+      "home": "Getafe",
+      "away": "Ath Bilbao",
+      "score": "2-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1481.4,
+        "awayElo": 1551.4,
+        "probs": {
+          "home": 0.2882,
+          "away": 0.38,
+          "draw": 0.3318
+        },
+        "marketProbs": {
+          "home": 0.2882,
+          "away": 0.38,
+          "draw": 0.3318
+        },
+        "modelProbs": {
+          "home": 0.3367,
+          "draw": 0.2744,
+          "away": 0.3889
+        },
+        "expectedHomeGoals": 1.27,
+        "expectedAwayGoals": 1.17,
+        "over25": 0.4237,
+        "btts": 0.484,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1295
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1109
+          },
+          {
+            "score": "0-1",
+            "prob": 0.102
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0873
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0823
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0757
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0704
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0596
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0348
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4237,
+          "odds": 3.02,
+          "ev": 0.2797
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Ath Bilbao win",
+          "prob": 0.38,
+          "odds": 2.48,
+          "ev": -0.0576
+        },
+        "confidence": 0.38,
+        "tier": "low",
+        "isValue": true
+      }
+    },
+    {
+      "date": "2026-04-05",
+      "league": "La Liga",
+      "home": "Oviedo",
+      "away": "Sevilla",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1444.2,
+        "awayElo": 1446.1,
+        "probs": {
+          "home": 0.3371,
+          "away": 0.342,
+          "draw": 0.321
+        },
+        "marketProbs": {
+          "home": 0.3371,
+          "away": 0.342,
+          "draw": 0.321
+        },
+        "modelProbs": {
+          "home": 0.414,
+          "draw": 0.263,
+          "away": 0.3229
+        },
+        "expectedHomeGoals": 1.46,
+        "expectedAwayGoals": 1.04,
+        "over25": 0.4345,
+        "btts": 0.4815,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1247
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1202
+          },
+          {
+            "score": "2-1",
+            "prob": 0.091
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0877
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0854
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0823
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0646
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0472
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0443
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0443
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4345,
+          "odds": 2.46,
+          "ev": 0.0688
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Sevilla win",
+          "prob": 0.342,
+          "odds": 2.75,
+          "ev": -0.0596
+        },
+        "confidence": 0.342,
+        "tier": "low",
+        "isValue": true
+      }
+    },
+    {
+      "date": "2026-04-05",
+      "league": "La Liga",
+      "home": "Valencia",
+      "away": "Celta",
+      "score": "2-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1498.4,
+        "awayElo": 1525.2,
+        "probs": {
+          "home": 0.4044,
+          "away": 0.303,
+          "draw": 0.2926
+        },
+        "marketProbs": {
+          "home": 0.4044,
+          "away": 0.303,
+          "draw": 0.2926
+        },
+        "modelProbs": {
+          "home": 0.3797,
+          "draw": 0.2786,
+          "away": 0.3417
+        },
+        "expectedHomeGoals": 1.39,
+        "expectedAwayGoals": 1.08,
+        "over25": 0.431,
+        "btts": 0.4843,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1269
+          },
+          {
+            "score": "1-0",
+            "prob": 0.117
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0841
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0813
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0688
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0495
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0479
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0409
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Valencia win",
+          "prob": 0.4044,
+          "odds": 2.33,
+          "ev": -0.0577
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Valencia win",
+          "prob": 0.4044,
+          "odds": 2.33,
+          "ev": -0.0577
+        },
+        "confidence": 0.4044,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-05",
+      "league": "Ligue 1",
+      "home": "Angers",
+      "away": "Lyon",
+      "score": "0-0",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1458.7,
+        "awayElo": 1569.5,
+        "probs": {
+          "home": 0.1741,
+          "away": 0.5914,
+          "draw": 0.2345
+        },
+        "marketProbs": {
+          "home": 0.1741,
+          "away": 0.5914,
+          "draw": 0.2345
+        },
+        "modelProbs": {
+          "home": 0.3053,
+          "draw": 0.2489,
+          "away": 0.4459
+        },
+        "expectedHomeGoals": 1.16,
+        "expectedAwayGoals": 1.25,
+        "over25": 0.4156,
+        "btts": 0.4776,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1304
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1127
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1046
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0904
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0813
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0754
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0702
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0605
+          },
+          {
+            "score": "2-2",
+            "prob": 0.047
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0338
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Angers win",
+          "prob": 0.1741,
+          "odds": 5.4,
+          "ev": -0.0597
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Lyon win",
+          "prob": 0.5914,
+          "odds": 1.59,
+          "ev": -0.0597
+        },
+        "confidence": 0.5914,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-05",
+      "league": "Ligue 1",
+      "home": "Le Havre",
+      "away": "Auxerre",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1436.0,
+        "awayElo": 1448.5,
+        "probs": {
+          "home": 0.3898,
+          "away": 0.3011,
+          "draw": 0.309
+        },
+        "marketProbs": {
+          "home": 0.3898,
+          "away": 0.3011,
+          "draw": 0.309
+        },
+        "modelProbs": {
+          "home": 0.3992,
+          "draw": 0.2697,
+          "away": 0.3311
+        },
+        "expectedHomeGoals": 1.43,
+        "expectedAwayGoals": 1.06,
+        "over25": 0.433,
+        "btts": 0.483,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1257
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1188
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0899
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0879
+          },
+          {
+            "score": "2-0",
+            "prob": 0.085
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0831
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0665
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0475
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0465
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0429
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.433,
+          "odds": 2.36,
+          "ev": 0.0219
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Le Havre win",
+          "prob": 0.3898,
+          "odds": 2.41,
+          "ev": -0.0605
+        },
+        "confidence": 0.3898,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-05",
+      "league": "Ligue 1",
+      "home": "Lorient",
+      "away": "Paris FC",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1480.6,
+        "awayElo": 1493.5,
+        "probs": {
+          "home": 0.3986,
+          "away": 0.3084,
+          "draw": 0.293
+        },
+        "marketProbs": {
+          "home": 0.3986,
+          "away": 0.3084,
+          "draw": 0.293
+        },
+        "modelProbs": {
+          "home": 0.3986,
+          "draw": 0.27,
+          "away": 0.3314
+        },
+        "expectedHomeGoals": 1.43,
+        "expectedAwayGoals": 1.06,
+        "over25": 0.433,
+        "btts": 0.483,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1257
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1188
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0898
+          },
+          {
+            "score": "0-1",
+            "prob": 0.088
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0849
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0831
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0665
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0475
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0466
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0428
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Lorient win",
+          "prob": 0.3986,
+          "odds": 2.36,
+          "ev": -0.0594
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Lorient win",
+          "prob": 0.3986,
+          "odds": 2.36,
+          "ev": -0.0594
+        },
+        "confidence": 0.3986,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-05",
+      "league": "Ligue 1",
+      "home": "Metz",
+      "away": "Nantes",
+      "score": "0-0",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1370.5,
+        "awayElo": 1392.9,
+        "probs": {
+          "home": 0.3342,
+          "away": 0.3786,
+          "draw": 0.2872
+        },
+        "marketProbs": {
+          "home": 0.3342,
+          "away": 0.3786,
+          "draw": 0.2872
+        },
+        "modelProbs": {
+          "home": 0.3855,
+          "draw": 0.2759,
+          "away": 0.3386
+        },
+        "expectedHomeGoals": 1.4,
+        "expectedAwayGoals": 1.08,
+        "over25": 0.4316,
+        "btts": 0.484,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1266
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1175
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0902
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0888
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0838
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0824
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0681
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0486
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0478
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0415
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Metz win",
+          "prob": 0.3342,
+          "odds": 2.81,
+          "ev": -0.061
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Nantes win",
+          "prob": 0.3786,
+          "odds": 2.48,
+          "ev": -0.061
+        },
+        "confidence": 0.3786,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-05",
+      "league": "Ligue 1",
+      "home": "Monaco",
+      "away": "Marseille",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1595.0,
+        "awayElo": 1588.5,
+        "probs": {
+          "home": 0.4593,
+          "away": 0.2862,
+          "draw": 0.2545
+        },
+        "marketProbs": {
+          "home": 0.4593,
+          "away": 0.2862,
+          "draw": 0.2545
+        },
+        "modelProbs": {
+          "home": 0.4257,
+          "draw": 0.2578,
+          "away": 0.3165
+        },
+        "expectedHomeGoals": 1.48,
+        "expectedAwayGoals": 1.02,
+        "over25": 0.4355,
+        "btts": 0.4802,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1238
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1212
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0918
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0899
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0835
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0818
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0632
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0469
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0454
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0444
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Marseille win",
+          "prob": 0.2862,
+          "odds": 3.29,
+          "ev": -0.0584
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Monaco win",
+          "prob": 0.4593,
+          "odds": 2.05,
+          "ev": -0.0584
+        },
+        "confidence": 0.4593,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-05",
+      "league": "Serie A",
+      "home": "Cremonese",
+      "away": "Bologna",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1451.1,
+        "awayElo": 1535.7,
+        "probs": {
+          "home": 0.2732,
+          "away": 0.4412,
+          "draw": 0.2856
+        },
+        "marketProbs": {
+          "home": 0.2732,
+          "away": 0.4412,
+          "draw": 0.2856
+        },
+        "modelProbs": {
+          "home": 0.3257,
+          "draw": 0.2653,
+          "away": 0.4091
+        },
+        "expectedHomeGoals": 1.23,
+        "expectedAwayGoals": 1.2,
+        "over25": 0.421,
+        "btts": 0.4824,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.13
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1087
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1057
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0884
+          },
+          {
+            "score": "2-1",
+            "prob": 0.08
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0778
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0669
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0632
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0478
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0328
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Cremonese win",
+          "prob": 0.2732,
+          "odds": 3.44,
+          "ev": -0.0603
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Bologna win",
+          "prob": 0.4412,
+          "odds": 2.13,
+          "ev": -0.0603
+        },
+        "confidence": 0.4412,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-05",
+      "league": "Serie A",
+      "home": "Inter",
+      "away": "Roma",
+      "score": "5-2",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1706.8,
+        "awayElo": 1600.2,
+        "probs": {
+          "home": 0.6022,
+          "away": 0.1617,
+          "draw": 0.2361
+        },
+        "marketProbs": {
+          "home": 0.6022,
+          "away": 0.1617,
+          "draw": 0.2361
+        },
+        "modelProbs": {
+          "home": 0.5676,
+          "draw": 0.1952,
+          "away": 0.2371
+        },
+        "expectedHomeGoals": 1.76,
+        "expectedAwayGoals": 0.83,
+        "over25": 0.4437,
+        "btts": 0.4462,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1322
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1164
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1095
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0964
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0751
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0683
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0622
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0566
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0454
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0399
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Roma win",
+          "prob": 0.1617,
+          "odds": 5.81,
+          "ev": -0.0605
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Inter win",
+          "prob": 0.6022,
+          "odds": 1.56,
+          "ev": -0.0605
+        },
+        "confidence": 0.6022,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-05",
+      "league": "Serie A",
+      "home": "Pisa",
+      "away": "Torino",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1429.4,
+        "awayElo": 1470.3,
+        "probs": {
+          "home": 0.3013,
+          "away": 0.3822,
+          "draw": 0.3165
+        },
+        "marketProbs": {
+          "home": 0.3013,
+          "away": 0.3822,
+          "draw": 0.3165
+        },
+        "modelProbs": {
+          "home": 0.3605,
+          "draw": 0.2874,
+          "away": 0.3521
+        },
+        "expectedHomeGoals": 1.35,
+        "expectedAwayGoals": 1.11,
+        "over25": 0.4288,
+        "btts": 0.4849,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.128
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1151
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0947
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0865
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0851
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0777
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0711
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0526
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0389
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4288,
+          "odds": 2.26,
+          "ev": -0.031
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Torino win",
+          "prob": 0.3822,
+          "odds": 2.46,
+          "ev": -0.0599
+        },
+        "confidence": 0.3822,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-06",
+      "league": "La Liga",
+      "home": "Girona",
+      "away": "Villarreal",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1492.5,
+        "awayElo": 1623.5,
+        "probs": {
+          "home": 0.3222,
+          "away": 0.4104,
+          "draw": 0.2674
+        },
+        "marketProbs": {
+          "home": 0.3222,
+          "away": 0.4104,
+          "draw": 0.2674
+        },
+        "modelProbs": {
+          "home": 0.2892,
+          "draw": 0.2362,
+          "away": 0.4746
+        },
+        "expectedHomeGoals": 1.1,
+        "expectedAwayGoals": 1.29,
+        "over25": 0.4112,
+        "btts": 0.4722,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1301
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1182
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1012
+          },
+          {
+            "score": "0-0",
+            "prob": 0.092
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0836
+          },
+          {
+            "score": "0-2",
+            "prob": 0.076
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0716
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0557
+          },
+          {
+            "score": "2-2",
+            "prob": 0.046
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0358
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Girona win",
+          "prob": 0.3222,
+          "odds": 2.93,
+          "ev": -0.056
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Villarreal win",
+          "prob": 0.4104,
+          "odds": 2.3,
+          "ev": -0.056
+        },
+        "confidence": 0.4104,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-06",
+      "league": "Serie A",
+      "home": "Juventus",
+      "away": "Genoa",
+      "score": "2-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1621.3,
+        "awayElo": 1478.7,
+        "probs": {
+          "home": 0.6866,
+          "away": 0.1137,
+          "draw": 0.1997
+        },
+        "marketProbs": {
+          "home": 0.6866,
+          "away": 0.1137,
+          "draw": 0.1997
+        },
+        "modelProbs": {
+          "home": 0.6121,
+          "draw": 0.18,
+          "away": 0.2079
+        },
+        "expectedHomeGoals": 1.86,
+        "expectedAwayGoals": 0.76,
+        "over25": 0.4446,
+        "btts": 0.4266,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1354
+          },
+          {
+            "score": "2-0",
+            "prob": 0.126
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1028
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0957
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0782
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0728
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0594
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0553
+          },
+          {
+            "score": "1-2",
+            "prob": 0.039
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0364
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Juventus win",
+          "prob": 0.6866,
+          "odds": 1.37,
+          "ev": -0.0594
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Juventus win",
+          "prob": 0.6866,
+          "odds": 1.37,
+          "ev": -0.0594
+        },
+        "confidence": 0.6866,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-06",
+      "league": "Serie A",
+      "home": "Lecce",
+      "away": "Atalanta",
+      "score": "0-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1418.9,
+        "awayElo": 1609.1,
+        "probs": {
+          "home": 0.1782,
+          "away": 0.5693,
+          "draw": 0.2525
+        },
+        "marketProbs": {
+          "home": 0.1782,
+          "away": 0.5693,
+          "draw": 0.2525
+        },
+        "modelProbs": {
+          "home": 0.2422,
+          "draw": 0.1993,
+          "away": 0.5586
+        },
+        "expectedHomeGoals": 0.94,
+        "expectedAwayGoals": 1.4,
+        "over25": 0.3965,
+        "btts": 0.4473,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1353
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1268
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0967
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0947
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0906
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0887
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0594
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0442
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0424
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0415
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2525,
+          "odds": 3.72,
+          "ev": -0.0607
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Atalanta win",
+          "prob": 0.5693,
+          "odds": 1.65,
+          "ev": -0.0607
+        },
+        "confidence": 0.5693,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-06",
+      "league": "Serie A",
+      "home": "Napoli",
+      "away": "Milan",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1648.6,
+        "awayElo": 1640.1,
+        "probs": {
+          "home": 0.3886,
+          "away": 0.2948,
+          "draw": 0.3166
+        },
+        "marketProbs": {
+          "home": 0.3886,
+          "away": 0.2948,
+          "draw": 0.3166
+        },
+        "modelProbs": {
+          "home": 0.4285,
+          "draw": 0.2566,
+          "away": 0.3149
+        },
+        "expectedHomeGoals": 1.49,
+        "expectedAwayGoals": 1.02,
+        "over25": 0.4358,
+        "btts": 0.4798,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1236
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1215
+          },
+          {
+            "score": "2-1",
+            "prob": 0.092
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0904
+          },
+          {
+            "score": "0-1",
+            "prob": 0.083
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0816
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0628
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0468
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0456
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0449
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4358,
+          "odds": 2.25,
+          "ev": -0.0196
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Napoli win",
+          "prob": 0.3886,
+          "odds": 2.42,
+          "ev": -0.0596
+        },
+        "confidence": 0.3886,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-06",
+      "league": "Serie A",
+      "home": "Udinese",
+      "away": "Como",
+      "score": "0-0",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1475.5,
+        "awayElo": 1585.8,
+        "probs": {
+          "home": 0.1738,
+          "away": 0.5759,
+          "draw": 0.2503
+        },
+        "marketProbs": {
+          "home": 0.1738,
+          "away": 0.5759,
+          "draw": 0.2503
+        },
+        "modelProbs": {
+          "home": 0.3056,
+          "draw": 0.2492,
+          "away": 0.4452
+        },
+        "expectedHomeGoals": 1.16,
+        "expectedAwayGoals": 1.25,
+        "over25": 0.4157,
+        "btts": 0.4777,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1304
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1125
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1047
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0903
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0812
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0755
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0701
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0606
+          },
+          {
+            "score": "2-2",
+            "prob": 0.047
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0337
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2503,
+          "odds": 3.75,
+          "ev": -0.0613
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Como win",
+          "prob": 0.5759,
+          "odds": 1.63,
+          "ev": -0.0613
+        },
+        "confidence": 0.5759,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-10",
+      "league": "Bundesliga",
+      "home": "Augsburg",
+      "away": "Hoffenheim",
+      "score": "2-2",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1470.0,
+        "awayElo": 1519.0,
+        "probs": {
+          "home": 0.2714,
+          "away": 0.4841,
+          "draw": 0.2445
+        },
+        "marketProbs": {
+          "home": 0.2714,
+          "away": 0.4841,
+          "draw": 0.2445
+        },
+        "modelProbs": {
+          "home": 0.3522,
+          "draw": 0.2875,
+          "away": 0.3603
+        },
+        "expectedHomeGoals": 1.33,
+        "expectedAwayGoals": 1.13,
+        "over25": 0.4274,
+        "btts": 0.485,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1285
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1139
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0967
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0857
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0854
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0757
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0724
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0545
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0378
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Augsburg win",
+          "prob": 0.2714,
+          "odds": 3.46,
+          "ev": -0.0609
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Hoffenheim win",
+          "prob": 0.4841,
+          "odds": 1.94,
+          "ev": -0.0609
+        },
+        "confidence": 0.4841,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-10",
+      "league": "La Liga",
+      "home": "Real Madrid",
+      "away": "Girona",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1704.0,
+        "awayElo": 1502.4,
+        "probs": {
+          "home": 0.7169,
+          "away": 0.1196,
+          "draw": 0.1634
+        },
+        "marketProbs": {
+          "home": 0.7169,
+          "away": 0.1196,
+          "draw": 0.1634
+        },
+        "modelProbs": {
+          "home": 0.6603,
+          "draw": 0.18,
+          "away": 0.1597
+        },
+        "expectedHomeGoals": 2.03,
+        "expectedAwayGoals": 0.65,
+        "over25": 0.4437,
+        "btts": 0.3863,
+        "scoreGrid": [
+          {
+            "score": "2-0",
+            "prob": 0.1419
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1401
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0958
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0916
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0905
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0692
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0618
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0485
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0447
+          },
+          {
+            "score": "4-1",
+            "prob": 0.0313
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Real Madrid win",
+          "prob": 0.7169,
+          "odds": 1.32,
+          "ev": -0.0537
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Real Madrid win",
+          "prob": 0.7169,
+          "odds": 1.32,
+          "ev": -0.0537
+        },
+        "confidence": 0.7169,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-10",
+      "league": "Ligue 1",
+      "home": "Marseille",
+      "away": "Metz",
+      "score": "3-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1581.6,
+        "awayElo": 1370.0,
+        "probs": {
+          "home": 0.7617,
+          "away": 0.0937,
+          "draw": 0.1446
+        },
+        "marketProbs": {
+          "home": 0.7617,
+          "away": 0.0937,
+          "draw": 0.1446
+        },
+        "modelProbs": {
+          "home": 0.6677,
+          "draw": 0.18,
+          "away": 0.1523
+        },
+        "expectedHomeGoals": 2.05,
+        "expectedAwayGoals": 0.63,
+        "over25": 0.4433,
+        "btts": 0.3785,
+        "scoreGrid": [
+          {
+            "score": "2-0",
+            "prob": 0.1446
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1408
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0989
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0906
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0686
+          },
+          {
+            "score": "3-1",
+            "prob": 0.062
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0508
+          },
+          {
+            "score": "0-1",
+            "prob": 0.043
+          },
+          {
+            "score": "4-1",
+            "prob": 0.0318
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.1446,
+          "odds": 6.48,
+          "ev": -0.0631
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Marseille win",
+          "prob": 0.7617,
+          "odds": 1.23,
+          "ev": -0.0631
+        },
+        "confidence": 0.7617,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-10",
+      "league": "Ligue 1",
+      "home": "Paris FC",
+      "away": "Monaco",
+      "score": "4-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1494.3,
+        "awayElo": 1601.8,
+        "probs": {
+          "home": 0.2501,
+          "away": 0.4963,
+          "draw": 0.2535
+        },
+        "marketProbs": {
+          "home": 0.2501,
+          "away": 0.4963,
+          "draw": 0.2535
+        },
+        "modelProbs": {
+          "home": 0.3078,
+          "draw": 0.2509,
+          "away": 0.4412
+        },
+        "expectedHomeGoals": 1.17,
+        "expectedAwayGoals": 1.24,
+        "over25": 0.4163,
+        "btts": 0.4784,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1304
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1118
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1051
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0901
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0808
+          },
+          {
+            "score": "2-1",
+            "prob": 0.076
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0693
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0613
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0334
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Paris FC win",
+          "prob": 0.2501,
+          "odds": 3.75,
+          "ev": -0.0619
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Monaco win",
+          "prob": 0.4963,
+          "odds": 1.89,
+          "ev": -0.0619
+        },
+        "confidence": 0.4963,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-10",
+      "league": "Premier League",
+      "home": "West Ham",
+      "away": "Wolves",
+      "score": "4-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1456.6,
+        "awayElo": 1414.5,
+        "probs": {
+          "home": 0.5327,
+          "away": 0.2153,
+          "draw": 0.2521
+        },
+        "marketProbs": {
+          "home": 0.5327,
+          "away": 0.2153,
+          "draw": 0.2521
+        },
+        "modelProbs": {
+          "home": 0.476,
+          "draw": 0.2356,
+          "away": 0.2884
+        },
+        "expectedHomeGoals": 1.58,
+        "expectedAwayGoals": 0.95,
+        "over25": 0.4394,
+        "btts": 0.4717,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1255
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1195
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0992
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0945
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0793
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0755
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0569
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0523
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0498
+          },
+          {
+            "score": "2-2",
+            "prob": 0.045
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "West Ham win",
+          "prob": 0.5327,
+          "odds": 1.77,
+          "ev": -0.0572
+        },
+        "topSide": {
+          "key": "home",
+          "label": "West Ham win",
+          "prob": 0.5327,
+          "odds": 1.77,
+          "ev": -0.0572
+        },
+        "confidence": 0.5327,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-10",
+      "league": "Serie A",
+      "home": "Roma",
+      "away": "Pisa",
+      "score": "3-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1595.4,
+        "awayElo": 1421.3,
+        "probs": {
+          "home": 0.6908,
+          "away": 0.1118,
+          "draw": 0.1974
+        },
+        "marketProbs": {
+          "home": 0.6908,
+          "away": 0.1118,
+          "draw": 0.1974
+        },
+        "modelProbs": {
+          "home": 0.639,
+          "draw": 0.18,
+          "away": 0.181
+        },
+        "expectedHomeGoals": 1.95,
+        "expectedAwayGoals": 0.7,
+        "over25": 0.4445,
+        "btts": 0.4063,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1381
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1345
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0964
+          },
+          {
+            "score": "2-1",
+            "prob": 0.094
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0874
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0708
+          },
+          {
+            "score": "3-1",
+            "prob": 0.061
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0495
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0426
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0337
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Roma win",
+          "prob": 0.6908,
+          "odds": 1.36,
+          "ev": -0.0605
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Roma win",
+          "prob": 0.6908,
+          "odds": 1.36,
+          "ev": -0.0605
+        },
+        "confidence": 0.6908,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "league": "Bundesliga",
+      "home": "Dortmund",
+      "away": "Leverkusen",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1652.1,
+        "awayElo": 1636.4,
+        "probs": {
+          "home": 0.4568,
+          "away": 0.295,
+          "draw": 0.2483
+        },
+        "marketProbs": {
+          "home": 0.4568,
+          "away": 0.295,
+          "draw": 0.2483
+        },
+        "modelProbs": {
+          "home": 0.4386,
+          "draw": 0.2521,
+          "away": 0.3093
+        },
+        "expectedHomeGoals": 1.51,
+        "expectedAwayGoals": 1.0,
+        "over25": 0.4366,
+        "btts": 0.4784,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1228
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1224
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0926
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0923
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0814
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0811
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0616
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0466
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0465
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0464
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Dortmund win",
+          "prob": 0.4568,
+          "odds": 2.06,
+          "ev": -0.0591
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Dortmund win",
+          "prob": 0.4568,
+          "odds": 2.06,
+          "ev": -0.0591
+        },
+        "confidence": 0.4568,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "league": "Bundesliga",
+      "home": "Heidenheim",
+      "away": "Union Berlin",
+      "score": "3-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1382.4,
+        "awayElo": 1462.2,
+        "probs": {
+          "home": 0.3428,
+          "away": 0.3802,
+          "draw": 0.277
+        },
+        "marketProbs": {
+          "home": 0.3428,
+          "away": 0.3802,
+          "draw": 0.277
+        },
+        "modelProbs": {
+          "home": 0.3294,
+          "draw": 0.2683,
+          "away": 0.4023
+        },
+        "expectedHomeGoals": 1.24,
+        "expectedAwayGoals": 1.19,
+        "over25": 0.4219,
+        "btts": 0.483,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1299
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1094
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1044
+          },
+          {
+            "score": "0-0",
+            "prob": 0.088
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0808
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0771
+          },
+          {
+            "score": "2-0",
+            "prob": 0.068
+          },
+          {
+            "score": "0-2",
+            "prob": 0.062
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0479
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0335
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.277,
+          "odds": 3.39,
+          "ev": -0.0609
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Union Berlin win",
+          "prob": 0.3802,
+          "odds": 2.47,
+          "ev": -0.0609
+        },
+        "confidence": 0.3802,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "league": "Bundesliga",
+      "home": "RB Leipzig",
+      "away": "M'gladbach",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1586.4,
+        "awayElo": 1461.3,
+        "probs": {
+          "home": 0.6433,
+          "away": 0.1581,
+          "draw": 0.1986
+        },
+        "marketProbs": {
+          "home": 0.6433,
+          "away": 0.1581,
+          "draw": 0.1986
+        },
+        "modelProbs": {
+          "home": 0.5934,
+          "draw": 0.1837,
+          "away": 0.2229
+        },
+        "expectedHomeGoals": 1.81,
+        "expectedAwayGoals": 0.79,
+        "over25": 0.4443,
+        "btts": 0.4366,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1339
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1213
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1062
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0962
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0739
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0733
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0586
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0581
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0421
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0381
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "M'gladbach win",
+          "prob": 0.1581,
+          "odds": 5.94,
+          "ev": -0.0608
+        },
+        "topSide": {
+          "key": "home",
+          "label": "RB Leipzig win",
+          "prob": 0.6433,
+          "odds": 1.46,
+          "ev": -0.0608
+        },
+        "confidence": 0.6433,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "league": "Bundesliga",
+      "home": "St Pauli",
+      "away": "Bayern Munich",
+      "score": "0-5",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1431.5,
+        "awayElo": 1733.2,
+        "probs": {
+          "home": 0.1141,
+          "away": 0.7162,
+          "draw": 0.1697
+        },
+        "marketProbs": {
+          "home": 0.1141,
+          "away": 0.7162,
+          "draw": 0.1697
+        },
+        "modelProbs": {
+          "home": 0.1524,
+          "draw": 0.18,
+          "away": 0.6676
+        },
+        "expectedHomeGoals": 0.63,
+        "expectedAwayGoals": 1.61,
+        "over25": 0.3633,
+        "btts": 0.3613,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1717
+          },
+          {
+            "score": "0-2",
+            "prob": 0.1385
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1077
+          },
+          {
+            "score": "0-0",
+            "prob": 0.1064
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0869
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0745
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0667
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0467
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0338
+          },
+          {
+            "score": "0-4",
+            "prob": 0.03
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "St Pauli win",
+          "prob": 0.1141,
+          "odds": 8.22,
+          "ev": -0.0618
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Bayern Munich win",
+          "prob": 0.7162,
+          "odds": 1.31,
+          "ev": -0.0618
+        },
+        "confidence": 0.7162,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "league": "Bundesliga",
+      "home": "Wolfsburg",
+      "away": "Ein Frankfurt",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1413.7,
+        "awayElo": 1538.3,
+        "probs": {
+          "home": 0.3808,
+          "away": 0.3603,
+          "draw": 0.2588
+        },
+        "marketProbs": {
+          "home": 0.3808,
+          "away": 0.3603,
+          "draw": 0.2588
+        },
+        "modelProbs": {
+          "home": 0.2943,
+          "draw": 0.2402,
+          "away": 0.4654
+        },
+        "expectedHomeGoals": 1.12,
+        "expectedAwayGoals": 1.27,
+        "over25": 0.4126,
+        "btts": 0.4741,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1303
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1164
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1023
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0915
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0829
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0741
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0729
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0572
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0464
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0352
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2588,
+          "odds": 3.62,
+          "ev": -0.0631
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Wolfsburg win",
+          "prob": 0.3808,
+          "odds": 2.46,
+          "ev": -0.0631
+        },
+        "confidence": 0.3808,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "league": "La Liga",
+      "home": "Barcelona",
+      "away": "Espanol",
+      "score": "4-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1736.5,
+        "awayElo": 1474.5,
+        "probs": {
+          "home": 0.7225,
+          "away": 0.111,
+          "draw": 0.1665
+        },
+        "marketProbs": {
+          "home": 0.7225,
+          "away": 0.111,
+          "draw": 0.1665
+        },
+        "modelProbs": {
+          "home": 0.7004,
+          "draw": 0.18,
+          "away": 0.1196
+        },
+        "expectedHomeGoals": 2.19,
+        "expectedAwayGoals": 0.53,
+        "over25": 0.4399,
+        "btts": 0.3356,
+        "scoreGrid": [
+          {
+            "score": "2-0",
+            "prob": 0.158
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1441
+          },
+          {
+            "score": "3-0",
+            "prob": 0.1155
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0837
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0763
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0657
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0633
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0612
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0348
+          },
+          {
+            "score": "4-1",
+            "prob": 0.0335
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.1665,
+          "odds": 5.64,
+          "ev": -0.0608
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Barcelona win",
+          "prob": 0.7225,
+          "odds": 1.3,
+          "ev": -0.0608
+        },
+        "confidence": 0.7225,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "league": "La Liga",
+      "home": "Elche",
+      "away": "Valencia",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1465.6,
+        "awayElo": 1490.0,
+        "probs": {
+          "home": 0.363,
+          "away": 0.3588,
+          "draw": 0.2782
+        },
+        "marketProbs": {
+          "home": 0.363,
+          "away": 0.3588,
+          "draw": 0.2782
+        },
+        "modelProbs": {
+          "home": 0.3828,
+          "draw": 0.2771,
+          "away": 0.34
+        },
+        "expectedHomeGoals": 1.4,
+        "expectedAwayGoals": 1.08,
+        "over25": 0.4313,
+        "btts": 0.4841,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1267
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1173
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0907
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0885
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0839
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0819
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0685
+          },
+          {
+            "score": "0-2",
+            "prob": 0.049
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0478
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0412
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2782,
+          "odds": 3.38,
+          "ev": -0.0598
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Elche win",
+          "prob": 0.363,
+          "odds": 2.59,
+          "ev": -0.0598
+        },
+        "confidence": 0.363,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "league": "La Liga",
+      "home": "Sevilla",
+      "away": "Ath Madrid",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1439.1,
+        "awayElo": 1628.3,
+        "probs": {
+          "home": 0.4239,
+          "away": 0.303,
+          "draw": 0.2732
+        },
+        "marketProbs": {
+          "home": 0.4239,
+          "away": 0.303,
+          "draw": 0.2732
+        },
+        "modelProbs": {
+          "home": 0.2429,
+          "draw": 0.1998,
+          "away": 0.5573
+        },
+        "expectedHomeGoals": 0.94,
+        "expectedAwayGoals": 1.4,
+        "over25": 0.3968,
+        "btts": 0.4478,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1351
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1269
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0966
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0944
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0908
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0886
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0596
+          },
+          {
+            "score": "0-3",
+            "prob": 0.044
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0426
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0416
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Sevilla win",
+          "prob": 0.4239,
+          "odds": 2.23,
+          "ev": -0.0548
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Sevilla win",
+          "prob": 0.4239,
+          "odds": 2.23,
+          "ev": -0.0548
+        },
+        "confidence": 0.4239,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "league": "La Liga",
+      "home": "Sociedad",
+      "away": "Alaves",
+      "score": "3-3",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1518.4,
+        "awayElo": 1464.3,
+        "probs": {
+          "home": 0.5162,
+          "away": 0.2221,
+          "draw": 0.2617
+        },
+        "marketProbs": {
+          "home": 0.5162,
+          "away": 0.2221,
+          "draw": 0.2617
+        },
+        "modelProbs": {
+          "home": 0.4931,
+          "draw": 0.2281,
+          "away": 0.2788
+        },
+        "expectedHomeGoals": 1.62,
+        "expectedAwayGoals": 0.93,
+        "over25": 0.4404,
+        "btts": 0.468,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1268
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1179
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1024
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0952
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0785
+          },
+          {
+            "score": "0-1",
+            "prob": 0.073
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0551
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0548
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0512
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0442
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Sociedad win",
+          "prob": 0.5162,
+          "odds": 1.82,
+          "ev": -0.0605
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Sociedad win",
+          "prob": 0.5162,
+          "odds": 1.82,
+          "ev": -0.0605
+        },
+        "confidence": 0.5162,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "league": "Ligue 1",
+      "home": "Auxerre",
+      "away": "Nantes",
+      "score": "0-0",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1449.3,
+        "awayElo": 1393.4,
+        "probs": {
+          "home": 0.4917,
+          "away": 0.2263,
+          "draw": 0.282
+        },
+        "marketProbs": {
+          "home": 0.4917,
+          "away": 0.2263,
+          "draw": 0.282
+        },
+        "modelProbs": {
+          "home": 0.4956,
+          "draw": 0.227,
+          "away": 0.2774
+        },
+        "expectedHomeGoals": 1.62,
+        "expectedAwayGoals": 0.93,
+        "over25": 0.4406,
+        "btts": 0.4674,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.127
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1176
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1029
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0953
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0784
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0726
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0555
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0545
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0514
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0441
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4406,
+          "odds": 2.23,
+          "ev": -0.0175
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Auxerre win",
+          "prob": 0.4917,
+          "odds": 1.91,
+          "ev": -0.0609
+        },
+        "confidence": 0.4917,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "league": "Ligue 1",
+      "home": "Rennes",
+      "away": "Angers",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1533.6,
+        "awayElo": 1460.2,
+        "probs": {
+          "home": 0.703,
+          "away": 0.1089,
+          "draw": 0.188
+        },
+        "marketProbs": {
+          "home": 0.703,
+          "away": 0.1089,
+          "draw": 0.188
+        },
+        "modelProbs": {
+          "home": 0.5207,
+          "draw": 0.216,
+          "away": 0.2633
+        },
+        "expectedHomeGoals": 1.67,
+        "expectedAwayGoals": 0.89,
+        "over25": 0.4419,
+        "btts": 0.4609,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1289
+          },
+          {
+            "score": "1-1",
+            "prob": 0.115
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1075
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0959
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0772
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0689
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0598
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0534
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0513
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0428
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Rennes win",
+          "prob": 0.703,
+          "odds": 1.34,
+          "ev": -0.0579
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Rennes win",
+          "prob": 0.703,
+          "odds": 1.34,
+          "ev": -0.0579
+        },
+        "confidence": 0.703,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "league": "Premier League",
+      "home": "Arsenal",
+      "away": "Bournemouth",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1697.1,
+        "awayElo": 1531.4,
+        "probs": {
+          "home": 0.6416,
+          "away": 0.1474,
+          "draw": 0.211
+        },
+        "marketProbs": {
+          "home": 0.6416,
+          "away": 0.1474,
+          "draw": 0.211
+        },
+        "modelProbs": {
+          "home": 0.632,
+          "draw": 0.18,
+          "away": 0.188
+        },
+        "expectedHomeGoals": 1.93,
+        "expectedAwayGoals": 0.71,
+        "over25": 0.4446,
+        "btts": 0.412,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1374
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1322
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0982
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0945
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0848
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0714
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0607
+          },
+          {
+            "score": "0-1",
+            "prob": 0.051
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0408
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0351
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Arsenal win",
+          "prob": 0.6416,
+          "odds": 1.47,
+          "ev": -0.0568
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Arsenal win",
+          "prob": 0.6416,
+          "odds": 1.47,
+          "ev": -0.0568
+        },
+        "confidence": 0.6416,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "league": "Premier League",
+      "home": "Brentford",
+      "away": "Everton",
+      "score": "2-2",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1531.4,
+        "awayElo": 1534.7,
+        "probs": {
+          "home": 0.4383,
+          "away": 0.2796,
+          "draw": 0.2821
+        },
+        "marketProbs": {
+          "home": 0.4383,
+          "away": 0.2796,
+          "draw": 0.2821
+        },
+        "modelProbs": {
+          "home": 0.412,
+          "draw": 0.2639,
+          "away": 0.3241
+        },
+        "expectedHomeGoals": 1.46,
+        "expectedAwayGoals": 1.04,
+        "over25": 0.4343,
+        "btts": 0.4818,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1248
+          },
+          {
+            "score": "1-0",
+            "prob": 0.12
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0908
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0874
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0857
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0824
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0649
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0472
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0446
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0441
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2821,
+          "odds": 3.34,
+          "ev": -0.0577
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Brentford win",
+          "prob": 0.4383,
+          "odds": 2.15,
+          "ev": -0.0577
+        },
+        "confidence": 0.4383,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "league": "Premier League",
+      "home": "Burnley",
+      "away": "Brighton",
+      "score": "0-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1375.1,
+        "awayElo": 1546.8,
+        "probs": {
+          "home": 0.1783,
+          "away": 0.5933,
+          "draw": 0.2284
+        },
+        "marketProbs": {
+          "home": 0.1783,
+          "away": 0.5933,
+          "draw": 0.2284
+        },
+        "modelProbs": {
+          "home": 0.2568,
+          "draw": 0.2108,
+          "away": 0.5324
+        },
+        "expectedHomeGoals": 0.99,
+        "expectedAwayGoals": 1.36,
+        "over25": 0.4013,
+        "btts": 0.4566,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1298
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1283
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0952
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0941
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0885
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0875
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0634
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0465
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0432
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0402
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Burnley win",
+          "prob": 0.1783,
+          "odds": 5.29,
+          "ev": -0.0567
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Brighton win",
+          "prob": 0.5933,
+          "odds": 1.59,
+          "ev": -0.0567
+        },
+        "confidence": 0.5933,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "league": "Premier League",
+      "home": "Liverpool",
+      "away": "Fulham",
+      "score": "2-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1608.5,
+        "awayElo": 1513.4,
+        "probs": {
+          "home": 0.552,
+          "away": 0.2155,
+          "draw": 0.2325
+        },
+        "marketProbs": {
+          "home": 0.552,
+          "away": 0.2155,
+          "draw": 0.2325
+        },
+        "modelProbs": {
+          "home": 0.5513,
+          "draw": 0.2025,
+          "away": 0.2462
+        },
+        "expectedHomeGoals": 1.73,
+        "expectedAwayGoals": 0.85,
+        "over25": 0.4432,
+        "btts": 0.4517,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1311
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1133
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1115
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0964
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0758
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0653
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0645
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0555
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0474
+          },
+          {
+            "score": "2-2",
+            "prob": 0.041
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Liverpool win",
+          "prob": 0.552,
+          "odds": 1.71,
+          "ev": -0.0561
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Liverpool win",
+          "prob": 0.552,
+          "odds": 1.71,
+          "ev": -0.0561
+        },
+        "confidence": 0.552,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "league": "Serie A",
+      "home": "Atalanta",
+      "away": "Juventus",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1613.9,
+        "awayElo": 1625.3,
+        "probs": {
+          "home": 0.312,
+          "away": 0.4119,
+          "draw": 0.2762
+        },
+        "marketProbs": {
+          "home": 0.312,
+          "away": 0.4119,
+          "draw": 0.2762
+        },
+        "modelProbs": {
+          "home": 0.4007,
+          "draw": 0.269,
+          "away": 0.3303
+        },
+        "expectedHomeGoals": 1.43,
+        "expectedAwayGoals": 1.06,
+        "over25": 0.4332,
+        "btts": 0.4829,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1256
+          },
+          {
+            "score": "1-0",
+            "prob": 0.119
+          },
+          {
+            "score": "2-1",
+            "prob": 0.09
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0876
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0853
+          },
+          {
+            "score": "0-0",
+            "prob": 0.083
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0663
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0475
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0462
+          },
+          {
+            "score": "3-1",
+            "prob": 0.043
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Atalanta win",
+          "prob": 0.312,
+          "odds": 3.01,
+          "ev": -0.061
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Juventus win",
+          "prob": 0.4119,
+          "odds": 2.28,
+          "ev": -0.061
+        },
+        "confidence": 0.4119,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "league": "Serie A",
+      "home": "Cagliari",
+      "away": "Cremonese",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1423.3,
+        "awayElo": 1444.0,
+        "probs": {
+          "home": 0.4557,
+          "away": 0.2395,
+          "draw": 0.3048
+        },
+        "marketProbs": {
+          "home": 0.4557,
+          "away": 0.2395,
+          "draw": 0.3048
+        },
+        "modelProbs": {
+          "home": 0.3878,
+          "draw": 0.2748,
+          "away": 0.3373
+        },
+        "expectedHomeGoals": 1.41,
+        "expectedAwayGoals": 1.07,
+        "over25": 0.4318,
+        "btts": 0.4838,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1264
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1178
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0898
+          },
+          {
+            "score": "2-1",
+            "prob": 0.089
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0837
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0829
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0678
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0482
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0477
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0417
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4318,
+          "odds": 2.42,
+          "ev": 0.0451
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Cagliari win",
+          "prob": 0.4557,
+          "odds": 2.06,
+          "ev": -0.0612
+        },
+        "confidence": 0.4557,
+        "tier": "low",
+        "isValue": true
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "league": "Serie A",
+      "home": "Milan",
+      "away": "Udinese",
+      "score": "0-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1633.3,
+        "awayElo": 1477.0,
+        "probs": {
+          "home": 0.6613,
+          "away": 0.1252,
+          "draw": 0.2134
+        },
+        "marketProbs": {
+          "home": 0.6613,
+          "away": 0.1252,
+          "draw": 0.2134
+        },
+        "modelProbs": {
+          "home": 0.6241,
+          "draw": 0.18,
+          "away": 0.1959
+        },
+        "expectedHomeGoals": 1.9,
+        "expectedAwayGoals": 0.73,
+        "over25": 0.4447,
+        "btts": 0.4181,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1366
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1297
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1001
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0951
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0821
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0719
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0602
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0527
+          },
+          {
+            "score": "4-0",
+            "prob": 0.039
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0367
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Milan win",
+          "prob": 0.6613,
+          "odds": 1.42,
+          "ev": -0.0609
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Milan win",
+          "prob": 0.6613,
+          "odds": 1.42,
+          "ev": -0.0609
+        },
+        "confidence": 0.6613,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "league": "Serie A",
+      "home": "Torino",
+      "away": "Verona",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1478.4,
+        "awayElo": 1378.3,
+        "probs": {
+          "home": 0.4835,
+          "away": 0.2233,
+          "draw": 0.2931
+        },
+        "marketProbs": {
+          "home": 0.4835,
+          "away": 0.2233,
+          "draw": 0.2931
+        },
+        "modelProbs": {
+          "home": 0.5584,
+          "draw": 0.1993,
+          "away": 0.2423
+        },
+        "expectedHomeGoals": 1.74,
+        "expectedAwayGoals": 0.84,
+        "over25": 0.4434,
+        "btts": 0.4494,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1315
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1146
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1106
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0964
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0755
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0666
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0635
+          },
+          {
+            "score": "3-1",
+            "prob": 0.056
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0465
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0405
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4434,
+          "odds": 2.41,
+          "ev": 0.0686
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Torino win",
+          "prob": 0.4835,
+          "odds": 1.94,
+          "ev": -0.062
+        },
+        "confidence": 0.4835,
+        "tier": "medium",
+        "isValue": true
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "league": "Bundesliga",
+      "home": "FC Koln",
+      "away": "Werder Bremen",
+      "score": "3-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1428.3,
+        "awayElo": 1472.7,
+        "probs": {
+          "home": 0.4101,
+          "away": 0.312,
+          "draw": 0.2779
+        },
+        "marketProbs": {
+          "home": 0.4101,
+          "away": 0.312,
+          "draw": 0.2779
+        },
+        "modelProbs": {
+          "home": 0.3558,
+          "draw": 0.2896,
+          "away": 0.3546
+        },
+        "expectedHomeGoals": 1.34,
+        "expectedAwayGoals": 1.12,
+        "over25": 0.4282,
+        "btts": 0.485,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1282
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1146
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0955
+          },
+          {
+            "score": "2-1",
+            "prob": 0.086
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0854
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0769
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0717
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0535
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0385
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "FC Koln win",
+          "prob": 0.4101,
+          "odds": 2.29,
+          "ev": -0.0608
+        },
+        "topSide": {
+          "key": "home",
+          "label": "FC Koln win",
+          "prob": 0.4101,
+          "odds": 2.29,
+          "ev": -0.0608
+        },
+        "confidence": 0.4101,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "league": "Bundesliga",
+      "home": "Mainz",
+      "away": "Freiburg",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1516.8,
+        "awayElo": 1513.7,
+        "probs": {
+          "home": 0.4273,
+          "away": 0.2789,
+          "draw": 0.2938
+        },
+        "marketProbs": {
+          "home": 0.4273,
+          "away": 0.2789,
+          "draw": 0.2938
+        },
+        "modelProbs": {
+          "home": 0.4209,
+          "draw": 0.2599,
+          "away": 0.3191
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.4351,
+        "btts": 0.4808,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1241
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1208
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0915
+          },
+          {
+            "score": "2-0",
+            "prob": 0.089
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0842
+          },
+          {
+            "score": "0-0",
+            "prob": 0.082
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0638
+          },
+          {
+            "score": "2-2",
+            "prob": 0.047
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0449
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0437
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Mainz win",
+          "prob": 0.4273,
+          "odds": 2.2,
+          "ev": -0.06
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Mainz win",
+          "prob": 0.4273,
+          "odds": 2.2,
+          "ev": -0.06
+        },
+        "confidence": 0.4273,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "league": "Bundesliga",
+      "home": "Stuttgart",
+      "away": "Hamburg",
+      "score": "4-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1587.7,
+        "awayElo": 1480.3,
+        "probs": {
+          "home": 0.7349,
+          "away": 0.1064,
+          "draw": 0.1586
+        },
+        "marketProbs": {
+          "home": 0.7349,
+          "away": 0.1064,
+          "draw": 0.1586
+        },
+        "modelProbs": {
+          "home": 0.5687,
+          "draw": 0.1947,
+          "away": 0.2365
+        },
+        "expectedHomeGoals": 1.76,
+        "expectedAwayGoals": 0.83,
+        "over25": 0.4437,
+        "btts": 0.4458,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1323
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1166
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1094
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0964
+          },
+          {
+            "score": "0-0",
+            "prob": 0.075
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0685
+          },
+          {
+            "score": "0-1",
+            "prob": 0.062
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0567
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0452
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0399
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Stuttgart win",
+          "prob": 0.7349,
+          "odds": 1.28,
+          "ev": -0.0593
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Stuttgart win",
+          "prob": 0.7349,
+          "odds": 1.28,
+          "ev": -0.0593
+        },
+        "confidence": 0.7349,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "league": "La Liga",
+      "home": "Ath Bilbao",
+      "away": "Villarreal",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1542.8,
+        "awayElo": 1613.6,
+        "probs": {
+          "home": 0.4633,
+          "away": 0.2649,
+          "draw": 0.2718
+        },
+        "marketProbs": {
+          "home": 0.4633,
+          "away": 0.2649,
+          "draw": 0.2718
+        },
+        "modelProbs": {
+          "home": 0.3362,
+          "draw": 0.2739,
+          "away": 0.3899
+        },
+        "expectedHomeGoals": 1.27,
+        "expectedAwayGoals": 1.17,
+        "over25": 0.4236,
+        "btts": 0.4839,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1296
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1108
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1021
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0873
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0822
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0758
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0703
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0597
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0347
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2718,
+          "odds": 3.46,
+          "ev": -0.0595
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Ath Bilbao win",
+          "prob": 0.4633,
+          "odds": 2.03,
+          "ev": -0.0595
+        },
+        "confidence": 0.4633,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "league": "La Liga",
+      "home": "Celta",
+      "away": "Oviedo",
+      "score": "0-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1533.6,
+        "awayElo": 1451.3,
+        "probs": {
+          "home": 0.5444,
+          "away": 0.1896,
+          "draw": 0.266
+        },
+        "marketProbs": {
+          "home": 0.5444,
+          "away": 0.1896,
+          "draw": 0.266
+        },
+        "modelProbs": {
+          "home": 0.5333,
+          "draw": 0.2104,
+          "away": 0.2563
+        },
+        "expectedHomeGoals": 1.69,
+        "expectedAwayGoals": 0.88,
+        "over25": 0.4425,
+        "btts": 0.4573,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1298
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1136
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1099
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0962
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0766
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0671
+          },
+          {
+            "score": "3-0",
+            "prob": 0.062
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0543
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0497
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0421
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4425,
+          "odds": 2.13,
+          "ev": -0.0575
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Celta win",
+          "prob": 0.5444,
+          "odds": 1.72,
+          "ev": -0.0636
+        },
+        "confidence": 0.5444,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "league": "La Liga",
+      "home": "Mallorca",
+      "away": "Vallecano",
+      "score": "3-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1463.1,
+        "awayElo": 1498.4,
+        "probs": {
+          "home": 0.3922,
+          "away": 0.3191,
+          "draw": 0.2887
+        },
+        "marketProbs": {
+          "home": 0.3922,
+          "away": 0.3191,
+          "draw": 0.2887
+        },
+        "modelProbs": {
+          "home": 0.368,
+          "draw": 0.2839,
+          "away": 0.348
+        },
+        "expectedHomeGoals": 1.37,
+        "expectedAwayGoals": 1.1,
+        "over25": 0.4297,
+        "btts": 0.4848,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1276
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1158
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0933
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0872
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0847
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0792
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0702
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0514
+          },
+          {
+            "score": "2-2",
+            "prob": 0.048
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0397
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Mallorca win",
+          "prob": 0.3922,
+          "odds": 2.4,
+          "ev": -0.0587
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Mallorca win",
+          "prob": 0.3922,
+          "odds": 2.4,
+          "ev": -0.0587
+        },
+        "confidence": 0.3922,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "league": "La Liga",
+      "home": "Osasuna",
+      "away": "Betis",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1510.8,
+        "awayElo": 1556.6,
+        "probs": {
+          "home": 0.4178,
+          "away": 0.3032,
+          "draw": 0.2789
+        },
+        "marketProbs": {
+          "home": 0.4178,
+          "away": 0.3032,
+          "draw": 0.2789
+        },
+        "modelProbs": {
+          "home": 0.3544,
+          "draw": 0.2895,
+          "away": 0.3561
+        },
+        "expectedHomeGoals": 1.34,
+        "expectedAwayGoals": 1.12,
+        "over25": 0.428,
+        "btts": 0.485,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1283
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1144
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0959
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0858
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0855
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0765
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0719
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0538
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0383
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2789,
+          "odds": 3.37,
+          "ev": -0.0599
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Osasuna win",
+          "prob": 0.4178,
+          "odds": 2.25,
+          "ev": -0.0599
+        },
+        "confidence": 0.4178,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "league": "Ligue 1",
+      "home": "Lyon",
+      "away": "Lorient",
+      "score": "2-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1568.0,
+        "awayElo": 1479.8,
+        "probs": {
+          "home": 0.5793,
+          "away": 0.1844,
+          "draw": 0.2364
+        },
+        "marketProbs": {
+          "home": 0.5793,
+          "away": 0.1844,
+          "draw": 0.2364
+        },
+        "modelProbs": {
+          "home": 0.5416,
+          "draw": 0.2068,
+          "away": 0.2517
+        },
+        "expectedHomeGoals": 1.71,
+        "expectedAwayGoals": 0.86,
+        "over25": 0.4428,
+        "btts": 0.4548,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1304
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1126
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1115
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0963
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0762
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0659
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0635
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0549
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0487
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0416
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Lorient win",
+          "prob": 0.1844,
+          "odds": 5.09,
+          "ev": -0.0616
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Lyon win",
+          "prob": 0.5793,
+          "odds": 1.62,
+          "ev": -0.0616
+        },
+        "confidence": 0.5793,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "league": "Ligue 1",
+      "home": "Nice",
+      "away": "Le Havre",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1494.8,
+        "awayElo": 1435.3,
+        "probs": {
+          "home": 0.5,
+          "away": 0.2161,
+          "draw": 0.284
+        },
+        "marketProbs": {
+          "home": 0.5,
+          "away": 0.2161,
+          "draw": 0.284
+        },
+        "modelProbs": {
+          "home": 0.5009,
+          "draw": 0.2247,
+          "away": 0.2744
+        },
+        "expectedHomeGoals": 1.63,
+        "expectedAwayGoals": 0.92,
+        "over25": 0.4409,
+        "btts": 0.4661,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1274
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1171
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1038
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0954
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0781
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0718
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0564
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0538
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0519
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0438
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.284,
+          "odds": 3.31,
+          "ev": -0.0601
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Nice win",
+          "prob": 0.5,
+          "odds": 1.88,
+          "ev": -0.0601
+        },
+        "confidence": 0.5,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "league": "Ligue 1",
+      "home": "Toulouse",
+      "away": "Lille",
+      "score": "0-4",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1490.8,
+        "awayElo": 1597.2,
+        "probs": {
+          "home": 0.2875,
+          "away": 0.4178,
+          "draw": 0.2947
+        },
+        "marketProbs": {
+          "home": 0.2875,
+          "away": 0.4178,
+          "draw": 0.2947
+        },
+        "modelProbs": {
+          "home": 0.3088,
+          "draw": 0.2516,
+          "away": 0.4396
+        },
+        "expectedHomeGoals": 1.17,
+        "expectedAwayGoals": 1.24,
+        "over25": 0.4166,
+        "btts": 0.4786,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1304
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1115
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1053
+          },
+          {
+            "score": "0-0",
+            "prob": 0.09
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0807
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0762
+          },
+          {
+            "score": "0-2",
+            "prob": 0.069
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0616
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0472
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0333
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Toulouse win",
+          "prob": 0.2875,
+          "odds": 3.27,
+          "ev": -0.0599
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Lille win",
+          "prob": 0.4178,
+          "odds": 2.25,
+          "ev": -0.0599
+        },
+        "confidence": 0.4178,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "league": "Premier League",
+      "home": "Chelsea",
+      "away": "Man City",
+      "score": "0-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1577.4,
+        "awayElo": 1661.5,
+        "probs": {
+          "home": 0.2711,
+          "away": 0.4863,
+          "draw": 0.2425
+        },
+        "marketProbs": {
+          "home": 0.2711,
+          "away": 0.4863,
+          "draw": 0.2425
+        },
+        "modelProbs": {
+          "home": 0.326,
+          "draw": 0.2655,
+          "away": 0.4084
+        },
+        "expectedHomeGoals": 1.23,
+        "expectedAwayGoals": 1.2,
+        "over25": 0.4211,
+        "btts": 0.4825,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.13
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1088
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1056
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0883
+          },
+          {
+            "score": "2-1",
+            "prob": 0.08
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0777
+          },
+          {
+            "score": "2-0",
+            "prob": 0.067
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0631
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0478
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0329
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Man City win",
+          "prob": 0.4863,
+          "odds": 1.94,
+          "ev": -0.0565
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Man City win",
+          "prob": 0.4863,
+          "odds": 1.94,
+          "ev": -0.0565
+        },
+        "confidence": 0.4863,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "league": "Premier League",
+      "home": "Crystal Palace",
+      "away": "Newcastle",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1515.3,
+        "awayElo": 1537.5,
+        "probs": {
+          "home": 0.3242,
+          "away": 0.3899,
+          "draw": 0.2859
+        },
+        "marketProbs": {
+          "home": 0.3242,
+          "away": 0.3899,
+          "draw": 0.2859
+        },
+        "modelProbs": {
+          "home": 0.3857,
+          "draw": 0.2758,
+          "away": 0.3385
+        },
+        "expectedHomeGoals": 1.4,
+        "expectedAwayGoals": 1.08,
+        "over25": 0.4316,
+        "btts": 0.484,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1265
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1176
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0902
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0888
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0838
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0825
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0681
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0485
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0478
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0415
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Crystal Palace win",
+          "prob": 0.3242,
+          "odds": 2.91,
+          "ev": -0.0565
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Newcastle win",
+          "prob": 0.3899,
+          "odds": 2.42,
+          "ev": -0.0565
+        },
+        "confidence": 0.3899,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "league": "Premier League",
+      "home": "Nott'm Forest",
+      "away": "Aston Villa",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1488.3,
+        "awayElo": 1589.6,
+        "probs": {
+          "home": 0.401,
+          "away": 0.3152,
+          "draw": 0.2838
+        },
+        "marketProbs": {
+          "home": 0.401,
+          "away": 0.3152,
+          "draw": 0.2838
+        },
+        "modelProbs": {
+          "home": 0.3128,
+          "draw": 0.2548,
+          "away": 0.4324
+        },
+        "expectedHomeGoals": 1.18,
+        "expectedAwayGoals": 1.23,
+        "over25": 0.4176,
+        "btts": 0.4797,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1303
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1101
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1061
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0896
+          },
+          {
+            "score": "1-2",
+            "prob": 0.08
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0771
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0676
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0628
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0474
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0328
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2838,
+          "odds": 3.32,
+          "ev": -0.0577
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Nott'm Forest win",
+          "prob": 0.401,
+          "odds": 2.35,
+          "ev": -0.0577
+        },
+        "confidence": 0.401,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "league": "Premier League",
+      "home": "Sunderland",
+      "away": "Tottenham",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1518.7,
+        "awayElo": 1430.9,
+        "probs": {
+          "home": 0.3427,
+          "away": 0.3725,
+          "draw": 0.2847
+        },
+        "marketProbs": {
+          "home": 0.3427,
+          "away": 0.3725,
+          "draw": 0.2847
+        },
+        "modelProbs": {
+          "home": 0.541,
+          "draw": 0.2071,
+          "away": 0.252
+        },
+        "expectedHomeGoals": 1.71,
+        "expectedAwayGoals": 0.86,
+        "over25": 0.4428,
+        "btts": 0.455,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1303
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1127
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1113
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0963
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0763
+          },
+          {
+            "score": "0-1",
+            "prob": 0.066
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0634
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0548
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0487
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0416
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Sunderland win",
+          "prob": 0.3427,
+          "odds": 2.75,
+          "ev": -0.0575
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Tottenham win",
+          "prob": 0.3725,
+          "odds": 2.53,
+          "ev": -0.0575
+        },
+        "confidence": 0.3725,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "league": "Serie A",
+      "home": "Bologna",
+      "away": "Lecce",
+      "score": "2-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1542.8,
+        "awayElo": 1414.0,
+        "probs": {
+          "home": 0.516,
+          "away": 0.202,
+          "draw": 0.282
+        },
+        "marketProbs": {
+          "home": 0.516,
+          "away": 0.202,
+          "draw": 0.282
+        },
+        "modelProbs": {
+          "home": 0.5985,
+          "draw": 0.1814,
+          "away": 0.2201
+        },
+        "expectedHomeGoals": 1.82,
+        "expectedAwayGoals": 0.79,
+        "over25": 0.4444,
+        "btts": 0.4345,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1342
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1223
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1055
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0961
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0743
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0736
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0584
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0579
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0414
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0378
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.282,
+          "odds": 3.33,
+          "ev": -0.0609
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Bologna win",
+          "prob": 0.516,
+          "odds": 1.82,
+          "ev": -0.0609
+        },
+        "confidence": 0.516,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "league": "Serie A",
+      "home": "Como",
+      "away": "Inter",
+      "score": "3-4",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1584.4,
+        "awayElo": 1711.5,
+        "probs": {
+          "home": 0.3087,
+          "away": 0.4007,
+          "draw": 0.2906
+        },
+        "marketProbs": {
+          "home": 0.3087,
+          "away": 0.4007,
+          "draw": 0.2906
+        },
+        "modelProbs": {
+          "home": 0.2923,
+          "draw": 0.2387,
+          "away": 0.469
+        },
+        "expectedHomeGoals": 1.11,
+        "expectedAwayGoals": 1.28,
+        "over25": 0.412,
+        "btts": 0.4734,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1302
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1171
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1019
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0916
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0832
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0748
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0724
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0566
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0463
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0354
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Como win",
+          "prob": 0.3087,
+          "odds": 3.05,
+          "ev": -0.0584
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Inter win",
+          "prob": 0.4007,
+          "odds": 2.35,
+          "ev": -0.0584
+        },
+        "confidence": 0.4007,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "league": "Serie A",
+      "home": "Genoa",
+      "away": "Sassuolo",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1474.7,
+        "awayElo": 1469.5,
+        "probs": {
+          "home": 0.4404,
+          "away": 0.2727,
+          "draw": 0.2869
+        },
+        "marketProbs": {
+          "home": 0.4404,
+          "away": 0.2727,
+          "draw": 0.2869
+        },
+        "modelProbs": {
+          "home": 0.4238,
+          "draw": 0.2586,
+          "away": 0.3175
+        },
+        "expectedHomeGoals": 1.48,
+        "expectedAwayGoals": 1.02,
+        "over25": 0.4353,
+        "btts": 0.4804,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1239
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1211
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0917
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0896
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0838
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0818
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0634
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0469
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0452
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0442
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Sassuolo win",
+          "prob": 0.2727,
+          "odds": 3.44,
+          "ev": -0.0619
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Genoa win",
+          "prob": 0.4404,
+          "odds": 2.13,
+          "ev": -0.0619
+        },
+        "confidence": 0.4404,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "league": "Serie A",
+      "home": "Parma",
+      "away": "Napoli",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1471.8,
+        "awayElo": 1655.4,
+        "probs": {
+          "home": 0.1395,
+          "away": 0.6028,
+          "draw": 0.2576
+        },
+        "marketProbs": {
+          "home": 0.1395,
+          "away": 0.6028,
+          "draw": 0.2576
+        },
+        "modelProbs": {
+          "home": 0.2474,
+          "draw": 0.2034,
+          "away": 0.5492
+        },
+        "expectedHomeGoals": 0.96,
+        "expectedAwayGoals": 1.39,
+        "over25": 0.3983,
+        "btts": 0.4508,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1333
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1274
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0962
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0924
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0919
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0883
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0608
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0439
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0427
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0422
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Napoli win",
+          "prob": 0.6028,
+          "odds": 1.56,
+          "ev": -0.0596
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Napoli win",
+          "prob": 0.6028,
+          "odds": 1.56,
+          "ev": -0.0596
+        },
+        "confidence": 0.6028,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-13",
+      "league": "La Liga",
+      "home": "Levante",
+      "away": "Getafe",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1459.2,
+        "awayElo": 1489.9,
+        "probs": {
+          "home": 0.3607,
+          "away": 0.3202,
+          "draw": 0.3191
+        },
+        "marketProbs": {
+          "home": 0.3607,
+          "away": 0.3202,
+          "draw": 0.3191
+        },
+        "modelProbs": {
+          "home": 0.3742,
+          "draw": 0.2811,
+          "away": 0.3447
+        },
+        "expectedHomeGoals": 1.38,
+        "expectedAwayGoals": 1.09,
+        "over25": 0.4304,
+        "btts": 0.4845,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1272
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1164
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0922
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0878
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0844
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0803
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0695
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0504
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0479
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0404
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4304,
+          "odds": 2.55,
+          "ev": 0.0974
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Levante win",
+          "prob": 0.3607,
+          "odds": 2.61,
+          "ev": -0.0586
+        },
+        "confidence": 0.3607,
+        "tier": "low",
+        "isValue": true
+      }
+    },
+    {
+      "date": "2026-04-13",
+      "league": "Premier League",
+      "home": "Man United",
+      "away": "Leeds",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1559.3,
+        "awayElo": 1494.8,
+        "probs": {
+          "home": 0.5824,
+          "away": 0.1857,
+          "draw": 0.2318
+        },
+        "marketProbs": {
+          "home": 0.5824,
+          "away": 0.1857,
+          "draw": 0.2318
+        },
+        "modelProbs": {
+          "home": 0.5081,
+          "draw": 0.2215,
+          "away": 0.2704
+        },
+        "expectedHomeGoals": 1.64,
+        "expectedAwayGoals": 0.91,
+        "over25": 0.4413,
+        "btts": 0.4643,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1279
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1163
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1052
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0956
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0778
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0707
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0577
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0529
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0524
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0435
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Man United win",
+          "prob": 0.5824,
+          "odds": 1.62,
+          "ev": -0.0565
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Man United win",
+          "prob": 0.5824,
+          "odds": 1.62,
+          "ev": -0.0565
+        },
+        "confidence": 0.5824,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-13",
+      "league": "Serie A",
+      "home": "Fiorentina",
+      "away": "Lazio",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1517.6,
+        "awayElo": 1557.0,
+        "probs": {
+          "home": 0.4021,
+          "away": 0.2913,
+          "draw": 0.3065
+        },
+        "marketProbs": {
+          "home": 0.4021,
+          "away": 0.2913,
+          "draw": 0.3065
+        },
+        "modelProbs": {
+          "home": 0.3625,
+          "draw": 0.2865,
+          "away": 0.351
+        },
+        "expectedHomeGoals": 1.36,
+        "expectedAwayGoals": 1.11,
+        "over25": 0.429,
+        "btts": 0.4849,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1278
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1153
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0943
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0867
+          },
+          {
+            "score": "0-0",
+            "prob": 0.085
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0781
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0709
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0523
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0392
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.3065,
+          "odds": 3.07,
+          "ev": -0.059
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Fiorentina win",
+          "prob": 0.4021,
+          "odds": 2.34,
+          "ev": -0.059
+        },
+        "confidence": 0.4021,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-17",
+      "league": "Bundesliga",
+      "home": "St Pauli",
+      "away": "FC Koln",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1428.6,
+        "awayElo": 1436.3,
+        "probs": {
+          "home": 0.3328,
+          "away": 0.3784,
+          "draw": 0.2888
+        },
+        "marketProbs": {
+          "home": 0.3328,
+          "away": 0.3784,
+          "draw": 0.2888
+        },
+        "modelProbs": {
+          "home": 0.4059,
+          "draw": 0.2667,
+          "away": 0.3275
+        },
+        "expectedHomeGoals": 1.44,
+        "expectedAwayGoals": 1.05,
+        "over25": 0.4337,
+        "btts": 0.4824,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1252
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1195
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0904
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0868
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0862
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0828
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0656
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0474
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0455
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0435
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2888,
+          "odds": 3.25,
+          "ev": -0.0615
+        },
+        "topSide": {
+          "key": "away",
+          "label": "FC Koln win",
+          "prob": 0.3784,
+          "odds": 2.48,
+          "ev": -0.0615
+        },
+        "confidence": 0.3784,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-17",
+      "league": "Ligue 1",
+      "home": "Lens",
+      "away": "Toulouse",
+      "score": "3-2",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1587.8,
+        "awayElo": 1484.2,
+        "probs": {
+          "home": 0.6263,
+          "away": 0.1582,
+          "draw": 0.2155
+        },
+        "marketProbs": {
+          "home": 0.6263,
+          "away": 0.1582,
+          "draw": 0.2155
+        },
+        "modelProbs": {
+          "home": 0.5634,
+          "draw": 0.1971,
+          "away": 0.2395
+        },
+        "expectedHomeGoals": 1.75,
+        "expectedAwayGoals": 0.83,
+        "over25": 0.4436,
+        "btts": 0.4477,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1319
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1156
+          },
+          {
+            "score": "1-1",
+            "prob": 0.11
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0964
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0752
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0675
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0628
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0563
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0459
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0402
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Lens win",
+          "prob": 0.6263,
+          "odds": 1.5,
+          "ev": -0.0605
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Lens win",
+          "prob": 0.6263,
+          "odds": 1.5,
+          "ev": -0.0605
+        },
+        "confidence": 0.6263,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-17",
+      "league": "Serie A",
+      "home": "Inter",
+      "away": "Cagliari",
+      "score": "3-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1717.6,
+        "awayElo": 1430.7,
+        "probs": {
+          "home": 0.7689,
+          "away": 0.0783,
+          "draw": 0.1528
+        },
+        "marketProbs": {
+          "home": 0.7689,
+          "away": 0.0783,
+          "draw": 0.1528
+        },
+        "modelProbs": {
+          "home": 0.7143,
+          "draw": 0.18,
+          "away": 0.1057
+        },
+        "expectedHomeGoals": 2.26,
+        "expectedAwayGoals": 0.48,
+        "over25": 0.4375,
+        "btts": 0.312,
+        "scoreGrid": [
+          {
+            "score": "2-0",
+            "prob": 0.1646
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1455
+          },
+          {
+            "score": "3-0",
+            "prob": 0.1241
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0793
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0702
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0701
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0643
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0598
+          },
+          {
+            "score": "4-1",
+            "prob": 0.0338
+          },
+          {
+            "score": "0-1",
+            "prob": 0.031
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.1528,
+          "odds": 6.19,
+          "ev": -0.0542
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Inter win",
+          "prob": 0.7689,
+          "odds": 1.23,
+          "ev": -0.0542
+        },
+        "confidence": 0.7689,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-17",
+      "league": "Serie A",
+      "home": "Sassuolo",
+      "away": "Como",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1462.6,
+        "awayElo": 1578.2,
+        "probs": {
+          "home": 0.1516,
+          "away": 0.6349,
+          "draw": 0.2136
+        },
+        "marketProbs": {
+          "home": 0.1516,
+          "away": 0.6349,
+          "draw": 0.2136
+        },
+        "modelProbs": {
+          "home": 0.3015,
+          "draw": 0.2459,
+          "away": 0.4526
+        },
+        "expectedHomeGoals": 1.14,
+        "expectedAwayGoals": 1.26,
+        "over25": 0.4146,
+        "btts": 0.4765,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1304
+          },
+          {
+            "score": "0-1",
+            "prob": 0.114
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1038
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0907
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0818
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0746
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0715
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0594
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0468
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0343
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Sassuolo win",
+          "prob": 0.1516,
+          "odds": 6.2,
+          "ev": -0.0604
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Como win",
+          "prob": 0.6349,
+          "odds": 1.48,
+          "ev": -0.0604
+        },
+        "confidence": 0.6349,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Bundesliga",
+      "home": "Ein Frankfurt",
+      "away": "RB Leipzig",
+      "score": "1-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1544.5,
+        "awayElo": 1590.8,
+        "probs": {
+          "home": 0.3238,
+          "away": 0.4348,
+          "draw": 0.2414
+        },
+        "marketProbs": {
+          "home": 0.3238,
+          "away": 0.4348,
+          "draw": 0.2414
+        },
+        "modelProbs": {
+          "home": 0.3541,
+          "draw": 0.2892,
+          "away": 0.3567
+        },
+        "expectedHomeGoals": 1.34,
+        "expectedAwayGoals": 1.12,
+        "over25": 0.4279,
+        "btts": 0.485,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1283
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1143
+          },
+          {
+            "score": "0-1",
+            "prob": 0.096
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0857
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0855
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0764
+          },
+          {
+            "score": "1-2",
+            "prob": 0.072
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0539
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0382
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Ein Frankfurt win",
+          "prob": 0.3238,
+          "odds": 2.9,
+          "ev": -0.0609
+        },
+        "topSide": {
+          "key": "away",
+          "label": "RB Leipzig win",
+          "prob": 0.4348,
+          "odds": 2.16,
+          "ev": -0.0609
+        },
+        "confidence": 0.4348,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Bundesliga",
+      "home": "Hoffenheim",
+      "away": "Dortmund",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1518.9,
+        "awayElo": 1642.7,
+        "probs": {
+          "home": 0.429,
+          "away": 0.3251,
+          "draw": 0.2459
+        },
+        "marketProbs": {
+          "home": 0.429,
+          "away": 0.3251,
+          "draw": 0.2459
+        },
+        "modelProbs": {
+          "home": 0.2949,
+          "draw": 0.2407,
+          "away": 0.4644
+        },
+        "expectedHomeGoals": 1.12,
+        "expectedAwayGoals": 1.27,
+        "over25": 0.4128,
+        "btts": 0.4743,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1303
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1162
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1024
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0914
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0828
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0739
+          },
+          {
+            "score": "2-1",
+            "prob": 0.073
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0574
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0464
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0351
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Hoffenheim win",
+          "prob": 0.429,
+          "odds": 2.19,
+          "ev": -0.0605
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Hoffenheim win",
+          "prob": 0.429,
+          "odds": 2.19,
+          "ev": -0.0605
+        },
+        "confidence": 0.429,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Bundesliga",
+      "home": "Leverkusen",
+      "away": "Augsburg",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1645.8,
+        "awayElo": 1470.1,
+        "probs": {
+          "home": 0.6802,
+          "away": 0.1393,
+          "draw": 0.1805
+        },
+        "marketProbs": {
+          "home": 0.6802,
+          "away": 0.1393,
+          "draw": 0.1805
+        },
+        "modelProbs": {
+          "home": 0.6403,
+          "draw": 0.18,
+          "away": 0.1797
+        },
+        "expectedHomeGoals": 1.95,
+        "expectedAwayGoals": 0.7,
+        "over25": 0.4445,
+        "btts": 0.4052,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1382
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1349
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0961
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0939
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0878
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0707
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0611
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0492
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0429
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0334
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Leverkusen win",
+          "prob": 0.6802,
+          "odds": 1.38,
+          "ev": -0.0613
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Leverkusen win",
+          "prob": 0.6802,
+          "odds": 1.38,
+          "ev": -0.0613
+        },
+        "confidence": 0.6802,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Bundesliga",
+      "home": "Union Berlin",
+      "away": "Wolfsburg",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1453.4,
+        "awayElo": 1407.5,
+        "probs": {
+          "home": 0.4385,
+          "away": 0.2979,
+          "draw": 0.2636
+        },
+        "marketProbs": {
+          "home": 0.4385,
+          "away": 0.2979,
+          "draw": 0.2636
+        },
+        "modelProbs": {
+          "home": 0.4814,
+          "draw": 0.2332,
+          "away": 0.2854
+        },
+        "expectedHomeGoals": 1.59,
+        "expectedAwayGoals": 0.95,
+        "over25": 0.4397,
+        "btts": 0.4706,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1259
+          },
+          {
+            "score": "1-1",
+            "prob": 0.119
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1002
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0947
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0791
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0747
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0562
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0532
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0503
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0448
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Union Berlin win",
+          "prob": 0.4385,
+          "odds": 2.14,
+          "ev": -0.0616
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Union Berlin win",
+          "prob": 0.4385,
+          "odds": 2.14,
+          "ev": -0.0616
+        },
+        "confidence": 0.4385,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Bundesliga",
+      "home": "Werder Bremen",
+      "away": "Hamburg",
+      "score": "3-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1464.7,
+        "awayElo": 1475.6,
+        "probs": {
+          "home": 0.5258,
+          "away": 0.2252,
+          "draw": 0.249
+        },
+        "marketProbs": {
+          "home": 0.5258,
+          "away": 0.2252,
+          "draw": 0.249
+        },
+        "modelProbs": {
+          "home": 0.4015,
+          "draw": 0.2686,
+          "away": 0.3298
+        },
+        "expectedHomeGoals": 1.43,
+        "expectedAwayGoals": 1.05,
+        "over25": 0.4332,
+        "btts": 0.4828,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1255
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1191
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0901
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0875
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0854
+          },
+          {
+            "score": "0-0",
+            "prob": 0.083
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0662
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0475
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0461
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0431
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Werder Bremen win",
+          "prob": 0.5258,
+          "odds": 1.79,
+          "ev": -0.0588
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Werder Bremen win",
+          "prob": 0.5258,
+          "odds": 1.79,
+          "ev": -0.0588
+        },
+        "confidence": 0.5258,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Ligue 1",
+      "home": "Angers",
+      "away": "Le Havre",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1454.8,
+        "awayElo": 1437.6,
+        "probs": {
+          "home": 0.2933,
+          "away": 0.3939,
+          "draw": 0.3128
+        },
+        "marketProbs": {
+          "home": 0.2933,
+          "away": 0.3939,
+          "draw": 0.3128
+        },
+        "modelProbs": {
+          "home": 0.4407,
+          "draw": 0.2511,
+          "away": 0.3081
+        },
+        "expectedHomeGoals": 1.51,
+        "expectedAwayGoals": 1.0,
+        "over25": 0.4368,
+        "btts": 0.4781,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1226
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1225
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0927
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0927
+          },
+          {
+            "score": "0-0",
+            "prob": 0.081
+          },
+          {
+            "score": "0-1",
+            "prob": 0.081
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0613
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0468
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0467
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0464
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4368,
+          "odds": 2.46,
+          "ev": 0.0745
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Le Havre win",
+          "prob": 0.3939,
+          "odds": 2.39,
+          "ev": -0.0585
+        },
+        "confidence": 0.3939,
+        "tier": "low",
+        "isValue": true
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Ligue 1",
+      "home": "Lille",
+      "away": "Nice",
+      "score": "0-0",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1603.8,
+        "awayElo": 1492.5,
+        "probs": {
+          "home": 0.6302,
+          "away": 0.1549,
+          "draw": 0.2149
+        },
+        "marketProbs": {
+          "home": 0.6302,
+          "away": 0.1549,
+          "draw": 0.2149
+        },
+        "modelProbs": {
+          "home": 0.5742,
+          "draw": 0.1923,
+          "away": 0.2335
+        },
+        "expectedHomeGoals": 1.77,
+        "expectedAwayGoals": 0.82,
+        "over25": 0.4439,
+        "btts": 0.4439,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1326
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1176
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1087
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0964
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0748
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0696
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0613
+          },
+          {
+            "score": "3-1",
+            "prob": 0.057
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0445
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0395
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Lille win",
+          "prob": 0.6302,
+          "odds": 1.49,
+          "ev": -0.061
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Lille win",
+          "prob": 0.6302,
+          "odds": 1.49,
+          "ev": -0.061
+        },
+        "confidence": 0.6302,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Ligue 1",
+      "home": "Lorient",
+      "away": "Marseille",
+      "score": "2-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1474.8,
+        "awayElo": 1584.6,
+        "probs": {
+          "home": 0.2093,
+          "away": 0.5707,
+          "draw": 0.22
+        },
+        "marketProbs": {
+          "home": 0.2093,
+          "away": 0.5707,
+          "draw": 0.22
+        },
+        "modelProbs": {
+          "home": 0.306,
+          "draw": 0.2495,
+          "away": 0.4445
+        },
+        "expectedHomeGoals": 1.16,
+        "expectedAwayGoals": 1.24,
+        "over25": 0.4158,
+        "btts": 0.4778,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1304
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1124
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1047
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0903
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0811
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0756
+          },
+          {
+            "score": "0-2",
+            "prob": 0.07
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0607
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0337
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.22,
+          "odds": 4.28,
+          "ev": -0.0583
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Marseille win",
+          "prob": 0.5707,
+          "odds": 1.65,
+          "ev": -0.0583
+        },
+        "confidence": 0.5707,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Premier League",
+      "home": "Brentford",
+      "away": "Fulham",
+      "score": "0-0",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1530.4,
+        "awayElo": 1508.5,
+        "probs": {
+          "home": 0.4809,
+          "away": 0.2678,
+          "draw": 0.2513
+        },
+        "marketProbs": {
+          "home": 0.4809,
+          "away": 0.2678,
+          "draw": 0.2513
+        },
+        "modelProbs": {
+          "home": 0.4475,
+          "draw": 0.2482,
+          "away": 0.3044
+        },
+        "expectedHomeGoals": 1.53,
+        "expectedAwayGoals": 0.99,
+        "over25": 0.4373,
+        "btts": 0.477,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1231
+          },
+          {
+            "score": "1-1",
+            "prob": 0.122
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0939
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0931
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0807
+          },
+          {
+            "score": "0-1",
+            "prob": 0.08
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0605
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0478
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0474
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0462
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Brentford win",
+          "prob": 0.4809,
+          "odds": 1.96,
+          "ev": -0.0575
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Brentford win",
+          "prob": 0.4809,
+          "odds": 1.96,
+          "ev": -0.0575
+        },
+        "confidence": 0.4809,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Premier League",
+      "home": "Chelsea",
+      "away": "Man United",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1570.3,
+        "awayElo": 1548.9,
+        "probs": {
+          "home": 0.4498,
+          "away": 0.2942,
+          "draw": 0.256
+        },
+        "marketProbs": {
+          "home": 0.4498,
+          "away": 0.2942,
+          "draw": 0.256
+        },
+        "modelProbs": {
+          "home": 0.4467,
+          "draw": 0.2485,
+          "away": 0.3048
+        },
+        "expectedHomeGoals": 1.52,
+        "expectedAwayGoals": 0.99,
+        "over25": 0.4373,
+        "btts": 0.4771,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1231
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1221
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0938
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0931
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0807
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0801
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0606
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0477
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0473
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0462
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.256,
+          "odds": 3.69,
+          "ev": -0.0555
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Chelsea win",
+          "prob": 0.4498,
+          "odds": 2.1,
+          "ev": -0.0555
+        },
+        "confidence": 0.4498,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Premier League",
+      "home": "Leeds",
+      "away": "Wolves",
+      "score": "3-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1505.2,
+        "awayElo": 1408.5,
+        "probs": {
+          "home": 0.6186,
+          "away": 0.1512,
+          "draw": 0.2303
+        },
+        "marketProbs": {
+          "home": 0.6186,
+          "away": 0.1512,
+          "draw": 0.2303
+        },
+        "modelProbs": {
+          "home": 0.5537,
+          "draw": 0.2014,
+          "away": 0.2449
+        },
+        "expectedHomeGoals": 1.73,
+        "expectedAwayGoals": 0.85,
+        "over25": 0.4433,
+        "btts": 0.451,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1312
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1137
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1112
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0964
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0757
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0657
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0641
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0557
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0408
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Leeds win",
+          "prob": 0.6186,
+          "odds": 1.53,
+          "ev": -0.0536
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Leeds win",
+          "prob": 0.6186,
+          "odds": 1.53,
+          "ev": -0.0536
+        },
+        "confidence": 0.6186,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Premier League",
+      "home": "Newcastle",
+      "away": "Bournemouth",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1530.1,
+        "awayElo": 1543.8,
+        "probs": {
+          "home": 0.4327,
+          "away": 0.3103,
+          "draw": 0.257
+        },
+        "marketProbs": {
+          "home": 0.4327,
+          "away": 0.3103,
+          "draw": 0.257
+        },
+        "modelProbs": {
+          "home": 0.3975,
+          "draw": 0.2704,
+          "away": 0.332
+        },
+        "expectedHomeGoals": 1.43,
+        "expectedAwayGoals": 1.06,
+        "over25": 0.4328,
+        "btts": 0.4831,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1258
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1187
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0897
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0882
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0847
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0832
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0667
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0476
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0467
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0427
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Bournemouth win",
+          "prob": 0.3103,
+          "odds": 3.04,
+          "ev": -0.0567
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Newcastle win",
+          "prob": 0.4327,
+          "odds": 2.18,
+          "ev": -0.0567
+        },
+        "confidence": 0.4327,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Premier League",
+      "home": "Tottenham",
+      "away": "Brighton",
+      "score": "2-2",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1425.9,
+        "awayElo": 1552.0,
+        "probs": {
+          "home": 0.3221,
+          "away": 0.427,
+          "draw": 0.251
+        },
+        "marketProbs": {
+          "home": 0.3221,
+          "away": 0.427,
+          "draw": 0.251
+        },
+        "modelProbs": {
+          "home": 0.2931,
+          "draw": 0.2393,
+          "away": 0.4676
+        },
+        "expectedHomeGoals": 1.11,
+        "expectedAwayGoals": 1.28,
+        "over25": 0.4123,
+        "btts": 0.4737,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1302
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1168
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1021
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0916
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0831
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0746
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0726
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0569
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0463
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0353
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Tottenham win",
+          "prob": 0.3221,
+          "odds": 2.93,
+          "ev": -0.0564
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Brighton win",
+          "prob": 0.427,
+          "odds": 2.21,
+          "ev": -0.0564
+        },
+        "confidence": 0.427,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Serie A",
+      "home": "Napoli",
+      "away": "Lazio",
+      "score": "0-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1652.3,
+        "awayElo": 1549.1,
+        "probs": {
+          "home": 0.6244,
+          "away": 0.1375,
+          "draw": 0.2381
+        },
+        "marketProbs": {
+          "home": 0.6244,
+          "away": 0.1375,
+          "draw": 0.2381
+        },
+        "modelProbs": {
+          "home": 0.5628,
+          "draw": 0.1974,
+          "away": 0.2398
+        },
+        "expectedHomeGoals": 1.75,
+        "expectedAwayGoals": 0.84,
+        "over25": 0.4436,
+        "btts": 0.4479,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1318
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1155
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1101
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0964
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0753
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0674
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0629
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0563
+          },
+          {
+            "score": "1-2",
+            "prob": 0.046
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0403
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Napoli win",
+          "prob": 0.6244,
+          "odds": 1.51,
+          "ev": -0.0571
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Napoli win",
+          "prob": 0.6244,
+          "odds": 1.51,
+          "ev": -0.0571
+        },
+        "confidence": 0.6244,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Serie A",
+      "home": "Roma",
+      "away": "Atalanta",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1599.0,
+        "awayElo": 1605.1,
+        "probs": {
+          "home": 0.3982,
+          "away": 0.3196,
+          "draw": 0.2822
+        },
+        "marketProbs": {
+          "home": 0.3982,
+          "away": 0.3196,
+          "draw": 0.2822
+        },
+        "modelProbs": {
+          "home": 0.408,
+          "draw": 0.2657,
+          "away": 0.3263
+        },
+        "expectedHomeGoals": 1.45,
+        "expectedAwayGoals": 1.05,
+        "over25": 0.4339,
+        "btts": 0.4822,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1251
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1197
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0906
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0866
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0864
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0826
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0654
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0473
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0452
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0437
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Roma win",
+          "prob": 0.3982,
+          "odds": 2.36,
+          "ev": -0.0603
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Roma win",
+          "prob": 0.3982,
+          "odds": 2.36,
+          "ev": -0.0603
+        },
+        "confidence": 0.3982,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Serie A",
+      "home": "Udinese",
+      "away": "Parma",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1489.2,
+        "awayElo": 1474.9,
+        "probs": {
+          "home": 0.434,
+          "away": 0.2446,
+          "draw": 0.3214
+        },
+        "marketProbs": {
+          "home": 0.434,
+          "away": 0.2446,
+          "draw": 0.3214
+        },
+        "modelProbs": {
+          "home": 0.4367,
+          "draw": 0.2529,
+          "away": 0.3104
+        },
+        "expectedHomeGoals": 1.5,
+        "expectedAwayGoals": 1.01,
+        "over25": 0.4364,
+        "btts": 0.4787,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1229
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1222
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0925
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0919
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0817
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0812
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0618
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0465
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0464
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0461
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4364,
+          "odds": 2.48,
+          "ev": 0.0824
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Udinese win",
+          "prob": 0.434,
+          "odds": 2.17,
+          "ev": -0.0583
+        },
+        "confidence": 0.434,
+        "tier": "low",
+        "isValue": true
+      }
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Bundesliga",
+      "home": "Bayern Munich",
+      "away": "Stuttgart",
+      "score": "4-2",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1736.1,
+        "awayElo": 1592.4,
+        "probs": {
+          "home": 0.6448,
+          "away": 0.1727,
+          "draw": 0.1824
+        },
+        "marketProbs": {
+          "home": 0.6448,
+          "away": 0.1727,
+          "draw": 0.1824
+        },
+        "modelProbs": {
+          "home": 0.6132,
+          "draw": 0.18,
+          "away": 0.2068
+        },
+        "expectedHomeGoals": 1.86,
+        "expectedAwayGoals": 0.76,
+        "over25": 0.4446,
+        "btts": 0.4258,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1355
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1264
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1026
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0956
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0785
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0727
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0594
+          },
+          {
+            "score": "0-1",
+            "prob": 0.055
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0388
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0366
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.1824,
+          "odds": 5.16,
+          "ev": -0.0586
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Bayern Munich win",
+          "prob": 0.6448,
+          "odds": 1.46,
+          "ev": -0.0586
+        },
+        "confidence": 0.6448,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Bundesliga",
+      "home": "Freiburg",
+      "away": "Heidenheim",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1522.8,
+        "awayElo": 1391.2,
+        "probs": {
+          "home": 0.5794,
+          "away": 0.1927,
+          "draw": 0.2278
+        },
+        "marketProbs": {
+          "home": 0.5794,
+          "away": 0.1927,
+          "draw": 0.2278
+        },
+        "modelProbs": {
+          "home": 0.6021,
+          "draw": 0.18,
+          "away": 0.2179
+        },
+        "expectedHomeGoals": 1.83,
+        "expectedAwayGoals": 0.78,
+        "over25": 0.4444,
+        "btts": 0.433,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1345
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1231
+          },
+          {
+            "score": "1-1",
+            "prob": 0.105
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0961
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0751
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0735
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0586
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0573
+          },
+          {
+            "score": "1-2",
+            "prob": 0.041
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0375
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2278,
+          "odds": 4.12,
+          "ev": -0.0613
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Freiburg win",
+          "prob": 0.5794,
+          "odds": 1.62,
+          "ev": -0.0613
+        },
+        "confidence": 0.5794,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Bundesliga",
+      "home": "M'gladbach",
+      "away": "Mainz",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1457.0,
+        "awayElo": 1507.7,
+        "probs": {
+          "home": 0.4223,
+          "away": 0.3084,
+          "draw": 0.2694
+        },
+        "marketProbs": {
+          "home": 0.4223,
+          "away": 0.3084,
+          "draw": 0.2694
+        },
+        "modelProbs": {
+          "home": 0.3509,
+          "draw": 0.2864,
+          "away": 0.3627
+        },
+        "expectedHomeGoals": 1.32,
+        "expectedAwayGoals": 1.13,
+        "over25": 0.4271,
+        "btts": 0.4849,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1286
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1137
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0971
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0859
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0851
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0753
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0727
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0549
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0376
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Mainz win",
+          "prob": 0.3084,
+          "odds": 3.04,
+          "ev": -0.0626
+        },
+        "topSide": {
+          "key": "home",
+          "label": "M'gladbach win",
+          "prob": 0.4223,
+          "odds": 2.22,
+          "ev": -0.0626
+        },
+        "confidence": 0.4223,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Ligue 1",
+      "home": "Metz",
+      "away": "Paris FC",
+      "score": "1-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1367.0,
+        "awayElo": 1503.7,
+        "probs": {
+          "home": 0.307,
+          "away": 0.4231,
+          "draw": 0.2699
+        },
+        "marketProbs": {
+          "home": 0.307,
+          "away": 0.4231,
+          "draw": 0.2699
+        },
+        "modelProbs": {
+          "home": 0.2847,
+          "draw": 0.2327,
+          "away": 0.4826
+        },
+        "expectedHomeGoals": 1.09,
+        "expectedAwayGoals": 1.3,
+        "over25": 0.4099,
+        "btts": 0.4704,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.13
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1198
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1003
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0924
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0843
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0776
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0705
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0544
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0457
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0364
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Metz win",
+          "prob": 0.307,
+          "odds": 3.06,
+          "ev": -0.0607
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Paris FC win",
+          "prob": 0.4231,
+          "odds": 2.22,
+          "ev": -0.0607
+        },
+        "confidence": 0.4231,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Ligue 1",
+      "home": "Monaco",
+      "away": "Auxerre",
+      "score": "2-2",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1592.4,
+        "awayElo": 1447.0,
+        "probs": {
+          "home": 0.596,
+          "away": 0.1787,
+          "draw": 0.2253
+        },
+        "marketProbs": {
+          "home": 0.596,
+          "away": 0.1787,
+          "draw": 0.2253
+        },
+        "modelProbs": {
+          "home": 0.6146,
+          "draw": 0.18,
+          "away": 0.2054
+        },
+        "expectedHomeGoals": 1.87,
+        "expectedAwayGoals": 0.75,
+        "over25": 0.4446,
+        "btts": 0.4249,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1357
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1268
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1023
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0956
+          },
+          {
+            "score": "3-0",
+            "prob": 0.079
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0726
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0595
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0547
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0386
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0369
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2253,
+          "odds": 4.18,
+          "ev": -0.0583
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Monaco win",
+          "prob": 0.596,
+          "odds": 1.58,
+          "ev": -0.0583
+        },
+        "confidence": 0.596,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Ligue 1",
+      "home": "Nantes",
+      "away": "Brest",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1395.7,
+        "awayElo": 1516.8,
+        "probs": {
+          "home": 0.3967,
+          "away": 0.3113,
+          "draw": 0.292
+        },
+        "marketProbs": {
+          "home": 0.3967,
+          "away": 0.3113,
+          "draw": 0.292
+        },
+        "modelProbs": {
+          "home": 0.2971,
+          "draw": 0.2424,
+          "away": 0.4605
+        },
+        "expectedHomeGoals": 1.13,
+        "expectedAwayGoals": 1.27,
+        "over25": 0.4134,
+        "btts": 0.475,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1303
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1155
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1029
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0912
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0825
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0735
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0731
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0581
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0466
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0348
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.292,
+          "odds": 3.22,
+          "ev": -0.0598
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Nantes win",
+          "prob": 0.3967,
+          "odds": 2.37,
+          "ev": -0.0598
+        },
+        "confidence": 0.3967,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Ligue 1",
+      "home": "Paris SG",
+      "away": "Lyon",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1712.6,
+        "awayElo": 1573.1,
+        "probs": {
+          "home": 0.7174,
+          "away": 0.1127,
+          "draw": 0.1699
+        },
+        "marketProbs": {
+          "home": 0.7174,
+          "away": 0.1127,
+          "draw": 0.1699
+        },
+        "modelProbs": {
+          "home": 0.6093,
+          "draw": 0.18,
+          "away": 0.2107
+        },
+        "expectedHomeGoals": 1.85,
+        "expectedAwayGoals": 0.77,
+        "over25": 0.4446,
+        "btts": 0.4284,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1352
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1252
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1034
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0958
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0773
+          },
+          {
+            "score": "0-0",
+            "prob": 0.073
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0592
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0558
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0396
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0367
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Paris SG win",
+          "prob": 0.7174,
+          "odds": 1.31,
+          "ev": -0.0602
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Paris SG win",
+          "prob": 0.7174,
+          "odds": 1.31,
+          "ev": -0.0602
+        },
+        "confidence": 0.7174,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Ligue 1",
+      "home": "Strasbourg",
+      "away": "Rennes",
+      "score": "0-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1548.0,
+        "awayElo": 1539.0,
+        "probs": {
+          "home": 0.2542,
+          "away": 0.507,
+          "draw": 0.2388
+        },
+        "marketProbs": {
+          "home": 0.2542,
+          "away": 0.507,
+          "draw": 0.2388
+        },
+        "modelProbs": {
+          "home": 0.4292,
+          "draw": 0.2563,
+          "away": 0.3146
+        },
+        "expectedHomeGoals": 1.49,
+        "expectedAwayGoals": 1.02,
+        "over25": 0.4358,
+        "btts": 0.4797,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1235
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1216
+          },
+          {
+            "score": "2-1",
+            "prob": 0.092
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0906
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0829
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0816
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0628
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0468
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0457
+          },
+          {
+            "score": "3-0",
+            "prob": 0.045
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Strasbourg win",
+          "prob": 0.2542,
+          "odds": 3.73,
+          "ev": -0.0519
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Rennes win",
+          "prob": 0.507,
+          "odds": 1.87,
+          "ev": -0.0519
+        },
+        "confidence": 0.507,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Premier League",
+      "home": "Aston Villa",
+      "away": "Sunderland",
+      "score": "4-3",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1588.3,
+        "awayElo": 1523.7,
+        "probs": {
+          "home": 0.5455,
+          "away": 0.1966,
+          "draw": 0.2579
+        },
+        "marketProbs": {
+          "home": 0.5455,
+          "away": 0.1966,
+          "draw": 0.2579
+        },
+        "modelProbs": {
+          "home": 0.508,
+          "draw": 0.2215,
+          "away": 0.2704
+        },
+        "expectedHomeGoals": 1.64,
+        "expectedAwayGoals": 0.91,
+        "over25": 0.4413,
+        "btts": 0.4643,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1279
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1163
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1052
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0956
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0778
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0707
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0576
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0529
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0524
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0435
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Aston Villa win",
+          "prob": 0.5455,
+          "odds": 1.73,
+          "ev": -0.0562
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Aston Villa win",
+          "prob": 0.5455,
+          "odds": 1.73,
+          "ev": -0.0562
+        },
+        "confidence": 0.5455,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Premier League",
+      "home": "Everton",
+      "away": "Liverpool",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1535.7,
+        "awayElo": 1613.4,
+        "probs": {
+          "home": 0.295,
+          "away": 0.4215,
+          "draw": 0.2835
+        },
+        "marketProbs": {
+          "home": 0.295,
+          "away": 0.4215,
+          "draw": 0.2835
+        },
+        "modelProbs": {
+          "home": 0.3309,
+          "draw": 0.2695,
+          "away": 0.3996
+        },
+        "expectedHomeGoals": 1.25,
+        "expectedAwayGoals": 1.18,
+        "over25": 0.4223,
+        "btts": 0.4833,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1298
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1097
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1039
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0879
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0811
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0768
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0685
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0615
+          },
+          {
+            "score": "2-2",
+            "prob": 0.048
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0338
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Everton win",
+          "prob": 0.295,
+          "odds": 3.2,
+          "ev": -0.0559
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Liverpool win",
+          "prob": 0.4215,
+          "odds": 2.24,
+          "ev": -0.0559
+        },
+        "confidence": 0.4215,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Premier League",
+      "home": "Man City",
+      "away": "Arsenal",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1668.6,
+        "awayElo": 1684.7,
+        "probs": {
+          "home": 0.5132,
+          "away": 0.2238,
+          "draw": 0.263
+        },
+        "marketProbs": {
+          "home": 0.5132,
+          "away": 0.2238,
+          "draw": 0.263
+        },
+        "modelProbs": {
+          "home": 0.3942,
+          "draw": 0.2719,
+          "away": 0.3338
+        },
+        "expectedHomeGoals": 1.42,
+        "expectedAwayGoals": 1.06,
+        "over25": 0.4325,
+        "btts": 0.4834,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.126
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1184
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0895
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0887
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0841
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0834
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0671
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0476
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0472
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0424
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.263,
+          "odds": 3.59,
+          "ev": -0.0557
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Man City win",
+          "prob": 0.5132,
+          "odds": 1.84,
+          "ev": -0.0557
+        },
+        "confidence": 0.5132,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Premier League",
+      "home": "Nott'm Forest",
+      "away": "Burnley",
+      "score": "4-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1489.6,
+        "awayElo": 1369.9,
+        "probs": {
+          "home": 0.6468,
+          "away": 0.1381,
+          "draw": 0.2151
+        },
+        "marketProbs": {
+          "home": 0.6468,
+          "away": 0.1381,
+          "draw": 0.2151
+        },
+        "modelProbs": {
+          "home": 0.5858,
+          "draw": 0.1871,
+          "away": 0.2271
+        },
+        "expectedHomeGoals": 1.8,
+        "expectedAwayGoals": 0.8,
+        "over25": 0.4442,
+        "btts": 0.4395,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1334
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1199
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1072
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0963
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0742
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0718
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0596
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0577
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0431
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0387
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2151,
+          "odds": 4.39,
+          "ev": -0.0556
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Nott'm Forest win",
+          "prob": 0.6468,
+          "odds": 1.46,
+          "ev": -0.0556
+        },
+        "confidence": 0.6468,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Serie A",
+      "home": "Cremonese",
+      "away": "Torino",
+      "score": "0-0",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1436.6,
+        "awayElo": 1483.2,
+        "probs": {
+          "home": 0.33,
+          "away": 0.3646,
+          "draw": 0.3054
+        },
+        "marketProbs": {
+          "home": 0.33,
+          "away": 0.3646,
+          "draw": 0.3054
+        },
+        "modelProbs": {
+          "home": 0.3539,
+          "draw": 0.289,
+          "away": 0.3572
+        },
+        "expectedHomeGoals": 1.34,
+        "expectedAwayGoals": 1.12,
+        "over25": 0.4278,
+        "btts": 0.485,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1283
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1143
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0961
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0857
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0856
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0763
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0721
+          },
+          {
+            "score": "0-2",
+            "prob": 0.054
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0381
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Cremonese win",
+          "prob": 0.33,
+          "odds": 2.85,
+          "ev": -0.0594
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Torino win",
+          "prob": 0.3646,
+          "odds": 2.58,
+          "ev": -0.0594
+        },
+        "confidence": 0.3646,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Serie A",
+      "home": "Juventus",
+      "away": "Bologna",
+      "score": "2-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1634.1,
+        "awayElo": 1547.1,
+        "probs": {
+          "home": 0.6538,
+          "away": 0.1389,
+          "draw": 0.2074
+        },
+        "marketProbs": {
+          "home": 0.6538,
+          "away": 0.1389,
+          "draw": 0.2074
+        },
+        "modelProbs": {
+          "home": 0.5399,
+          "draw": 0.2075,
+          "away": 0.2526
+        },
+        "expectedHomeGoals": 1.71,
+        "expectedAwayGoals": 0.87,
+        "over25": 0.4428,
+        "btts": 0.4553,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1303
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1128
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1111
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0963
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0763
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0661
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0632
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0548
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0489
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0417
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Bologna win",
+          "prob": 0.1389,
+          "odds": 6.78,
+          "ev": -0.0586
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Juventus win",
+          "prob": 0.6538,
+          "odds": 1.44,
+          "ev": -0.0586
+        },
+        "confidence": 0.6538,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Serie A",
+      "home": "Pisa",
+      "away": "Genoa",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1417.8,
+        "awayElo": 1481.5,
+        "probs": {
+          "home": 0.3153,
+          "away": 0.3683,
+          "draw": 0.3164
+        },
+        "marketProbs": {
+          "home": 0.3153,
+          "away": 0.3683,
+          "draw": 0.3164
+        },
+        "modelProbs": {
+          "home": 0.3414,
+          "draw": 0.2783,
+          "away": 0.3803
+        },
+        "expectedHomeGoals": 1.29,
+        "expectedAwayGoals": 1.16,
+        "over25": 0.4249,
+        "btts": 0.4844,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1293
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1118
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1004
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0868
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0832
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0747
+          },
+          {
+            "score": "2-0",
+            "prob": 0.072
+          },
+          {
+            "score": "0-2",
+            "prob": 0.058
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0357
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4249,
+          "odds": 2.46,
+          "ev": 0.0452
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Genoa win",
+          "prob": 0.3683,
+          "odds": 2.56,
+          "ev": -0.0572
+        },
+        "confidence": 0.3683,
+        "tier": "low",
+        "isValue": true
+      }
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Serie A",
+      "home": "Verona",
+      "away": "Milan",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1373.5,
+        "awayElo": 1621.1,
+        "probs": {
+          "home": 0.148,
+          "away": 0.6154,
+          "draw": 0.2366
+        },
+        "marketProbs": {
+          "home": 0.148,
+          "away": 0.6154,
+          "draw": 0.2366
+        },
+        "modelProbs": {
+          "home": 0.1947,
+          "draw": 0.18,
+          "away": 0.6253
+        },
+        "expectedHomeGoals": 0.78,
+        "expectedAwayGoals": 1.51,
+        "over25": 0.3802,
+        "btts": 0.4097,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1534
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1192
+          },
+          {
+            "score": "0-2",
+            "prob": 0.1158
+          },
+          {
+            "score": "0-0",
+            "prob": 0.1016
+          },
+          {
+            "score": "1-2",
+            "prob": 0.09
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0789
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0583
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0463
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0453
+          },
+          {
+            "score": "2-2",
+            "prob": 0.035
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Milan win",
+          "prob": 0.6154,
+          "odds": 1.53,
+          "ev": -0.0585
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Milan win",
+          "prob": 0.6154,
+          "odds": 1.53,
+          "ev": -0.0585
+        },
+        "confidence": 0.6154,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-20",
+      "league": "Premier League",
+      "home": "Crystal Palace",
+      "away": "West Ham",
+      "score": "0-0",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1522.7,
+        "awayElo": 1462.6,
+        "probs": {
+          "home": 0.3736,
+          "away": 0.3425,
+          "draw": 0.2839
+        },
+        "marketProbs": {
+          "home": 0.3736,
+          "away": 0.3425,
+          "draw": 0.2839
+        },
+        "modelProbs": {
+          "home": 0.5017,
+          "draw": 0.2243,
+          "away": 0.274
+        },
+        "expectedHomeGoals": 1.63,
+        "expectedAwayGoals": 0.92,
+        "over25": 0.4409,
+        "btts": 0.4659,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1274
+          },
+          {
+            "score": "1-1",
+            "prob": 0.117
+          },
+          {
+            "score": "2-0",
+            "prob": 0.104
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0955
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0781
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0717
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0566
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0537
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0519
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0438
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Crystal Palace win",
+          "prob": 0.3736,
+          "odds": 2.53,
+          "ev": -0.0547
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Crystal Palace win",
+          "prob": 0.3736,
+          "odds": 2.53,
+          "ev": -0.0547
+        },
+        "confidence": 0.3736,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-20",
+      "league": "Serie A",
+      "home": "Lecce",
+      "away": "Fiorentina",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1409.7,
+        "awayElo": 1525.5,
+        "probs": {
+          "home": 0.2633,
+          "away": 0.4475,
+          "draw": 0.2892
+        },
+        "marketProbs": {
+          "home": 0.2633,
+          "away": 0.4475,
+          "draw": 0.2892
+        },
+        "modelProbs": {
+          "home": 0.3014,
+          "draw": 0.2458,
+          "away": 0.4529
+        },
+        "expectedHomeGoals": 1.14,
+        "expectedAwayGoals": 1.26,
+        "over25": 0.4146,
+        "btts": 0.4764,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1304
+          },
+          {
+            "score": "0-1",
+            "prob": 0.114
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1038
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0908
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0819
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0745
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0716
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0593
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0468
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0343
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2892,
+          "odds": 3.25,
+          "ev": -0.0601
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Fiorentina win",
+          "prob": 0.4475,
+          "odds": 2.1,
+          "ev": -0.0601
+        },
+        "confidence": 0.4475,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-21",
+      "league": "La Liga",
+      "home": "Ath Bilbao",
+      "away": "Osasuna",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1535.4,
+        "awayElo": 1510.9,
+        "probs": {
+          "home": 0.5104,
+          "away": 0.2149,
+          "draw": 0.2746
+        },
+        "marketProbs": {
+          "home": 0.5104,
+          "away": 0.2149,
+          "draw": 0.2746
+        },
+        "modelProbs": {
+          "home": 0.4512,
+          "draw": 0.2465,
+          "away": 0.3023
+        },
+        "expectedHomeGoals": 1.53,
+        "expectedAwayGoals": 0.99,
+        "over25": 0.4376,
+        "btts": 0.4764,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1234
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1217
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0946
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0933
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0805
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0794
+          },
+          {
+            "score": "1-2",
+            "prob": 0.06
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0484
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0477
+          },
+          {
+            "score": "2-2",
+            "prob": 0.046
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Ath Bilbao win",
+          "prob": 0.5104,
+          "odds": 1.84,
+          "ev": -0.0608
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Ath Bilbao win",
+          "prob": 0.5104,
+          "odds": 1.84,
+          "ev": -0.0608
+        },
+        "confidence": 0.5104,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-21",
+      "league": "La Liga",
+      "home": "Girona",
+      "away": "Betis",
+      "score": "2-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1507.3,
+        "awayElo": 1556.6,
+        "probs": {
+          "home": 0.3916,
+          "away": 0.3252,
+          "draw": 0.2831
+        },
+        "marketProbs": {
+          "home": 0.3916,
+          "away": 0.3252,
+          "draw": 0.2831
+        },
+        "modelProbs": {
+          "home": 0.3519,
+          "draw": 0.2873,
+          "away": 0.3608
+        },
+        "expectedHomeGoals": 1.33,
+        "expectedAwayGoals": 1.13,
+        "over25": 0.4274,
+        "btts": 0.485,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1285
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1139
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0968
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0858
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0853
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0756
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0725
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0546
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0378
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Girona win",
+          "prob": 0.3916,
+          "odds": 2.4,
+          "ev": -0.0601
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Girona win",
+          "prob": 0.3916,
+          "odds": 2.4,
+          "ev": -0.0601
+        },
+        "confidence": 0.3916,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-21",
+      "league": "La Liga",
+      "home": "Mallorca",
+      "away": "Valencia",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1470.9,
+        "awayElo": 1482.5,
+        "probs": {
+          "home": 0.3592,
+          "away": 0.341,
+          "draw": 0.2997
+        },
+        "marketProbs": {
+          "home": 0.3592,
+          "away": 0.341,
+          "draw": 0.2997
+        },
+        "modelProbs": {
+          "home": 0.4004,
+          "draw": 0.2692,
+          "away": 0.3304
+        },
+        "expectedHomeGoals": 1.43,
+        "expectedAwayGoals": 1.06,
+        "over25": 0.4331,
+        "btts": 0.4829,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1256
+          },
+          {
+            "score": "1-0",
+            "prob": 0.119
+          },
+          {
+            "score": "2-1",
+            "prob": 0.09
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0877
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0852
+          },
+          {
+            "score": "0-0",
+            "prob": 0.083
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0663
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0475
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0463
+          },
+          {
+            "score": "3-1",
+            "prob": 0.043
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Valencia win",
+          "prob": 0.341,
+          "odds": 2.76,
+          "ev": -0.0588
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Mallorca win",
+          "prob": 0.3592,
+          "odds": 2.62,
+          "ev": -0.0588
+        },
+        "confidence": 0.3592,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-21",
+      "league": "La Liga",
+      "home": "Real Madrid",
+      "away": "Alaves",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1699.2,
+        "awayElo": 1466.5,
+        "probs": {
+          "home": 0.7885,
+          "away": 0.0812,
+          "draw": 0.1303
+        },
+        "marketProbs": {
+          "home": 0.7885,
+          "away": 0.0812,
+          "draw": 0.1303
+        },
+        "modelProbs": {
+          "home": 0.682,
+          "draw": 0.18,
+          "away": 0.138
+        },
+        "expectedHomeGoals": 2.11,
+        "expectedAwayGoals": 0.59,
+        "over25": 0.4421,
+        "btts": 0.3615,
+        "scoreGrid": [
+          {
+            "score": "2-0",
+            "prob": 0.1502
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1423
+          },
+          {
+            "score": "3-0",
+            "prob": 0.1057
+          },
+          {
+            "score": "2-1",
+            "prob": 0.088
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0834
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0674
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0619
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0558
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0395
+          },
+          {
+            "score": "4-1",
+            "prob": 0.0327
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Real Madrid win",
+          "prob": 0.7885,
+          "odds": 1.2,
+          "ev": -0.0538
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Real Madrid win",
+          "prob": 0.7885,
+          "odds": 1.2,
+          "ev": -0.0538
+        },
+        "confidence": 0.7885,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-21",
+      "league": "Premier League",
+      "home": "Brighton",
+      "away": "Chelsea",
+      "score": "3-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1550.2,
+        "awayElo": 1560.8,
+        "probs": {
+          "home": 0.4128,
+          "away": 0.3127,
+          "draw": 0.2744
+        },
+        "marketProbs": {
+          "home": 0.4128,
+          "away": 0.3127,
+          "draw": 0.2744
+        },
+        "modelProbs": {
+          "home": 0.4018,
+          "draw": 0.2685,
+          "away": 0.3297
+        },
+        "expectedHomeGoals": 1.44,
+        "expectedAwayGoals": 1.05,
+        "over25": 0.4333,
+        "btts": 0.4828,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1255
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1191
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0901
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0874
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0855
+          },
+          {
+            "score": "0-0",
+            "prob": 0.083
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0661
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0475
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0461
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0431
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Chelsea win",
+          "prob": 0.3127,
+          "odds": 3.01,
+          "ev": -0.0587
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Brighton win",
+          "prob": 0.4128,
+          "odds": 2.28,
+          "ev": -0.0587
+        },
+        "confidence": 0.4128,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-22",
+      "league": "La Liga",
+      "home": "Barcelona",
+      "away": "Celta",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1738.9,
+        "awayElo": 1522.8,
+        "probs": {
+          "home": 0.7713,
+          "away": 0.092,
+          "draw": 0.1368
+        },
+        "marketProbs": {
+          "home": 0.7713,
+          "away": 0.092,
+          "draw": 0.1368
+        },
+        "modelProbs": {
+          "home": 0.6708,
+          "draw": 0.18,
+          "away": 0.1492
+        },
+        "expectedHomeGoals": 2.07,
+        "expectedAwayGoals": 0.62,
+        "over25": 0.4431,
+        "btts": 0.3751,
+        "scoreGrid": [
+          {
+            "score": "2-0",
+            "prob": 0.1458
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1412
+          },
+          {
+            "score": "3-0",
+            "prob": 0.1003
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0901
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0872
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0683
+          },
+          {
+            "score": "3-1",
+            "prob": 0.062
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0518
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0422
+          },
+          {
+            "score": "4-1",
+            "prob": 0.032
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.1368,
+          "odds": 6.88,
+          "ev": -0.0591
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Barcelona win",
+          "prob": 0.7713,
+          "odds": 1.22,
+          "ev": -0.0591
+        },
+        "confidence": 0.7713,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-22",
+      "league": "La Liga",
+      "home": "Elche",
+      "away": "Ath Madrid",
+      "score": "3-2",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1473.2,
+        "awayElo": 1617.2,
+        "probs": {
+          "home": 0.3886,
+          "away": 0.3498,
+          "draw": 0.2616
+        },
+        "marketProbs": {
+          "home": 0.3886,
+          "away": 0.3498,
+          "draw": 0.2616
+        },
+        "modelProbs": {
+          "home": 0.2788,
+          "draw": 0.2281,
+          "away": 0.493
+        },
+        "expectedHomeGoals": 1.06,
+        "expectedAwayGoals": 1.31,
+        "over25": 0.4081,
+        "btts": 0.4679,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1298
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1218
+          },
+          {
+            "score": "1-0",
+            "prob": 0.099
+          },
+          {
+            "score": "0-0",
+            "prob": 0.093
+          },
+          {
+            "score": "1-2",
+            "prob": 0.085
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0798
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0691
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0527
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0453
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0371
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2616,
+          "odds": 3.61,
+          "ev": -0.0556
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Elche win",
+          "prob": 0.3886,
+          "odds": 2.43,
+          "ev": -0.0556
+        },
+        "confidence": 0.3886,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-22",
+      "league": "La Liga",
+      "home": "Sociedad",
+      "away": "Getafe",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1516.1,
+        "awayElo": 1482.3,
+        "probs": {
+          "home": 0.4257,
+          "away": 0.2628,
+          "draw": 0.3115
+        },
+        "marketProbs": {
+          "home": 0.4257,
+          "away": 0.2628,
+          "draw": 0.3115
+        },
+        "modelProbs": {
+          "home": 0.4644,
+          "draw": 0.2407,
+          "away": 0.2949
+        },
+        "expectedHomeGoals": 1.56,
+        "expectedAwayGoals": 0.97,
+        "over25": 0.4386,
+        "btts": 0.474,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1245
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1206
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0971
+          },
+          {
+            "score": "2-1",
+            "prob": 0.094
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0799
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0773
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0584
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0504
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0488
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0455
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4386,
+          "odds": 2.45,
+          "ev": 0.0745
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Sociedad win",
+          "prob": 0.4257,
+          "odds": 2.21,
+          "ev": -0.0592
+        },
+        "confidence": 0.4257,
+        "tier": "low",
+        "isValue": true
+      }
+    },
+    {
+      "date": "2026-04-22",
+      "league": "Ligue 1",
+      "home": "Paris SG",
+      "away": "Nantes",
+      "score": "3-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1700.7,
+        "awayElo": 1397.4,
+        "probs": {
+          "home": 0.8181,
+          "away": 0.0632,
+          "draw": 0.1186
+        },
+        "marketProbs": {
+          "home": 0.8181,
+          "away": 0.0632,
+          "draw": 0.1186
+        },
+        "modelProbs": {
+          "home": 0.7227,
+          "draw": 0.18,
+          "away": 0.0973
+        },
+        "expectedHomeGoals": 2.31,
+        "expectedAwayGoals": 0.45,
+        "over25": 0.4357,
+        "btts": 0.2957,
+        "scoreGrid": [
+          {
+            "score": "2-0",
+            "prob": 0.1689
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1464
+          },
+          {
+            "score": "3-0",
+            "prob": 0.1299
+          },
+          {
+            "score": "2-1",
+            "prob": 0.076
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0749
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0659
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0634
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0585
+          },
+          {
+            "score": "4-1",
+            "prob": 0.0337
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0286
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Paris SG win",
+          "prob": 0.8181,
+          "odds": 1.15,
+          "ev": -0.0592
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Paris SG win",
+          "prob": 0.8181,
+          "odds": 1.15,
+          "ev": -0.0592
+        },
+        "confidence": 0.8181,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-22",
+      "league": "Premier League",
+      "home": "Bournemouth",
+      "away": "Leeds",
+      "score": "2-2",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1552.5,
+        "awayElo": 1510.1,
+        "probs": {
+          "home": 0.5156,
+          "away": 0.2347,
+          "draw": 0.2496
+        },
+        "marketProbs": {
+          "home": 0.5156,
+          "away": 0.2347,
+          "draw": 0.2496
+        },
+        "modelProbs": {
+          "home": 0.4765,
+          "draw": 0.2354,
+          "away": 0.2881
+        },
+        "expectedHomeGoals": 1.58,
+        "expectedAwayGoals": 0.95,
+        "over25": 0.4394,
+        "btts": 0.4716,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1255
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1195
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0993
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0945
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0793
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0755
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0569
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0524
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0499
+          },
+          {
+            "score": "2-2",
+            "prob": 0.045
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2496,
+          "odds": 3.78,
+          "ev": -0.0564
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Bournemouth win",
+          "prob": 0.5156,
+          "odds": 1.83,
+          "ev": -0.0564
+        },
+        "confidence": 0.5156,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-22",
+      "league": "Premier League",
+      "home": "Burnley",
+      "away": "Man City",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1365.5,
+        "awayElo": 1676.0,
+        "probs": {
+          "home": 0.06,
+          "away": 0.8231,
+          "draw": 0.1169
+        },
+        "marketProbs": {
+          "home": 0.06,
+          "away": 0.8231,
+          "draw": 0.1169
+        },
+        "modelProbs": {
+          "home": 0.1462,
+          "draw": 0.18,
+          "away": 0.6738
+        },
+        "expectedHomeGoals": 0.6,
+        "expectedAwayGoals": 1.63,
+        "over25": 0.3603,
+        "btts": 0.3521,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1748
+          },
+          {
+            "score": "0-2",
+            "prob": 0.1425
+          },
+          {
+            "score": "0-0",
+            "prob": 0.1072
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1053
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0859
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0775
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0646
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0467
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0317
+          },
+          {
+            "score": "0-4",
+            "prob": 0.0316
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Burnley win",
+          "prob": 0.06,
+          "odds": 15.78,
+          "ev": -0.0534
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Man City win",
+          "prob": 0.8231,
+          "odds": 1.15,
+          "ev": -0.0534
+        },
+        "confidence": 0.8231,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-23",
+      "league": "La Liga",
+      "home": "Levante",
+      "away": "Sevilla",
+      "score": "2-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1466.9,
+        "awayElo": 1450.2,
+        "probs": {
+          "home": 0.3897,
+          "away": 0.3141,
+          "draw": 0.2962
+        },
+        "marketProbs": {
+          "home": 0.3897,
+          "away": 0.3141,
+          "draw": 0.2962
+        },
+        "modelProbs": {
+          "home": 0.44,
+          "draw": 0.2514,
+          "away": 0.3085
+        },
+        "expectedHomeGoals": 1.51,
+        "expectedAwayGoals": 1.0,
+        "over25": 0.4367,
+        "btts": 0.4782,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1227
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1225
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0927
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0926
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0812
+          },
+          {
+            "score": "0-0",
+            "prob": 0.081
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0614
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0467
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0466
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0464
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Levante win",
+          "prob": 0.3897,
+          "odds": 2.41,
+          "ev": -0.0609
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Levante win",
+          "prob": 0.3897,
+          "odds": 2.41,
+          "ev": -0.0609
+        },
+        "confidence": 0.3897,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-23",
+      "league": "La Liga",
+      "home": "Oviedo",
+      "away": "Villarreal",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1462.1,
+        "awayElo": 1621.0,
+        "probs": {
+          "home": 0.2941,
+          "away": 0.4207,
+          "draw": 0.2852
+        },
+        "marketProbs": {
+          "home": 0.2941,
+          "away": 0.4207,
+          "draw": 0.2852
+        },
+        "modelProbs": {
+          "home": 0.2669,
+          "draw": 0.2188,
+          "away": 0.5143
+        },
+        "expectedHomeGoals": 1.02,
+        "expectedAwayGoals": 1.34,
+        "over25": 0.4045,
+        "btts": 0.4622,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1291
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1261
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0964
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0942
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0864
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0844
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0661
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0493
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0442
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0386
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Oviedo win",
+          "prob": 0.2941,
+          "odds": 3.19,
+          "ev": -0.0618
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Villarreal win",
+          "prob": 0.4207,
+          "odds": 2.23,
+          "ev": -0.0618
+        },
+        "confidence": 0.4207,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-23",
+      "league": "La Liga",
+      "home": "Vallecano",
+      "away": "Espanol",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1490.6,
+        "awayElo": 1472.2,
+        "probs": {
+          "home": 0.453,
+          "away": 0.2619,
+          "draw": 0.285
+        },
+        "marketProbs": {
+          "home": 0.453,
+          "away": 0.2619,
+          "draw": 0.285
+        },
+        "modelProbs": {
+          "home": 0.4424,
+          "draw": 0.2504,
+          "away": 0.3072
+        },
+        "expectedHomeGoals": 1.52,
+        "expectedAwayGoals": 1.0,
+        "over25": 0.4369,
+        "btts": 0.4778,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1227
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1225
+          },
+          {
+            "score": "2-0",
+            "prob": 0.093
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0928
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0809
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0808
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0611
+          },
+          {
+            "score": "3-0",
+            "prob": 0.047
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0469
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0463
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Vallecano win",
+          "prob": 0.453,
+          "odds": 2.07,
+          "ev": -0.0622
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Vallecano win",
+          "prob": 0.453,
+          "odds": 2.07,
+          "ev": -0.0622
+        },
+        "confidence": 0.453,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-24",
+      "league": "Bundesliga",
+      "home": "RB Leipzig",
+      "away": "Union Berlin",
+      "score": "3-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1598.8,
+        "awayElo": 1443.3,
+        "probs": {
+          "home": 0.6217,
+          "away": 0.165,
+          "draw": 0.2133
+        },
+        "marketProbs": {
+          "home": 0.6217,
+          "away": 0.165,
+          "draw": 0.2133
+        },
+        "modelProbs": {
+          "home": 0.6234,
+          "draw": 0.18,
+          "away": 0.1966
+        },
+        "expectedHomeGoals": 1.9,
+        "expectedAwayGoals": 0.73,
+        "over25": 0.4447,
+        "btts": 0.4186,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1365
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1295
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1003
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0951
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0819
+          },
+          {
+            "score": "0-0",
+            "prob": 0.072
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0601
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0529
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0388
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0368
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "RB Leipzig win",
+          "prob": 0.6217,
+          "odds": 1.51,
+          "ev": -0.0613
+        },
+        "topSide": {
+          "key": "home",
+          "label": "RB Leipzig win",
+          "prob": 0.6217,
+          "odds": 1.51,
+          "ev": -0.0613
+        },
+        "confidence": 0.6217,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-24",
+      "league": "La Liga",
+      "home": "Betis",
+      "away": "Real Madrid",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1564.5,
+        "awayElo": 1701.9,
+        "probs": {
+          "home": 0.2651,
+          "away": 0.4991,
+          "draw": 0.2358
+        },
+        "marketProbs": {
+          "home": 0.2651,
+          "away": 0.4991,
+          "draw": 0.2358
+        },
+        "modelProbs": {
+          "home": 0.2842,
+          "draw": 0.2323,
+          "away": 0.4835
+        },
+        "expectedHomeGoals": 1.08,
+        "expectedAwayGoals": 1.3,
+        "over25": 0.4097,
+        "btts": 0.4702,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.13
+          },
+          {
+            "score": "0-1",
+            "prob": 0.12
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1002
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0925
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0843
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0778
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0704
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0543
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0457
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0365
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Betis win",
+          "prob": 0.2651,
+          "odds": 3.54,
+          "ev": -0.0616
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Real Madrid win",
+          "prob": 0.4991,
+          "odds": 1.88,
+          "ev": -0.0616
+        },
+        "confidence": 0.4991,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-24",
+      "league": "Ligue 1",
+      "home": "Brest",
+      "away": "Lens",
+      "score": "3-3",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1515.1,
+        "awayElo": 1592.6,
+        "probs": {
+          "home": 0.164,
+          "away": 0.612,
+          "draw": 0.224
+        },
+        "marketProbs": {
+          "home": 0.164,
+          "away": 0.612,
+          "draw": 0.224
+        },
+        "modelProbs": {
+          "home": 0.3311,
+          "draw": 0.2697,
+          "away": 0.3991
+        },
+        "expectedHomeGoals": 1.25,
+        "expectedAwayGoals": 1.18,
+        "over25": 0.4223,
+        "btts": 0.4833,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1298
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1098
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1039
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0878
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0811
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0767
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0686
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0614
+          },
+          {
+            "score": "2-2",
+            "prob": 0.048
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0338
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Lens win",
+          "prob": 0.612,
+          "odds": 1.53,
+          "ev": -0.0636
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Lens win",
+          "prob": 0.612,
+          "odds": 1.53,
+          "ev": -0.0636
+        },
+        "confidence": 0.612,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-24",
+      "league": "Premier League",
+      "home": "Sunderland",
+      "away": "Nott'm Forest",
+      "score": "0-5",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1518.2,
+        "awayElo": 1494.0,
+        "probs": {
+          "home": 0.3539,
+          "away": 0.3424,
+          "draw": 0.3037
+        },
+        "marketProbs": {
+          "home": 0.3539,
+          "away": 0.3424,
+          "draw": 0.3037
+        },
+        "modelProbs": {
+          "home": 0.4506,
+          "draw": 0.2468,
+          "away": 0.3026
+        },
+        "expectedHomeGoals": 1.53,
+        "expectedAwayGoals": 0.99,
+        "over25": 0.4376,
+        "btts": 0.4765,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1234
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1218
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0945
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0933
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0805
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0795
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0601
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0483
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0476
+          },
+          {
+            "score": "2-2",
+            "prob": 0.046
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4376,
+          "odds": 2.19,
+          "ev": -0.0417
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Sunderland win",
+          "prob": 0.3539,
+          "odds": 2.66,
+          "ev": -0.0585
+        },
+        "confidence": 0.3539,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-24",
+      "league": "Serie A",
+      "home": "Napoli",
+      "away": "Cremonese",
+      "score": "4-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1641.1,
+        "awayElo": 1436.6,
+        "probs": {
+          "home": 0.7129,
+          "away": 0.0947,
+          "draw": 0.1924
+        },
+        "marketProbs": {
+          "home": 0.7129,
+          "away": 0.0947,
+          "draw": 0.1924
+        },
+        "modelProbs": {
+          "home": 0.6624,
+          "draw": 0.18,
+          "away": 0.1576
+        },
+        "expectedHomeGoals": 2.03,
+        "expectedAwayGoals": 0.64,
+        "over25": 0.4436,
+        "btts": 0.3842,
+        "scoreGrid": [
+          {
+            "score": "2-0",
+            "prob": 0.1426
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1403
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0967
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0913
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0898
+          },
+          {
+            "score": "0-0",
+            "prob": 0.069
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0619
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0491
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0442
+          },
+          {
+            "score": "4-1",
+            "prob": 0.0315
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Napoli win",
+          "prob": 0.7129,
+          "odds": 1.32,
+          "ev": -0.059
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Napoli win",
+          "prob": 0.7129,
+          "odds": 1.32,
+          "ev": -0.059
+        },
+        "confidence": 0.7129,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Bundesliga",
+      "home": "Augsburg",
+      "away": "Ein Frankfurt",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1482.6,
+        "awayElo": 1536.6,
+        "probs": {
+          "home": 0.3963,
+          "away": 0.3503,
+          "draw": 0.2534
+        },
+        "marketProbs": {
+          "home": 0.3963,
+          "away": 0.3503,
+          "draw": 0.2534
+        },
+        "modelProbs": {
+          "home": 0.3486,
+          "draw": 0.2844,
+          "away": 0.367
+        },
+        "expectedHomeGoals": 1.32,
+        "expectedAwayGoals": 1.14,
+        "over25": 0.4266,
+        "btts": 0.4849,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1288
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1132
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0979
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0861
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0847
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0744
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0732
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0557
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0371
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2534,
+          "odds": 3.69,
+          "ev": -0.0648
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Augsburg win",
+          "prob": 0.3963,
+          "odds": 2.36,
+          "ev": -0.0648
+        },
+        "confidence": 0.3963,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Bundesliga",
+      "home": "FC Koln",
+      "away": "Leverkusen",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1437.1,
+        "awayElo": 1633.3,
+        "probs": {
+          "home": 0.2659,
+          "away": 0.4953,
+          "draw": 0.2388
+        },
+        "marketProbs": {
+          "home": 0.2659,
+          "away": 0.4953,
+          "draw": 0.2388
+        },
+        "modelProbs": {
+          "home": 0.2375,
+          "draw": 0.1955,
+          "away": 0.567
+        },
+        "expectedHomeGoals": 0.92,
+        "expectedAwayGoals": 1.41,
+        "over25": 0.3949,
+        "btts": 0.444,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1372
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1262
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0972
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0967
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0894
+          },
+          {
+            "score": "1-2",
+            "prob": 0.089
+          },
+          {
+            "score": "2-1",
+            "prob": 0.058
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0455
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0419
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0411
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "FC Koln win",
+          "prob": 0.2659,
+          "odds": 3.52,
+          "ev": -0.0639
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Leverkusen win",
+          "prob": 0.4953,
+          "odds": 1.89,
+          "ev": -0.0639
+        },
+        "confidence": 0.4953,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Bundesliga",
+      "home": "Hamburg",
+      "away": "Hoffenheim",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1468.3,
+        "awayElo": 1528.7,
+        "probs": {
+          "home": 0.2154,
+          "away": 0.5598,
+          "draw": 0.2247
+        },
+        "marketProbs": {
+          "home": 0.2154,
+          "away": 0.5598,
+          "draw": 0.2247
+        },
+        "modelProbs": {
+          "home": 0.3439,
+          "draw": 0.2804,
+          "away": 0.3756
+        },
+        "expectedHomeGoals": 1.3,
+        "expectedAwayGoals": 1.15,
+        "over25": 0.4255,
+        "btts": 0.4846,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1291
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1123
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0995
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0866
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0837
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0742
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0729
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0572
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0362
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Hamburg win",
+          "prob": 0.2154,
+          "odds": 4.34,
+          "ev": -0.0651
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Hoffenheim win",
+          "prob": 0.5598,
+          "odds": 1.67,
+          "ev": -0.0651
+        },
+        "confidence": 0.5598,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Bundesliga",
+      "home": "Heidenheim",
+      "away": "St Pauli",
+      "score": "2-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1387.0,
+        "awayElo": 1427.7,
+        "probs": {
+          "home": 0.4072,
+          "away": 0.3161,
+          "draw": 0.2767
+        },
+        "marketProbs": {
+          "home": 0.4072,
+          "away": 0.3161,
+          "draw": 0.2767
+        },
+        "modelProbs": {
+          "home": 0.3607,
+          "draw": 0.2873,
+          "away": 0.352
+        },
+        "expectedHomeGoals": 1.35,
+        "expectedAwayGoals": 1.11,
+        "over25": 0.4288,
+        "btts": 0.4849,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1279
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1151
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0946
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0865
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0851
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0778
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0711
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0526
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.039
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Heidenheim win",
+          "prob": 0.4072,
+          "odds": 2.29,
+          "ev": -0.0675
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Heidenheim win",
+          "prob": 0.4072,
+          "odds": 2.29,
+          "ev": -0.0675
+        },
+        "confidence": 0.4072,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Bundesliga",
+      "home": "Mainz",
+      "away": "Bayern Munich",
+      "score": "3-4",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1507.6,
+        "awayElo": 1740.2,
+        "probs": {
+          "home": 0.2572,
+          "away": 0.5216,
+          "draw": 0.2212
+        },
+        "marketProbs": {
+          "home": 0.2572,
+          "away": 0.5216,
+          "draw": 0.2212
+        },
+        "modelProbs": {
+          "home": 0.2079,
+          "draw": 0.18,
+          "away": 0.6121
+        },
+        "expectedHomeGoals": 0.82,
+        "expectedAwayGoals": 1.48,
+        "over25": 0.3846,
+        "btts": 0.4208,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1485
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1216
+          },
+          {
+            "score": "0-2",
+            "prob": 0.11
+          },
+          {
+            "score": "0-0",
+            "prob": 0.1003
+          },
+          {
+            "score": "1-2",
+            "prob": 0.09
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0821
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0543
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0498
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0444
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0369
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Mainz win",
+          "prob": 0.2572,
+          "odds": 3.63,
+          "ev": -0.0664
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Bayern Munich win",
+          "prob": 0.5216,
+          "odds": 1.79,
+          "ev": -0.0664
+        },
+        "confidence": 0.5216,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Bundesliga",
+      "home": "Wolfsburg",
+      "away": "M'gladbach",
+      "score": "0-0",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1417.6,
+        "awayElo": 1457.1,
+        "probs": {
+          "home": 0.4411,
+          "away": 0.3027,
+          "draw": 0.2562
+        },
+        "marketProbs": {
+          "home": 0.4411,
+          "away": 0.3027,
+          "draw": 0.2562
+        },
+        "modelProbs": {
+          "home": 0.3623,
+          "draw": 0.2866,
+          "away": 0.3511
+        },
+        "expectedHomeGoals": 1.36,
+        "expectedAwayGoals": 1.11,
+        "over25": 0.429,
+        "btts": 0.4849,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1279
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1152
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0943
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0866
+          },
+          {
+            "score": "0-0",
+            "prob": 0.085
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0781
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0709
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0523
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0391
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "M'gladbach win",
+          "prob": 0.3027,
+          "odds": 3.09,
+          "ev": -0.0648
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Wolfsburg win",
+          "prob": 0.4411,
+          "odds": 2.12,
+          "ev": -0.0648
+        },
+        "confidence": 0.4411,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "league": "La Liga",
+      "home": "Alaves",
+      "away": "Mallorca",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1463.8,
+        "awayElo": 1470.1,
+        "probs": {
+          "home": 0.4602,
+          "away": 0.2559,
+          "draw": 0.2839
+        },
+        "marketProbs": {
+          "home": 0.4602,
+          "away": 0.2559,
+          "draw": 0.2839
+        },
+        "modelProbs": {
+          "home": 0.4079,
+          "draw": 0.2658,
+          "away": 0.3263
+        },
+        "expectedHomeGoals": 1.45,
+        "expectedAwayGoals": 1.05,
+        "over25": 0.4339,
+        "btts": 0.4822,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1251
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1197
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0905
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0866
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0864
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0827
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0654
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0473
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0452
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0437
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Alaves win",
+          "prob": 0.4602,
+          "odds": 2.03,
+          "ev": -0.0659
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Alaves win",
+          "prob": 0.4602,
+          "odds": 2.03,
+          "ev": -0.0659
+        },
+        "confidence": 0.4602,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "league": "La Liga",
+      "home": "Ath Madrid",
+      "away": "Ath Bilbao",
+      "score": "3-2",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1606.9,
+        "awayElo": 1541.8,
+        "probs": {
+          "home": 0.4619,
+          "away": 0.2725,
+          "draw": 0.2656
+        },
+        "marketProbs": {
+          "home": 0.4619,
+          "away": 0.2725,
+          "draw": 0.2656
+        },
+        "modelProbs": {
+          "home": 0.5089,
+          "draw": 0.2212,
+          "away": 0.27
+        },
+        "expectedHomeGoals": 1.65,
+        "expectedAwayGoals": 0.91,
+        "over25": 0.4413,
+        "btts": 0.4641,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.128
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1162
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1053
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0957
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0778
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0706
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0578
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0528
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0525
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0434
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Ath Bilbao win",
+          "prob": 0.2725,
+          "odds": 3.44,
+          "ev": -0.0624
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Ath Madrid win",
+          "prob": 0.4619,
+          "odds": 2.03,
+          "ev": -0.0624
+        },
+        "confidence": 0.4619,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "league": "La Liga",
+      "home": "Getafe",
+      "away": "Barcelona",
+      "score": "0-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1492.1,
+        "awayElo": 1741.8,
+        "probs": {
+          "home": 0.1675,
+          "away": 0.5888,
+          "draw": 0.2438
+        },
+        "marketProbs": {
+          "home": 0.1675,
+          "away": 0.5888,
+          "draw": 0.2438
+        },
+        "modelProbs": {
+          "home": 0.193,
+          "draw": 0.18,
+          "away": 0.627
+        },
+        "expectedHomeGoals": 0.77,
+        "expectedAwayGoals": 1.51,
+        "over25": 0.3796,
+        "btts": 0.408,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.154
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1188
+          },
+          {
+            "score": "0-2",
+            "prob": 0.1166
+          },
+          {
+            "score": "0-0",
+            "prob": 0.1018
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0899
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0785
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0588
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0458
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0454
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0347
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Getafe win",
+          "prob": 0.1675,
+          "odds": 5.59,
+          "ev": -0.0639
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Barcelona win",
+          "prob": 0.5888,
+          "odds": 1.59,
+          "ev": -0.0639
+        },
+        "confidence": 0.5888,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "league": "La Liga",
+      "home": "Valencia",
+      "away": "Girona",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1483.3,
+        "awayElo": 1499.4,
+        "probs": {
+          "home": 0.4149,
+          "away": 0.2939,
+          "draw": 0.2912
+        },
+        "marketProbs": {
+          "home": 0.4149,
+          "away": 0.2939,
+          "draw": 0.2912
+        },
+        "modelProbs": {
+          "home": 0.3942,
+          "draw": 0.272,
+          "away": 0.3338
+        },
+        "expectedHomeGoals": 1.42,
+        "expectedAwayGoals": 1.06,
+        "over25": 0.4325,
+        "btts": 0.4834,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.126
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1184
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0895
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0887
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0841
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0834
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0671
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0476
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0472
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0424
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Valencia win",
+          "prob": 0.4149,
+          "odds": 2.26,
+          "ev": -0.0624
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Valencia win",
+          "prob": 0.4149,
+          "odds": 2.26,
+          "ev": -0.0624
+        },
+        "confidence": 0.4149,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Ligue 1",
+      "home": "Angers",
+      "away": "Paris SG",
+      "score": "0-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1453.4,
+        "awayElo": 1702.6,
+        "probs": {
+          "home": 0.0848,
+          "away": 0.7618,
+          "draw": 0.1534
+        },
+        "marketProbs": {
+          "home": 0.0848,
+          "away": 0.7618,
+          "draw": 0.1534
+        },
+        "modelProbs": {
+          "home": 0.1934,
+          "draw": 0.18,
+          "away": 0.6266
+        },
+        "expectedHomeGoals": 0.77,
+        "expectedAwayGoals": 1.51,
+        "over25": 0.3797,
+        "btts": 0.4084,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1539
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1189
+          },
+          {
+            "score": "0-2",
+            "prob": 0.1164
+          },
+          {
+            "score": "0-0",
+            "prob": 0.1017
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0899
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0786
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0587
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0459
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0454
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0348
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Angers win",
+          "prob": 0.0848,
+          "odds": 11.05,
+          "ev": -0.0629
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Paris SG win",
+          "prob": 0.7618,
+          "odds": 1.23,
+          "ev": -0.0629
+        },
+        "confidence": 0.7618,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Ligue 1",
+      "home": "Lyon",
+      "away": "Auxerre",
+      "score": "3-2",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1584.9,
+        "awayElo": 1451.0,
+        "probs": {
+          "home": 0.5811,
+          "away": 0.182,
+          "draw": 0.2369
+        },
+        "marketProbs": {
+          "home": 0.5811,
+          "away": 0.182,
+          "draw": 0.2369
+        },
+        "modelProbs": {
+          "home": 0.6043,
+          "draw": 0.18,
+          "away": 0.2157
+        },
+        "expectedHomeGoals": 1.84,
+        "expectedAwayGoals": 0.78,
+        "over25": 0.4445,
+        "btts": 0.4316,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1347
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1237
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1045
+          },
+          {
+            "score": "2-1",
+            "prob": 0.096
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0758
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0733
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0588
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0569
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0405
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0372
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Lyon win",
+          "prob": 0.5811,
+          "odds": 1.61,
+          "ev": -0.0644
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Lyon win",
+          "prob": 0.5811,
+          "odds": 1.61,
+          "ev": -0.0644
+        },
+        "confidence": 0.5811,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Ligue 1",
+      "home": "Toulouse",
+      "away": "Monaco",
+      "score": "2-2",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1479.4,
+        "awayElo": 1588.4,
+        "probs": {
+          "home": 0.2176,
+          "away": 0.5485,
+          "draw": 0.2339
+        },
+        "marketProbs": {
+          "home": 0.2176,
+          "away": 0.5485,
+          "draw": 0.2339
+        },
+        "modelProbs": {
+          "home": 0.3067,
+          "draw": 0.25,
+          "away": 0.4432
+        },
+        "expectedHomeGoals": 1.16,
+        "expectedAwayGoals": 1.24,
+        "over25": 0.416,
+        "btts": 0.478,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1304
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1122
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1049
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0902
+          },
+          {
+            "score": "1-2",
+            "prob": 0.081
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0758
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0697
+          },
+          {
+            "score": "2-0",
+            "prob": 0.061
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0336
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2339,
+          "odds": 4.01,
+          "ev": -0.0621
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Monaco win",
+          "prob": 0.5485,
+          "odds": 1.71,
+          "ev": -0.0621
+        },
+        "confidence": 0.5485,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Premier League",
+      "home": "Arsenal",
+      "away": "Newcastle",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1677.4,
+        "awayElo": 1521.3,
+        "probs": {
+          "home": 0.6825,
+          "away": 0.1241,
+          "draw": 0.1934
+        },
+        "marketProbs": {
+          "home": 0.6825,
+          "away": 0.1241,
+          "draw": 0.1934
+        },
+        "modelProbs": {
+          "home": 0.6239,
+          "draw": 0.18,
+          "away": 0.1961
+        },
+        "expectedHomeGoals": 1.9,
+        "expectedAwayGoals": 0.73,
+        "over25": 0.4447,
+        "btts": 0.4182,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1366
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1297
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1002
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0951
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0821
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0719
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0602
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0528
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0389
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0367
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Arsenal win",
+          "prob": 0.6825,
+          "odds": 1.38,
+          "ev": -0.0581
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Arsenal win",
+          "prob": 0.6825,
+          "odds": 1.38,
+          "ev": -0.0581
+        },
+        "confidence": 0.6825,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Premier League",
+      "home": "Fulham",
+      "away": "Aston Villa",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1510.0,
+        "awayElo": 1593.8,
+        "probs": {
+          "home": 0.3869,
+          "away": 0.3482,
+          "draw": 0.2649
+        },
+        "marketProbs": {
+          "home": 0.3869,
+          "away": 0.3482,
+          "draw": 0.2649
+        },
+        "modelProbs": {
+          "home": 0.3263,
+          "draw": 0.2657,
+          "away": 0.408
+        },
+        "expectedHomeGoals": 1.23,
+        "expectedAwayGoals": 1.19,
+        "over25": 0.4211,
+        "btts": 0.4825,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.13
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1088
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1055
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0883
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0801
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0777
+          },
+          {
+            "score": "2-0",
+            "prob": 0.067
+          },
+          {
+            "score": "0-2",
+            "prob": 0.063
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0478
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0329
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Aston Villa win",
+          "prob": 0.3482,
+          "odds": 2.7,
+          "ev": -0.0598
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Fulham win",
+          "prob": 0.3869,
+          "odds": 2.43,
+          "ev": -0.0598
+        },
+        "confidence": 0.3869,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Premier League",
+      "home": "Liverpool",
+      "away": "Crystal Palace",
+      "score": "3-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1620.7,
+        "awayElo": 1520.4,
+        "probs": {
+          "home": 0.6037,
+          "away": 0.1808,
+          "draw": 0.2155
+        },
+        "marketProbs": {
+          "home": 0.6037,
+          "away": 0.1808,
+          "draw": 0.2155
+        },
+        "modelProbs": {
+          "home": 0.5587,
+          "draw": 0.1992,
+          "away": 0.2421
+        },
+        "expectedHomeGoals": 1.74,
+        "expectedAwayGoals": 0.84,
+        "over25": 0.4434,
+        "btts": 0.4493,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1316
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1147
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1106
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0964
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0755
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0667
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0634
+          },
+          {
+            "score": "3-1",
+            "prob": 0.056
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0465
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0405
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Liverpool win",
+          "prob": 0.6037,
+          "odds": 1.56,
+          "ev": -0.0582
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Liverpool win",
+          "prob": 0.6037,
+          "odds": 1.56,
+          "ev": -0.0582
+        },
+        "confidence": 0.6037,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Premier League",
+      "home": "West Ham",
+      "away": "Everton",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1465.0,
+        "awayElo": 1528.4,
+        "probs": {
+          "home": 0.3885,
+          "away": 0.3334,
+          "draw": 0.2781
+        },
+        "marketProbs": {
+          "home": 0.3885,
+          "away": 0.3334,
+          "draw": 0.2781
+        },
+        "modelProbs": {
+          "home": 0.3416,
+          "draw": 0.2785,
+          "away": 0.3799
+        },
+        "expectedHomeGoals": 1.29,
+        "expectedAwayGoals": 1.16,
+        "over25": 0.4249,
+        "btts": 0.4845,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1292
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1119
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1003
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0868
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0833
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0747
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0721
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0579
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0358
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2781,
+          "odds": 3.38,
+          "ev": -0.0599
+        },
+        "topSide": {
+          "key": "home",
+          "label": "West Ham win",
+          "prob": 0.3885,
+          "odds": 2.42,
+          "ev": -0.0599
+        },
+        "confidence": 0.3885,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Premier League",
+      "home": "Wolves",
+      "away": "Tottenham",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1403.6,
+        "awayElo": 1427.7,
+        "probs": {
+          "home": 0.203,
+          "away": 0.572,
+          "draw": 0.225
+        },
+        "marketProbs": {
+          "home": 0.203,
+          "away": 0.572,
+          "draw": 0.225
+        },
+        "modelProbs": {
+          "home": 0.3832,
+          "draw": 0.2769,
+          "away": 0.3398
+        },
+        "expectedHomeGoals": 1.4,
+        "expectedAwayGoals": 1.08,
+        "over25": 0.4314,
+        "btts": 0.4841,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1267
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1173
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0906
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0886
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0839
+          },
+          {
+            "score": "2-0",
+            "prob": 0.082
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0684
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0489
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0478
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0413
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Wolves win",
+          "prob": 0.203,
+          "odds": 4.62,
+          "ev": -0.0619
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Tottenham win",
+          "prob": 0.572,
+          "odds": 1.64,
+          "ev": -0.0619
+        },
+        "confidence": 0.572,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Serie A",
+      "home": "Bologna",
+      "away": "Roma",
+      "score": "0-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1542.0,
+        "awayElo": 1598.1,
+        "probs": {
+          "home": 0.2722,
+          "away": 0.4396,
+          "draw": 0.2881
+        },
+        "marketProbs": {
+          "home": 0.2722,
+          "away": 0.4396,
+          "draw": 0.2881
+        },
+        "modelProbs": {
+          "home": 0.347,
+          "draw": 0.2831,
+          "away": 0.3699
+        },
+        "expectedHomeGoals": 1.31,
+        "expectedAwayGoals": 1.14,
+        "over25": 0.4262,
+        "btts": 0.4848,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1289
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1129
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0984
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0862
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0844
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0739
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0735
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0562
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0368
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2881,
+          "odds": 3.25,
+          "ev": -0.0636
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Roma win",
+          "prob": 0.4396,
+          "odds": 2.13,
+          "ev": -0.0636
+        },
+        "confidence": 0.4396,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Serie A",
+      "home": "Parma",
+      "away": "Pisa",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1484.2,
+        "awayElo": 1410.2,
+        "probs": {
+          "home": 0.4264,
+          "away": 0.2623,
+          "draw": 0.3113
+        },
+        "marketProbs": {
+          "home": 0.4264,
+          "away": 0.2623,
+          "draw": 0.3113
+        },
+        "modelProbs": {
+          "home": 0.5215,
+          "draw": 0.2156,
+          "away": 0.2629
+        },
+        "expectedHomeGoals": 1.67,
+        "expectedAwayGoals": 0.89,
+        "over25": 0.442,
+        "btts": 0.4607,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1289
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1149
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1077
+          },
+          {
+            "score": "2-1",
+            "prob": 0.096
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0772
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0688
+          },
+          {
+            "score": "3-0",
+            "prob": 0.06
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0534
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0512
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0428
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.442,
+          "odds": 2.43,
+          "ev": 0.0739
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Parma win",
+          "prob": 0.4264,
+          "odds": 2.19,
+          "ev": -0.0662
+        },
+        "confidence": 0.4264,
+        "tier": "low",
+        "isValue": true
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Serie A",
+      "home": "Verona",
+      "away": "Lecce",
+      "score": "0-0",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1369.7,
+        "awayElo": 1411.3,
+        "probs": {
+          "home": 0.3738,
+          "away": 0.3027,
+          "draw": 0.3235
+        },
+        "marketProbs": {
+          "home": 0.3738,
+          "away": 0.3027,
+          "draw": 0.3235
+        },
+        "modelProbs": {
+          "home": 0.3595,
+          "draw": 0.2879,
+          "away": 0.3526
+        },
+        "expectedHomeGoals": 1.35,
+        "expectedAwayGoals": 1.11,
+        "over25": 0.4286,
+        "btts": 0.4849,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.128
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1149
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0949
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0864
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0852
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0775
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0713
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0528
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0388
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4286,
+          "odds": 2.73,
+          "ev": 0.1702
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Verona win",
+          "prob": 0.3738,
+          "odds": 2.51,
+          "ev": -0.0618
+        },
+        "confidence": 0.3738,
+        "tier": "low",
+        "isValue": true
+      }
+    },
+    {
+      "date": "2026-04-26",
+      "league": "Bundesliga",
+      "home": "Dortmund",
+      "away": "Freiburg",
+      "score": "4-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1633.0,
+        "awayElo": 1527.0,
+        "probs": {
+          "home": 0.6658,
+          "away": 0.1418,
+          "draw": 0.1924
+        },
+        "marketProbs": {
+          "home": 0.6658,
+          "away": 0.1418,
+          "draw": 0.1924
+        },
+        "modelProbs": {
+          "home": 0.5667,
+          "draw": 0.1957,
+          "away": 0.2377
+        },
+        "expectedHomeGoals": 1.76,
+        "expectedAwayGoals": 0.83,
+        "over25": 0.4437,
+        "btts": 0.4465,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1321
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1162
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1096
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0964
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0751
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0681
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0623
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0565
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0455
+          },
+          {
+            "score": "2-2",
+            "prob": 0.04
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.1924,
+          "odds": 4.88,
+          "ev": -0.0612
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Dortmund win",
+          "prob": 0.6658,
+          "odds": 1.41,
+          "ev": -0.0612
+        },
+        "confidence": 0.6658,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-26",
+      "league": "Bundesliga",
+      "home": "Stuttgart",
+      "away": "Werder Bremen",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1588.3,
+        "awayElo": 1471.9,
+        "probs": {
+          "home": 0.6153,
+          "away": 0.1768,
+          "draw": 0.2078
+        },
+        "marketProbs": {
+          "home": 0.6153,
+          "away": 0.1768,
+          "draw": 0.2078
+        },
+        "modelProbs": {
+          "home": 0.5813,
+          "draw": 0.1891,
+          "away": 0.2296
+        },
+        "expectedHomeGoals": 1.79,
+        "expectedAwayGoals": 0.81,
+        "over25": 0.4441,
+        "btts": 0.4412,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1331
+          },
+          {
+            "score": "2-0",
+            "prob": 0.119
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1078
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0964
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0744
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0709
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0603
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0574
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0436
+          },
+          {
+            "score": "2-2",
+            "prob": 0.039
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Stuttgart win",
+          "prob": 0.6153,
+          "odds": 1.52,
+          "ev": -0.0647
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Stuttgart win",
+          "prob": 0.6153,
+          "odds": 1.52,
+          "ev": -0.0647
+        },
+        "confidence": 0.6153,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-26",
+      "league": "La Liga",
+      "home": "Osasuna",
+      "away": "Sevilla",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1504.4,
+        "awayElo": 1443.6,
+        "probs": {
+          "home": 0.4938,
+          "away": 0.2245,
+          "draw": 0.2817
+        },
+        "marketProbs": {
+          "home": 0.4938,
+          "away": 0.2245,
+          "draw": 0.2817
+        },
+        "modelProbs": {
+          "home": 0.5027,
+          "draw": 0.2239,
+          "away": 0.2734
+        },
+        "expectedHomeGoals": 1.63,
+        "expectedAwayGoals": 0.92,
+        "over25": 0.441,
+        "btts": 0.4656,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1275
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1169
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1042
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0955
+          },
+          {
+            "score": "0-0",
+            "prob": 0.078
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0715
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0567
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0536
+          },
+          {
+            "score": "3-1",
+            "prob": 0.052
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0438
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.441,
+          "odds": 2.17,
+          "ev": -0.0431
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Osasuna win",
+          "prob": 0.4938,
+          "odds": 1.9,
+          "ev": -0.0618
+        },
+        "confidence": 0.4938,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-26",
+      "league": "La Liga",
+      "home": "Oviedo",
+      "away": "Elche",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1464.6,
+        "awayElo": 1483.4,
+        "probs": {
+          "home": 0.4189,
+          "away": 0.2905,
+          "draw": 0.2905
+        },
+        "marketProbs": {
+          "home": 0.4189,
+          "away": 0.2905,
+          "draw": 0.2905
+        },
+        "modelProbs": {
+          "home": 0.3906,
+          "draw": 0.2736,
+          "away": 0.3358
+        },
+        "expectedHomeGoals": 1.41,
+        "expectedAwayGoals": 1.07,
+        "over25": 0.4321,
+        "btts": 0.4836,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1262
+          },
+          {
+            "score": "1-0",
+            "prob": 0.118
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0894
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0892
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0835
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0834
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0675
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0478
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0477
+          },
+          {
+            "score": "3-1",
+            "prob": 0.042
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2905,
+          "odds": 3.23,
+          "ev": -0.0616
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Oviedo win",
+          "prob": 0.4189,
+          "odds": 2.24,
+          "ev": -0.0616
+        },
+        "confidence": 0.4189,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-26",
+      "league": "La Liga",
+      "home": "Vallecano",
+      "away": "Sociedad",
+      "score": "3-3",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1497.1,
+        "awayElo": 1506.4,
+        "probs": {
+          "home": 0.3622,
+          "away": 0.3594,
+          "draw": 0.2784
+        },
+        "marketProbs": {
+          "home": 0.3622,
+          "away": 0.3594,
+          "draw": 0.2784
+        },
+        "modelProbs": {
+          "home": 0.4038,
+          "draw": 0.2676,
+          "away": 0.3286
+        },
+        "expectedHomeGoals": 1.44,
+        "expectedAwayGoals": 1.05,
+        "over25": 0.4335,
+        "btts": 0.4826,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1254
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1193
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0902
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0871
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0858
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0829
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0659
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0474
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0458
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0433
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Vallecano win",
+          "prob": 0.3622,
+          "odds": 2.59,
+          "ev": -0.0619
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Vallecano win",
+          "prob": 0.3622,
+          "odds": 2.59,
+          "ev": -0.0619
+        },
+        "confidence": 0.3622,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-26",
+      "league": "La Liga",
+      "home": "Villarreal",
+      "away": "Celta",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1618.4,
+        "awayElo": 1519.9,
+        "probs": {
+          "home": 0.4968,
+          "away": 0.2452,
+          "draw": 0.258
+        },
+        "marketProbs": {
+          "home": 0.4968,
+          "away": 0.2452,
+          "draw": 0.258
+        },
+        "modelProbs": {
+          "home": 0.5563,
+          "draw": 0.2003,
+          "away": 0.2434
+        },
+        "expectedHomeGoals": 1.74,
+        "expectedAwayGoals": 0.84,
+        "over25": 0.4434,
+        "btts": 0.4501,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1314
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1142
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1109
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0964
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0756
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0662
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0638
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0559
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0468
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0407
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Villarreal win",
+          "prob": 0.4968,
+          "odds": 1.89,
+          "ev": -0.061
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Villarreal win",
+          "prob": 0.4968,
+          "odds": 1.89,
+          "ev": -0.061
+        },
+        "confidence": 0.4968,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-26",
+      "league": "Ligue 1",
+      "home": "Le Havre",
+      "away": "Metz",
+      "score": "4-4",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1439.0,
+        "awayElo": 1361.0,
+        "probs": {
+          "home": 0.5966,
+          "away": 0.1798,
+          "draw": 0.2236
+        },
+        "marketProbs": {
+          "home": 0.5966,
+          "away": 0.1798,
+          "draw": 0.2236
+        },
+        "modelProbs": {
+          "home": 0.5271,
+          "draw": 0.2131,
+          "away": 0.2597
+        },
+        "expectedHomeGoals": 1.68,
+        "expectedAwayGoals": 0.88,
+        "over25": 0.4422,
+        "btts": 0.4591,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1293
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1143
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1087
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0961
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0769
+          },
+          {
+            "score": "0-1",
+            "prob": 0.068
+          },
+          {
+            "score": "3-0",
+            "prob": 0.061
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0539
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0505
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0424
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2236,
+          "odds": 4.19,
+          "ev": -0.0633
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Le Havre win",
+          "prob": 0.5966,
+          "odds": 1.57,
+          "ev": -0.0633
+        },
+        "confidence": 0.5966,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-26",
+      "league": "Ligue 1",
+      "home": "Lorient",
+      "away": "Strasbourg",
+      "score": "2-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1484.2,
+        "awayElo": 1538.7,
+        "probs": {
+          "home": 0.449,
+          "away": 0.2909,
+          "draw": 0.2601
+        },
+        "marketProbs": {
+          "home": 0.449,
+          "away": 0.2909,
+          "draw": 0.2601
+        },
+        "modelProbs": {
+          "home": 0.3482,
+          "draw": 0.2841,
+          "away": 0.3677
+        },
+        "expectedHomeGoals": 1.31,
+        "expectedAwayGoals": 1.14,
+        "over25": 0.4265,
+        "btts": 0.4849,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1288
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1131
+          },
+          {
+            "score": "0-1",
+            "prob": 0.098
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0861
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0846
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0743
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0733
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0558
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.037
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Lorient win",
+          "prob": 0.449,
+          "odds": 2.08,
+          "ev": -0.0662
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Lorient win",
+          "prob": 0.449,
+          "odds": 2.08,
+          "ev": -0.0662
+        },
+        "confidence": 0.449,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-26",
+      "league": "Ligue 1",
+      "home": "Marseille",
+      "away": "Nice",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1575.1,
+        "awayElo": 1495.8,
+        "probs": {
+          "home": 0.5519,
+          "away": 0.2118,
+          "draw": 0.2363
+        },
+        "marketProbs": {
+          "home": 0.5519,
+          "away": 0.2118,
+          "draw": 0.2363
+        },
+        "modelProbs": {
+          "home": 0.529,
+          "draw": 0.2123,
+          "away": 0.2587
+        },
+        "expectedHomeGoals": 1.69,
+        "expectedAwayGoals": 0.88,
+        "over25": 0.4423,
+        "btts": 0.4586,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1295
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1141
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1091
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0961
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0768
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0677
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0613
+          },
+          {
+            "score": "3-1",
+            "prob": 0.054
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0502
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0423
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Marseille win",
+          "prob": 0.5519,
+          "odds": 1.7,
+          "ev": -0.0618
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Marseille win",
+          "prob": 0.5519,
+          "odds": 1.7,
+          "ev": -0.0618
+        },
+        "confidence": 0.5519,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-26",
+      "league": "Ligue 1",
+      "home": "Paris FC",
+      "away": "Lille",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1509.6,
+        "awayElo": 1600.4,
+        "probs": {
+          "home": 0.2029,
+          "away": 0.5525,
+          "draw": 0.2446
+        },
+        "marketProbs": {
+          "home": 0.2029,
+          "away": 0.5525,
+          "draw": 0.2446
+        },
+        "modelProbs": {
+          "home": 0.3209,
+          "draw": 0.2614,
+          "away": 0.4177
+        },
+        "expectedHomeGoals": 1.21,
+        "expectedAwayGoals": 1.21,
+        "over25": 0.4198,
+        "btts": 0.4815,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1302
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1078
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1073
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0888
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0789
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0786
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0653
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0648
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0477
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0319
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2446,
+          "odds": 3.84,
+          "ev": -0.0607
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Lille win",
+          "prob": 0.5525,
+          "odds": 1.7,
+          "ev": -0.0607
+        },
+        "confidence": 0.5525,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-26",
+      "league": "Ligue 1",
+      "home": "Rennes",
+      "away": "Nantes",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1548.2,
+        "awayElo": 1395.5,
+        "probs": {
+          "home": 0.6471,
+          "away": 0.1444,
+          "draw": 0.2085
+        },
+        "marketProbs": {
+          "home": 0.6471,
+          "away": 0.1444,
+          "draw": 0.2085
+        },
+        "modelProbs": {
+          "home": 0.621,
+          "draw": 0.18,
+          "away": 0.199
+        },
+        "expectedHomeGoals": 1.89,
+        "expectedAwayGoals": 0.74,
+        "over25": 0.4447,
+        "btts": 0.4204,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1363
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1288
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1008
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0953
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0811
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0722
+          },
+          {
+            "score": "3-1",
+            "prob": 0.06
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0534
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0383
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0373
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Rennes win",
+          "prob": 0.6471,
+          "odds": 1.45,
+          "ev": -0.0617
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Rennes win",
+          "prob": 0.6471,
+          "odds": 1.45,
+          "ev": -0.0617
+        },
+        "confidence": 0.6471,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-26",
+      "league": "Serie A",
+      "home": "Fiorentina",
+      "away": "Sassuolo",
+      "score": "0-0",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1523.9,
+        "awayElo": 1472.2,
+        "probs": {
+          "home": 0.4651,
+          "away": 0.2533,
+          "draw": 0.2816
+        },
+        "marketProbs": {
+          "home": 0.4651,
+          "away": 0.2533,
+          "draw": 0.2816
+        },
+        "modelProbs": {
+          "home": 0.4897,
+          "draw": 0.2296,
+          "away": 0.2807
+        },
+        "expectedHomeGoals": 1.61,
+        "expectedAwayGoals": 0.93,
+        "over25": 0.4402,
+        "btts": 0.4688,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1265
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1182
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1018
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0951
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0787
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0735
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0552
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0546
+          },
+          {
+            "score": "3-1",
+            "prob": 0.051
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0444
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2816,
+          "odds": 3.32,
+          "ev": -0.0652
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Fiorentina win",
+          "prob": 0.4651,
+          "odds": 2.01,
+          "ev": -0.0652
+        },
+        "confidence": 0.4651,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-26",
+      "league": "Serie A",
+      "home": "Genoa",
+      "away": "Como",
+      "score": "0-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1489.1,
+        "awayElo": 1568.6,
+        "probs": {
+          "home": 0.1663,
+          "away": 0.5916,
+          "draw": 0.2421
+        },
+        "marketProbs": {
+          "home": 0.1663,
+          "away": 0.5916,
+          "draw": 0.2421
+        },
+        "modelProbs": {
+          "home": 0.3296,
+          "draw": 0.2684,
+          "away": 0.402
+        },
+        "expectedHomeGoals": 1.24,
+        "expectedAwayGoals": 1.19,
+        "over25": 0.422,
+        "btts": 0.4831,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1299
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1095
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1044
+          },
+          {
+            "score": "0-0",
+            "prob": 0.088
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0808
+          },
+          {
+            "score": "1-2",
+            "prob": 0.077
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0681
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0619
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0479
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0335
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Genoa win",
+          "prob": 0.1663,
+          "odds": 5.62,
+          "ev": -0.0653
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Como win",
+          "prob": 0.5916,
+          "odds": 1.58,
+          "ev": -0.0653
+        },
+        "confidence": 0.5916,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-26",
+      "league": "Serie A",
+      "home": "Milan",
+      "away": "Juventus",
+      "score": "0-0",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1624.9,
+        "awayElo": 1639.2,
+        "probs": {
+          "home": 0.3494,
+          "away": 0.3456,
+          "draw": 0.305
+        },
+        "marketProbs": {
+          "home": 0.3494,
+          "away": 0.3456,
+          "draw": 0.305
+        },
+        "modelProbs": {
+          "home": 0.3968,
+          "draw": 0.2708,
+          "away": 0.3324
+        },
+        "expectedHomeGoals": 1.43,
+        "expectedAwayGoals": 1.06,
+        "over25": 0.4328,
+        "btts": 0.4832,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1258
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1186
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0897
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0883
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0845
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0832
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0668
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0476
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0468
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0426
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.305,
+          "odds": 3.07,
+          "ev": -0.0636
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Milan win",
+          "prob": 0.3494,
+          "odds": 2.68,
+          "ev": -0.0636
+        },
+        "confidence": 0.3494,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-26",
+      "league": "Serie A",
+      "home": "Torino",
+      "away": "Inter",
+      "score": "2-2",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1483.2,
+        "awayElo": 1719.7,
+        "probs": {
+          "home": 0.1269,
+          "away": 0.6785,
+          "draw": 0.1947
+        },
+        "marketProbs": {
+          "home": 0.1269,
+          "away": 0.6785,
+          "draw": 0.1947
+        },
+        "modelProbs": {
+          "home": 0.2044,
+          "draw": 0.18,
+          "away": 0.6156
+        },
+        "expectedHomeGoals": 0.81,
+        "expectedAwayGoals": 1.49,
+        "over25": 0.3835,
+        "btts": 0.418,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1498
+          },
+          {
+            "score": "1-1",
+            "prob": 0.121
+          },
+          {
+            "score": "0-2",
+            "prob": 0.1115
+          },
+          {
+            "score": "0-0",
+            "prob": 0.1006
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0901
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0813
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0553
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0489
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0447
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0364
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Torino win",
+          "prob": 0.1269,
+          "odds": 7.38,
+          "ev": -0.0637
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Inter win",
+          "prob": 0.6785,
+          "odds": 1.38,
+          "ev": -0.0637
+        },
+        "confidence": 0.6785,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-27",
+      "league": "La Liga",
+      "home": "Espanol",
+      "away": "Levante",
+      "score": "0-0",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1465.6,
+        "awayElo": 1473.5,
+        "probs": {
+          "home": 0.4449,
+          "away": 0.2706,
+          "draw": 0.2845
+        },
+        "marketProbs": {
+          "home": 0.4449,
+          "away": 0.2706,
+          "draw": 0.2845
+        },
+        "modelProbs": {
+          "home": 0.4057,
+          "draw": 0.2668,
+          "away": 0.3276
+        },
+        "expectedHomeGoals": 1.44,
+        "expectedAwayGoals": 1.05,
+        "over25": 0.4337,
+        "btts": 0.4824,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1252
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1194
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0904
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0868
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0862
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0828
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0657
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0474
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0455
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0435
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2845,
+          "odds": 3.3,
+          "ev": -0.0612
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Espanol win",
+          "prob": 0.4449,
+          "odds": 2.11,
+          "ev": -0.0612
+        },
+        "confidence": 0.4449,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-27",
+      "league": "Premier League",
+      "home": "Man United",
+      "away": "Brentford",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1558.4,
+        "awayElo": 1528.9,
+        "probs": {
+          "home": 0.4806,
+          "away": 0.2669,
+          "draw": 0.2525
+        },
+        "marketProbs": {
+          "home": 0.4806,
+          "away": 0.2669,
+          "draw": 0.2525
+        },
+        "modelProbs": {
+          "home": 0.4582,
+          "draw": 0.2434,
+          "away": 0.2984
+        },
+        "expectedHomeGoals": 1.55,
+        "expectedAwayGoals": 0.98,
+        "over25": 0.4381,
+        "btts": 0.4752,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.124
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1211
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0959
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0937
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0802
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0783
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0592
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0495
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0483
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0458
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2525,
+          "odds": 3.73,
+          "ev": -0.058
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Man United win",
+          "prob": 0.4806,
+          "odds": 1.96,
+          "ev": -0.058
+        },
+        "confidence": 0.4806,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-27",
+      "league": "Serie A",
+      "home": "Cagliari",
+      "away": "Atalanta",
+      "score": "3-2",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1428.7,
+        "awayElo": 1606.0,
+        "probs": {
+          "home": 0.2011,
+          "away": 0.5468,
+          "draw": 0.2521
+        },
+        "marketProbs": {
+          "home": 0.2011,
+          "away": 0.5468,
+          "draw": 0.2521
+        },
+        "modelProbs": {
+          "home": 0.2523,
+          "draw": 0.2073,
+          "away": 0.5404
+        },
+        "expectedHomeGoals": 0.97,
+        "expectedAwayGoals": 1.37,
+        "over25": 0.3999,
+        "btts": 0.4539,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1315
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1279
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0957
+          },
+          {
+            "score": "1-0",
+            "prob": 0.093
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0904
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0879
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0622
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0452
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0427
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0414
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Cagliari win",
+          "prob": 0.2011,
+          "odds": 4.65,
+          "ev": -0.0649
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Atalanta win",
+          "prob": 0.5468,
+          "odds": 1.71,
+          "ev": -0.0649
+        },
+        "confidence": 0.5468,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-04-27",
+      "league": "Serie A",
+      "home": "Lazio",
+      "away": "Udinese",
+      "score": "3-3",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1560.4,
+        "awayElo": 1479.8,
+        "probs": {
+          "home": 0.4168,
+          "away": 0.2758,
+          "draw": 0.3074
+        },
+        "marketProbs": {
+          "home": 0.4168,
+          "away": 0.2758,
+          "draw": 0.3074
+        },
+        "modelProbs": {
+          "home": 0.5308,
+          "draw": 0.2115,
+          "away": 0.2577
+        },
+        "expectedHomeGoals": 1.69,
+        "expectedAwayGoals": 0.88,
+        "over25": 0.4424,
+        "btts": 0.4581,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1296
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1139
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1094
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0961
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0767
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0674
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0616
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0541
+          },
+          {
+            "score": "1-2",
+            "prob": 0.05
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0422
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4424,
+          "odds": 2.25,
+          "ev": -0.0047
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Lazio win",
+          "prob": 0.4168,
+          "odds": 2.25,
+          "ev": -0.0623
+        },
+        "confidence": 0.4168,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-01",
+      "league": "La Liga",
+      "home": "Girona",
+      "away": "Mallorca",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1492.1,
+        "awayElo": 1463.0,
+        "probs": {
+          "home": 0.4912,
+          "away": 0.24,
+          "draw": 0.2688
+        },
+        "marketProbs": {
+          "home": 0.4912,
+          "away": 0.24,
+          "draw": 0.2688
+        },
+        "modelProbs": {
+          "home": 0.4576,
+          "draw": 0.2437,
+          "away": 0.2987
+        },
+        "expectedHomeGoals": 1.55,
+        "expectedAwayGoals": 0.98,
+        "over25": 0.4381,
+        "btts": 0.4753,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.124
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1212
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0958
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0937
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0802
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0784
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0592
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0494
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0483
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0458
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Mallorca win",
+          "prob": 0.24,
+          "odds": 3.91,
+          "ev": -0.0618
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Girona win",
+          "prob": 0.4912,
+          "odds": 1.91,
+          "ev": -0.0618
+        },
+        "confidence": 0.4912,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-01",
+      "league": "Premier League",
+      "home": "Leeds",
+      "away": "Burnley",
+      "score": "3-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1512.1,
+        "awayElo": 1362.6,
+        "probs": {
+          "home": 0.6968,
+          "away": 0.111,
+          "draw": 0.1922
+        },
+        "marketProbs": {
+          "home": 0.6968,
+          "away": 0.111,
+          "draw": 0.1922
+        },
+        "modelProbs": {
+          "home": 0.6182,
+          "draw": 0.18,
+          "away": 0.2018
+        },
+        "expectedHomeGoals": 1.88,
+        "expectedAwayGoals": 0.75,
+        "over25": 0.4446,
+        "btts": 0.4224,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.136
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1279
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1015
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0954
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0801
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0724
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0598
+          },
+          {
+            "score": "0-1",
+            "prob": 0.054
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0379
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0377
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.1922,
+          "odds": 4.93,
+          "ev": -0.0523
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Leeds win",
+          "prob": 0.6968,
+          "odds": 1.36,
+          "ev": -0.0523
+        },
+        "confidence": 0.6968,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-01",
+      "league": "Serie A",
+      "home": "Pisa",
+      "away": "Lecce",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1404.8,
+        "awayElo": 1411.4,
+        "probs": {
+          "home": 0.2823,
+          "away": 0.3955,
+          "draw": 0.3221
+        },
+        "marketProbs": {
+          "home": 0.2823,
+          "away": 0.3955,
+          "draw": 0.3221
+        },
+        "modelProbs": {
+          "home": 0.4074,
+          "draw": 0.266,
+          "away": 0.3266
+        },
+        "expectedHomeGoals": 1.45,
+        "expectedAwayGoals": 1.05,
+        "over25": 0.4338,
+        "btts": 0.4822,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1251
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1196
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0905
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0865
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0865
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0827
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0654
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0473
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0452
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0436
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4338,
+          "odds": 2.54,
+          "ev": 0.1019
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Lecce win",
+          "prob": 0.3955,
+          "odds": 2.37,
+          "ev": -0.0626
+        },
+        "confidence": 0.3955,
+        "tier": "low",
+        "isValue": true
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "league": "Bundesliga",
+      "home": "Bayern Munich",
+      "away": "Heidenheim",
+      "score": "3-3",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1744.2,
+        "awayElo": 1394.9,
+        "probs": {
+          "home": 0.7469,
+          "away": 0.1103,
+          "draw": 0.1428
+        },
+        "marketProbs": {
+          "home": 0.7469,
+          "away": 0.1103,
+          "draw": 0.1428
+        },
+        "modelProbs": {
+          "home": 0.7432,
+          "draw": 0.18,
+          "away": 0.0768
+        },
+        "expectedHomeGoals": 2.44,
+        "expectedAwayGoals": 0.45,
+        "over25": 0.4502,
+        "btts": 0.2942,
+        "scoreGrid": [
+          {
+            "score": "2-0",
+            "prob": 0.1656
+          },
+          {
+            "score": "1-0",
+            "prob": 0.136
+          },
+          {
+            "score": "3-0",
+            "prob": 0.1344
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0818
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0745
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0612
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0605
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0558
+          },
+          {
+            "score": "4-1",
+            "prob": 0.0368
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0251
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.1428,
+          "odds": 6.59,
+          "ev": -0.0589
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Bayern Munich win",
+          "prob": 0.7469,
+          "odds": 1.26,
+          "ev": -0.0589
+        },
+        "confidence": 0.7469,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "league": "Bundesliga",
+      "home": "Ein Frankfurt",
+      "away": "Hamburg",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1536.4,
+        "awayElo": 1460.7,
+        "probs": {
+          "home": 0.5635,
+          "away": 0.2116,
+          "draw": 0.2249
+        },
+        "marketProbs": {
+          "home": 0.5635,
+          "away": 0.2116,
+          "draw": 0.2249
+        },
+        "modelProbs": {
+          "home": 0.5239,
+          "draw": 0.2146,
+          "away": 0.2615
+        },
+        "expectedHomeGoals": 1.68,
+        "expectedAwayGoals": 0.89,
+        "over25": 0.4421,
+        "btts": 0.46,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1291
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1146
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1081
+          },
+          {
+            "score": "2-1",
+            "prob": 0.096
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0771
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0684
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0604
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0536
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0509
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0426
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Ein Frankfurt win",
+          "prob": 0.5635,
+          "odds": 1.66,
+          "ev": -0.0646
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Ein Frankfurt win",
+          "prob": 0.5635,
+          "odds": 1.66,
+          "ev": -0.0646
+        },
+        "confidence": 0.5635,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "league": "Bundesliga",
+      "home": "Hoffenheim",
+      "away": "Stuttgart",
+      "score": "3-3",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1536.3,
+        "awayElo": 1584.9,
+        "probs": {
+          "home": 0.4331,
+          "away": 0.3318,
+          "draw": 0.2351
+        },
+        "marketProbs": {
+          "home": 0.4331,
+          "away": 0.3318,
+          "draw": 0.2351
+        },
+        "modelProbs": {
+          "home": 0.3525,
+          "draw": 0.2878,
+          "away": 0.3598
+        },
+        "expectedHomeGoals": 1.33,
+        "expectedAwayGoals": 1.13,
+        "over25": 0.4275,
+        "btts": 0.485,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1284
+          },
+          {
+            "score": "1-0",
+            "prob": 0.114
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0966
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0857
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0854
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0758
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0724
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0544
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0379
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Hoffenheim win",
+          "prob": 0.4331,
+          "odds": 2.16,
+          "ev": -0.0644
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Hoffenheim win",
+          "prob": 0.4331,
+          "odds": 2.16,
+          "ev": -0.0644
+        },
+        "confidence": 0.4331,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "league": "Bundesliga",
+      "home": "Leverkusen",
+      "away": "RB Leipzig",
+      "score": "4-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1638.1,
+        "awayElo": 1602.6,
+        "probs": {
+          "home": 0.4473,
+          "away": 0.319,
+          "draw": 0.2337
+        },
+        "marketProbs": {
+          "home": 0.4473,
+          "away": 0.319,
+          "draw": 0.2337
+        },
+        "modelProbs": {
+          "home": 0.4666,
+          "draw": 0.2397,
+          "away": 0.2937
+        },
+        "expectedHomeGoals": 1.56,
+        "expectedAwayGoals": 0.97,
+        "over25": 0.4387,
+        "btts": 0.4736,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1247
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0975
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0941
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0798
+          },
+          {
+            "score": "0-1",
+            "prob": 0.077
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0581
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0508
+          },
+          {
+            "score": "3-1",
+            "prob": 0.049
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0454
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Leverkusen win",
+          "prob": 0.4473,
+          "odds": 2.09,
+          "ev": -0.0652
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Leverkusen win",
+          "prob": 0.4473,
+          "odds": 2.09,
+          "ev": -0.0652
+        },
+        "confidence": 0.4473,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "league": "Bundesliga",
+      "home": "Union Berlin",
+      "away": "FC Koln",
+      "score": "2-2",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1439.5,
+        "awayElo": 1432.4,
+        "probs": {
+          "home": 0.3589,
+          "away": 0.3631,
+          "draw": 0.278
+        },
+        "marketProbs": {
+          "home": 0.3589,
+          "away": 0.3631,
+          "draw": 0.278
+        },
+        "modelProbs": {
+          "home": 0.4265,
+          "draw": 0.2575,
+          "away": 0.316
+        },
+        "expectedHomeGoals": 1.48,
+        "expectedAwayGoals": 1.02,
+        "over25": 0.4356,
+        "btts": 0.4801,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1237
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1213
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0918
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0901
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0833
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0817
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0631
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0468
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0455
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0446
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "FC Koln win",
+          "prob": 0.3631,
+          "odds": 2.58,
+          "ev": -0.0632
+        },
+        "topSide": {
+          "key": "away",
+          "label": "FC Koln win",
+          "prob": 0.3631,
+          "odds": 2.58,
+          "ev": -0.0632
+        },
+        "confidence": 0.3631,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "league": "Bundesliga",
+      "home": "Werder Bremen",
+      "away": "Augsburg",
+      "score": "1-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1475.4,
+        "awayElo": 1482.8,
+        "probs": {
+          "home": 0.4855,
+          "away": 0.2692,
+          "draw": 0.2453
+        },
+        "marketProbs": {
+          "home": 0.4855,
+          "away": 0.2692,
+          "draw": 0.2453
+        },
+        "modelProbs": {
+          "home": 0.4063,
+          "draw": 0.2665,
+          "away": 0.3272
+        },
+        "expectedHomeGoals": 1.44,
+        "expectedAwayGoals": 1.05,
+        "over25": 0.4337,
+        "btts": 0.4823,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1252
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1195
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0904
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0867
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0863
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0827
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0656
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0474
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0454
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0435
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Werder Bremen win",
+          "prob": 0.4855,
+          "odds": 1.93,
+          "ev": -0.063
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Werder Bremen win",
+          "prob": 0.4855,
+          "odds": 1.93,
+          "ev": -0.063
+        },
+        "confidence": 0.4855,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "league": "La Liga",
+      "home": "Alaves",
+      "away": "Ath Bilbao",
+      "score": "2-4",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1471.0,
+        "awayElo": 1536.3,
+        "probs": {
+          "home": 0.3423,
+          "away": 0.3664,
+          "draw": 0.2913
+        },
+        "marketProbs": {
+          "home": 0.3423,
+          "away": 0.3664,
+          "draw": 0.2913
+        },
+        "modelProbs": {
+          "home": 0.3402,
+          "draw": 0.2773,
+          "away": 0.3825
+        },
+        "expectedHomeGoals": 1.28,
+        "expectedAwayGoals": 1.16,
+        "over25": 0.4246,
+        "btts": 0.4843,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1293
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1116
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1008
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0869
+          },
+          {
+            "score": "2-1",
+            "prob": 0.083
+          },
+          {
+            "score": "1-2",
+            "prob": 0.075
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0716
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0584
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0355
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Alaves win",
+          "prob": 0.3423,
+          "odds": 2.74,
+          "ev": -0.062
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Ath Bilbao win",
+          "prob": 0.3664,
+          "odds": 2.56,
+          "ev": -0.062
+        },
+        "confidence": 0.3664,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "league": "La Liga",
+      "home": "Osasuna",
+      "away": "Barcelona",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1510.1,
+        "awayElo": 1745.5,
+        "probs": {
+          "home": 0.2012,
+          "away": 0.5729,
+          "draw": 0.2259
+        },
+        "marketProbs": {
+          "home": 0.2012,
+          "away": 0.5729,
+          "draw": 0.2259
+        },
+        "modelProbs": {
+          "home": 0.2053,
+          "draw": 0.18,
+          "away": 0.6147
+        },
+        "expectedHomeGoals": 0.81,
+        "expectedAwayGoals": 1.49,
+        "over25": 0.3838,
+        "btts": 0.4188,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1494
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1212
+          },
+          {
+            "score": "0-2",
+            "prob": 0.111
+          },
+          {
+            "score": "0-0",
+            "prob": 0.1005
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0901
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0815
+          },
+          {
+            "score": "0-3",
+            "prob": 0.055
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0491
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0446
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0365
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Osasuna win",
+          "prob": 0.2012,
+          "odds": 4.67,
+          "ev": -0.0604
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Barcelona win",
+          "prob": 0.5729,
+          "odds": 1.64,
+          "ev": -0.0604
+        },
+        "confidence": 0.5729,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "league": "La Liga",
+      "home": "Valencia",
+      "away": "Ath Madrid",
+      "score": "0-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1490.6,
+        "awayElo": 1612.5,
+        "probs": {
+          "home": 0.5542,
+          "away": 0.2006,
+          "draw": 0.2452
+        },
+        "marketProbs": {
+          "home": 0.5542,
+          "away": 0.2006,
+          "draw": 0.2452
+        },
+        "modelProbs": {
+          "home": 0.2965,
+          "draw": 0.2419,
+          "away": 0.4616
+        },
+        "expectedHomeGoals": 1.13,
+        "expectedAwayGoals": 1.27,
+        "over25": 0.4132,
+        "btts": 0.4748,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1303
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1157
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1028
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0912
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0826
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0734
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0733
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0579
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0465
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0349
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Valencia win",
+          "prob": 0.5542,
+          "odds": 1.69,
+          "ev": -0.0633
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Valencia win",
+          "prob": 0.5542,
+          "odds": 1.69,
+          "ev": -0.0633
+        },
+        "confidence": 0.5542,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "league": "La Liga",
+      "home": "Villarreal",
+      "away": "Levante",
+      "score": "5-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1623.3,
+        "awayElo": 1474.3,
+        "probs": {
+          "home": 0.5402,
+          "away": 0.2313,
+          "draw": 0.2285
+        },
+        "marketProbs": {
+          "home": 0.5402,
+          "away": 0.2313,
+          "draw": 0.2285
+        },
+        "modelProbs": {
+          "home": 0.6178,
+          "draw": 0.18,
+          "away": 0.2022
+        },
+        "expectedHomeGoals": 1.88,
+        "expectedAwayGoals": 0.75,
+        "over25": 0.4446,
+        "btts": 0.4227,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.136
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1278
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1016
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0954
+          },
+          {
+            "score": "3-0",
+            "prob": 0.08
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0724
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0598
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0541
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0379
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0376
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Villarreal win",
+          "prob": 0.5402,
+          "odds": 1.73,
+          "ev": -0.0655
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Villarreal win",
+          "prob": 0.5402,
+          "odds": 1.73,
+          "ev": -0.0655
+        },
+        "confidence": 0.5402,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "league": "Ligue 1",
+      "home": "Metz",
+      "away": "Monaco",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1363.8,
+        "awayElo": 1586.9,
+        "probs": {
+          "home": 0.1313,
+          "away": 0.7031,
+          "draw": 0.1655
+        },
+        "marketProbs": {
+          "home": 0.1313,
+          "away": 0.7031,
+          "draw": 0.1655
+        },
+        "modelProbs": {
+          "home": 0.2164,
+          "draw": 0.18,
+          "away": 0.6036
+        },
+        "expectedHomeGoals": 0.85,
+        "expectedAwayGoals": 1.46,
+        "over25": 0.3874,
+        "btts": 0.4274,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1455
+          },
+          {
+            "score": "1-1",
+            "prob": 0.123
+          },
+          {
+            "score": "0-2",
+            "prob": 0.1064
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0995
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0899
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0841
+          },
+          {
+            "score": "2-1",
+            "prob": 0.052
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0519
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0438
+          },
+          {
+            "score": "2-2",
+            "prob": 0.038
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Metz win",
+          "prob": 0.1313,
+          "odds": 7.12,
+          "ev": -0.0648
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Monaco win",
+          "prob": 0.7031,
+          "odds": 1.33,
+          "ev": -0.0648
+        },
+        "confidence": 0.7031,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "league": "Ligue 1",
+      "home": "Nantes",
+      "away": "Marseille",
+      "score": "3-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1391.6,
+        "awayElo": 1572.4,
+        "probs": {
+          "home": 0.2594,
+          "away": 0.4955,
+          "draw": 0.2451
+        },
+        "marketProbs": {
+          "home": 0.2594,
+          "away": 0.4955,
+          "draw": 0.2451
+        },
+        "modelProbs": {
+          "home": 0.2496,
+          "draw": 0.2052,
+          "away": 0.5452
+        },
+        "expectedHomeGoals": 0.96,
+        "expectedAwayGoals": 1.38,
+        "over25": 0.399,
+        "btts": 0.4522,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1325
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1276
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0959
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0924
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0915
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0881
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0614
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0445
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0424
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0421
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Marseille win",
+          "prob": 0.4955,
+          "odds": 1.89,
+          "ev": -0.0636
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Marseille win",
+          "prob": 0.4955,
+          "odds": 1.89,
+          "ev": -0.0636
+        },
+        "confidence": 0.4955,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "league": "Ligue 1",
+      "home": "Nice",
+      "away": "Lens",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1498.6,
+        "awayElo": 1591.8,
+        "probs": {
+          "home": 0.2061,
+          "away": 0.5684,
+          "draw": 0.2255
+        },
+        "marketProbs": {
+          "home": 0.2061,
+          "away": 0.5684,
+          "draw": 0.2255
+        },
+        "modelProbs": {
+          "home": 0.319,
+          "draw": 0.2599,
+          "away": 0.4211
+        },
+        "expectedHomeGoals": 1.21,
+        "expectedAwayGoals": 1.21,
+        "over25": 0.4193,
+        "btts": 0.4811,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1302
+          },
+          {
+            "score": "0-1",
+            "prob": 0.108
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1074
+          },
+          {
+            "score": "0-0",
+            "prob": 0.089
+          },
+          {
+            "score": "1-2",
+            "prob": 0.079
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0785
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0655
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0648
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0476
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0319
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2255,
+          "odds": 4.16,
+          "ev": -0.0621
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Lens win",
+          "prob": 0.5684,
+          "odds": 1.65,
+          "ev": -0.0621
+        },
+        "confidence": 0.5684,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "league": "Ligue 1",
+      "home": "Paris SG",
+      "away": "Lorient",
+      "score": "2-2",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1706.4,
+        "awayElo": 1476.5,
+        "probs": {
+          "home": 0.7061,
+          "away": 0.1223,
+          "draw": 0.1717
+        },
+        "marketProbs": {
+          "home": 0.7061,
+          "away": 0.1223,
+          "draw": 0.1717
+        },
+        "modelProbs": {
+          "home": 0.6802,
+          "draw": 0.18,
+          "away": 0.1398
+        },
+        "expectedHomeGoals": 2.1,
+        "expectedAwayGoals": 0.59,
+        "over25": 0.4423,
+        "btts": 0.3638,
+        "scoreGrid": [
+          {
+            "score": "2-0",
+            "prob": 0.1494
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1421
+          },
+          {
+            "score": "3-0",
+            "prob": 0.1048
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0884
+          },
+          {
+            "score": "1-1",
+            "prob": 0.084
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0675
+          },
+          {
+            "score": "3-1",
+            "prob": 0.062
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0551
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0399
+          },
+          {
+            "score": "4-1",
+            "prob": 0.0326
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Paris SG win",
+          "prob": 0.7061,
+          "odds": 1.33,
+          "ev": -0.0609
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Paris SG win",
+          "prob": 0.7061,
+          "odds": 1.33,
+          "ev": -0.0609
+        },
+        "confidence": 0.7061,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "league": "Premier League",
+      "home": "Arsenal",
+      "away": "Fulham",
+      "score": "3-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1681.2,
+        "awayElo": 1518.9,
+        "probs": {
+          "home": 0.6516,
+          "away": 0.1346,
+          "draw": 0.2138
+        },
+        "marketProbs": {
+          "home": 0.6516,
+          "away": 0.1346,
+          "draw": 0.2138
+        },
+        "modelProbs": {
+          "home": 0.6292,
+          "draw": 0.18,
+          "away": 0.1908
+        },
+        "expectedHomeGoals": 1.92,
+        "expectedAwayGoals": 0.72,
+        "over25": 0.4446,
+        "btts": 0.4142,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1371
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1313
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0989
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0947
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0839
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0716
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0605
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0516
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0402
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0357
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Arsenal win",
+          "prob": 0.6516,
+          "odds": 1.45,
+          "ev": -0.0551
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Arsenal win",
+          "prob": 0.6516,
+          "odds": 1.45,
+          "ev": -0.0551
+        },
+        "confidence": 0.6516,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "league": "Premier League",
+      "home": "Brentford",
+      "away": "West Ham",
+      "score": "3-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1522.6,
+        "awayElo": 1473.4,
+        "probs": {
+          "home": 0.5073,
+          "away": 0.2483,
+          "draw": 0.2444
+        },
+        "marketProbs": {
+          "home": 0.5073,
+          "away": 0.2483,
+          "draw": 0.2444
+        },
+        "modelProbs": {
+          "home": 0.4862,
+          "draw": 0.2311,
+          "away": 0.2827
+        },
+        "expectedHomeGoals": 1.6,
+        "expectedAwayGoals": 0.94,
+        "over25": 0.44,
+        "btts": 0.4695,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1263
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1185
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1011
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0949
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0788
+          },
+          {
+            "score": "0-1",
+            "prob": 0.074
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0556
+          },
+          {
+            "score": "3-0",
+            "prob": 0.054
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0507
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0446
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2444,
+          "odds": 3.86,
+          "ev": -0.0565
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Brentford win",
+          "prob": 0.5073,
+          "odds": 1.86,
+          "ev": -0.0565
+        },
+        "confidence": 0.5073,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "league": "Premier League",
+      "home": "Newcastle",
+      "away": "Brighton",
+      "score": "3-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1517.5,
+        "awayElo": 1557.4,
+        "probs": {
+          "home": 0.3546,
+          "away": 0.3834,
+          "draw": 0.262
+        },
+        "marketProbs": {
+          "home": 0.3546,
+          "away": 0.3834,
+          "draw": 0.262
+        },
+        "modelProbs": {
+          "home": 0.3619,
+          "draw": 0.2868,
+          "away": 0.3513
+        },
+        "expectedHomeGoals": 1.35,
+        "expectedAwayGoals": 1.11,
+        "over25": 0.4289,
+        "btts": 0.4849,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1279
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1152
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0944
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0866
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0851
+          },
+          {
+            "score": "2-0",
+            "prob": 0.078
+          },
+          {
+            "score": "1-2",
+            "prob": 0.071
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0524
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0391
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Newcastle win",
+          "prob": 0.3546,
+          "odds": 2.66,
+          "ev": -0.0568
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Brighton win",
+          "prob": 0.3834,
+          "odds": 2.46,
+          "ev": -0.0568
+        },
+        "confidence": 0.3834,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "league": "Premier League",
+      "home": "Wolves",
+      "away": "Sunderland",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1395.1,
+        "awayElo": 1508.6,
+        "probs": {
+          "home": 0.2567,
+          "away": 0.4757,
+          "draw": 0.2676
+        },
+        "marketProbs": {
+          "home": 0.2567,
+          "away": 0.4757,
+          "draw": 0.2676
+        },
+        "modelProbs": {
+          "home": 0.3031,
+          "draw": 0.2472,
+          "away": 0.4497
+        },
+        "expectedHomeGoals": 1.15,
+        "expectedAwayGoals": 1.25,
+        "over25": 0.415,
+        "btts": 0.477,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1304
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1134
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1041
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0906
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0816
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0749
+          },
+          {
+            "score": "0-2",
+            "prob": 0.071
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0599
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0469
+          },
+          {
+            "score": "1-3",
+            "prob": 0.034
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Wolves win",
+          "prob": 0.2567,
+          "odds": 3.67,
+          "ev": -0.058
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Sunderland win",
+          "prob": 0.4757,
+          "odds": 1.98,
+          "ev": -0.058
+        },
+        "confidence": 0.4757,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "league": "Serie A",
+      "home": "Atalanta",
+      "away": "Genoa",
+      "score": "0-0",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1595.1,
+        "awayElo": 1481.9,
+        "probs": {
+          "home": 0.6311,
+          "away": 0.1531,
+          "draw": 0.2157
+        },
+        "marketProbs": {
+          "home": 0.6311,
+          "away": 0.1531,
+          "draw": 0.2157
+        },
+        "modelProbs": {
+          "home": 0.5769,
+          "draw": 0.1911,
+          "away": 0.232
+        },
+        "expectedHomeGoals": 1.78,
+        "expectedAwayGoals": 0.82,
+        "over25": 0.4439,
+        "btts": 0.4429,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1328
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1182
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1083
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0964
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0746
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0701
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0609
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0572
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0442
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0393
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2157,
+          "odds": 4.33,
+          "ev": -0.0659
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Atalanta win",
+          "prob": 0.6311,
+          "odds": 1.48,
+          "ev": -0.0659
+        },
+        "confidence": 0.6311,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "league": "Serie A",
+      "home": "Como",
+      "away": "Napoli",
+      "score": "0-0",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1575.8,
+        "awayElo": 1644.2,
+        "probs": {
+          "home": 0.4239,
+          "away": 0.2805,
+          "draw": 0.2956
+        },
+        "marketProbs": {
+          "home": 0.4239,
+          "away": 0.2805,
+          "draw": 0.2956
+        },
+        "modelProbs": {
+          "home": 0.338,
+          "draw": 0.2754,
+          "away": 0.3866
+        },
+        "expectedHomeGoals": 1.28,
+        "expectedAwayGoals": 1.16,
+        "over25": 0.424,
+        "btts": 0.4841,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1295
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1111
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1015
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0872
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0825
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0754
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0709
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0591
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0351
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Napoli win",
+          "prob": 0.2805,
+          "odds": 3.34,
+          "ev": -0.0631
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Como win",
+          "prob": 0.4239,
+          "odds": 2.21,
+          "ev": -0.0631
+        },
+        "confidence": 0.4239,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "league": "Serie A",
+      "home": "Udinese",
+      "away": "Torino",
+      "score": "2-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1482.6,
+        "awayElo": 1487.2,
+        "probs": {
+          "home": 0.4731,
+          "away": 0.2439,
+          "draw": 0.283
+        },
+        "marketProbs": {
+          "home": 0.4731,
+          "away": 0.2439,
+          "draw": 0.283
+        },
+        "modelProbs": {
+          "home": 0.4102,
+          "draw": 0.2648,
+          "away": 0.3251
+        },
+        "expectedHomeGoals": 1.45,
+        "expectedAwayGoals": 1.04,
+        "over25": 0.4341,
+        "btts": 0.482,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1249
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1199
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0907
+          },
+          {
+            "score": "2-0",
+            "prob": 0.087
+          },
+          {
+            "score": "0-1",
+            "prob": 0.086
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0825
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0651
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0473
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0448
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Udinese win",
+          "prob": 0.4731,
+          "odds": 1.98,
+          "ev": -0.0633
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Udinese win",
+          "prob": 0.4731,
+          "odds": 1.98,
+          "ev": -0.0633
+        },
+        "confidence": 0.4731,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "league": "Bundesliga",
+      "home": "Freiburg",
+      "away": "Wolfsburg",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1522.3,
+        "awayElo": 1417.5,
+        "probs": {
+          "home": 0.4565,
+          "away": 0.2828,
+          "draw": 0.2607
+        },
+        "marketProbs": {
+          "home": 0.4565,
+          "away": 0.2828,
+          "draw": 0.2607
+        },
+        "modelProbs": {
+          "home": 0.5651,
+          "draw": 0.1963,
+          "away": 0.2385
+        },
+        "expectedHomeGoals": 1.76,
+        "expectedAwayGoals": 0.83,
+        "over25": 0.4436,
+        "btts": 0.4471,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.132
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1159
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1098
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0964
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0752
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0679
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0625
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0564
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0457
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0401
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Freiburg win",
+          "prob": 0.4565,
+          "odds": 2.05,
+          "ev": -0.0641
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Freiburg win",
+          "prob": 0.4565,
+          "odds": 2.05,
+          "ev": -0.0641
+        },
+        "confidence": 0.4565,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "league": "Bundesliga",
+      "home": "M'gladbach",
+      "away": "Dortmund",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1457.2,
+        "awayElo": 1637.7,
+        "probs": {
+          "home": 0.2578,
+          "away": 0.4965,
+          "draw": 0.2457
+        },
+        "marketProbs": {
+          "home": 0.2578,
+          "away": 0.4965,
+          "draw": 0.2457
+        },
+        "modelProbs": {
+          "home": 0.2498,
+          "draw": 0.2053,
+          "away": 0.5448
+        },
+        "expectedHomeGoals": 0.96,
+        "expectedAwayGoals": 1.38,
+        "over25": 0.3991,
+        "btts": 0.4523,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1324
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1276
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0959
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0924
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0914
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0881
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0615
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0445
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0424
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0421
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Dortmund win",
+          "prob": 0.4965,
+          "odds": 1.89,
+          "ev": -0.0616
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Dortmund win",
+          "prob": 0.4965,
+          "odds": 1.89,
+          "ev": -0.0616
+        },
+        "confidence": 0.4965,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "league": "Bundesliga",
+      "home": "St Pauli",
+      "away": "Mainz",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1419.8,
+        "awayElo": 1503.5,
+        "probs": {
+          "home": 0.3402,
+          "away": 0.3728,
+          "draw": 0.287
+        },
+        "marketProbs": {
+          "home": 0.3402,
+          "away": 0.3728,
+          "draw": 0.287
+        },
+        "modelProbs": {
+          "home": 0.3264,
+          "draw": 0.2658,
+          "away": 0.4078
+        },
+        "expectedHomeGoals": 1.23,
+        "expectedAwayGoals": 1.19,
+        "over25": 0.4212,
+        "btts": 0.4825,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.13
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1088
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1055
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0883
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0801
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0776
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0671
+          },
+          {
+            "score": "0-2",
+            "prob": 0.063
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0478
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0329
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "St Pauli win",
+          "prob": 0.3402,
+          "odds": 2.75,
+          "ev": -0.0644
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Mainz win",
+          "prob": 0.3728,
+          "odds": 2.51,
+          "ev": -0.0644
+        },
+        "confidence": 0.3728,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "league": "La Liga",
+      "home": "Betis",
+      "away": "Oviedo",
+      "score": "3-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1566.6,
+        "awayElo": 1456.0,
+        "probs": {
+          "home": 0.6102,
+          "away": 0.1606,
+          "draw": 0.2292
+        },
+        "marketProbs": {
+          "home": 0.6102,
+          "away": 0.1606,
+          "draw": 0.2292
+        },
+        "modelProbs": {
+          "home": 0.5732,
+          "draw": 0.1927,
+          "away": 0.234
+        },
+        "expectedHomeGoals": 1.77,
+        "expectedAwayGoals": 0.82,
+        "over25": 0.4439,
+        "btts": 0.4442,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1326
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1175
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1088
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0964
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0748
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0694
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0614
+          },
+          {
+            "score": "3-1",
+            "prob": 0.057
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0446
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0396
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Betis win",
+          "prob": 0.6102,
+          "odds": 1.54,
+          "ev": -0.0603
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Betis win",
+          "prob": 0.6102,
+          "odds": 1.54,
+          "ev": -0.0603
+        },
+        "confidence": 0.6102,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "league": "La Liga",
+      "home": "Celta",
+      "away": "Elche",
+      "score": "3-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1515.0,
+        "awayElo": 1492.0,
+        "probs": {
+          "home": 0.5544,
+          "away": 0.2028,
+          "draw": 0.2427
+        },
+        "marketProbs": {
+          "home": 0.5544,
+          "away": 0.2028,
+          "draw": 0.2427
+        },
+        "modelProbs": {
+          "home": 0.449,
+          "draw": 0.2475,
+          "away": 0.3035
+        },
+        "expectedHomeGoals": 1.53,
+        "expectedAwayGoals": 0.99,
+        "over25": 0.4374,
+        "btts": 0.4768,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1232
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1219
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0942
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0932
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0806
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0797
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0603
+          },
+          {
+            "score": "3-0",
+            "prob": 0.048
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0475
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0461
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Celta win",
+          "prob": 0.5544,
+          "odds": 1.69,
+          "ev": -0.063
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Celta win",
+          "prob": 0.5544,
+          "odds": 1.69,
+          "ev": -0.063
+        },
+        "confidence": 0.5544,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "league": "La Liga",
+      "home": "Espanol",
+      "away": "Real Madrid",
+      "score": "0-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1464.8,
+        "awayElo": 1699.8,
+        "probs": {
+          "home": 0.2175,
+          "away": 0.5357,
+          "draw": 0.2467
+        },
+        "marketProbs": {
+          "home": 0.2175,
+          "away": 0.5357,
+          "draw": 0.2467
+        },
+        "modelProbs": {
+          "home": 0.2058,
+          "draw": 0.18,
+          "away": 0.6142
+        },
+        "expectedHomeGoals": 0.81,
+        "expectedAwayGoals": 1.49,
+        "over25": 0.384,
+        "btts": 0.4191,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1493
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1213
+          },
+          {
+            "score": "0-2",
+            "prob": 0.1109
+          },
+          {
+            "score": "0-0",
+            "prob": 0.1005
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0901
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0816
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0549
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0492
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0446
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0366
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Espanol win",
+          "prob": 0.2175,
+          "odds": 4.31,
+          "ev": -0.0624
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Real Madrid win",
+          "prob": 0.5357,
+          "odds": 1.75,
+          "ev": -0.0624
+        },
+        "confidence": 0.5357,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "league": "La Liga",
+      "home": "Getafe",
+      "away": "Vallecano",
+      "score": "0-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1488.3,
+        "awayElo": 1496.3,
+        "probs": {
+          "home": 0.4644,
+          "away": 0.226,
+          "draw": 0.3096
+        },
+        "marketProbs": {
+          "home": 0.4644,
+          "away": 0.226,
+          "draw": 0.3096
+        },
+        "modelProbs": {
+          "home": 0.4054,
+          "draw": 0.2669,
+          "away": 0.3277
+        },
+        "expectedHomeGoals": 1.44,
+        "expectedAwayGoals": 1.05,
+        "over25": 0.4336,
+        "btts": 0.4824,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1253
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1194
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0904
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0868
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0861
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0828
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0657
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0474
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0455
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0435
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4336,
+          "odds": 2.64,
+          "ev": 0.1448
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Getafe win",
+          "prob": 0.4644,
+          "odds": 2.02,
+          "ev": -0.062
+        },
+        "confidence": 0.4644,
+        "tier": "low",
+        "isValue": true
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "league": "Ligue 1",
+      "home": "Auxerre",
+      "away": "Angers",
+      "score": "3-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1446.8,
+        "awayElo": 1449.6,
+        "probs": {
+          "home": 0.5459,
+          "away": 0.1968,
+          "draw": 0.2572
+        },
+        "marketProbs": {
+          "home": 0.5459,
+          "away": 0.1968,
+          "draw": 0.2572
+        },
+        "modelProbs": {
+          "home": 0.4127,
+          "draw": 0.2636,
+          "away": 0.3237
+        },
+        "expectedHomeGoals": 1.46,
+        "expectedAwayGoals": 1.04,
+        "over25": 0.4343,
+        "btts": 0.4817,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1248
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1201
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0909
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0875
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0856
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0824
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0648
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0472
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0445
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0442
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Angers win",
+          "prob": 0.1968,
+          "odds": 4.77,
+          "ev": -0.061
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Auxerre win",
+          "prob": 0.5459,
+          "odds": 1.72,
+          "ev": -0.061
+        },
+        "confidence": 0.5459,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "league": "Ligue 1",
+      "home": "Lille",
+      "away": "Le Havre",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1607.3,
+        "awayElo": 1436.3,
+        "probs": {
+          "home": 0.6923,
+          "away": 0.1097,
+          "draw": 0.198
+        },
+        "marketProbs": {
+          "home": 0.6923,
+          "away": 0.1097,
+          "draw": 0.198
+        },
+        "modelProbs": {
+          "home": 0.6365,
+          "draw": 0.18,
+          "away": 0.1835
+        },
+        "expectedHomeGoals": 1.94,
+        "expectedAwayGoals": 0.7,
+        "over25": 0.4445,
+        "btts": 0.4084,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1378
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1337
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0971
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0942
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0864
+          },
+          {
+            "score": "0-0",
+            "prob": 0.071
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0609
+          },
+          {
+            "score": "0-1",
+            "prob": 0.05
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0419
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0342
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Lille win",
+          "prob": 0.6923,
+          "odds": 1.35,
+          "ev": -0.0654
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Lille win",
+          "prob": 0.6923,
+          "odds": 1.35,
+          "ev": -0.0654
+        },
+        "confidence": 0.6923,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "league": "Ligue 1",
+      "home": "Lyon",
+      "away": "Rennes",
+      "score": "4-2",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1589.2,
+        "awayElo": 1552.1,
+        "probs": {
+          "home": 0.4558,
+          "away": 0.2957,
+          "draw": 0.2485
+        },
+        "marketProbs": {
+          "home": 0.4558,
+          "away": 0.2957,
+          "draw": 0.2485
+        },
+        "modelProbs": {
+          "home": 0.4689,
+          "draw": 0.2387,
+          "away": 0.2924
+        },
+        "expectedHomeGoals": 1.57,
+        "expectedAwayGoals": 0.96,
+        "over25": 0.4389,
+        "btts": 0.4732,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1249
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1202
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0979
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0942
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0796
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0766
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0578
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0512
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0492
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0453
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Lyon win",
+          "prob": 0.4558,
+          "odds": 2.05,
+          "ev": -0.0656
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Lyon win",
+          "prob": 0.4558,
+          "odds": 2.05,
+          "ev": -0.0656
+        },
+        "confidence": 0.4558,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "league": "Ligue 1",
+      "home": "Paris FC",
+      "away": "Brest",
+      "score": "4-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1502.7,
+        "awayElo": 1515.9,
+        "probs": {
+          "home": 0.5092,
+          "away": 0.2409,
+          "draw": 0.2499
+        },
+        "marketProbs": {
+          "home": 0.5092,
+          "away": 0.2409,
+          "draw": 0.2499
+        },
+        "modelProbs": {
+          "home": 0.3983,
+          "draw": 0.2701,
+          "away": 0.3316
+        },
+        "expectedHomeGoals": 1.43,
+        "expectedAwayGoals": 1.06,
+        "over25": 0.4329,
+        "btts": 0.4831,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1257
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1188
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0898
+          },
+          {
+            "score": "0-1",
+            "prob": 0.088
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0848
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0831
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0666
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0475
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0466
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0428
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Paris FC win",
+          "prob": 0.5092,
+          "odds": 1.84,
+          "ev": -0.063
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Paris FC win",
+          "prob": 0.5092,
+          "odds": 1.84,
+          "ev": -0.063
+        },
+        "confidence": 0.5092,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "league": "Ligue 1",
+      "home": "Strasbourg",
+      "away": "Toulouse",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1546.5,
+        "awayElo": 1480.9,
+        "probs": {
+          "home": 0.3151,
+          "away": 0.416,
+          "draw": 0.2689
+        },
+        "marketProbs": {
+          "home": 0.3151,
+          "away": 0.416,
+          "draw": 0.2689
+        },
+        "modelProbs": {
+          "home": 0.5096,
+          "draw": 0.2208,
+          "away": 0.2695
+        },
+        "expectedHomeGoals": 1.65,
+        "expectedAwayGoals": 0.91,
+        "over25": 0.4414,
+        "btts": 0.4639,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.128
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1162
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1055
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0957
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0777
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0705
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0579
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0527
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0525
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0434
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Strasbourg win",
+          "prob": 0.3151,
+          "odds": 2.97,
+          "ev": -0.0641
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Toulouse win",
+          "prob": 0.416,
+          "odds": 2.25,
+          "ev": -0.0641
+        },
+        "confidence": 0.416,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "league": "Premier League",
+      "home": "Aston Villa",
+      "away": "Tottenham",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1584.9,
+        "awayElo": 1436.2,
+        "probs": {
+          "home": 0.4198,
+          "away": 0.3145,
+          "draw": 0.2657
+        },
+        "marketProbs": {
+          "home": 0.4198,
+          "away": 0.3145,
+          "draw": 0.2657
+        },
+        "modelProbs": {
+          "home": 0.6176,
+          "draw": 0.18,
+          "away": 0.2024
+        },
+        "expectedHomeGoals": 1.88,
+        "expectedAwayGoals": 0.75,
+        "over25": 0.4446,
+        "btts": 0.4228,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.136
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1277
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1016
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0954
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0799
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0724
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0598
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0541
+          },
+          {
+            "score": "1-2",
+            "prob": 0.038
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0375
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Aston Villa win",
+          "prob": 0.4198,
+          "odds": 2.24,
+          "ev": -0.0596
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Aston Villa win",
+          "prob": 0.4198,
+          "odds": 2.24,
+          "ev": -0.0596
+        },
+        "confidence": 0.4198,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "league": "Premier League",
+      "home": "Bournemouth",
+      "away": "Crystal Palace",
+      "score": "3-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1550.5,
+        "awayElo": 1515.5,
+        "probs": {
+          "home": 0.6025,
+          "away": 0.1753,
+          "draw": 0.2222
+        },
+        "marketProbs": {
+          "home": 0.6025,
+          "away": 0.1753,
+          "draw": 0.2222
+        },
+        "modelProbs": {
+          "home": 0.466,
+          "draw": 0.24,
+          "away": 0.294
+        },
+        "expectedHomeGoals": 1.56,
+        "expectedAwayGoals": 0.97,
+        "over25": 0.4387,
+        "btts": 0.4737,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1246
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0974
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0941
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0798
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0771
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0582
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0507
+          },
+          {
+            "score": "3-1",
+            "prob": 0.049
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0454
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Crystal Palace win",
+          "prob": 0.1753,
+          "odds": 5.36,
+          "ev": -0.0601
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Bournemouth win",
+          "prob": 0.6025,
+          "odds": 1.56,
+          "ev": -0.0601
+        },
+        "confidence": 0.6025,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "league": "Premier League",
+      "home": "Man United",
+      "away": "Liverpool",
+      "score": "3-2",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1564.7,
+        "awayElo": 1625.5,
+        "probs": {
+          "home": 0.4014,
+          "away": 0.3443,
+          "draw": 0.2543
+        },
+        "marketProbs": {
+          "home": 0.4014,
+          "away": 0.3443,
+          "draw": 0.2543
+        },
+        "modelProbs": {
+          "home": 0.3436,
+          "draw": 0.2801,
+          "away": 0.3763
+        },
+        "expectedHomeGoals": 1.3,
+        "expectedAwayGoals": 1.15,
+        "over25": 0.4254,
+        "btts": 0.4846,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1291
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1122
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0996
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0866
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0837
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0743
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0727
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0573
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0362
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Man United win",
+          "prob": 0.4014,
+          "odds": 2.35,
+          "ev": -0.0566
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Man United win",
+          "prob": 0.4014,
+          "odds": 2.35,
+          "ev": -0.0566
+        },
+        "confidence": 0.4014,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "league": "Serie A",
+      "home": "Bologna",
+      "away": "Cagliari",
+      "score": "0-0",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1534.3,
+        "awayElo": 1439.6,
+        "probs": {
+          "home": 0.4248,
+          "away": 0.2717,
+          "draw": 0.3035
+        },
+        "marketProbs": {
+          "home": 0.4248,
+          "away": 0.2717,
+          "draw": 0.3035
+        },
+        "modelProbs": {
+          "home": 0.5508,
+          "draw": 0.2027,
+          "away": 0.2465
+        },
+        "expectedHomeGoals": 1.73,
+        "expectedAwayGoals": 0.85,
+        "over25": 0.4432,
+        "btts": 0.4519,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.131
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1132
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1115
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0964
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0758
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0652
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0645
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0555
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0475
+          },
+          {
+            "score": "2-2",
+            "prob": 0.041
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4432,
+          "odds": 2.17,
+          "ev": -0.0383
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Bologna win",
+          "prob": 0.4248,
+          "odds": 2.2,
+          "ev": -0.0653
+        },
+        "confidence": 0.4248,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "league": "Serie A",
+      "home": "Inter",
+      "away": "Parma",
+      "score": "2-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1715.7,
+        "awayElo": 1489.6,
+        "probs": {
+          "home": 0.787,
+          "away": 0.0725,
+          "draw": 0.1404
+        },
+        "marketProbs": {
+          "home": 0.787,
+          "away": 0.0725,
+          "draw": 0.1404
+        },
+        "modelProbs": {
+          "home": 0.6777,
+          "draw": 0.18,
+          "away": 0.1423
+        },
+        "expectedHomeGoals": 2.09,
+        "expectedAwayGoals": 0.6,
+        "over25": 0.4425,
+        "btts": 0.3669,
+        "scoreGrid": [
+          {
+            "score": "2-0",
+            "prob": 0.1484
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1418
+          },
+          {
+            "score": "3-0",
+            "prob": 0.1036
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0889
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0849
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0678
+          },
+          {
+            "score": "3-1",
+            "prob": 0.062
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0542
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0406
+          },
+          {
+            "score": "4-1",
+            "prob": 0.0324
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.1404,
+          "odds": 6.67,
+          "ev": -0.0634
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Inter win",
+          "prob": 0.787,
+          "odds": 1.19,
+          "ev": -0.0634
+        },
+        "confidence": 0.787,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "league": "Serie A",
+      "home": "Juventus",
+      "away": "Verona",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1639.9,
+        "awayElo": 1369.6,
+        "probs": {
+          "home": 0.8033,
+          "away": 0.0627,
+          "draw": 0.1341
+        },
+        "marketProbs": {
+          "home": 0.8033,
+          "away": 0.0627,
+          "draw": 0.1341
+        },
+        "modelProbs": {
+          "home": 0.7052,
+          "draw": 0.18,
+          "away": 0.1148
+        },
+        "expectedHomeGoals": 2.22,
+        "expectedAwayGoals": 0.51,
+        "over25": 0.4392,
+        "btts": 0.3279,
+        "scoreGrid": [
+          {
+            "score": "2-0",
+            "prob": 0.1602
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1446
+          },
+          {
+            "score": "3-0",
+            "prob": 0.1183
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0823
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0743
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0655
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0653
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0608
+          },
+          {
+            "score": "4-1",
+            "prob": 0.0337
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0335
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Juventus win",
+          "prob": 0.8033,
+          "odds": 1.17,
+          "ev": -0.0602
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Juventus win",
+          "prob": 0.8033,
+          "odds": 1.17,
+          "ev": -0.0602
+        },
+        "confidence": 0.8033,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "league": "Serie A",
+      "home": "Sassuolo",
+      "away": "Milan",
+      "score": "2-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1474.4,
+        "awayElo": 1624.2,
+        "probs": {
+          "home": 0.2038,
+          "away": 0.5588,
+          "draw": 0.2375
+        },
+        "marketProbs": {
+          "home": 0.2038,
+          "away": 0.5588,
+          "draw": 0.2375
+        },
+        "modelProbs": {
+          "home": 0.2742,
+          "draw": 0.2245,
+          "away": 0.5013
+        },
+        "expectedHomeGoals": 1.05,
+        "expectedAwayGoals": 1.32,
+        "over25": 0.4068,
+        "btts": 0.4658,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1295
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1235
+          },
+          {
+            "score": "1-0",
+            "prob": 0.098
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0934
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0856
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0816
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0679
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0514
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0449
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0377
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2375,
+          "odds": 3.93,
+          "ev": -0.0668
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Milan win",
+          "prob": 0.5588,
+          "odds": 1.67,
+          "ev": -0.0668
+        },
+        "confidence": 0.5588,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-04",
+      "league": "La Liga",
+      "home": "Sevilla",
+      "away": "Sociedad",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1438.0,
+        "awayElo": 1507.2,
+        "probs": {
+          "home": 0.396,
+          "away": 0.3098,
+          "draw": 0.2942
+        },
+        "marketProbs": {
+          "home": 0.396,
+          "away": 0.3098,
+          "draw": 0.2942
+        },
+        "modelProbs": {
+          "home": 0.3374,
+          "draw": 0.2749,
+          "away": 0.3878
+        },
+        "expectedHomeGoals": 1.27,
+        "expectedAwayGoals": 1.17,
+        "over25": 0.4239,
+        "btts": 0.4841,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1295
+          },
+          {
+            "score": "1-0",
+            "prob": 0.111
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1017
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0872
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0824
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0755
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0706
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0593
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.035
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2942,
+          "odds": 3.19,
+          "ev": -0.0614
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Sevilla win",
+          "prob": 0.396,
+          "odds": 2.37,
+          "ev": -0.0614
+        },
+        "confidence": 0.396,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-04",
+      "league": "Premier League",
+      "home": "Chelsea",
+      "away": "Nott'm Forest",
+      "score": "1-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1553.6,
+        "awayElo": 1503.6,
+        "probs": {
+          "home": 0.6697,
+          "away": 0.1328,
+          "draw": 0.1975
+        },
+        "marketProbs": {
+          "home": 0.6697,
+          "away": 0.1328,
+          "draw": 0.1975
+        },
+        "modelProbs": {
+          "home": 0.4873,
+          "draw": 0.2306,
+          "away": 0.2821
+        },
+        "expectedHomeGoals": 1.6,
+        "expectedAwayGoals": 0.94,
+        "over25": 0.4401,
+        "btts": 0.4693,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1263
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1184
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1013
+          },
+          {
+            "score": "2-1",
+            "prob": 0.095
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0788
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0738
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0555
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0542
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0508
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0445
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.1975,
+          "odds": 4.78,
+          "ev": -0.0558
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Chelsea win",
+          "prob": 0.6697,
+          "odds": 1.41,
+          "ev": -0.0558
+        },
+        "confidence": 0.6697,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-04",
+      "league": "Premier League",
+      "home": "Everton",
+      "away": "Man City",
+      "score": "3-3",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1520.0,
+        "awayElo": 1678.8,
+        "probs": {
+          "home": 0.1409,
+          "away": 0.6546,
+          "draw": 0.2045
+        },
+        "marketProbs": {
+          "home": 0.1409,
+          "away": 0.6546,
+          "draw": 0.2045
+        },
+        "modelProbs": {
+          "home": 0.267,
+          "draw": 0.2188,
+          "away": 0.5142
+        },
+        "expectedHomeGoals": 1.02,
+        "expectedAwayGoals": 1.34,
+        "over25": 0.4045,
+        "btts": 0.4622,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1291
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1261
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0964
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0942
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0864
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0844
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0661
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0493
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0442
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0386
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Everton win",
+          "prob": 0.1409,
+          "odds": 6.69,
+          "ev": -0.0574
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Man City win",
+          "prob": 0.6546,
+          "odds": 1.44,
+          "ev": -0.0574
+        },
+        "confidence": 0.6546,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-04",
+      "league": "Serie A",
+      "home": "Cremonese",
+      "away": "Lazio",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1433.6,
+        "awayElo": 1557.6,
+        "probs": {
+          "home": 0.3012,
+          "away": 0.4004,
+          "draw": 0.2984
+        },
+        "marketProbs": {
+          "home": 0.3012,
+          "away": 0.4004,
+          "draw": 0.2984
+        },
+        "modelProbs": {
+          "home": 0.2948,
+          "draw": 0.2406,
+          "away": 0.4646
+        },
+        "expectedHomeGoals": 1.12,
+        "expectedAwayGoals": 1.27,
+        "over25": 0.4127,
+        "btts": 0.4743,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1303
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1163
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1024
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0914
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0829
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0739
+          },
+          {
+            "score": "2-1",
+            "prob": 0.073
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0574
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0464
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0351
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Cremonese win",
+          "prob": 0.3012,
+          "odds": 3.11,
+          "ev": -0.0631
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Lazio win",
+          "prob": 0.4004,
+          "odds": 2.34,
+          "ev": -0.0631
+        },
+        "confidence": 0.4004,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-04",
+      "league": "Serie A",
+      "home": "Roma",
+      "away": "Fiorentina",
+      "score": "4-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1605.8,
+        "awayElo": 1521.7,
+        "probs": {
+          "home": 0.6208,
+          "away": 0.1522,
+          "draw": 0.227
+        },
+        "marketProbs": {
+          "home": 0.6208,
+          "away": 0.1522,
+          "draw": 0.227
+        },
+        "modelProbs": {
+          "home": 0.5359,
+          "draw": 0.2093,
+          "away": 0.2548
+        },
+        "expectedHomeGoals": 1.7,
+        "expectedAwayGoals": 0.87,
+        "over25": 0.4426,
+        "btts": 0.4565,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.13
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1133
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1104
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0962
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0765
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0667
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0625
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0545
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0494
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0419
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Roma win",
+          "prob": 0.6208,
+          "odds": 1.51,
+          "ev": -0.0625
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Roma win",
+          "prob": 0.6208,
+          "odds": 1.51,
+          "ev": -0.0625
+        },
+        "confidence": 0.6208,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-08",
+      "league": "Bundesliga",
+      "home": "Dortmund",
+      "away": "Ein Frankfurt",
+      "score": "3-2",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1626.7,
+        "awayElo": 1525.7,
+        "probs": {
+          "home": 0.5517,
+          "away": 0.2271,
+          "draw": 0.2212
+        },
+        "marketProbs": {
+          "home": 0.5517,
+          "away": 0.2271,
+          "draw": 0.2212
+        },
+        "modelProbs": {
+          "home": 0.5598,
+          "draw": 0.1987,
+          "away": 0.2415
+        },
+        "expectedHomeGoals": 1.75,
+        "expectedAwayGoals": 0.84,
+        "over25": 0.4435,
+        "btts": 0.4489,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1316
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1149
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1105
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0964
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0754
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0669
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0633
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0561
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0464
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0405
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Dortmund win",
+          "prob": 0.5517,
+          "odds": 1.7,
+          "ev": -0.0621
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Dortmund win",
+          "prob": 0.5517,
+          "odds": 1.7,
+          "ev": -0.0621
+        },
+        "confidence": 0.5517,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-08",
+      "league": "La Liga",
+      "home": "Levante",
+      "away": "Osasuna",
+      "score": "3-2",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1470.4,
+        "awayElo": 1506.1,
+        "probs": {
+          "home": 0.3707,
+          "away": 0.3398,
+          "draw": 0.2895
+        },
+        "marketProbs": {
+          "home": 0.3707,
+          "away": 0.3398,
+          "draw": 0.2895
+        },
+        "modelProbs": {
+          "home": 0.3675,
+          "draw": 0.2842,
+          "away": 0.3483
+        },
+        "expectedHomeGoals": 1.37,
+        "expectedAwayGoals": 1.1,
+        "over25": 0.4296,
+        "btts": 0.4848,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1276
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1158
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0934
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0871
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0848
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0791
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0703
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0515
+          },
+          {
+            "score": "2-2",
+            "prob": 0.048
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0397
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Levante win",
+          "prob": 0.3707,
+          "odds": 2.53,
+          "ev": -0.0621
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Levante win",
+          "prob": 0.3707,
+          "odds": 2.53,
+          "ev": -0.0621
+        },
+        "confidence": 0.3707,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-08",
+      "league": "Ligue 1",
+      "home": "Lens",
+      "away": "Nantes",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1590.7,
+        "awayElo": 1402.6,
+        "probs": {
+          "home": 0.6516,
+          "away": 0.1521,
+          "draw": 0.1963
+        },
+        "marketProbs": {
+          "home": 0.6516,
+          "away": 0.1521,
+          "draw": 0.1963
+        },
+        "modelProbs": {
+          "home": 0.6501,
+          "draw": 0.18,
+          "away": 0.1699
+        },
+        "expectedHomeGoals": 1.99,
+        "expectedAwayGoals": 0.67,
+        "over25": 0.4442,
+        "btts": 0.3964,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1391
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1383
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0935
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0929
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0916
+          },
+          {
+            "score": "0-0",
+            "prob": 0.07
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0615
+          },
+          {
+            "score": "0-1",
+            "prob": 0.047
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0455
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0314
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Nantes win",
+          "prob": 0.1521,
+          "odds": 6.17,
+          "ev": -0.0617
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Lens win",
+          "prob": 0.6516,
+          "odds": 1.44,
+          "ev": -0.0617
+        },
+        "confidence": 0.6516,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-08",
+      "league": "Serie A",
+      "home": "Torino",
+      "away": "Sassuolo",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1480.1,
+        "awayElo": 1484.7,
+        "probs": {
+          "home": 0.3455,
+          "away": 0.3601,
+          "draw": 0.2944
+        },
+        "marketProbs": {
+          "home": 0.3455,
+          "away": 0.3601,
+          "draw": 0.2944
+        },
+        "modelProbs": {
+          "home": 0.4101,
+          "draw": 0.2648,
+          "away": 0.3251
+        },
+        "expectedHomeGoals": 1.45,
+        "expectedAwayGoals": 1.04,
+        "over25": 0.4341,
+        "btts": 0.482,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1249
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1199
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0907
+          },
+          {
+            "score": "2-0",
+            "prob": 0.087
+          },
+          {
+            "score": "0-1",
+            "prob": 0.086
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0825
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0651
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0473
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0448
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2944,
+          "odds": 3.18,
+          "ev": -0.0637
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Sassuolo win",
+          "prob": 0.3601,
+          "odds": 2.6,
+          "ev": -0.0637
+        },
+        "confidence": 0.3601,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-09",
+      "league": "Bundesliga",
+      "home": "Augsburg",
+      "away": "M'gladbach",
+      "score": "3-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1491.7,
+        "awayElo": 1468.2,
+        "probs": {
+          "home": 0.4898,
+          "away": 0.2704,
+          "draw": 0.2399
+        },
+        "marketProbs": {
+          "home": 0.4898,
+          "away": 0.2704,
+          "draw": 0.2399
+        },
+        "modelProbs": {
+          "home": 0.4496,
+          "draw": 0.2472,
+          "away": 0.3032
+        },
+        "expectedHomeGoals": 1.53,
+        "expectedAwayGoals": 0.99,
+        "over25": 0.4375,
+        "btts": 0.4766,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1233
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1219
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0943
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0932
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0806
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0796
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0602
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0476
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0461
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2399,
+          "odds": 3.9,
+          "ev": -0.0645
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Augsburg win",
+          "prob": 0.4898,
+          "odds": 1.91,
+          "ev": -0.0645
+        },
+        "confidence": 0.4898,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-09",
+      "league": "Bundesliga",
+      "home": "Hoffenheim",
+      "away": "Werder Bremen",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1536.4,
+        "awayElo": 1466.6,
+        "probs": {
+          "home": 0.6341,
+          "away": 0.1732,
+          "draw": 0.1927
+        },
+        "marketProbs": {
+          "home": 0.6341,
+          "away": 0.1732,
+          "draw": 0.1927
+        },
+        "modelProbs": {
+          "home": 0.5156,
+          "draw": 0.2182,
+          "away": 0.2662
+        },
+        "expectedHomeGoals": 1.66,
+        "expectedAwayGoals": 0.9,
+        "over25": 0.4417,
+        "btts": 0.4623,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1285
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1155
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1066
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0958
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0774
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0696
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0589
+          },
+          {
+            "score": "3-1",
+            "prob": 0.053
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0519
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0431
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Hoffenheim win",
+          "prob": 0.6341,
+          "odds": 1.48,
+          "ev": -0.0615
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Hoffenheim win",
+          "prob": 0.6341,
+          "odds": 1.48,
+          "ev": -0.0615
+        },
+        "confidence": 0.6341,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-09",
+      "league": "Bundesliga",
+      "home": "RB Leipzig",
+      "away": "St Pauli",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1596.4,
+        "awayElo": 1412.7,
+        "probs": {
+          "home": 0.7396,
+          "away": 0.1041,
+          "draw": 0.1563
+        },
+        "marketProbs": {
+          "home": 0.7396,
+          "away": 0.1041,
+          "draw": 0.1563
+        },
+        "modelProbs": {
+          "home": 0.6467,
+          "draw": 0.18,
+          "away": 0.1733
+        },
+        "expectedHomeGoals": 1.98,
+        "expectedAwayGoals": 0.68,
+        "over25": 0.4443,
+        "btts": 0.3995,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1388
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1371
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0944
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0932
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0903
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0703
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0614
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0478
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0446
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0321
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.1563,
+          "odds": 6.01,
+          "ev": -0.0607
+        },
+        "topSide": {
+          "key": "home",
+          "label": "RB Leipzig win",
+          "prob": 0.7396,
+          "odds": 1.27,
+          "ev": -0.0607
+        },
+        "confidence": 0.7396,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-09",
+      "league": "Bundesliga",
+      "home": "Stuttgart",
+      "away": "Leverkusen",
+      "score": "3-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1584.8,
+        "awayElo": 1644.2,
+        "probs": {
+          "home": 0.4715,
+          "away": 0.3007,
+          "draw": 0.2277
+        },
+        "marketProbs": {
+          "home": 0.4715,
+          "away": 0.3007,
+          "draw": 0.2277
+        },
+        "modelProbs": {
+          "home": 0.3446,
+          "draw": 0.281,
+          "away": 0.3745
+        },
+        "expectedHomeGoals": 1.3,
+        "expectedAwayGoals": 1.15,
+        "over25": 0.4256,
+        "btts": 0.4847,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1291
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1124
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0993
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0865
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0839
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0741
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0731
+          },
+          {
+            "score": "0-2",
+            "prob": 0.057
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0363
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2277,
+          "odds": 4.12,
+          "ev": -0.0617
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Stuttgart win",
+          "prob": 0.4715,
+          "odds": 1.99,
+          "ev": -0.0617
+        },
+        "confidence": 0.4715,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-09",
+      "league": "Bundesliga",
+      "home": "Wolfsburg",
+      "away": "Bayern Munich",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1420.7,
+        "awayElo": 1737.7,
+        "probs": {
+          "home": 0.1773,
+          "away": 0.6412,
+          "draw": 0.1814
+        },
+        "marketProbs": {
+          "home": 0.1773,
+          "away": 0.6412,
+          "draw": 0.1814
+        },
+        "modelProbs": {
+          "home": 0.1417,
+          "draw": 0.18,
+          "away": 0.6783
+        },
+        "expectedHomeGoals": 0.58,
+        "expectedAwayGoals": 1.64,
+        "over25": 0.3582,
+        "btts": 0.3451,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1771
+          },
+          {
+            "score": "0-2",
+            "prob": 0.1455
+          },
+          {
+            "score": "0-0",
+            "prob": 0.1078
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1035
+          },
+          {
+            "score": "1-2",
+            "prob": 0.085
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0797
+          },
+          {
+            "score": "1-0",
+            "prob": 0.063
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0466
+          },
+          {
+            "score": "0-4",
+            "prob": 0.0327
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0302
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Wolfsburg win",
+          "prob": 0.1773,
+          "odds": 5.28,
+          "ev": -0.0638
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Bayern Munich win",
+          "prob": 0.6412,
+          "odds": 1.46,
+          "ev": -0.0638
+        },
+        "confidence": 0.6412,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-09",
+      "league": "La Liga",
+      "home": "Ath Madrid",
+      "away": "Celta",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1618.8,
+        "awayElo": 1521.4,
+        "probs": {
+          "home": 0.5103,
+          "away": 0.2359,
+          "draw": 0.2538
+        },
+        "marketProbs": {
+          "home": 0.5103,
+          "away": 0.2359,
+          "draw": 0.2538
+        },
+        "modelProbs": {
+          "home": 0.5545,
+          "draw": 0.2011,
+          "away": 0.2444
+        },
+        "expectedHomeGoals": 1.74,
+        "expectedAwayGoals": 0.85,
+        "over25": 0.4433,
+        "btts": 0.4507,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1313
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1139
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1111
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0964
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0757
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0659
+          },
+          {
+            "score": "0-1",
+            "prob": 0.064
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0558
+          },
+          {
+            "score": "1-2",
+            "prob": 0.047
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0408
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Ath Madrid win",
+          "prob": 0.5103,
+          "odds": 1.84,
+          "ev": -0.061
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Ath Madrid win",
+          "prob": 0.5103,
+          "odds": 1.84,
+          "ev": -0.061
+        },
+        "confidence": 0.5103,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-09",
+      "league": "La Liga",
+      "home": "Elche",
+      "away": "Alaves",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1485.5,
+        "awayElo": 1463.4,
+        "probs": {
+          "home": 0.4208,
+          "away": 0.2869,
+          "draw": 0.2923
+        },
+        "marketProbs": {
+          "home": 0.4208,
+          "away": 0.2869,
+          "draw": 0.2923
+        },
+        "modelProbs": {
+          "home": 0.4477,
+          "draw": 0.2481,
+          "away": 0.3043
+        },
+        "expectedHomeGoals": 1.53,
+        "expectedAwayGoals": 0.99,
+        "over25": 0.4373,
+        "btts": 0.477,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1231
+          },
+          {
+            "score": "1-1",
+            "prob": 0.122
+          },
+          {
+            "score": "2-0",
+            "prob": 0.094
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0931
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0807
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0799
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0605
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0478
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0474
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0461
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Elche win",
+          "prob": 0.4208,
+          "odds": 2.23,
+          "ev": -0.0617
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Elche win",
+          "prob": 0.4208,
+          "odds": 2.23,
+          "ev": -0.0617
+        },
+        "confidence": 0.4208,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-09",
+      "league": "La Liga",
+      "home": "Sevilla",
+      "away": "Espanol",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1446.5,
+        "awayElo": 1460.8,
+        "probs": {
+          "home": 0.4748,
+          "away": 0.2276,
+          "draw": 0.2975
+        },
+        "marketProbs": {
+          "home": 0.4748,
+          "away": 0.2276,
+          "draw": 0.2975
+        },
+        "modelProbs": {
+          "home": 0.3968,
+          "draw": 0.2708,
+          "away": 0.3324
+        },
+        "expectedHomeGoals": 1.43,
+        "expectedAwayGoals": 1.06,
+        "over25": 0.4328,
+        "btts": 0.4832,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1258
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1186
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0897
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0883
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0845
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0832
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0667
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0476
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0468
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0426
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4328,
+          "odds": 2.52,
+          "ev": 0.0906
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Sevilla win",
+          "prob": 0.4748,
+          "odds": 1.98,
+          "ev": -0.0598
+        },
+        "confidence": 0.4748,
+        "tier": "low",
+        "isValue": true
+      }
+    },
+    {
+      "date": "2026-05-09",
+      "league": "La Liga",
+      "home": "Sociedad",
+      "away": "Betis",
+      "score": "2-2",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1498.6,
+        "awayElo": 1571.2,
+        "probs": {
+          "home": 0.3755,
+          "away": 0.3556,
+          "draw": 0.269
+        },
+        "marketProbs": {
+          "home": 0.3755,
+          "away": 0.3556,
+          "draw": 0.269
+        },
+        "modelProbs": {
+          "home": 0.3348,
+          "draw": 0.2727,
+          "away": 0.3925
+        },
+        "expectedHomeGoals": 1.26,
+        "expectedAwayGoals": 1.17,
+        "over25": 0.4233,
+        "btts": 0.4838,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1296
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1105
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1026
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0875
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0819
+          },
+          {
+            "score": "1-2",
+            "prob": 0.076
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0698
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0602
+          },
+          {
+            "score": "2-2",
+            "prob": 0.048
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0345
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Sociedad win",
+          "prob": 0.3755,
+          "odds": 2.5,
+          "ev": -0.0613
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Sociedad win",
+          "prob": 0.3755,
+          "odds": 2.5,
+          "ev": -0.0613
+        },
+        "confidence": 0.3755,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-09",
+      "league": "Premier League",
+      "home": "Brighton",
+      "away": "Wolves",
+      "score": "3-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1549.5,
+        "awayElo": 1396.7,
+        "probs": {
+          "home": 0.7455,
+          "away": 0.0953,
+          "draw": 0.1591
+        },
+        "marketProbs": {
+          "home": 0.7455,
+          "away": 0.0953,
+          "draw": 0.1591
+        },
+        "modelProbs": {
+          "home": 0.6211,
+          "draw": 0.18,
+          "away": 0.1989
+        },
+        "expectedHomeGoals": 1.89,
+        "expectedAwayGoals": 0.74,
+        "over25": 0.4447,
+        "btts": 0.4203,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1363
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1288
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1008
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0952
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0811
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0721
+          },
+          {
+            "score": "3-1",
+            "prob": 0.06
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0534
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0383
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0373
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.1591,
+          "odds": 5.95,
+          "ev": -0.0532
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Brighton win",
+          "prob": 0.7455,
+          "odds": 1.27,
+          "ev": -0.0532
+        },
+        "confidence": 0.7455,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-09",
+      "league": "Premier League",
+      "home": "Fulham",
+      "away": "Bournemouth",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1515.2,
+        "awayElo": 1556.7,
+        "probs": {
+          "home": 0.3577,
+          "away": 0.3809,
+          "draw": 0.2613
+        },
+        "marketProbs": {
+          "home": 0.3577,
+          "away": 0.3809,
+          "draw": 0.2613
+        },
+        "modelProbs": {
+          "home": 0.3597,
+          "draw": 0.2878,
+          "away": 0.3525
+        },
+        "expectedHomeGoals": 1.35,
+        "expectedAwayGoals": 1.11,
+        "over25": 0.4287,
+        "btts": 0.4849,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.128
+          },
+          {
+            "score": "1-0",
+            "prob": 0.115
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0948
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0864
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0852
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0776
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0712
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0528
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0389
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Fulham win",
+          "prob": 0.3577,
+          "odds": 2.63,
+          "ev": -0.0591
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Bournemouth win",
+          "prob": 0.3809,
+          "odds": 2.47,
+          "ev": -0.0591
+        },
+        "confidence": 0.3809,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-09",
+      "league": "Premier League",
+      "home": "Liverpool",
+      "away": "Chelsea",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1617.1,
+        "awayElo": 1543.5,
+        "probs": {
+          "home": 0.4737,
+          "away": 0.2709,
+          "draw": 0.2555
+        },
+        "marketProbs": {
+          "home": 0.4737,
+          "away": 0.2709,
+          "draw": 0.2555
+        },
+        "modelProbs": {
+          "home": 0.5211,
+          "draw": 0.2158,
+          "away": 0.2631
+        },
+        "expectedHomeGoals": 1.67,
+        "expectedAwayGoals": 0.89,
+        "over25": 0.4419,
+        "btts": 0.4608,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1289
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1149
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1076
+          },
+          {
+            "score": "2-1",
+            "prob": 0.096
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0772
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0688
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0599
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0534
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0512
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0428
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2555,
+          "odds": 3.69,
+          "ev": -0.0574
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Liverpool win",
+          "prob": 0.4737,
+          "odds": 1.99,
+          "ev": -0.0574
+        },
+        "confidence": 0.4737,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-09",
+      "league": "Premier League",
+      "home": "Man City",
+      "away": "Brentford",
+      "score": "3-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1676.3,
+        "awayElo": 1528.5,
+        "probs": {
+          "home": 0.7024,
+          "away": 0.1286,
+          "draw": 0.169
+        },
+        "marketProbs": {
+          "home": 0.7024,
+          "away": 0.1286,
+          "draw": 0.169
+        },
+        "modelProbs": {
+          "home": 0.6167,
+          "draw": 0.18,
+          "away": 0.2033
+        },
+        "expectedHomeGoals": 1.88,
+        "expectedAwayGoals": 0.75,
+        "over25": 0.4446,
+        "btts": 0.4234,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1359
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1274
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1018
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0955
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0797
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0725
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0597
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0543
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0381
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0374
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.169,
+          "odds": 5.57,
+          "ev": -0.0587
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Man City win",
+          "prob": 0.7024,
+          "odds": 1.34,
+          "ev": -0.0587
+        },
+        "confidence": 0.7024,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-09",
+      "league": "Premier League",
+      "home": "Sunderland",
+      "away": "Man United",
+      "score": "0-0",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1507.1,
+        "awayElo": 1573.1,
+        "probs": {
+          "home": 0.2935,
+          "away": 0.4382,
+          "draw": 0.2684
+        },
+        "marketProbs": {
+          "home": 0.2935,
+          "away": 0.4382,
+          "draw": 0.2684
+        },
+        "modelProbs": {
+          "home": 0.3397,
+          "draw": 0.2769,
+          "away": 0.3834
+        },
+        "expectedHomeGoals": 1.28,
+        "expectedAwayGoals": 1.16,
+        "over25": 0.4245,
+        "btts": 0.4843,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1294
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1115
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1009
+          },
+          {
+            "score": "0-0",
+            "prob": 0.087
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0829
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0751
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0714
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0586
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0354
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Sunderland win",
+          "prob": 0.2935,
+          "odds": 3.21,
+          "ev": -0.058
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Man United win",
+          "prob": 0.4382,
+          "odds": 2.15,
+          "ev": -0.058
+        },
+        "confidence": 0.4382,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-09",
+      "league": "Serie A",
+      "home": "Cagliari",
+      "away": "Udinese",
+      "score": "0-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1442.6,
+        "awayElo": 1489.7,
+        "probs": {
+          "home": 0.374,
+          "away": 0.3193,
+          "draw": 0.3068
+        },
+        "marketProbs": {
+          "home": 0.374,
+          "away": 0.3193,
+          "draw": 0.3068
+        },
+        "modelProbs": {
+          "home": 0.3536,
+          "draw": 0.2887,
+          "away": 0.3577
+        },
+        "expectedHomeGoals": 1.33,
+        "expectedAwayGoals": 1.12,
+        "over25": 0.4278,
+        "btts": 0.485,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1283
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1142
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0962
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0856
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0856
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0762
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0721
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0541
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0381
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Cagliari win",
+          "prob": 0.374,
+          "odds": 2.51,
+          "ev": -0.0613
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Cagliari win",
+          "prob": 0.374,
+          "odds": 2.51,
+          "ev": -0.0613
+        },
+        "confidence": 0.374,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-09",
+      "league": "Serie A",
+      "home": "Lazio",
+      "away": "Inter",
+      "score": "0-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1563.8,
+        "awayElo": 1718.5,
+        "probs": {
+          "home": 0.2286,
+          "away": 0.5095,
+          "draw": 0.2619
+        },
+        "marketProbs": {
+          "home": 0.2286,
+          "away": 0.5095,
+          "draw": 0.2619
+        },
+        "modelProbs": {
+          "home": 0.2703,
+          "draw": 0.2215,
+          "away": 0.5082
+        },
+        "expectedHomeGoals": 1.04,
+        "expectedAwayGoals": 1.33,
+        "over25": 0.4056,
+        "btts": 0.4639,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1293
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1249
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0971
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0938
+          },
+          {
+            "score": "1-2",
+            "prob": 0.086
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0831
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0669
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0503
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0445
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0382
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Lazio win",
+          "prob": 0.2286,
+          "odds": 4.1,
+          "ev": -0.0625
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Inter win",
+          "prob": 0.5095,
+          "odds": 1.84,
+          "ev": -0.0625
+        },
+        "confidence": 0.5095,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-09",
+      "league": "Serie A",
+      "home": "Lecce",
+      "away": "Juventus",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1420.3,
+        "awayElo": 1634.1,
+        "probs": {
+          "home": 0.1141,
+          "away": 0.674,
+          "draw": 0.2119
+        },
+        "marketProbs": {
+          "home": 0.1141,
+          "away": 0.674,
+          "draw": 0.2119
+        },
+        "modelProbs": {
+          "home": 0.2239,
+          "draw": 0.1845,
+          "away": 0.5917
+        },
+        "expectedHomeGoals": 0.87,
+        "expectedAwayGoals": 1.44,
+        "over25": 0.39,
+        "btts": 0.4335,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1426
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1242
+          },
+          {
+            "score": "0-2",
+            "prob": 0.103
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0987
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0897
+          },
+          {
+            "score": "1-0",
+            "prob": 0.086
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0541
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0496
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0432
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0391
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2119,
+          "odds": 4.42,
+          "ev": -0.0632
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Juventus win",
+          "prob": 0.674,
+          "odds": 1.39,
+          "ev": -0.0632
+        },
+        "confidence": 0.674,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Bundesliga",
+      "home": "FC Koln",
+      "away": "Heidenheim",
+      "score": "1-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1433.6,
+        "awayElo": 1401.4,
+        "probs": {
+          "home": 0.4641,
+          "away": 0.3044,
+          "draw": 0.2315
+        },
+        "marketProbs": {
+          "home": 0.4641,
+          "away": 0.3044,
+          "draw": 0.2315
+        },
+        "modelProbs": {
+          "home": 0.462,
+          "draw": 0.2417,
+          "away": 0.2962
+        },
+        "expectedHomeGoals": 1.55,
+        "expectedAwayGoals": 0.97,
+        "over25": 0.4384,
+        "btts": 0.4745,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1243
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1208
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0966
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0939
+          },
+          {
+            "score": "0-0",
+            "prob": 0.08
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0777
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0587
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0501
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0486
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0456
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Heidenheim win",
+          "prob": 0.3044,
+          "odds": 3.08,
+          "ev": -0.0625
+        },
+        "topSide": {
+          "key": "home",
+          "label": "FC Koln win",
+          "prob": 0.4641,
+          "odds": 2.02,
+          "ev": -0.0625
+        },
+        "confidence": 0.4641,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Bundesliga",
+      "home": "Hamburg",
+      "away": "Freiburg",
+      "score": "3-2",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1471.4,
+        "awayElo": 1519.1,
+        "probs": {
+          "home": 0.3187,
+          "away": 0.4202,
+          "draw": 0.261
+        },
+        "marketProbs": {
+          "home": 0.3187,
+          "away": 0.4202,
+          "draw": 0.261
+        },
+        "modelProbs": {
+          "home": 0.3531,
+          "draw": 0.2883,
+          "away": 0.3586
+        },
+        "expectedHomeGoals": 1.33,
+        "expectedAwayGoals": 1.13,
+        "over25": 0.4276,
+        "btts": 0.485,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1284
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1141
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0963
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0856
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0855
+          },
+          {
+            "score": "2-0",
+            "prob": 0.076
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0722
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0542
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.038
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.261,
+          "odds": 3.59,
+          "ev": -0.0629
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Freiburg win",
+          "prob": 0.4202,
+          "odds": 2.23,
+          "ev": -0.0629
+        },
+        "confidence": 0.4202,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Bundesliga",
+      "home": "Mainz",
+      "away": "Union Berlin",
+      "score": "1-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1510.6,
+        "awayElo": 1438.3,
+        "probs": {
+          "home": 0.5646,
+          "away": 0.2159,
+          "draw": 0.2195
+        },
+        "marketProbs": {
+          "home": 0.5646,
+          "away": 0.2159,
+          "draw": 0.2195
+        },
+        "modelProbs": {
+          "home": 0.5191,
+          "draw": 0.2167,
+          "away": 0.2642
+        },
+        "expectedHomeGoals": 1.67,
+        "expectedAwayGoals": 0.89,
+        "over25": 0.4418,
+        "btts": 0.4614,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1287
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1151
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1072
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0959
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0773
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0691
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0595
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0533
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0515
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0429
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Mainz win",
+          "prob": 0.5646,
+          "odds": 1.66,
+          "ev": -0.0628
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Mainz win",
+          "prob": 0.5646,
+          "odds": 1.66,
+          "ev": -0.0628
+        },
+        "confidence": 0.5646,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "league": "La Liga",
+      "home": "Ath Bilbao",
+      "away": "Valencia",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1543.8,
+        "awayElo": 1484.3,
+        "probs": {
+          "home": 0.5693,
+          "away": 0.1776,
+          "draw": 0.2532
+        },
+        "marketProbs": {
+          "home": 0.5693,
+          "away": 0.1776,
+          "draw": 0.2532
+        },
+        "modelProbs": {
+          "home": 0.5008,
+          "draw": 0.2247,
+          "away": 0.2745
+        },
+        "expectedHomeGoals": 1.63,
+        "expectedAwayGoals": 0.92,
+        "over25": 0.4409,
+        "btts": 0.4661,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1274
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1171
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1038
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0954
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0781
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0718
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0564
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0538
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0519
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Valencia win",
+          "prob": 0.1776,
+          "odds": 5.29,
+          "ev": -0.0607
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Ath Bilbao win",
+          "prob": 0.5693,
+          "odds": 1.65,
+          "ev": -0.0607
+        },
+        "confidence": 0.5693,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "league": "La Liga",
+      "home": "Barcelona",
+      "away": "Real Madrid",
+      "score": "2-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1749.5,
+        "awayElo": 1703.8,
+        "probs": {
+          "home": 0.5718,
+          "away": 0.2243,
+          "draw": 0.2039
+        },
+        "marketProbs": {
+          "home": 0.5718,
+          "away": 0.2243,
+          "draw": 0.2039
+        },
+        "modelProbs": {
+          "home": 0.4813,
+          "draw": 0.2333,
+          "away": 0.2854
+        },
+        "expectedHomeGoals": 1.59,
+        "expectedAwayGoals": 0.95,
+        "over25": 0.4397,
+        "btts": 0.4706,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1259
+          },
+          {
+            "score": "1-1",
+            "prob": 0.119
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1002
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0947
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0791
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0747
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0563
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0532
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0503
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0448
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2039,
+          "odds": 4.6,
+          "ev": -0.0622
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Barcelona win",
+          "prob": 0.5718,
+          "odds": 1.64,
+          "ev": -0.0622
+        },
+        "confidence": 0.5718,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "league": "La Liga",
+      "home": "Mallorca",
+      "away": "Villarreal",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1472.7,
+        "awayElo": 1627.3,
+        "probs": {
+          "home": 0.3852,
+          "away": 0.3404,
+          "draw": 0.2745
+        },
+        "marketProbs": {
+          "home": 0.3852,
+          "away": 0.3404,
+          "draw": 0.2745
+        },
+        "modelProbs": {
+          "home": 0.2704,
+          "draw": 0.2215,
+          "away": 0.5081
+        },
+        "expectedHomeGoals": 1.04,
+        "expectedAwayGoals": 1.33,
+        "over25": 0.4056,
+        "btts": 0.4639,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1293
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1249
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0972
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0938
+          },
+          {
+            "score": "1-2",
+            "prob": 0.086
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0831
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0669
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0503
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0445
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0382
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Villarreal win",
+          "prob": 0.3404,
+          "odds": 2.75,
+          "ev": -0.064
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Mallorca win",
+          "prob": 0.3852,
+          "odds": 2.43,
+          "ev": -0.064
+        },
+        "confidence": 0.3852,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "league": "La Liga",
+      "home": "Oviedo",
+      "away": "Getafe",
+      "score": "0-0",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1451.4,
+        "awayElo": 1479.4,
+        "probs": {
+          "home": 0.3373,
+          "away": 0.3313,
+          "draw": 0.3313
+        },
+        "marketProbs": {
+          "home": 0.3373,
+          "away": 0.3313,
+          "draw": 0.3313
+        },
+        "modelProbs": {
+          "home": 0.3778,
+          "draw": 0.2794,
+          "away": 0.3428
+        },
+        "expectedHomeGoals": 1.39,
+        "expectedAwayGoals": 1.09,
+        "over25": 0.4308,
+        "btts": 0.4844,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.127
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1168
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0916
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0881
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0842
+          },
+          {
+            "score": "2-0",
+            "prob": 0.081
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0691
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0498
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0479
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0407
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4308,
+          "odds": 3.15,
+          "ev": 0.3569
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Oviedo win",
+          "prob": 0.3373,
+          "odds": 2.78,
+          "ev": -0.0623
+        },
+        "confidence": 0.3373,
+        "tier": "low",
+        "isValue": true
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Ligue 1",
+      "home": "Angers",
+      "away": "Strasbourg",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1442.6,
+        "awayElo": 1536.1,
+        "probs": {
+          "home": 0.3545,
+          "away": 0.3743,
+          "draw": 0.2712
+        },
+        "marketProbs": {
+          "home": 0.3545,
+          "away": 0.3743,
+          "draw": 0.2712
+        },
+        "modelProbs": {
+          "home": 0.3188,
+          "draw": 0.2597,
+          "away": 0.4215
+        },
+        "expectedHomeGoals": 1.21,
+        "expectedAwayGoals": 1.21,
+        "over25": 0.4192,
+        "btts": 0.4811,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1302
+          },
+          {
+            "score": "0-1",
+            "prob": 0.108
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1073
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0891
+          },
+          {
+            "score": "1-2",
+            "prob": 0.079
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0785
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0655
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0647
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0476
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0319
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2712,
+          "odds": 3.45,
+          "ev": -0.0642
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Strasbourg win",
+          "prob": 0.3743,
+          "odds": 2.5,
+          "ev": -0.0642
+        },
+        "confidence": 0.3743,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Ligue 1",
+      "home": "Auxerre",
+      "away": "Nice",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1453.8,
+        "awayElo": 1499.7,
+        "probs": {
+          "home": 0.4046,
+          "away": 0.3147,
+          "draw": 0.2807
+        },
+        "marketProbs": {
+          "home": 0.4046,
+          "away": 0.3147,
+          "draw": 0.2807
+        },
+        "modelProbs": {
+          "home": 0.3544,
+          "draw": 0.2895,
+          "away": 0.3562
+        },
+        "expectedHomeGoals": 1.34,
+        "expectedAwayGoals": 1.12,
+        "over25": 0.4279,
+        "btts": 0.485,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1283
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1144
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0959
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0858
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0855
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0765
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0719
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0538
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0382
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Auxerre win",
+          "prob": 0.4046,
+          "odds": 2.31,
+          "ev": -0.0653
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Auxerre win",
+          "prob": 0.4046,
+          "odds": 2.31,
+          "ev": -0.0653
+        },
+        "confidence": 0.4046,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Ligue 1",
+      "home": "Le Havre",
+      "away": "Marseille",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1440.7,
+        "awayElo": 1561.4,
+        "probs": {
+          "home": 0.2587,
+          "away": 0.4942,
+          "draw": 0.2471
+        },
+        "marketProbs": {
+          "home": 0.2587,
+          "away": 0.4942,
+          "draw": 0.2471
+        },
+        "modelProbs": {
+          "home": 0.2974,
+          "draw": 0.2427,
+          "away": 0.4599
+        },
+        "expectedHomeGoals": 1.13,
+        "expectedAwayGoals": 1.27,
+        "over25": 0.4135,
+        "btts": 0.4752,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1303
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1153
+          },
+          {
+            "score": "1-0",
+            "prob": 0.103
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0911
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0825
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0736
+          },
+          {
+            "score": "0-2",
+            "prob": 0.073
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0582
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0466
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0348
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Le Havre win",
+          "prob": 0.2587,
+          "odds": 3.61,
+          "ev": -0.066
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Marseille win",
+          "prob": 0.4942,
+          "odds": 1.89,
+          "ev": -0.066
+        },
+        "confidence": 0.4942,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Ligue 1",
+      "home": "Metz",
+      "away": "Lorient",
+      "score": "0-4",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1359.5,
+        "awayElo": 1481.7,
+        "probs": {
+          "home": 0.3275,
+          "away": 0.4108,
+          "draw": 0.2616
+        },
+        "marketProbs": {
+          "home": 0.3275,
+          "away": 0.4108,
+          "draw": 0.2616
+        },
+        "modelProbs": {
+          "home": 0.2963,
+          "draw": 0.2418,
+          "away": 0.462
+        },
+        "expectedHomeGoals": 1.13,
+        "expectedAwayGoals": 1.27,
+        "over25": 0.4131,
+        "btts": 0.4748,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1303
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1158
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1027
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0913
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0826
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0734
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0733
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0578
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0465
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0349
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Metz win",
+          "prob": 0.3275,
+          "odds": 2.86,
+          "ev": -0.0633
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Lorient win",
+          "prob": 0.4108,
+          "odds": 2.28,
+          "ev": -0.0633
+        },
+        "confidence": 0.4108,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Ligue 1",
+      "home": "Monaco",
+      "away": "Lille",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1591.1,
+        "awayElo": 1602.9,
+        "probs": {
+          "home": 0.3697,
+          "away": 0.3697,
+          "draw": 0.2606
+        },
+        "marketProbs": {
+          "home": 0.3697,
+          "away": 0.3697,
+          "draw": 0.2606
+        },
+        "modelProbs": {
+          "home": 0.4002,
+          "draw": 0.2692,
+          "away": 0.3305
+        },
+        "expectedHomeGoals": 1.43,
+        "expectedAwayGoals": 1.06,
+        "over25": 0.4331,
+        "btts": 0.4829,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1256
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1189
+          },
+          {
+            "score": "2-1",
+            "prob": 0.09
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0877
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0852
+          },
+          {
+            "score": "0-0",
+            "prob": 0.083
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0663
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0475
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0463
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0429
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Monaco win",
+          "prob": 0.3697,
+          "odds": 2.53,
+          "ev": -0.0646
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Monaco win",
+          "prob": 0.3697,
+          "odds": 2.53,
+          "ev": -0.0646
+        },
+        "confidence": 0.3697,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Ligue 1",
+      "home": "Paris SG",
+      "away": "Brest",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1701.1,
+        "awayElo": 1508.6,
+        "probs": {
+          "home": 0.7893,
+          "away": 0.0819,
+          "draw": 0.1288
+        },
+        "marketProbs": {
+          "home": 0.7893,
+          "away": 0.0819,
+          "draw": 0.1288
+        },
+        "modelProbs": {
+          "home": 0.6535,
+          "draw": 0.18,
+          "away": 0.1665
+        },
+        "expectedHomeGoals": 2.0,
+        "expectedAwayGoals": 0.66,
+        "over25": 0.4441,
+        "btts": 0.3932,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1395
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1394
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0929
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0925
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0925
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0697
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0616
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0465
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0463
+          },
+          {
+            "score": "4-1",
+            "prob": 0.0308
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.1288,
+          "odds": 7.29,
+          "ev": -0.0608
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Paris SG win",
+          "prob": 0.7893,
+          "odds": 1.19,
+          "ev": -0.0608
+        },
+        "confidence": 0.7893,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Ligue 1",
+      "home": "Rennes",
+      "away": "Paris FC",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1546.0,
+        "awayElo": 1509.9,
+        "probs": {
+          "home": 0.6112,
+          "away": 0.1855,
+          "draw": 0.2033
+        },
+        "marketProbs": {
+          "home": 0.6112,
+          "away": 0.1855,
+          "draw": 0.2033
+        },
+        "modelProbs": {
+          "home": 0.4675,
+          "draw": 0.2394,
+          "away": 0.2932
+        },
+        "expectedHomeGoals": 1.57,
+        "expectedAwayGoals": 0.96,
+        "over25": 0.4388,
+        "btts": 0.4734,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1248
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1203
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0976
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0941
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0797
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0769
+          },
+          {
+            "score": "1-2",
+            "prob": 0.058
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0509
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0491
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0454
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2033,
+          "odds": 4.6,
+          "ev": -0.0649
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Rennes win",
+          "prob": 0.6112,
+          "odds": 1.53,
+          "ev": -0.0649
+        },
+        "confidence": 0.6112,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Ligue 1",
+      "home": "Toulouse",
+      "away": "Lyon",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1491.3,
+        "awayElo": 1595.3,
+        "probs": {
+          "home": 0.2407,
+          "away": 0.5089,
+          "draw": 0.2504
+        },
+        "marketProbs": {
+          "home": 0.2407,
+          "away": 0.5089,
+          "draw": 0.2504
+        },
+        "modelProbs": {
+          "home": 0.3107,
+          "draw": 0.2532,
+          "away": 0.4362
+        },
+        "expectedHomeGoals": 1.18,
+        "expectedAwayGoals": 1.23,
+        "over25": 0.4171,
+        "btts": 0.4791,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1303
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1108
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1057
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0899
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0804
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0767
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0683
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0622
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0473
+          },
+          {
+            "score": "1-3",
+            "prob": 0.033
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Lyon win",
+          "prob": 0.5089,
+          "odds": 1.84,
+          "ev": -0.0636
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Lyon win",
+          "prob": 0.5089,
+          "odds": 1.84,
+          "ev": -0.0636
+        },
+        "confidence": 0.5089,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Premier League",
+      "home": "Burnley",
+      "away": "Aston Villa",
+      "score": "2-2",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1358.7,
+        "awayElo": 1572.9,
+        "probs": {
+          "home": 0.1488,
+          "away": 0.6376,
+          "draw": 0.2135
+        },
+        "marketProbs": {
+          "home": 0.1488,
+          "away": 0.6376,
+          "draw": 0.2135
+        },
+        "modelProbs": {
+          "home": 0.2236,
+          "draw": 0.1842,
+          "away": 0.5922
+        },
+        "expectedHomeGoals": 0.87,
+        "expectedAwayGoals": 1.45,
+        "over25": 0.3899,
+        "btts": 0.4332,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1427
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1241
+          },
+          {
+            "score": "0-2",
+            "prob": 0.1031
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0987
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0897
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0859
+          },
+          {
+            "score": "2-1",
+            "prob": 0.054
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0497
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0432
+          },
+          {
+            "score": "2-2",
+            "prob": 0.039
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Burnley win",
+          "prob": 0.1488,
+          "odds": 6.34,
+          "ev": -0.0563
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Aston Villa win",
+          "prob": 0.6376,
+          "odds": 1.48,
+          "ev": -0.0563
+        },
+        "confidence": 0.6376,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Premier League",
+      "home": "Crystal Palace",
+      "away": "Everton",
+      "score": "2-2",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1509.4,
+        "awayElo": 1522.5,
+        "probs": {
+          "home": 0.339,
+          "away": 0.371,
+          "draw": 0.29
+        },
+        "marketProbs": {
+          "home": 0.339,
+          "away": 0.371,
+          "draw": 0.29
+        },
+        "modelProbs": {
+          "home": 0.3983,
+          "draw": 0.2701,
+          "away": 0.3316
+        },
+        "expectedHomeGoals": 1.43,
+        "expectedAwayGoals": 1.06,
+        "over25": 0.4329,
+        "btts": 0.4831,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1257
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1188
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0898
+          },
+          {
+            "score": "0-1",
+            "prob": 0.088
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0848
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0831
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0666
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0475
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0466
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0428
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.29,
+          "odds": 3.25,
+          "ev": -0.0576
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Everton win",
+          "prob": 0.371,
+          "odds": 2.54,
+          "ev": -0.0576
+        },
+        "confidence": 0.371,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Premier League",
+      "home": "Nott'm Forest",
+      "away": "Newcastle",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1513.7,
+        "awayElo": 1525.4,
+        "probs": {
+          "home": 0.2881,
+          "away": 0.4381,
+          "draw": 0.2738
+        },
+        "marketProbs": {
+          "home": 0.2881,
+          "away": 0.4381,
+          "draw": 0.2738
+        },
+        "modelProbs": {
+          "home": 0.4004,
+          "draw": 0.2692,
+          "away": 0.3305
+        },
+        "expectedHomeGoals": 1.43,
+        "expectedAwayGoals": 1.06,
+        "over25": 0.4331,
+        "btts": 0.4829,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1256
+          },
+          {
+            "score": "1-0",
+            "prob": 0.119
+          },
+          {
+            "score": "2-1",
+            "prob": 0.09
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0877
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0852
+          },
+          {
+            "score": "0-0",
+            "prob": 0.083
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0663
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0475
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0463
+          },
+          {
+            "score": "3-1",
+            "prob": 0.043
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2738,
+          "odds": 3.44,
+          "ev": -0.058
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Newcastle win",
+          "prob": 0.4381,
+          "odds": 2.15,
+          "ev": -0.058
+        },
+        "confidence": 0.4381,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Premier League",
+      "home": "West Ham",
+      "away": "Arsenal",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1467.5,
+        "awayElo": 1684.9,
+        "probs": {
+          "home": 0.1614,
+          "away": 0.6112,
+          "draw": 0.2274
+        },
+        "marketProbs": {
+          "home": 0.1614,
+          "away": 0.6112,
+          "draw": 0.2274
+        },
+        "modelProbs": {
+          "home": 0.2211,
+          "draw": 0.1822,
+          "away": 0.5966
+        },
+        "expectedHomeGoals": 0.86,
+        "expectedAwayGoals": 1.45,
+        "over25": 0.389,
+        "btts": 0.4312,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1437
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1237
+          },
+          {
+            "score": "0-2",
+            "prob": 0.1043
+          },
+          {
+            "score": "0-0",
+            "prob": 0.099
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0898
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0852
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0533
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0505
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0435
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0387
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "West Ham win",
+          "prob": 0.1614,
+          "odds": 5.83,
+          "ev": -0.0588
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Arsenal win",
+          "prob": 0.6112,
+          "odds": 1.54,
+          "ev": -0.0588
+        },
+        "confidence": 0.6112,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Serie A",
+      "home": "Cremonese",
+      "away": "Pisa",
+      "score": "3-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1427.4,
+        "awayElo": 1395.9,
+        "probs": {
+          "home": 0.5087,
+          "away": 0.2239,
+          "draw": 0.2674
+        },
+        "marketProbs": {
+          "home": 0.5087,
+          "away": 0.2239,
+          "draw": 0.2674
+        },
+        "modelProbs": {
+          "home": 0.4609,
+          "draw": 0.2422,
+          "away": 0.2969
+        },
+        "expectedHomeGoals": 1.55,
+        "expectedAwayGoals": 0.97,
+        "over25": 0.4383,
+        "btts": 0.4747,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1242
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1209
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0964
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0938
+          },
+          {
+            "score": "0-0",
+            "prob": 0.08
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0779
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0588
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0499
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0485
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0456
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Cremonese win",
+          "prob": 0.5087,
+          "odds": 1.84,
+          "ev": -0.064
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Cremonese win",
+          "prob": 0.5087,
+          "odds": 1.84,
+          "ev": -0.064
+        },
+        "confidence": 0.5087,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Serie A",
+      "home": "Fiorentina",
+      "away": "Genoa",
+      "score": "0-0",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1516.6,
+        "awayElo": 1485.3,
+        "probs": {
+          "home": 0.4691,
+          "away": 0.2475,
+          "draw": 0.2834
+        },
+        "marketProbs": {
+          "home": 0.4691,
+          "away": 0.2475,
+          "draw": 0.2834
+        },
+        "modelProbs": {
+          "home": 0.4607,
+          "draw": 0.2423,
+          "away": 0.297
+        },
+        "expectedHomeGoals": 1.55,
+        "expectedAwayGoals": 0.97,
+        "over25": 0.4383,
+        "btts": 0.4747,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1242
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1209
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0964
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0938
+          },
+          {
+            "score": "0-0",
+            "prob": 0.08
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0779
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0588
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0499
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0485
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0457
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Fiorentina win",
+          "prob": 0.4691,
+          "odds": 2.0,
+          "ev": -0.0619
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Fiorentina win",
+          "prob": 0.4691,
+          "odds": 2.0,
+          "ev": -0.0619
+        },
+        "confidence": 0.4691,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Serie A",
+      "home": "Milan",
+      "away": "Atalanta",
+      "score": "2-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1613.9,
+        "awayElo": 1591.7,
+        "probs": {
+          "home": 0.4204,
+          "away": 0.2939,
+          "draw": 0.2858
+        },
+        "marketProbs": {
+          "home": 0.4204,
+          "away": 0.2939,
+          "draw": 0.2858
+        },
+        "modelProbs": {
+          "home": 0.4478,
+          "draw": 0.248,
+          "away": 0.3042
+        },
+        "expectedHomeGoals": 1.53,
+        "expectedAwayGoals": 0.99,
+        "over25": 0.4373,
+        "btts": 0.477,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1231
+          },
+          {
+            "score": "1-1",
+            "prob": 0.122
+          },
+          {
+            "score": "2-0",
+            "prob": 0.094
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0931
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0807
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0799
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0604
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0478
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0474
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0461
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Milan win",
+          "prob": 0.4204,
+          "odds": 2.23,
+          "ev": -0.0626
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Milan win",
+          "prob": 0.4204,
+          "odds": 2.23,
+          "ev": -0.0626
+        },
+        "confidence": 0.4204,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Serie A",
+      "home": "Parma",
+      "away": "Roma",
+      "score": "2-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1486.8,
+        "awayElo": 1611.0,
+        "probs": {
+          "home": 0.1107,
+          "away": 0.6792,
+          "draw": 0.2102
+        },
+        "marketProbs": {
+          "home": 0.1107,
+          "away": 0.6792,
+          "draw": 0.2102
+        },
+        "modelProbs": {
+          "home": 0.2947,
+          "draw": 0.2405,
+          "away": 0.4648
+        },
+        "expectedHomeGoals": 1.12,
+        "expectedAwayGoals": 1.27,
+        "over25": 0.4127,
+        "btts": 0.4742,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1303
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1163
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1024
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0914
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0829
+          },
+          {
+            "score": "0-2",
+            "prob": 0.074
+          },
+          {
+            "score": "2-1",
+            "prob": 0.073
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0573
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0464
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0351
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Roma win",
+          "prob": 0.6792,
+          "odds": 1.38,
+          "ev": -0.0627
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Roma win",
+          "prob": 0.6792,
+          "odds": 1.38,
+          "ev": -0.0627
+        },
+        "confidence": 0.6792,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Serie A",
+      "home": "Verona",
+      "away": "Como",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1375.4,
+        "awayElo": 1576.4,
+        "probs": {
+          "home": 0.1128,
+          "away": 0.6826,
+          "draw": 0.2046
+        },
+        "marketProbs": {
+          "home": 0.1128,
+          "away": 0.6826,
+          "draw": 0.2046
+        },
+        "modelProbs": {
+          "home": 0.2338,
+          "draw": 0.1925,
+          "away": 0.5737
+        },
+        "expectedHomeGoals": 0.91,
+        "expectedAwayGoals": 1.42,
+        "over25": 0.3936,
+        "btts": 0.4413,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1386
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1257
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0984
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0976
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0892
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0885
+          },
+          {
+            "score": "2-1",
+            "prob": 0.057
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0466
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0422
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0405
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Como win",
+          "prob": 0.6826,
+          "odds": 1.37,
+          "ev": -0.0649
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Como win",
+          "prob": 0.6826,
+          "odds": 1.37,
+          "ev": -0.0649
+        },
+        "confidence": 0.6826,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-11",
+      "league": "La Liga",
+      "home": "Vallecano",
+      "away": "Girona",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1505.2,
+        "awayElo": 1482.4,
+        "probs": {
+          "home": 0.4223,
+          "away": 0.2884,
+          "draw": 0.2893
+        },
+        "marketProbs": {
+          "home": 0.4223,
+          "away": 0.2884,
+          "draw": 0.2893
+        },
+        "modelProbs": {
+          "home": 0.4487,
+          "draw": 0.2476,
+          "away": 0.3037
+        },
+        "expectedHomeGoals": 1.53,
+        "expectedAwayGoals": 0.99,
+        "over25": 0.4374,
+        "btts": 0.4768,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1232
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1219
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0942
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0932
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0806
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0798
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0603
+          },
+          {
+            "score": "3-0",
+            "prob": 0.048
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0475
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0461
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2893,
+          "odds": 3.24,
+          "ev": -0.0626
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Vallecano win",
+          "prob": 0.4223,
+          "odds": 2.22,
+          "ev": -0.0626
+        },
+        "confidence": 0.4223,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-11",
+      "league": "Premier League",
+      "home": "Tottenham",
+      "away": "Leeds",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1448.2,
+        "awayElo": 1516.0,
+        "probs": {
+          "home": 0.5205,
+          "away": 0.227,
+          "draw": 0.2526
+        },
+        "marketProbs": {
+          "home": 0.5205,
+          "away": 0.227,
+          "draw": 0.2526
+        },
+        "modelProbs": {
+          "home": 0.3384,
+          "draw": 0.2758,
+          "away": 0.3858
+        },
+        "expectedHomeGoals": 1.28,
+        "expectedAwayGoals": 1.16,
+        "over25": 0.4241,
+        "btts": 0.4842,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1294
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1112
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1014
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0871
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0826
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0753
+          },
+          {
+            "score": "2-0",
+            "prob": 0.071
+          },
+          {
+            "score": "0-2",
+            "prob": 0.059
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0352
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2526,
+          "odds": 3.73,
+          "ev": -0.058
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Tottenham win",
+          "prob": 0.5205,
+          "odds": 1.81,
+          "ev": -0.058
+        },
+        "confidence": 0.5205,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-11",
+      "league": "Serie A",
+      "home": "Napoli",
+      "away": "Bologna",
+      "score": "2-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1643.6,
+        "awayElo": 1531.2,
+        "probs": {
+          "home": 0.6112,
+          "away": 0.1556,
+          "draw": 0.2332
+        },
+        "marketProbs": {
+          "home": 0.6112,
+          "away": 0.1556,
+          "draw": 0.2332
+        },
+        "modelProbs": {
+          "home": 0.5757,
+          "draw": 0.1916,
+          "away": 0.2326
+        },
+        "expectedHomeGoals": 1.78,
+        "expectedAwayGoals": 0.82,
+        "over25": 0.4439,
+        "btts": 0.4433,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1327
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1179
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1085
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0964
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0747
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0699
+          },
+          {
+            "score": "0-1",
+            "prob": 0.061
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0571
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0443
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0394
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Napoli win",
+          "prob": 0.6112,
+          "odds": 1.53,
+          "ev": -0.0649
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Napoli win",
+          "prob": 0.6112,
+          "odds": 1.53,
+          "ev": -0.0649
+        },
+        "confidence": 0.6112,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-12",
+      "league": "La Liga",
+      "home": "Betis",
+      "away": "Elche",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1570.6,
+        "awayElo": 1484.0,
+        "probs": {
+          "home": 0.5852,
+          "away": 0.1892,
+          "draw": 0.2256
+        },
+        "marketProbs": {
+          "home": 0.5852,
+          "away": 0.1892,
+          "draw": 0.2256
+        },
+        "modelProbs": {
+          "home": 0.5394,
+          "draw": 0.2077,
+          "away": 0.2529
+        },
+        "expectedHomeGoals": 1.71,
+        "expectedAwayGoals": 0.87,
+        "over25": 0.4427,
+        "btts": 0.4555,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1302
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1129
+          },
+          {
+            "score": "2-0",
+            "prob": 0.111
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0963
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0763
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0662
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0631
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0547
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0489
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0417
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Betis win",
+          "prob": 0.5852,
+          "odds": 1.6,
+          "ev": -0.0637
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Betis win",
+          "prob": 0.5852,
+          "odds": 1.6,
+          "ev": -0.0637
+        },
+        "confidence": 0.5852,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-12",
+      "league": "La Liga",
+      "home": "Celta",
+      "away": "Levante",
+      "score": "2-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1532.6,
+        "awayElo": 1478.2,
+        "probs": {
+          "home": 0.4979,
+          "away": 0.2464,
+          "draw": 0.2557
+        },
+        "marketProbs": {
+          "home": 0.4979,
+          "away": 0.2464,
+          "draw": 0.2557
+        },
+        "modelProbs": {
+          "home": 0.4936,
+          "draw": 0.2279,
+          "away": 0.2785
+        },
+        "expectedHomeGoals": 1.62,
+        "expectedAwayGoals": 0.93,
+        "over25": 0.4405,
+        "btts": 0.4679,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1268
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1178
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1025
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0952
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0785
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0729
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0552
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0547
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0513
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0442
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Celta win",
+          "prob": 0.4979,
+          "odds": 1.89,
+          "ev": -0.0589
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Celta win",
+          "prob": 0.4979,
+          "odds": 1.89,
+          "ev": -0.0589
+        },
+        "confidence": 0.4979,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-12",
+      "league": "La Liga",
+      "home": "Osasuna",
+      "away": "Ath Madrid",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1498.3,
+        "awayElo": 1607.6,
+        "probs": {
+          "home": 0.3627,
+          "away": 0.3641,
+          "draw": 0.2731
+        },
+        "marketProbs": {
+          "home": 0.3627,
+          "away": 0.3641,
+          "draw": 0.2731
+        },
+        "modelProbs": {
+          "home": 0.3064,
+          "draw": 0.2498,
+          "away": 0.4438
+        },
+        "expectedHomeGoals": 1.16,
+        "expectedAwayGoals": 1.24,
+        "over25": 0.4159,
+        "btts": 0.478,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1304
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1123
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1048
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0903
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0811
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0757
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0698
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0609
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0336
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Osasuna win",
+          "prob": 0.3627,
+          "odds": 2.59,
+          "ev": -0.0605
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Ath Madrid win",
+          "prob": 0.3641,
+          "odds": 2.58,
+          "ev": -0.0605
+        },
+        "confidence": 0.3641,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-13",
+      "league": "La Liga",
+      "home": "Alaves",
+      "away": "Barcelona",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1465.0,
+        "awayElo": 1755.5,
+        "probs": {
+          "home": 0.3131,
+          "away": 0.434,
+          "draw": 0.2529
+        },
+        "marketProbs": {
+          "home": 0.3131,
+          "away": 0.434,
+          "draw": 0.2529
+        },
+        "modelProbs": {
+          "home": 0.1605,
+          "draw": 0.18,
+          "away": 0.6595
+        },
+        "expectedHomeGoals": 0.66,
+        "expectedAwayGoals": 1.59,
+        "over25": 0.3669,
+        "btts": 0.3723,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1678
+          },
+          {
+            "score": "0-2",
+            "prob": 0.1336
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1104
+          },
+          {
+            "score": "0-0",
+            "prob": 0.1054
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0879
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0709
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0693
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0466
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0363
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0289
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2529,
+          "odds": 3.69,
+          "ev": -0.0669
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Barcelona win",
+          "prob": 0.434,
+          "odds": 2.15,
+          "ev": -0.0669
+        },
+        "confidence": 0.434,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-13",
+      "league": "La Liga",
+      "home": "Espanol",
+      "away": "Ath Bilbao",
+      "score": "2-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1453.5,
+        "awayElo": 1533.5,
+        "probs": {
+          "home": 0.3404,
+          "away": 0.3391,
+          "draw": 0.3205
+        },
+        "marketProbs": {
+          "home": 0.3404,
+          "away": 0.3391,
+          "draw": 0.3205
+        },
+        "modelProbs": {
+          "home": 0.3292,
+          "draw": 0.2681,
+          "away": 0.4027
+        },
+        "expectedHomeGoals": 1.24,
+        "expectedAwayGoals": 1.19,
+        "over25": 0.4219,
+        "btts": 0.483,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1299
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1094
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1045
+          },
+          {
+            "score": "0-0",
+            "prob": 0.088
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0807
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0771
+          },
+          {
+            "score": "2-0",
+            "prob": 0.068
+          },
+          {
+            "score": "0-2",
+            "prob": 0.062
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0479
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0334
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4219,
+          "odds": 2.5,
+          "ev": 0.0547
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Espanol win",
+          "prob": 0.3404,
+          "odds": 2.74,
+          "ev": -0.0674
+        },
+        "confidence": 0.3404,
+        "tier": "low",
+        "isValue": true
+      }
+    },
+    {
+      "date": "2026-05-13",
+      "league": "La Liga",
+      "home": "Getafe",
+      "away": "Mallorca",
+      "score": "3-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1479.8,
+        "awayElo": 1475.1,
+        "probs": {
+          "home": 0.4076,
+          "away": 0.2682,
+          "draw": 0.3241
+        },
+        "marketProbs": {
+          "home": 0.4076,
+          "away": 0.2682,
+          "draw": 0.3241
+        },
+        "modelProbs": {
+          "home": 0.4232,
+          "draw": 0.2589,
+          "away": 0.3179
+        },
+        "expectedHomeGoals": 1.48,
+        "expectedAwayGoals": 1.02,
+        "over25": 0.4353,
+        "btts": 0.4805,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.124
+          },
+          {
+            "score": "1-0",
+            "prob": 0.121
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0916
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0894
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0839
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0819
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0635
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0469
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0451
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0441
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4353,
+          "odds": 2.85,
+          "ev": 0.2406
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Getafe win",
+          "prob": 0.4076,
+          "odds": 2.29,
+          "ev": -0.0665
+        },
+        "confidence": 0.4076,
+        "tier": "low",
+        "isValue": true
+      }
+    },
+    {
+      "date": "2026-05-13",
+      "league": "La Liga",
+      "home": "Villarreal",
+      "away": "Sevilla",
+      "score": "2-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1624.8,
+        "awayElo": 1453.8,
+        "probs": {
+          "home": 0.4505,
+          "away": 0.2695,
+          "draw": 0.28
+        },
+        "marketProbs": {
+          "home": 0.4505,
+          "away": 0.2695,
+          "draw": 0.28
+        },
+        "modelProbs": {
+          "home": 0.6364,
+          "draw": 0.18,
+          "away": 0.1836
+        },
+        "expectedHomeGoals": 1.94,
+        "expectedAwayGoals": 0.7,
+        "over25": 0.4445,
+        "btts": 0.4084,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1378
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1337
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0971
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0942
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0864
+          },
+          {
+            "score": "0-0",
+            "prob": 0.071
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0609
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0501
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0419
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0342
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Villarreal win",
+          "prob": 0.4505,
+          "odds": 2.07,
+          "ev": -0.0675
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Villarreal win",
+          "prob": 0.4505,
+          "odds": 2.07,
+          "ev": -0.0675
+        },
+        "confidence": 0.4505,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-13",
+      "league": "Ligue 1",
+      "home": "Brest",
+      "away": "Strasbourg",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1505.3,
+        "awayElo": 1534.9,
+        "probs": {
+          "home": 0.289,
+          "away": 0.448,
+          "draw": 0.263
+        },
+        "marketProbs": {
+          "home": 0.289,
+          "away": 0.448,
+          "draw": 0.263
+        },
+        "modelProbs": {
+          "home": 0.3757,
+          "draw": 0.2804,
+          "away": 0.3439
+        },
+        "expectedHomeGoals": 1.38,
+        "expectedAwayGoals": 1.09,
+        "over25": 0.4305,
+        "btts": 0.4845,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1271
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1166
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0919
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0879
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0843
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0806
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0693
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0501
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0479
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0405
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Brest win",
+          "prob": 0.289,
+          "odds": 3.24,
+          "ev": -0.0637
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Strasbourg win",
+          "prob": 0.448,
+          "odds": 2.09,
+          "ev": -0.0637
+        },
+        "confidence": 0.448,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-13",
+      "league": "Ligue 1",
+      "home": "Lens",
+      "away": "Paris SG",
+      "score": "0-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1594.0,
+        "awayElo": 1704.3,
+        "probs": {
+          "home": 0.3023,
+          "away": 0.4647,
+          "draw": 0.233
+        },
+        "marketProbs": {
+          "home": 0.3023,
+          "away": 0.4647,
+          "draw": 0.233
+        },
+        "modelProbs": {
+          "home": 0.3057,
+          "draw": 0.2492,
+          "away": 0.4452
+        },
+        "expectedHomeGoals": 1.16,
+        "expectedAwayGoals": 1.25,
+        "over25": 0.4157,
+        "btts": 0.4777,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1304
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1125
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1047
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0903
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0812
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0755
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0701
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0606
+          },
+          {
+            "score": "2-2",
+            "prob": 0.047
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0337
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.233,
+          "odds": 4.01,
+          "ev": -0.0659
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Paris SG win",
+          "prob": 0.4647,
+          "odds": 2.01,
+          "ev": -0.0659
+        },
+        "confidence": 0.4647,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-13",
+      "league": "Premier League",
+      "home": "Man City",
+      "away": "Crystal Palace",
+      "score": "3-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1680.3,
+        "awayElo": 1508.6,
+        "probs": {
+          "home": 0.7244,
+          "away": 0.1104,
+          "draw": 0.1652
+        },
+        "marketProbs": {
+          "home": 0.7244,
+          "away": 0.1104,
+          "draw": 0.1652
+        },
+        "modelProbs": {
+          "home": 0.637,
+          "draw": 0.18,
+          "away": 0.183
+        },
+        "expectedHomeGoals": 1.94,
+        "expectedAwayGoals": 0.7,
+        "over25": 0.4445,
+        "btts": 0.408,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1379
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1338
+          },
+          {
+            "score": "1-1",
+            "prob": 0.097
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0941
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0866
+          },
+          {
+            "score": "0-0",
+            "prob": 0.071
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0609
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0499
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0421
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0341
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Crystal Palace win",
+          "prob": 0.1104,
+          "odds": 8.53,
+          "ev": -0.0583
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Man City win",
+          "prob": 0.7244,
+          "odds": 1.3,
+          "ev": -0.0583
+        },
+        "confidence": 0.7244,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-14",
+      "league": "La Liga",
+      "home": "Girona",
+      "away": "Sociedad",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1483.9,
+        "awayElo": 1499.3,
+        "probs": {
+          "home": 0.4893,
+          "away": 0.256,
+          "draw": 0.2547
+        },
+        "marketProbs": {
+          "home": 0.4893,
+          "away": 0.256,
+          "draw": 0.2547
+        },
+        "modelProbs": {
+          "home": 0.3953,
+          "draw": 0.2715,
+          "away": 0.3332
+        },
+        "expectedHomeGoals": 1.42,
+        "expectedAwayGoals": 1.06,
+        "over25": 0.4326,
+        "btts": 0.4833,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1259
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1185
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0896
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0885
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0843
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0833
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0669
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0476
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0425
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2547,
+          "odds": 3.67,
+          "ev": -0.0654
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Girona win",
+          "prob": 0.4893,
+          "odds": 1.91,
+          "ev": -0.0654
+        },
+        "confidence": 0.4893,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-14",
+      "league": "La Liga",
+      "home": "Real Madrid",
+      "away": "Oviedo",
+      "score": "2-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1697.8,
+        "awayElo": 1451.0,
+        "probs": {
+          "home": 0.7733,
+          "away": 0.083,
+          "draw": 0.1437
+        },
+        "marketProbs": {
+          "home": 0.7733,
+          "away": 0.083,
+          "draw": 0.1437
+        },
+        "modelProbs": {
+          "home": 0.6912,
+          "draw": 0.18,
+          "away": 0.1288
+        },
+        "expectedHomeGoals": 2.15,
+        "expectedAwayGoals": 0.56,
+        "over25": 0.4411,
+        "btts": 0.3492,
+        "scoreGrid": [
+          {
+            "score": "2-0",
+            "prob": 0.154
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1432
+          },
+          {
+            "score": "3-0",
+            "prob": 0.1104
+          },
+          {
+            "score": "2-1",
+            "prob": 0.086
+          },
+          {
+            "score": "1-1",
+            "prob": 0.08
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0666
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0617
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0594
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0372
+          },
+          {
+            "score": "4-1",
+            "prob": 0.0332
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.1437,
+          "odds": 6.51,
+          "ev": -0.0643
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Real Madrid win",
+          "prob": 0.7733,
+          "odds": 1.21,
+          "ev": -0.0643
+        },
+        "confidence": 0.7733,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-14",
+      "league": "La Liga",
+      "home": "Valencia",
+      "away": "Vallecano",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1494.7,
+        "awayElo": 1503.6,
+        "probs": {
+          "home": 0.4115,
+          "away": 0.2822,
+          "draw": 0.3063
+        },
+        "marketProbs": {
+          "home": 0.4115,
+          "away": 0.2822,
+          "draw": 0.3063
+        },
+        "modelProbs": {
+          "home": 0.4041,
+          "draw": 0.2675,
+          "away": 0.3284
+        },
+        "expectedHomeGoals": 1.44,
+        "expectedAwayGoals": 1.05,
+        "over25": 0.4335,
+        "btts": 0.4825,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1254
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1193
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0903
+          },
+          {
+            "score": "0-1",
+            "prob": 0.087
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0859
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0828
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0659
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0474
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0457
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0433
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4335,
+          "odds": 2.16,
+          "ev": -0.0636
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Valencia win",
+          "prob": 0.4115,
+          "odds": 2.27,
+          "ev": -0.0659
+        },
+        "confidence": 0.4115,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-15",
+      "league": "Premier League",
+      "home": "Aston Villa",
+      "away": "Liverpool",
+      "score": "4-2",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1569.3,
+        "awayElo": 1614.5,
+        "probs": {
+          "home": 0.3502,
+          "away": 0.3754,
+          "draw": 0.2744
+        },
+        "marketProbs": {
+          "home": 0.3502,
+          "away": 0.3754,
+          "draw": 0.2744
+        },
+        "modelProbs": {
+          "home": 0.3548,
+          "draw": 0.2899,
+          "away": 0.3553
+        },
+        "expectedHomeGoals": 1.34,
+        "expectedAwayGoals": 1.12,
+        "over25": 0.4281,
+        "btts": 0.485,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1282
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1145
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0957
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0859
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0855
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0766
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0718
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0536
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0383
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Aston Villa win",
+          "prob": 0.3502,
+          "odds": 2.68,
+          "ev": -0.0615
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Liverpool win",
+          "prob": 0.3754,
+          "odds": 2.5,
+          "ev": -0.0615
+        },
+        "confidence": 0.3754,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-16",
+      "league": "Bundesliga",
+      "home": "Bayern Munich",
+      "away": "FC Koln",
+      "score": "5-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1740.5,
+        "awayElo": 1423.9,
+        "probs": {
+          "home": 0.8224,
+          "away": 0.0746,
+          "draw": 0.1029
+        },
+        "marketProbs": {
+          "home": 0.8224,
+          "away": 0.0746,
+          "draw": 0.1029
+        },
+        "modelProbs": {
+          "home": 0.7291,
+          "draw": 0.18,
+          "away": 0.0909
+        },
+        "expectedHomeGoals": 2.34,
+        "expectedAwayGoals": 0.45,
+        "over25": 0.4401,
+        "btts": 0.2953,
+        "scoreGrid": [
+          {
+            "score": "2-0",
+            "prob": 0.168
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1434
+          },
+          {
+            "score": "3-0",
+            "prob": 0.1313
+          },
+          {
+            "score": "4-0",
+            "prob": 0.077
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0756
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0645
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0611
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0591
+          },
+          {
+            "score": "4-1",
+            "prob": 0.0346
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0275
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "FC Koln win",
+          "prob": 0.0746,
+          "odds": 12.56,
+          "ev": -0.0624
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Bayern Munich win",
+          "prob": 0.8224,
+          "odds": 1.14,
+          "ev": -0.0624
+        },
+        "confidence": 0.8224,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-16",
+      "league": "Bundesliga",
+      "home": "Ein Frankfurt",
+      "away": "Stuttgart",
+      "score": "2-2",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1520.9,
+        "awayElo": 1593.1,
+        "probs": {
+          "home": 0.2679,
+          "away": 0.5122,
+          "draw": 0.2199
+        },
+        "marketProbs": {
+          "home": 0.2679,
+          "away": 0.5122,
+          "draw": 0.2199
+        },
+        "modelProbs": {
+          "home": 0.3351,
+          "draw": 0.273,
+          "away": 0.392
+        },
+        "expectedHomeGoals": 1.26,
+        "expectedAwayGoals": 1.17,
+        "over25": 0.4233,
+        "btts": 0.4838,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1296
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1106
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1025
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0874
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0819
+          },
+          {
+            "score": "1-2",
+            "prob": 0.076
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0699
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0601
+          },
+          {
+            "score": "2-2",
+            "prob": 0.048
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0345
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2199,
+          "odds": 4.24,
+          "ev": -0.0677
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Stuttgart win",
+          "prob": 0.5122,
+          "odds": 1.82,
+          "ev": -0.0677
+        },
+        "confidence": 0.5122,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-16",
+      "league": "Bundesliga",
+      "home": "Freiburg",
+      "away": "RB Leipzig",
+      "score": "4-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1511.0,
+        "awayElo": 1599.8,
+        "probs": {
+          "home": 0.3816,
+          "away": 0.3681,
+          "draw": 0.2503
+        },
+        "marketProbs": {
+          "home": 0.3816,
+          "away": 0.3681,
+          "draw": 0.2503
+        },
+        "modelProbs": {
+          "home": 0.3224,
+          "draw": 0.2626,
+          "away": 0.415
+        },
+        "expectedHomeGoals": 1.22,
+        "expectedAwayGoals": 1.2,
+        "over25": 0.4201,
+        "btts": 0.4818,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1301
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1081
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1068
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0887
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0793
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0784
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0658
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0477
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0322
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2503,
+          "odds": 3.72,
+          "ev": -0.0688
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Freiburg win",
+          "prob": 0.3816,
+          "odds": 2.44,
+          "ev": -0.0688
+        },
+        "confidence": 0.3816,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-16",
+      "league": "Bundesliga",
+      "home": "Heidenheim",
+      "away": "Mainz",
+      "score": "0-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1411.1,
+        "awayElo": 1500.0,
+        "probs": {
+          "home": 0.4853,
+          "away": 0.2841,
+          "draw": 0.2306
+        },
+        "marketProbs": {
+          "home": 0.4853,
+          "away": 0.2841,
+          "draw": 0.2306
+        },
+        "modelProbs": {
+          "home": 0.3224,
+          "draw": 0.2626,
+          "away": 0.415
+        },
+        "expectedHomeGoals": 1.22,
+        "expectedAwayGoals": 1.2,
+        "over25": 0.4201,
+        "btts": 0.4818,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1301
+          },
+          {
+            "score": "1-0",
+            "prob": 0.108
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1068
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0887
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0793
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0784
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0658
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0477
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0322
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Heidenheim win",
+          "prob": 0.4853,
+          "odds": 1.92,
+          "ev": -0.0682
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Heidenheim win",
+          "prob": 0.4853,
+          "odds": 1.92,
+          "ev": -0.0682
+        },
+        "confidence": 0.4853,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-16",
+      "league": "Bundesliga",
+      "home": "Leverkusen",
+      "away": "Hamburg",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1635.9,
+        "awayElo": 1479.4,
+        "probs": {
+          "home": 0.7361,
+          "away": 0.1129,
+          "draw": 0.151
+        },
+        "marketProbs": {
+          "home": 0.7361,
+          "away": 0.1129,
+          "draw": 0.151
+        },
+        "modelProbs": {
+          "home": 0.6243,
+          "draw": 0.18,
+          "away": 0.1957
+        },
+        "expectedHomeGoals": 1.9,
+        "expectedAwayGoals": 0.73,
+        "over25": 0.4447,
+        "btts": 0.418,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1366
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1298
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1001
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0951
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0822
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0719
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0602
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0527
+          },
+          {
+            "score": "4-0",
+            "prob": 0.039
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0367
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.151,
+          "odds": 6.19,
+          "ev": -0.0652
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Leverkusen win",
+          "prob": 0.7361,
+          "odds": 1.27,
+          "ev": -0.0652
+        },
+        "confidence": 0.7361,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-16",
+      "league": "Bundesliga",
+      "home": "M'gladbach",
+      "away": "Hoffenheim",
+      "score": "4-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1461.8,
+        "awayElo": 1541.8,
+        "probs": {
+          "home": 0.2135,
+          "away": 0.5759,
+          "draw": 0.2106
+        },
+        "marketProbs": {
+          "home": 0.2135,
+          "away": 0.5759,
+          "draw": 0.2106
+        },
+        "modelProbs": {
+          "home": 0.3291,
+          "draw": 0.2681,
+          "away": 0.4028
+        },
+        "expectedHomeGoals": 1.24,
+        "expectedAwayGoals": 1.19,
+        "over25": 0.4218,
+        "btts": 0.483,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1299
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1094
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1045
+          },
+          {
+            "score": "0-0",
+            "prob": 0.088
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0807
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0771
+          },
+          {
+            "score": "2-0",
+            "prob": 0.068
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0621
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0479
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0334
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2106,
+          "odds": 4.43,
+          "ev": -0.067
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Hoffenheim win",
+          "prob": 0.5759,
+          "odds": 1.62,
+          "ev": -0.067
+        },
+        "confidence": 0.5759,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-16",
+      "league": "Bundesliga",
+      "home": "St Pauli",
+      "away": "Wolfsburg",
+      "score": "1-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1409.3,
+        "awayElo": 1417.9,
+        "probs": {
+          "home": 0.3651,
+          "away": 0.3724,
+          "draw": 0.2625
+        },
+        "marketProbs": {
+          "home": 0.3651,
+          "away": 0.3724,
+          "draw": 0.2625
+        },
+        "modelProbs": {
+          "home": 0.4046,
+          "draw": 0.2673,
+          "away": 0.3282
+        },
+        "expectedHomeGoals": 1.44,
+        "expectedAwayGoals": 1.05,
+        "over25": 0.4335,
+        "btts": 0.4825,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1253
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1193
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0903
+          },
+          {
+            "score": "0-1",
+            "prob": 0.087
+          },
+          {
+            "score": "2-0",
+            "prob": 0.086
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0828
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0658
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0474
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0457
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0434
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "St Pauli win",
+          "prob": 0.3651,
+          "odds": 2.56,
+          "ev": -0.0654
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Wolfsburg win",
+          "prob": 0.3724,
+          "odds": 2.51,
+          "ev": -0.0654
+        },
+        "confidence": 0.3724,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-16",
+      "league": "Bundesliga",
+      "home": "Union Berlin",
+      "away": "Augsburg",
+      "score": "4-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1448.9,
+        "awayElo": 1498.1,
+        "probs": {
+          "home": 0.3717,
+          "away": 0.392,
+          "draw": 0.2362
+        },
+        "marketProbs": {
+          "home": 0.3717,
+          "away": 0.392,
+          "draw": 0.2362
+        },
+        "modelProbs": {
+          "home": 0.352,
+          "draw": 0.2874,
+          "away": 0.3606
+        },
+        "expectedHomeGoals": 1.33,
+        "expectedAwayGoals": 1.13,
+        "over25": 0.4274,
+        "btts": 0.485,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1285
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1139
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0967
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0857
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0853
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0756
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0725
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0546
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0378
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Union Berlin win",
+          "prob": 0.3717,
+          "odds": 2.51,
+          "ev": -0.0669
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Augsburg win",
+          "prob": 0.392,
+          "odds": 2.38,
+          "ev": -0.0669
+        },
+        "confidence": 0.392,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-16",
+      "league": "Bundesliga",
+      "home": "Werder Bremen",
+      "away": "Dortmund",
+      "score": "0-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:D1",
+      "prediction": {
+        "homeElo": 1461.1,
+        "awayElo": 1631.5,
+        "probs": {
+          "home": 0.299,
+          "away": 0.4642,
+          "draw": 0.2368
+        },
+        "marketProbs": {
+          "home": 0.299,
+          "away": 0.4642,
+          "draw": 0.2368
+        },
+        "modelProbs": {
+          "home": 0.2578,
+          "draw": 0.2116,
+          "away": 0.5306
+        },
+        "expectedHomeGoals": 0.99,
+        "expectedAwayGoals": 1.36,
+        "over25": 0.4016,
+        "btts": 0.4571,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1295
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1284
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0951
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0943
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0881
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0874
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0636
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0468
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0433
+          },
+          {
+            "score": "0-3",
+            "prob": 0.04
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Werder Bremen win",
+          "prob": 0.299,
+          "odds": 3.12,
+          "ev": -0.067
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Dortmund win",
+          "prob": 0.4642,
+          "odds": 2.01,
+          "ev": -0.067
+        },
+        "confidence": 0.4642,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "La Liga",
+      "home": "Ath Bilbao",
+      "away": "Celta",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1524.7,
+        "awayElo": 1522.3,
+        "probs": {
+          "home": 0.4383,
+          "away": 0.2652,
+          "draw": 0.2964
+        },
+        "marketProbs": {
+          "home": 0.4383,
+          "away": 0.2652,
+          "draw": 0.2964
+        },
+        "modelProbs": {
+          "home": 0.4199,
+          "draw": 0.2604,
+          "away": 0.3197
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.435,
+        "btts": 0.4809,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1242
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1207
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0914
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0888
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0844
+          },
+          {
+            "score": "0-0",
+            "prob": 0.082
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0639
+          },
+          {
+            "score": "2-2",
+            "prob": 0.047
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0448
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0436
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Celta win",
+          "prob": 0.2652,
+          "odds": 3.52,
+          "ev": -0.0663
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Ath Bilbao win",
+          "prob": 0.4383,
+          "odds": 2.13,
+          "ev": -0.0663
+        },
+        "confidence": 0.4383,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "La Liga",
+      "home": "Ath Madrid",
+      "away": "Girona",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1614.2,
+        "awayElo": 1483.2,
+        "probs": {
+          "home": 0.5257,
+          "away": 0.2299,
+          "draw": 0.2443
+        },
+        "marketProbs": {
+          "home": 0.5257,
+          "away": 0.2299,
+          "draw": 0.2443
+        },
+        "modelProbs": {
+          "home": 0.6015,
+          "draw": 0.18,
+          "away": 0.2185
+        },
+        "expectedHomeGoals": 1.83,
+        "expectedAwayGoals": 0.78,
+        "over25": 0.4444,
+        "btts": 0.4333,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1344
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1229
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1051
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0961
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0749
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0735
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0586
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0575
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0411
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0375
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Ath Madrid win",
+          "prob": 0.5257,
+          "odds": 1.78,
+          "ev": -0.0642
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Ath Madrid win",
+          "prob": 0.5257,
+          "odds": 1.78,
+          "ev": -0.0642
+        },
+        "confidence": 0.5257,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "La Liga",
+      "home": "Barcelona",
+      "away": "Betis",
+      "score": "3-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1742.6,
+        "awayElo": 1575.7,
+        "probs": {
+          "home": 0.7074,
+          "away": 0.1279,
+          "draw": 0.1647
+        },
+        "marketProbs": {
+          "home": 0.7074,
+          "away": 0.1279,
+          "draw": 0.1647
+        },
+        "modelProbs": {
+          "home": 0.6331,
+          "draw": 0.18,
+          "away": 0.1869
+        },
+        "expectedHomeGoals": 1.93,
+        "expectedAwayGoals": 0.71,
+        "over25": 0.4446,
+        "btts": 0.4111,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1375
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1326
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0979
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0945
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0852
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0713
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0607
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0508
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0411
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0349
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Barcelona win",
+          "prob": 0.7074,
+          "odds": 1.32,
+          "ev": -0.0662
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Barcelona win",
+          "prob": 0.7074,
+          "odds": 1.32,
+          "ev": -0.0662
+        },
+        "confidence": 0.7074,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "La Liga",
+      "home": "Elche",
+      "away": "Getafe",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1478.9,
+        "awayElo": 1486.7,
+        "probs": {
+          "home": 0.4061,
+          "away": 0.2684,
+          "draw": 0.3255
+        },
+        "marketProbs": {
+          "home": 0.4061,
+          "away": 0.2684,
+          "draw": 0.3255
+        },
+        "modelProbs": {
+          "home": 0.4057,
+          "draw": 0.2668,
+          "away": 0.3275
+        },
+        "expectedHomeGoals": 1.44,
+        "expectedAwayGoals": 1.05,
+        "over25": 0.4337,
+        "btts": 0.4824,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1252
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1195
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0904
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0868
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0862
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0828
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0657
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0474
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0455
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0435
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4337,
+          "odds": 2.64,
+          "ev": 0.1449
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Elche win",
+          "prob": 0.4061,
+          "odds": 2.3,
+          "ev": -0.0659
+        },
+        "confidence": 0.4061,
+        "tier": "low",
+        "isValue": true
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "La Liga",
+      "home": "Levante",
+      "away": "Mallorca",
+      "score": "2-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1488.4,
+        "awayElo": 1468.2,
+        "probs": {
+          "home": 0.4562,
+          "away": 0.268,
+          "draw": 0.2759
+        },
+        "marketProbs": {
+          "home": 0.4562,
+          "away": 0.268,
+          "draw": 0.2759
+        },
+        "modelProbs": {
+          "home": 0.445,
+          "draw": 0.2493,
+          "away": 0.3058
+        },
+        "expectedHomeGoals": 1.52,
+        "expectedAwayGoals": 0.99,
+        "over25": 0.4371,
+        "btts": 0.4774,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1229
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1223
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0935
+          },
+          {
+            "score": "2-1",
+            "prob": 0.093
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0808
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0804
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0608
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0474
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0471
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0462
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Levante win",
+          "prob": 0.4562,
+          "odds": 2.05,
+          "ev": -0.0648
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Levante win",
+          "prob": 0.4562,
+          "odds": 2.05,
+          "ev": -0.0648
+        },
+        "confidence": 0.4562,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "La Liga",
+      "home": "Osasuna",
+      "away": "Espanol",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1491.7,
+        "awayElo": 1462.3,
+        "probs": {
+          "home": 0.4424,
+          "away": 0.2357,
+          "draw": 0.3219
+        },
+        "marketProbs": {
+          "home": 0.4424,
+          "away": 0.2357,
+          "draw": 0.3219
+        },
+        "modelProbs": {
+          "home": 0.4581,
+          "draw": 0.2435,
+          "away": 0.2984
+        },
+        "expectedHomeGoals": 1.55,
+        "expectedAwayGoals": 0.98,
+        "over25": 0.4381,
+        "btts": 0.4752,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.124
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1211
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0959
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0937
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0802
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0783
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0592
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0495
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0483
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0458
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4381,
+          "odds": 2.27,
+          "ev": -0.0055
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Osasuna win",
+          "prob": 0.4424,
+          "odds": 2.11,
+          "ev": -0.0665
+        },
+        "confidence": 0.4424,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "La Liga",
+      "home": "Oviedo",
+      "away": "Alaves",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1448.5,
+        "awayElo": 1477.8,
+        "probs": {
+          "home": 0.2509,
+          "away": 0.4563,
+          "draw": 0.2927
+        },
+        "marketProbs": {
+          "home": 0.2509,
+          "away": 0.4563,
+          "draw": 0.2927
+        },
+        "modelProbs": {
+          "home": 0.3761,
+          "draw": 0.2802,
+          "away": 0.3437
+        },
+        "expectedHomeGoals": 1.38,
+        "expectedAwayGoals": 1.09,
+        "over25": 0.4306,
+        "btts": 0.4845,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1271
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1166
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0919
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0879
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0843
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0807
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0693
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0501
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0479
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0405
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4306,
+          "odds": 2.29,
+          "ev": -0.014
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Alaves win",
+          "prob": 0.4563,
+          "odds": 2.04,
+          "ev": -0.0691
+        },
+        "confidence": 0.4563,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "La Liga",
+      "home": "Sevilla",
+      "away": "Real Madrid",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1466.2,
+        "awayElo": 1700.3,
+        "probs": {
+          "home": 0.2704,
+          "away": 0.476,
+          "draw": 0.2535
+        },
+        "marketProbs": {
+          "home": 0.2704,
+          "away": 0.476,
+          "draw": 0.2535
+        },
+        "modelProbs": {
+          "home": 0.2065,
+          "draw": 0.18,
+          "away": 0.6135
+        },
+        "expectedHomeGoals": 0.81,
+        "expectedAwayGoals": 1.48,
+        "over25": 0.3842,
+        "btts": 0.4198,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.149
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1214
+          },
+          {
+            "score": "0-2",
+            "prob": 0.1105
+          },
+          {
+            "score": "0-0",
+            "prob": 0.1004
+          },
+          {
+            "score": "1-2",
+            "prob": 0.09
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0818
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0547
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0494
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0445
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0367
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Sevilla win",
+          "prob": 0.2704,
+          "odds": 3.45,
+          "ev": -0.067
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Real Madrid win",
+          "prob": 0.476,
+          "odds": 1.96,
+          "ev": -0.067
+        },
+        "confidence": 0.476,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "La Liga",
+      "home": "Sociedad",
+      "away": "Valencia",
+      "score": "3-4",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1499.9,
+        "awayElo": 1493.9,
+        "probs": {
+          "home": 0.3944,
+          "away": 0.3126,
+          "draw": 0.293
+        },
+        "marketProbs": {
+          "home": 0.3944,
+          "away": 0.3126,
+          "draw": 0.293
+        },
+        "modelProbs": {
+          "home": 0.4251,
+          "draw": 0.2581,
+          "away": 0.3168
+        },
+        "expectedHomeGoals": 1.48,
+        "expectedAwayGoals": 1.02,
+        "over25": 0.4355,
+        "btts": 0.4802,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1238
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1212
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0918
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0898
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0836
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0818
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0633
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0469
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0453
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0444
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.293,
+          "odds": 3.19,
+          "ev": -0.0653
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Sociedad win",
+          "prob": 0.3944,
+          "odds": 2.37,
+          "ev": -0.0653
+        },
+        "confidence": 0.3944,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "La Liga",
+      "home": "Vallecano",
+      "away": "Villarreal",
+      "score": "2-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1504.5,
+        "awayElo": 1612.4,
+        "probs": {
+          "home": 0.4763,
+          "away": 0.2608,
+          "draw": 0.263
+        },
+        "marketProbs": {
+          "home": 0.4763,
+          "away": 0.2608,
+          "draw": 0.263
+        },
+        "modelProbs": {
+          "home": 0.3075,
+          "draw": 0.2507,
+          "away": 0.4418
+        },
+        "expectedHomeGoals": 1.17,
+        "expectedAwayGoals": 1.24,
+        "over25": 0.4162,
+        "btts": 0.4783,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1304
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1119
+          },
+          {
+            "score": "1-0",
+            "prob": 0.105
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0902
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0809
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0759
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0694
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0612
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0335
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Vallecano win",
+          "prob": 0.4763,
+          "odds": 1.96,
+          "ev": -0.0665
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Vallecano win",
+          "prob": 0.4763,
+          "odds": 1.96,
+          "ev": -0.0665
+        },
+        "confidence": 0.4763,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Ligue 1",
+      "home": "Brest",
+      "away": "Angers",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1497.0,
+        "awayElo": 1443.7,
+        "probs": {
+          "home": 0.4826,
+          "away": 0.2458,
+          "draw": 0.2716
+        },
+        "marketProbs": {
+          "home": 0.4826,
+          "away": 0.2458,
+          "draw": 0.2716
+        },
+        "modelProbs": {
+          "home": 0.492,
+          "draw": 0.2286,
+          "away": 0.2794
+        },
+        "expectedHomeGoals": 1.61,
+        "expectedAwayGoals": 0.93,
+        "over25": 0.4404,
+        "btts": 0.4682,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1267
+          },
+          {
+            "score": "1-1",
+            "prob": 0.118
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1022
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0951
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0785
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0731
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0549
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0549
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0512
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0443
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Brest win",
+          "prob": 0.4826,
+          "odds": 1.93,
+          "ev": -0.0685
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Brest win",
+          "prob": 0.4826,
+          "odds": 1.93,
+          "ev": -0.0685
+        },
+        "confidence": 0.4826,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Ligue 1",
+      "home": "Lille",
+      "away": "Auxerre",
+      "score": "0-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1611.7,
+        "awayElo": 1461.8,
+        "probs": {
+          "home": 0.6619,
+          "away": 0.1343,
+          "draw": 0.2038
+        },
+        "marketProbs": {
+          "home": 0.6619,
+          "away": 0.1343,
+          "draw": 0.2038
+        },
+        "modelProbs": {
+          "home": 0.6185,
+          "draw": 0.18,
+          "away": 0.2015
+        },
+        "expectedHomeGoals": 1.88,
+        "expectedAwayGoals": 0.75,
+        "over25": 0.4446,
+        "btts": 0.4221,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1361
+          },
+          {
+            "score": "2-0",
+            "prob": 0.128
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1014
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0954
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0803
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0723
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0598
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0539
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0378
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0377
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2038,
+          "odds": 4.58,
+          "ev": -0.0667
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Lille win",
+          "prob": 0.6619,
+          "odds": 1.41,
+          "ev": -0.0667
+        },
+        "confidence": 0.6619,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Ligue 1",
+      "home": "Lorient",
+      "away": "Le Havre",
+      "score": "0-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1488.0,
+        "awayElo": 1434.4,
+        "probs": {
+          "home": 0.4069,
+          "away": 0.3191,
+          "draw": 0.274
+        },
+        "marketProbs": {
+          "home": 0.4069,
+          "away": 0.3191,
+          "draw": 0.274
+        },
+        "modelProbs": {
+          "home": 0.4924,
+          "draw": 0.2284,
+          "away": 0.2792
+        },
+        "expectedHomeGoals": 1.61,
+        "expectedAwayGoals": 0.93,
+        "over25": 0.4404,
+        "btts": 0.4681,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1267
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1179
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1023
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0951
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0785
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0731
+          },
+          {
+            "score": "3-0",
+            "prob": 0.055
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0549
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0512
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0443
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Lorient win",
+          "prob": 0.4069,
+          "odds": 2.29,
+          "ev": -0.0683
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Lorient win",
+          "prob": 0.4069,
+          "odds": 2.29,
+          "ev": -0.0683
+        },
+        "confidence": 0.4069,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Ligue 1",
+      "home": "Lyon",
+      "away": "Lens",
+      "score": "0-4",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1586.0,
+        "awayElo": 1587.5,
+        "probs": {
+          "home": 0.6132,
+          "away": 0.1806,
+          "draw": 0.2062
+        },
+        "marketProbs": {
+          "home": 0.6132,
+          "away": 0.1806,
+          "draw": 0.2062
+        },
+        "modelProbs": {
+          "home": 0.4144,
+          "draw": 0.2628,
+          "away": 0.3227
+        },
+        "expectedHomeGoals": 1.46,
+        "expectedAwayGoals": 1.04,
+        "over25": 0.4345,
+        "btts": 0.4815,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1246
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1202
+          },
+          {
+            "score": "2-1",
+            "prob": 0.091
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0878
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0853
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0823
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0646
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0472
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0443
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0442
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Lyon win",
+          "prob": 0.6132,
+          "odds": 1.52,
+          "ev": -0.068
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Lyon win",
+          "prob": 0.6132,
+          "odds": 1.52,
+          "ev": -0.068
+        },
+        "confidence": 0.6132,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Ligue 1",
+      "home": "Marseille",
+      "away": "Rennes",
+      "score": "3-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1567.7,
+        "awayElo": 1552.1,
+        "probs": {
+          "home": 0.5125,
+          "away": 0.2605,
+          "draw": 0.2269
+        },
+        "marketProbs": {
+          "home": 0.5125,
+          "away": 0.2605,
+          "draw": 0.2269
+        },
+        "modelProbs": {
+          "home": 0.4385,
+          "draw": 0.2521,
+          "away": 0.3094
+        },
+        "expectedHomeGoals": 1.51,
+        "expectedAwayGoals": 1.0,
+        "over25": 0.4366,
+        "btts": 0.4784,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1228
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1224
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0926
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0923
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0814
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0811
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0616
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0466
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0465
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0464
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Marseille win",
+          "prob": 0.5125,
+          "odds": 1.82,
+          "ev": -0.0672
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Marseille win",
+          "prob": 0.5125,
+          "odds": 1.82,
+          "ev": -0.0672
+        },
+        "confidence": 0.5125,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Ligue 1",
+      "home": "Nantes",
+      "away": "Toulouse",
+      "score": "0-0",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1399.3,
+        "awayElo": 1500.7,
+        "probs": {
+          "home": 0.3387,
+          "away": 0.3881,
+          "draw": 0.2732
+        },
+        "marketProbs": {
+          "home": 0.3387,
+          "away": 0.3881,
+          "draw": 0.2732
+        },
+        "modelProbs": {
+          "home": 0.3127,
+          "draw": 0.2548,
+          "away": 0.4326
+        },
+        "expectedHomeGoals": 1.18,
+        "expectedAwayGoals": 1.23,
+        "over25": 0.4176,
+        "btts": 0.4796,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1303
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1101
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1061
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0897
+          },
+          {
+            "score": "1-2",
+            "prob": 0.08
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0771
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0676
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0628
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0474
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0328
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Nantes win",
+          "prob": 0.3387,
+          "odds": 2.75,
+          "ev": -0.0685
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Toulouse win",
+          "prob": 0.3881,
+          "odds": 2.4,
+          "ev": -0.0685
+        },
+        "confidence": 0.3881,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Ligue 1",
+      "home": "Nice",
+      "away": "Metz",
+      "score": "0-0",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1491.7,
+        "awayElo": 1353.3,
+        "probs": {
+          "home": 0.7386,
+          "away": 0.0991,
+          "draw": 0.1623
+        },
+        "marketProbs": {
+          "home": 0.7386,
+          "away": 0.0991,
+          "draw": 0.1623
+        },
+        "modelProbs": {
+          "home": 0.6083,
+          "draw": 0.18,
+          "away": 0.2117
+        },
+        "expectedHomeGoals": 1.85,
+        "expectedAwayGoals": 0.77,
+        "over25": 0.4445,
+        "btts": 0.429,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1351
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1249
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1037
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0958
+          },
+          {
+            "score": "3-0",
+            "prob": 0.077
+          },
+          {
+            "score": "0-0",
+            "prob": 0.073
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0591
+          },
+          {
+            "score": "0-1",
+            "prob": 0.056
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0398
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0368
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Nice win",
+          "prob": 0.7386,
+          "odds": 1.27,
+          "ev": -0.0619
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Nice win",
+          "prob": 0.7386,
+          "odds": 1.27,
+          "ev": -0.0619
+        },
+        "confidence": 0.7386,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Ligue 1",
+      "home": "Paris FC",
+      "away": "Paris SG",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1503.8,
+        "awayElo": 1710.8,
+        "probs": {
+          "home": 0.1662,
+          "away": 0.6397,
+          "draw": 0.1942
+        },
+        "marketProbs": {
+          "home": 0.1662,
+          "away": 0.6397,
+          "draw": 0.1942
+        },
+        "modelProbs": {
+          "home": 0.229,
+          "draw": 0.1887,
+          "away": 0.5823
+        },
+        "expectedHomeGoals": 0.89,
+        "expectedAwayGoals": 1.43,
+        "over25": 0.3919,
+        "btts": 0.4377,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1405
+          },
+          {
+            "score": "1-1",
+            "prob": 0.125
+          },
+          {
+            "score": "0-2",
+            "prob": 0.1006
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0981
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0895
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0873
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0556
+          },
+          {
+            "score": "0-3",
+            "prob": 0.048
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0427
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0398
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Paris FC win",
+          "prob": 0.1662,
+          "odds": 5.62,
+          "ev": -0.0661
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Paris SG win",
+          "prob": 0.6397,
+          "odds": 1.46,
+          "ev": -0.0661
+        },
+        "confidence": 0.6397,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Ligue 1",
+      "home": "Strasbourg",
+      "away": "Monaco",
+      "score": "5-4",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:F1",
+      "prediction": {
+        "homeElo": 1543.3,
+        "awayElo": 1582.4,
+        "probs": {
+          "home": 0.2919,
+          "away": 0.4825,
+          "draw": 0.2255
+        },
+        "marketProbs": {
+          "home": 0.2919,
+          "away": 0.4825,
+          "draw": 0.2255
+        },
+        "modelProbs": {
+          "home": 0.3629,
+          "draw": 0.2863,
+          "away": 0.3508
+        },
+        "expectedHomeGoals": 1.36,
+        "expectedAwayGoals": 1.11,
+        "over25": 0.429,
+        "btts": 0.4849,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1278
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1153
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0942
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0867
+          },
+          {
+            "score": "0-0",
+            "prob": 0.085
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0782
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0709
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0522
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0392
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Strasbourg win",
+          "prob": 0.2919,
+          "odds": 3.19,
+          "ev": -0.0687
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Monaco win",
+          "prob": 0.4825,
+          "odds": 1.93,
+          "ev": -0.0687
+        },
+        "confidence": 0.4825,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Premier League",
+      "home": "Brentford",
+      "away": "Crystal Palace",
+      "score": "2-2",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1524.5,
+        "awayElo": 1505.1,
+        "probs": {
+          "home": 0.5461,
+          "away": 0.213,
+          "draw": 0.2409
+        },
+        "marketProbs": {
+          "home": 0.5461,
+          "away": 0.213,
+          "draw": 0.2409
+        },
+        "modelProbs": {
+          "home": 0.444,
+          "draw": 0.2497,
+          "away": 0.3063
+        },
+        "expectedHomeGoals": 1.52,
+        "expectedAwayGoals": 1.0,
+        "over25": 0.437,
+        "btts": 0.4776,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1228
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1223
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0933
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0929
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0809
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0805
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0609
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0472
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0471
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0463
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2409,
+          "odds": 3.9,
+          "ev": -0.0606
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Brentford win",
+          "prob": 0.5461,
+          "odds": 1.72,
+          "ev": -0.0606
+        },
+        "confidence": 0.5461,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Premier League",
+      "home": "Everton",
+      "away": "Sunderland",
+      "score": "1-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1523.2,
+        "awayElo": 1507.5,
+        "probs": {
+          "home": 0.5103,
+          "away": 0.2274,
+          "draw": 0.2623
+        },
+        "marketProbs": {
+          "home": 0.5103,
+          "away": 0.2274,
+          "draw": 0.2623
+        },
+        "modelProbs": {
+          "home": 0.4387,
+          "draw": 0.2521,
+          "away": 0.3093
+        },
+        "expectedHomeGoals": 1.51,
+        "expectedAwayGoals": 1.0,
+        "over25": 0.4366,
+        "btts": 0.4784,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1228
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1224
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0926
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0923
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0814
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0811
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0616
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0466
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0465
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0464
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Everton win",
+          "prob": 0.5103,
+          "odds": 1.84,
+          "ev": -0.061
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Everton win",
+          "prob": 0.5103,
+          "odds": 1.84,
+          "ev": -0.061
+        },
+        "confidence": 0.5103,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Premier League",
+      "home": "Leeds",
+      "away": "Brighton",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1515.5,
+        "awayElo": 1553.4,
+        "probs": {
+          "home": 0.2727,
+          "away": 0.4585,
+          "draw": 0.2688
+        },
+        "marketProbs": {
+          "home": 0.2727,
+          "away": 0.4585,
+          "draw": 0.2688
+        },
+        "modelProbs": {
+          "home": 0.3645,
+          "draw": 0.2856,
+          "away": 0.3499
+        },
+        "expectedHomeGoals": 1.36,
+        "expectedAwayGoals": 1.11,
+        "over25": 0.4292,
+        "btts": 0.4848,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1277
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1155
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0939
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0868
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0849
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0785
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0707
+          },
+          {
+            "score": "0-2",
+            "prob": 0.052
+          },
+          {
+            "score": "2-2",
+            "prob": 0.048
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0394
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Brighton win",
+          "prob": 0.4585,
+          "odds": 2.04,
+          "ev": -0.0646
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Brighton win",
+          "prob": 0.4585,
+          "odds": 2.04,
+          "ev": -0.0646
+        },
+        "confidence": 0.4585,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Premier League",
+      "home": "Man United",
+      "away": "Nott'm Forest",
+      "score": "3-2",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1572.6,
+        "awayElo": 1513.0,
+        "probs": {
+          "home": 0.6033,
+          "away": 0.1838,
+          "draw": 0.2129
+        },
+        "marketProbs": {
+          "home": 0.6033,
+          "away": 0.1838,
+          "draw": 0.2129
+        },
+        "modelProbs": {
+          "home": 0.5011,
+          "draw": 0.2246,
+          "away": 0.2743
+        },
+        "expectedHomeGoals": 1.63,
+        "expectedAwayGoals": 0.92,
+        "over25": 0.4409,
+        "btts": 0.4661,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1274
+          },
+          {
+            "score": "1-1",
+            "prob": 0.117
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1039
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0954
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0781
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0718
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0565
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0538
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0519
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0438
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Nott'm Forest win",
+          "prob": 0.1838,
+          "odds": 5.12,
+          "ev": -0.0589
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Man United win",
+          "prob": 0.6033,
+          "odds": 1.56,
+          "ev": -0.0589
+        },
+        "confidence": 0.6033,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Premier League",
+      "home": "Newcastle",
+      "away": "West Ham",
+      "score": "3-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1526.2,
+        "awayElo": 1463.2,
+        "probs": {
+          "home": 0.4569,
+          "away": 0.2973,
+          "draw": 0.2458
+        },
+        "marketProbs": {
+          "home": 0.4569,
+          "away": 0.2973,
+          "draw": 0.2458
+        },
+        "modelProbs": {
+          "home": 0.5058,
+          "draw": 0.2225,
+          "away": 0.2717
+        },
+        "expectedHomeGoals": 1.64,
+        "expectedAwayGoals": 0.91,
+        "over25": 0.4412,
+        "btts": 0.4649,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1278
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1166
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1048
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0956
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0779
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0711
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0573
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0532
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0522
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0436
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Newcastle win",
+          "prob": 0.4569,
+          "odds": 2.05,
+          "ev": -0.0634
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Newcastle win",
+          "prob": 0.4569,
+          "odds": 2.05,
+          "ev": -0.0634
+        },
+        "confidence": 0.4569,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Premier League",
+      "home": "Wolves",
+      "away": "Fulham",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1392.8,
+        "awayElo": 1507.1,
+        "probs": {
+          "home": 0.2325,
+          "away": 0.5093,
+          "draw": 0.2582
+        },
+        "marketProbs": {
+          "home": 0.2325,
+          "away": 0.5093,
+          "draw": 0.2582
+        },
+        "modelProbs": {
+          "home": 0.3025,
+          "draw": 0.2467,
+          "away": 0.4508
+        },
+        "expectedHomeGoals": 1.15,
+        "expectedAwayGoals": 1.25,
+        "over25": 0.4149,
+        "btts": 0.4768,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1304
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1136
+          },
+          {
+            "score": "1-0",
+            "prob": 0.104
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0906
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0817
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0748
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0712
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0597
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0469
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0341
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2582,
+          "odds": 3.63,
+          "ev": -0.0629
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Fulham win",
+          "prob": 0.5093,
+          "odds": 1.84,
+          "ev": -0.0629
+        },
+        "confidence": 0.5093,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Serie A",
+      "home": "Atalanta",
+      "away": "Bologna",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1601.2,
+        "awayElo": 1542.6,
+        "probs": {
+          "home": 0.545,
+          "away": 0.2167,
+          "draw": 0.2383
+        },
+        "marketProbs": {
+          "home": 0.545,
+          "away": 0.2167,
+          "draw": 0.2383
+        },
+        "modelProbs": {
+          "home": 0.4996,
+          "draw": 0.2252,
+          "away": 0.2752
+        },
+        "expectedHomeGoals": 1.63,
+        "expectedAwayGoals": 0.92,
+        "over25": 0.4408,
+        "btts": 0.4664,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1273
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1172
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1036
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0954
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0782
+          },
+          {
+            "score": "0-1",
+            "prob": 0.072
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0562
+          },
+          {
+            "score": "1-2",
+            "prob": 0.054
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0518
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2383,
+          "odds": 3.91,
+          "ev": -0.0681
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Atalanta win",
+          "prob": 0.545,
+          "odds": 1.71,
+          "ev": -0.0681
+        },
+        "confidence": 0.545,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Serie A",
+      "home": "Cagliari",
+      "away": "Torino",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1434.7,
+        "awayElo": 1487.2,
+        "probs": {
+          "home": 0.431,
+          "away": 0.2637,
+          "draw": 0.3052
+        },
+        "marketProbs": {
+          "home": 0.431,
+          "away": 0.2637,
+          "draw": 0.3052
+        },
+        "modelProbs": {
+          "home": 0.3496,
+          "draw": 0.2853,
+          "away": 0.3651
+        },
+        "expectedHomeGoals": 1.32,
+        "expectedAwayGoals": 1.13,
+        "over25": 0.4268,
+        "btts": 0.4849,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1287
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1134
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0975
+          },
+          {
+            "score": "0-0",
+            "prob": 0.086
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0849
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0748
+          },
+          {
+            "score": "1-2",
+            "prob": 0.073
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0553
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0373
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4268,
+          "odds": 2.24,
+          "ev": -0.0439
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Cagliari win",
+          "prob": 0.431,
+          "odds": 2.16,
+          "ev": -0.069
+        },
+        "confidence": 0.431,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Serie A",
+      "home": "Como",
+      "away": "Parma",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1581.0,
+        "awayElo": 1480.6,
+        "probs": {
+          "home": 0.7616,
+          "away": 0.0777,
+          "draw": 0.1607
+        },
+        "marketProbs": {
+          "home": 0.7616,
+          "away": 0.0777,
+          "draw": 0.1607
+        },
+        "modelProbs": {
+          "home": 0.5589,
+          "draw": 0.1991,
+          "away": 0.242
+        },
+        "expectedHomeGoals": 1.74,
+        "expectedAwayGoals": 0.84,
+        "over25": 0.4434,
+        "btts": 0.4492,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1316
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1147
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1106
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0964
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0755
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0667
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0634
+          },
+          {
+            "score": "3-1",
+            "prob": 0.056
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0465
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0405
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.1607,
+          "odds": 5.83,
+          "ev": -0.0632
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Como win",
+          "prob": 0.7616,
+          "odds": 1.23,
+          "ev": -0.0632
+        },
+        "confidence": 0.7616,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Serie A",
+      "home": "Genoa",
+      "away": "Milan",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1487.0,
+        "awayElo": 1604.4,
+        "probs": {
+          "home": 0.1842,
+          "away": 0.5558,
+          "draw": 0.2601
+        },
+        "marketProbs": {
+          "home": 0.1842,
+          "away": 0.5558,
+          "draw": 0.2601
+        },
+        "modelProbs": {
+          "home": 0.3001,
+          "draw": 0.2448,
+          "away": 0.4551
+        },
+        "expectedHomeGoals": 1.14,
+        "expectedAwayGoals": 1.26,
+        "over25": 0.4142,
+        "btts": 0.476,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1303
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1144
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1035
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0909
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0821
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0742
+          },
+          {
+            "score": "0-2",
+            "prob": 0.072
+          },
+          {
+            "score": "2-0",
+            "prob": 0.059
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0467
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0344
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Genoa win",
+          "prob": 0.1842,
+          "odds": 5.07,
+          "ev": -0.0663
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Milan win",
+          "prob": 0.5558,
+          "odds": 1.68,
+          "ev": -0.0663
+        },
+        "confidence": 0.5558,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Serie A",
+      "home": "Inter",
+      "away": "Verona",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1724.0,
+        "awayElo": 1370.7,
+        "probs": {
+          "home": 0.6868,
+          "away": 0.1198,
+          "draw": 0.1934
+        },
+        "marketProbs": {
+          "home": 0.6868,
+          "away": 0.1198,
+          "draw": 0.1934
+        },
+        "modelProbs": {
+          "home": 0.7448,
+          "draw": 0.18,
+          "away": 0.0752
+        },
+        "expectedHomeGoals": 2.45,
+        "expectedAwayGoals": 0.45,
+        "over25": 0.4513,
+        "btts": 0.294,
+        "scoreGrid": [
+          {
+            "score": "2-0",
+            "prob": 0.1652
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1351
+          },
+          {
+            "score": "3-0",
+            "prob": 0.1348
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0824
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0744
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0608
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0606
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0552
+          },
+          {
+            "score": "4-1",
+            "prob": 0.0371
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0249
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Verona win",
+          "prob": 0.1198,
+          "odds": 7.8,
+          "ev": -0.0659
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Inter win",
+          "prob": 0.6868,
+          "odds": 1.36,
+          "ev": -0.0659
+        },
+        "confidence": 0.6868,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Serie A",
+      "home": "Juventus",
+      "away": "Fiorentina",
+      "score": "0-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1638.5,
+        "awayElo": 1514.8,
+        "probs": {
+          "home": 0.7184,
+          "away": 0.1096,
+          "draw": 0.172
+        },
+        "marketProbs": {
+          "home": 0.7184,
+          "away": 0.1096,
+          "draw": 0.172
+        },
+        "modelProbs": {
+          "home": 0.5915,
+          "draw": 0.1846,
+          "away": 0.224
+        },
+        "expectedHomeGoals": 1.81,
+        "expectedAwayGoals": 0.8,
+        "over25": 0.4443,
+        "btts": 0.4373,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1338
+          },
+          {
+            "score": "2-0",
+            "prob": 0.121
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1064
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0962
+          },
+          {
+            "score": "0-0",
+            "prob": 0.074
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0729
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0588
+          },
+          {
+            "score": "3-1",
+            "prob": 0.058
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0423
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0383
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Juventus win",
+          "prob": 0.7184,
+          "odds": 1.3,
+          "ev": -0.0661
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Juventus win",
+          "prob": 0.7184,
+          "odds": 1.3,
+          "ev": -0.0661
+        },
+        "confidence": 0.7184,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Serie A",
+      "home": "Pisa",
+      "away": "Napoli",
+      "score": "0-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1389.7,
+        "awayElo": 1632.3,
+        "probs": {
+          "home": 0.1168,
+          "away": 0.6659,
+          "draw": 0.2173
+        },
+        "marketProbs": {
+          "home": 0.1168,
+          "away": 0.6659,
+          "draw": 0.2173
+        },
+        "modelProbs": {
+          "home": 0.1991,
+          "draw": 0.18,
+          "away": 0.6209
+        },
+        "expectedHomeGoals": 0.79,
+        "expectedAwayGoals": 1.5,
+        "over25": 0.3817,
+        "btts": 0.4135,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1517
+          },
+          {
+            "score": "1-1",
+            "prob": 0.12
+          },
+          {
+            "score": "0-2",
+            "prob": 0.1138
+          },
+          {
+            "score": "0-0",
+            "prob": 0.1012
+          },
+          {
+            "score": "1-2",
+            "prob": 0.09
+          },
+          {
+            "score": "1-0",
+            "prob": 0.08
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0569
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0475
+          },
+          {
+            "score": "1-3",
+            "prob": 0.045
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0356
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Pisa win",
+          "prob": 0.1168,
+          "odds": 7.98,
+          "ev": -0.0678
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Napoli win",
+          "prob": 0.6659,
+          "odds": 1.4,
+          "ev": -0.0678
+        },
+        "confidence": 0.6659,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Serie A",
+      "home": "Roma",
+      "away": "Lazio",
+      "score": "2-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1617.2,
+        "awayElo": 1558.2,
+        "probs": {
+          "home": 0.6247,
+          "away": 0.1494,
+          "draw": 0.2259
+        },
+        "marketProbs": {
+          "home": 0.6247,
+          "away": 0.1494,
+          "draw": 0.2259
+        },
+        "modelProbs": {
+          "home": 0.5001,
+          "draw": 0.225,
+          "away": 0.2749
+        },
+        "expectedHomeGoals": 1.63,
+        "expectedAwayGoals": 0.92,
+        "over25": 0.4408,
+        "btts": 0.4663,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1273
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1171
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1037
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0954
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0782
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0719
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0563
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0539
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0518
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Lazio win",
+          "prob": 0.1494,
+          "odds": 6.23,
+          "ev": -0.0692
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Roma win",
+          "prob": 0.6247,
+          "odds": 1.49,
+          "ev": -0.0692
+        },
+        "confidence": 0.6247,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Serie A",
+      "home": "Sassuolo",
+      "away": "Lecce",
+      "score": "2-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1477.7,
+        "awayElo": 1415.9,
+        "probs": {
+          "home": 0.3724,
+          "away": 0.3349,
+          "draw": 0.2927
+        },
+        "marketProbs": {
+          "home": 0.3724,
+          "away": 0.3349,
+          "draw": 0.2927
+        },
+        "modelProbs": {
+          "home": 0.5041,
+          "draw": 0.2233,
+          "away": 0.2726
+        },
+        "expectedHomeGoals": 1.64,
+        "expectedAwayGoals": 0.91,
+        "over25": 0.4411,
+        "btts": 0.4653,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1276
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1167
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1044
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0955
+          },
+          {
+            "score": "0-0",
+            "prob": 0.078
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0713
+          },
+          {
+            "score": "3-0",
+            "prob": 0.057
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0534
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0521
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0437
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Sassuolo win",
+          "prob": 0.3724,
+          "odds": 2.5,
+          "ev": -0.0691
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Sassuolo win",
+          "prob": 0.3724,
+          "odds": 2.5,
+          "ev": -0.0691
+        },
+        "confidence": 0.3724,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Serie A",
+      "home": "Udinese",
+      "away": "Cremonese",
+      "score": "0-1",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1497.6,
+        "awayElo": 1433.6,
+        "probs": {
+          "home": 0.3938,
+          "away": 0.309,
+          "draw": 0.2972
+        },
+        "marketProbs": {
+          "home": 0.3938,
+          "away": 0.309,
+          "draw": 0.2972
+        },
+        "modelProbs": {
+          "home": 0.5073,
+          "draw": 0.2219,
+          "away": 0.2709
+        },
+        "expectedHomeGoals": 1.64,
+        "expectedAwayGoals": 0.91,
+        "over25": 0.4412,
+        "btts": 0.4645,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1279
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1164
+          },
+          {
+            "score": "2-0",
+            "prob": 0.105
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0956
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0778
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0709
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0575
+          },
+          {
+            "score": "1-2",
+            "prob": 0.053
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0524
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0435
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4412,
+          "odds": 2.13,
+          "ev": -0.0602
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Udinese win",
+          "prob": 0.3938,
+          "odds": 2.37,
+          "ev": -0.0668
+        },
+        "confidence": 0.3938,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-18",
+      "league": "Premier League",
+      "home": "Arsenal",
+      "away": "Burnley",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1689.3,
+        "awayElo": 1362.3,
+        "probs": {
+          "home": 0.8652,
+          "away": 0.0416,
+          "draw": 0.0933
+        },
+        "marketProbs": {
+          "home": 0.8652,
+          "away": 0.0416,
+          "draw": 0.0933
+        },
+        "modelProbs": {
+          "home": 0.7338,
+          "draw": 0.18,
+          "away": 0.0862
+        },
+        "expectedHomeGoals": 2.37,
+        "expectedAwayGoals": 0.45,
+        "over25": 0.4434,
+        "btts": 0.295,
+        "scoreGrid": [
+          {
+            "score": "2-0",
+            "prob": 0.1673
+          },
+          {
+            "score": "1-0",
+            "prob": 0.141
+          },
+          {
+            "score": "3-0",
+            "prob": 0.1324
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0785
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0753
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0634
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0596
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0594
+          },
+          {
+            "score": "4-1",
+            "prob": 0.0353
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0267
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Arsenal win",
+          "prob": 0.8652,
+          "odds": 1.09,
+          "ev": -0.057
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Arsenal win",
+          "prob": 0.8652,
+          "odds": 1.09,
+          "ev": -0.057
+        },
+        "confidence": 0.8652,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-19",
+      "league": "Premier League",
+      "home": "Bournemouth",
+      "away": "Man City",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1564.8,
+        "awayElo": 1683.8,
+        "probs": {
+          "home": 0.2031,
+          "away": 0.5756,
+          "draw": 0.2213
+        },
+        "marketProbs": {
+          "home": 0.2031,
+          "away": 0.5756,
+          "draw": 0.2213
+        },
+        "modelProbs": {
+          "home": 0.2988,
+          "draw": 0.2437,
+          "away": 0.4575
+        },
+        "expectedHomeGoals": 1.13,
+        "expectedAwayGoals": 1.26,
+        "over25": 0.4138,
+        "btts": 0.4756,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1303
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1149
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1032
+          },
+          {
+            "score": "0-0",
+            "prob": 0.091
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0823
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0739
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0725
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0586
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0467
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0346
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Bournemouth win",
+          "prob": 0.2031,
+          "odds": 4.62,
+          "ev": -0.0617
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Man City win",
+          "prob": 0.5756,
+          "odds": 1.63,
+          "ev": -0.0617
+        },
+        "confidence": 0.5756,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-19",
+      "league": "Premier League",
+      "home": "Chelsea",
+      "away": "Tottenham",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1546.1,
+        "awayElo": 1448.8,
+        "probs": {
+          "home": 0.4271,
+          "away": 0.2878,
+          "draw": 0.2851
+        },
+        "marketProbs": {
+          "home": 0.4271,
+          "away": 0.2878,
+          "draw": 0.2851
+        },
+        "modelProbs": {
+          "home": 0.5546,
+          "draw": 0.201,
+          "away": 0.2444
+        },
+        "expectedHomeGoals": 1.74,
+        "expectedAwayGoals": 0.85,
+        "over25": 0.4433,
+        "btts": 0.4507,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1313
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1139
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1111
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0964
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0756
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0659
+          },
+          {
+            "score": "0-1",
+            "prob": 0.064
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0558
+          },
+          {
+            "score": "1-2",
+            "prob": 0.047
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0408
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Chelsea win",
+          "prob": 0.4271,
+          "odds": 2.19,
+          "ev": -0.0647
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Chelsea win",
+          "prob": 0.4271,
+          "odds": 2.19,
+          "ev": -0.0647
+        },
+        "confidence": 0.4271,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-22",
+      "league": "Serie A",
+      "home": "Fiorentina",
+      "away": "Atalanta",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1526.4,
+        "awayElo": 1590.9,
+        "probs": {
+          "home": 0.3106,
+          "away": 0.423,
+          "draw": 0.2664
+        },
+        "marketProbs": {
+          "home": 0.3106,
+          "away": 0.423,
+          "draw": 0.2664
+        },
+        "modelProbs": {
+          "home": 0.3409,
+          "draw": 0.2778,
+          "away": 0.3813
+        },
+        "expectedHomeGoals": 1.29,
+        "expectedAwayGoals": 1.16,
+        "over25": 0.4247,
+        "btts": 0.4844,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1293
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1117
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1005
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0869
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0831
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0748
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0718
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0582
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0356
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2664,
+          "odds": 3.51,
+          "ev": -0.0651
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Atalanta win",
+          "prob": 0.423,
+          "odds": 2.21,
+          "ev": -0.0651
+        },
+        "confidence": 0.423,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "league": "La Liga",
+      "home": "Alaves",
+      "away": "Vallecano",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1486.2,
+        "awayElo": 1513.9,
+        "probs": {
+          "home": 0.4431,
+          "away": 0.271,
+          "draw": 0.2859
+        },
+        "marketProbs": {
+          "home": 0.4431,
+          "away": 0.271,
+          "draw": 0.2859
+        },
+        "modelProbs": {
+          "home": 0.3783,
+          "draw": 0.2792,
+          "away": 0.3425
+        },
+        "expectedHomeGoals": 1.39,
+        "expectedAwayGoals": 1.09,
+        "over25": 0.4308,
+        "btts": 0.4844,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.127
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1168
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0915
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0881
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0842
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0811
+          },
+          {
+            "score": "1-2",
+            "prob": 0.069
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0497
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0479
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0408
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Vallecano win",
+          "prob": 0.271,
+          "odds": 3.45,
+          "ev": -0.0651
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Alaves win",
+          "prob": 0.4431,
+          "odds": 2.11,
+          "ev": -0.0651
+        },
+        "confidence": 0.4431,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "league": "La Liga",
+      "home": "Betis",
+      "away": "Levante",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1572.1,
+        "awayElo": 1494.9,
+        "probs": {
+          "home": 0.4074,
+          "away": 0.3206,
+          "draw": 0.272
+        },
+        "marketProbs": {
+          "home": 0.4074,
+          "away": 0.3206,
+          "draw": 0.272
+        },
+        "modelProbs": {
+          "home": 0.526,
+          "draw": 0.2137,
+          "away": 0.2604
+        },
+        "expectedHomeGoals": 1.68,
+        "expectedAwayGoals": 0.89,
+        "over25": 0.4422,
+        "btts": 0.4594,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1292
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1144
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1085
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0961
+          },
+          {
+            "score": "0-0",
+            "prob": 0.077
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0681
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0607
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0538
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0506
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0425
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Betis win",
+          "prob": 0.4074,
+          "odds": 2.29,
+          "ev": -0.0671
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Betis win",
+          "prob": 0.4074,
+          "odds": 2.29,
+          "ev": -0.0671
+        },
+        "confidence": 0.4074,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "league": "La Liga",
+      "home": "Celta",
+      "away": "Sevilla",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1523.4,
+        "awayElo": 1462.2,
+        "probs": {
+          "home": 0.5063,
+          "away": 0.2158,
+          "draw": 0.2779
+        },
+        "marketProbs": {
+          "home": 0.5063,
+          "away": 0.2158,
+          "draw": 0.2779
+        },
+        "modelProbs": {
+          "home": 0.5033,
+          "draw": 0.2236,
+          "away": 0.2731
+        },
+        "expectedHomeGoals": 1.63,
+        "expectedAwayGoals": 0.92,
+        "over25": 0.441,
+        "btts": 0.4655,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1276
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1168
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1043
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0955
+          },
+          {
+            "score": "0-0",
+            "prob": 0.078
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0715
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0568
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0535
+          },
+          {
+            "score": "3-1",
+            "prob": 0.052
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0437
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.441,
+          "odds": 2.15,
+          "ev": -0.0518
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Celta win",
+          "prob": 0.5063,
+          "odds": 1.85,
+          "ev": -0.0634
+        },
+        "confidence": 0.5063,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "league": "La Liga",
+      "home": "Espanol",
+      "away": "Sociedad",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1472.0,
+        "awayElo": 1490.8,
+        "probs": {
+          "home": 0.3935,
+          "away": 0.3381,
+          "draw": 0.2684
+        },
+        "marketProbs": {
+          "home": 0.3935,
+          "away": 0.3381,
+          "draw": 0.2684
+        },
+        "modelProbs": {
+          "home": 0.3905,
+          "draw": 0.2736,
+          "away": 0.3358
+        },
+        "expectedHomeGoals": 1.41,
+        "expectedAwayGoals": 1.07,
+        "over25": 0.4321,
+        "btts": 0.4836,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1262
+          },
+          {
+            "score": "1-0",
+            "prob": 0.118
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0894
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0892
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0835
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0834
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0675
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0478
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0477
+          },
+          {
+            "score": "3-1",
+            "prob": 0.042
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Sociedad win",
+          "prob": 0.3381,
+          "odds": 2.77,
+          "ev": -0.0634
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Espanol win",
+          "prob": 0.3935,
+          "odds": 2.38,
+          "ev": -0.0634
+        },
+        "confidence": 0.3935,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "league": "La Liga",
+      "home": "Getafe",
+      "away": "Osasuna",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1479.5,
+        "awayElo": 1482.1,
+        "probs": {
+          "home": 0.3211,
+          "away": 0.3125,
+          "draw": 0.3664
+        },
+        "marketProbs": {
+          "home": 0.3211,
+          "away": 0.3125,
+          "draw": 0.3664
+        },
+        "modelProbs": {
+          "home": 0.4131,
+          "draw": 0.2634,
+          "away": 0.3235
+        },
+        "expectedHomeGoals": 1.46,
+        "expectedAwayGoals": 1.04,
+        "over25": 0.4344,
+        "btts": 0.4817,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1247
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1201
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0909
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0876
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0855
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0824
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0647
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0472
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0444
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0442
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4344,
+          "odds": 3.22,
+          "ev": 0.3986
+        },
+        "topSide": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.3664,
+          "odds": 2.55,
+          "ev": -0.0656
+        },
+        "confidence": 0.3664,
+        "tier": "low",
+        "isValue": true
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "league": "La Liga",
+      "home": "Girona",
+      "away": "Elche",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1479.0,
+        "awayElo": 1486.0,
+        "probs": {
+          "home": 0.5277,
+          "away": 0.2219,
+          "draw": 0.2504
+        },
+        "marketProbs": {
+          "home": 0.5277,
+          "away": 0.2219,
+          "draw": 0.2504
+        },
+        "modelProbs": {
+          "home": 0.4068,
+          "draw": 0.2663,
+          "away": 0.327
+        },
+        "expectedHomeGoals": 1.45,
+        "expectedAwayGoals": 1.05,
+        "over25": 0.4338,
+        "btts": 0.4823,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1252
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1195
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0905
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0866
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0864
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0827
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0655
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0474
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0453
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0436
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Girona win",
+          "prob": 0.5277,
+          "odds": 1.77,
+          "ev": -0.0659
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Girona win",
+          "prob": 0.5277,
+          "odds": 1.77,
+          "ev": -0.0659
+        },
+        "confidence": 0.5277,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "league": "La Liga",
+      "home": "Mallorca",
+      "away": "Oviedo",
+      "score": "3-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1461.7,
+        "awayElo": 1440.1,
+        "probs": {
+          "home": 0.646,
+          "away": 0.1382,
+          "draw": 0.2158
+        },
+        "marketProbs": {
+          "home": 0.646,
+          "away": 0.1382,
+          "draw": 0.2158
+        },
+        "modelProbs": {
+          "home": 0.447,
+          "draw": 0.2484,
+          "away": 0.3046
+        },
+        "expectedHomeGoals": 1.53,
+        "expectedAwayGoals": 0.99,
+        "over25": 0.4373,
+        "btts": 0.4771,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1231
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1221
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0939
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0931
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0807
+          },
+          {
+            "score": "0-1",
+            "prob": 0.08
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0605
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0477
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0473
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0462
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Mallorca win",
+          "prob": 0.646,
+          "odds": 1.45,
+          "ev": -0.0633
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Mallorca win",
+          "prob": 0.646,
+          "odds": 1.45,
+          "ev": -0.0633
+        },
+        "confidence": 0.646,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "league": "La Liga",
+      "home": "Real Madrid",
+      "away": "Ath Bilbao",
+      "score": "4-2",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1704.4,
+        "awayElo": 1523.6,
+        "probs": {
+          "home": 0.6158,
+          "away": 0.1807,
+          "draw": 0.2035
+        },
+        "marketProbs": {
+          "home": 0.6158,
+          "away": 0.1807,
+          "draw": 0.2035
+        },
+        "modelProbs": {
+          "home": 0.6443,
+          "draw": 0.18,
+          "away": 0.1757
+        },
+        "expectedHomeGoals": 1.97,
+        "expectedAwayGoals": 0.69,
+        "over25": 0.4444,
+        "btts": 0.4016,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1386
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1363
+          },
+          {
+            "score": "1-1",
+            "prob": 0.095
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0935
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0894
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0704
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0613
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0483
+          },
+          {
+            "score": "4-0",
+            "prob": 0.044
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0326
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Real Madrid win",
+          "prob": 0.6158,
+          "odds": 1.52,
+          "ev": -0.064
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Real Madrid win",
+          "prob": 0.6158,
+          "odds": 1.52,
+          "ev": -0.064
+        },
+        "confidence": 0.6158,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "league": "La Liga",
+      "home": "Valencia",
+      "away": "Barcelona",
+      "score": "3-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1503.0,
+        "awayElo": 1746.3,
+        "probs": {
+          "home": 0.2794,
+          "away": 0.4861,
+          "draw": 0.2345
+        },
+        "marketProbs": {
+          "home": 0.2794,
+          "away": 0.4861,
+          "draw": 0.2345
+        },
+        "modelProbs": {
+          "home": 0.1985,
+          "draw": 0.18,
+          "away": 0.6215
+        },
+        "expectedHomeGoals": 0.79,
+        "expectedAwayGoals": 1.5,
+        "over25": 0.3815,
+        "btts": 0.413,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1519
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1199
+          },
+          {
+            "score": "0-2",
+            "prob": 0.1141
+          },
+          {
+            "score": "0-0",
+            "prob": 0.1012
+          },
+          {
+            "score": "1-2",
+            "prob": 0.09
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0799
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0571
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0473
+          },
+          {
+            "score": "1-3",
+            "prob": 0.045
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0355
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Barcelona win",
+          "prob": 0.4861,
+          "odds": 1.92,
+          "ev": -0.0667
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Barcelona win",
+          "prob": 0.4861,
+          "odds": 1.92,
+          "ev": -0.0667
+        },
+        "confidence": 0.4861,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "league": "Serie A",
+      "home": "Bologna",
+      "away": "Inter",
+      "score": "3-3",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1552.9,
+        "awayElo": 1717.5,
+        "probs": {
+          "home": 0.2787,
+          "away": 0.4576,
+          "draw": 0.2637
+        },
+        "marketProbs": {
+          "home": 0.2787,
+          "away": 0.4576,
+          "draw": 0.2637
+        },
+        "modelProbs": {
+          "home": 0.2624,
+          "draw": 0.2153,
+          "away": 0.5223
+        },
+        "expectedHomeGoals": 1.01,
+        "expectedAwayGoals": 1.35,
+        "over25": 0.4031,
+        "btts": 0.4598,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1287
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1277
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0954
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0946
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0869
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0862
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0649
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0481
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0438
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0391
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2637,
+          "odds": 3.54,
+          "ev": -0.0665
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Inter win",
+          "prob": 0.4576,
+          "odds": 2.04,
+          "ev": -0.0665
+        },
+        "confidence": 0.4576,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "league": "Serie A",
+      "home": "Lazio",
+      "away": "Pisa",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1552.6,
+        "awayElo": 1385.8,
+        "probs": {
+          "home": 0.5582,
+          "away": 0.1918,
+          "draw": 0.2499
+        },
+        "marketProbs": {
+          "home": 0.5582,
+          "away": 0.1918,
+          "draw": 0.2499
+        },
+        "modelProbs": {
+          "home": 0.633,
+          "draw": 0.18,
+          "away": 0.187
+        },
+        "expectedHomeGoals": 1.93,
+        "expectedAwayGoals": 0.71,
+        "over25": 0.4446,
+        "btts": 0.4112,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1375
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1325
+          },
+          {
+            "score": "1-1",
+            "prob": 0.098
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0945
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0852
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0713
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0607
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0508
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0411
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0349
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Lazio win",
+          "prob": 0.5582,
+          "odds": 1.67,
+          "ev": -0.0677
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Lazio win",
+          "prob": 0.5582,
+          "odds": 1.67,
+          "ev": -0.0677
+        },
+        "confidence": 0.5582,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "league": "La Liga",
+      "home": "Villarreal",
+      "away": "Ath Madrid",
+      "score": "5-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:SP1",
+      "prediction": {
+        "homeElo": 1603.0,
+        "awayElo": 1618.4,
+        "probs": {
+          "home": 0.3798,
+          "away": 0.3737,
+          "draw": 0.2465
+        },
+        "marketProbs": {
+          "home": 0.3798,
+          "away": 0.3737,
+          "draw": 0.2465
+        },
+        "modelProbs": {
+          "home": 0.3951,
+          "draw": 0.2715,
+          "away": 0.3334
+        },
+        "expectedHomeGoals": 1.42,
+        "expectedAwayGoals": 1.06,
+        "over25": 0.4326,
+        "btts": 0.4833,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.126
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1185
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0896
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0886
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0842
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0833
+          },
+          {
+            "score": "1-2",
+            "prob": 0.067
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0476
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0424
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Villarreal win",
+          "prob": 0.3798,
+          "odds": 2.46,
+          "ev": -0.0657
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Villarreal win",
+          "prob": 0.3798,
+          "odds": 2.46,
+          "ev": -0.0657
+        },
+        "confidence": 0.3798,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Premier League",
+      "home": "Brighton",
+      "away": "Man United",
+      "score": "0-3",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1545.5,
+        "awayElo": 1578.3,
+        "probs": {
+          "home": 0.5015,
+          "away": 0.2687,
+          "draw": 0.2298
+        },
+        "marketProbs": {
+          "home": 0.5015,
+          "away": 0.2687,
+          "draw": 0.2298
+        },
+        "modelProbs": {
+          "home": 0.3715,
+          "draw": 0.2823,
+          "away": 0.3462
+        },
+        "expectedHomeGoals": 1.37,
+        "expectedAwayGoals": 1.1,
+        "over25": 0.43,
+        "btts": 0.4846,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1274
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1162
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0927
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0875
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0845
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0798
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0698
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0508
+          },
+          {
+            "score": "2-2",
+            "prob": 0.048
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0401
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2298,
+          "odds": 4.08,
+          "ev": -0.0623
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Brighton win",
+          "prob": 0.5015,
+          "odds": 1.87,
+          "ev": -0.0623
+        },
+        "confidence": 0.5015,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Premier League",
+      "home": "Burnley",
+      "away": "Wolves",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1360.6,
+        "awayElo": 1394.4,
+        "probs": {
+          "home": 0.3927,
+          "away": 0.3328,
+          "draw": 0.2744
+        },
+        "marketProbs": {
+          "home": 0.3927,
+          "away": 0.3328,
+          "draw": 0.2744
+        },
+        "modelProbs": {
+          "home": 0.3701,
+          "draw": 0.283,
+          "away": 0.3469
+        },
+        "expectedHomeGoals": 1.37,
+        "expectedAwayGoals": 1.1,
+        "over25": 0.4299,
+        "btts": 0.4847,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1274
+          },
+          {
+            "score": "1-0",
+            "prob": 0.116
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0929
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0874
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0846
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0796
+          },
+          {
+            "score": "1-2",
+            "prob": 0.07
+          },
+          {
+            "score": "0-2",
+            "prob": 0.051
+          },
+          {
+            "score": "2-2",
+            "prob": 0.048
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0399
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Burnley win",
+          "prob": 0.3927,
+          "odds": 2.39,
+          "ev": -0.0614
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Burnley win",
+          "prob": 0.3927,
+          "odds": 2.39,
+          "ev": -0.0614
+        },
+        "confidence": 0.3927,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Premier League",
+      "home": "Crystal Palace",
+      "away": "Arsenal",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1506.5,
+        "awayElo": 1691.0,
+        "probs": {
+          "home": 0.237,
+          "away": 0.5059,
+          "draw": 0.2571
+        },
+        "marketProbs": {
+          "home": 0.237,
+          "away": 0.5059,
+          "draw": 0.2571
+        },
+        "modelProbs": {
+          "home": 0.2467,
+          "draw": 0.2029,
+          "away": 0.5505
+        },
+        "expectedHomeGoals": 0.95,
+        "expectedAwayGoals": 1.39,
+        "over25": 0.398,
+        "btts": 0.4503,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1336
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1273
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0962
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0927
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0917
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0883
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0606
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0437
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0429
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0421
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Crystal Palace win",
+          "prob": 0.237,
+          "odds": 3.97,
+          "ev": -0.059
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Arsenal win",
+          "prob": 0.5059,
+          "odds": 1.86,
+          "ev": -0.059
+        },
+        "confidence": 0.5059,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Premier League",
+      "home": "Fulham",
+      "away": "Newcastle",
+      "score": "2-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1505.5,
+        "awayElo": 1531.8,
+        "probs": {
+          "home": 0.3699,
+          "away": 0.3713,
+          "draw": 0.2588
+        },
+        "marketProbs": {
+          "home": 0.3699,
+          "away": 0.3713,
+          "draw": 0.2588
+        },
+        "modelProbs": {
+          "home": 0.3804,
+          "draw": 0.2783,
+          "away": 0.3414
+        },
+        "expectedHomeGoals": 1.39,
+        "expectedAwayGoals": 1.08,
+        "over25": 0.431,
+        "btts": 0.4843,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1269
+          },
+          {
+            "score": "1-0",
+            "prob": 0.117
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0911
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0883
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0841
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0815
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0688
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0494
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0479
+          },
+          {
+            "score": "3-1",
+            "prob": 0.041
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2588,
+          "odds": 3.63,
+          "ev": -0.0605
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Newcastle win",
+          "prob": 0.3713,
+          "odds": 2.53,
+          "ev": -0.0605
+        },
+        "confidence": 0.3713,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Premier League",
+      "home": "Liverpool",
+      "away": "Brentford",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1606.5,
+        "awayElo": 1523.1,
+        "probs": {
+          "home": 0.5311,
+          "away": 0.2374,
+          "draw": 0.2315
+        },
+        "marketProbs": {
+          "home": 0.5311,
+          "away": 0.2374,
+          "draw": 0.2315
+        },
+        "modelProbs": {
+          "home": 0.5349,
+          "draw": 0.2097,
+          "away": 0.2554
+        },
+        "expectedHomeGoals": 1.7,
+        "expectedAwayGoals": 0.87,
+        "over25": 0.4426,
+        "btts": 0.4568,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1299
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1134
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1102
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0962
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0766
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0668
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0623
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0544
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0495
+          },
+          {
+            "score": "2-2",
+            "prob": 0.042
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Brentford win",
+          "prob": 0.2374,
+          "odds": 3.96,
+          "ev": -0.06
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Liverpool win",
+          "prob": 0.5311,
+          "odds": 1.77,
+          "ev": -0.06
+        },
+        "confidence": 0.5311,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Premier League",
+      "home": "Man City",
+      "away": "Aston Villa",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1682.2,
+        "awayElo": 1577.3,
+        "probs": {
+          "home": 0.677,
+          "away": 0.1402,
+          "draw": 0.1827
+        },
+        "marketProbs": {
+          "home": 0.677,
+          "away": 0.1402,
+          "draw": 0.1827
+        },
+        "modelProbs": {
+          "home": 0.5652,
+          "draw": 0.1963,
+          "away": 0.2385
+        },
+        "expectedHomeGoals": 1.76,
+        "expectedAwayGoals": 0.83,
+        "over25": 0.4436,
+        "btts": 0.4471,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.132
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1159
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1098
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0964
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0752
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0679
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0625
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0565
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0457
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0401
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Man City win",
+          "prob": 0.677,
+          "odds": 1.39,
+          "ev": -0.0589
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Man City win",
+          "prob": 0.677,
+          "odds": 1.39,
+          "ev": -0.0589
+        },
+        "confidence": 0.677,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Premier League",
+      "home": "Nott'm Forest",
+      "away": "Bournemouth",
+      "score": "1-1",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1507.3,
+        "awayElo": 1566.5,
+        "probs": {
+          "home": 0.2658,
+          "away": 0.48,
+          "draw": 0.2543
+        },
+        "marketProbs": {
+          "home": 0.2658,
+          "away": 0.48,
+          "draw": 0.2543
+        },
+        "modelProbs": {
+          "home": 0.3448,
+          "draw": 0.2811,
+          "away": 0.3741
+        },
+        "expectedHomeGoals": 1.3,
+        "expectedAwayGoals": 1.15,
+        "over25": 0.4257,
+        "btts": 0.4847,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.129
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1125
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0992
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0865
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0839
+          },
+          {
+            "score": "1-2",
+            "prob": 0.074
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0731
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0569
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0364
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Nott'm Forest win",
+          "prob": 0.2658,
+          "odds": 3.54,
+          "ev": -0.0592
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Bournemouth win",
+          "prob": 0.48,
+          "odds": 1.96,
+          "ev": -0.0592
+        },
+        "confidence": 0.48,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Premier League",
+      "home": "Sunderland",
+      "away": "Chelsea",
+      "score": "2-1",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1516.9,
+        "awayElo": 1551.0,
+        "probs": {
+          "home": 0.2779,
+          "away": 0.464,
+          "draw": 0.2581
+        },
+        "marketProbs": {
+          "home": 0.2779,
+          "away": 0.464,
+          "draw": 0.2581
+        },
+        "modelProbs": {
+          "home": 0.3697,
+          "draw": 0.2832,
+          "away": 0.3471
+        },
+        "expectedHomeGoals": 1.37,
+        "expectedAwayGoals": 1.1,
+        "over25": 0.4298,
+        "btts": 0.4847,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1275
+          },
+          {
+            "score": "1-0",
+            "prob": 0.116
+          },
+          {
+            "score": "0-1",
+            "prob": 0.093
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0873
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0846
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0795
+          },
+          {
+            "score": "1-2",
+            "prob": 0.07
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0511
+          },
+          {
+            "score": "2-2",
+            "prob": 0.048
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0399
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Sunderland win",
+          "prob": 0.2779,
+          "odds": 3.39,
+          "ev": -0.058
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Chelsea win",
+          "prob": 0.464,
+          "odds": 2.03,
+          "ev": -0.058
+        },
+        "confidence": 0.464,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Premier League",
+      "home": "Tottenham",
+      "away": "Everton",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1443.9,
+        "awayElo": 1513.9,
+        "probs": {
+          "home": 0.5016,
+          "away": 0.2288,
+          "draw": 0.2696
+        },
+        "marketProbs": {
+          "home": 0.5016,
+          "away": 0.2288,
+          "draw": 0.2696
+        },
+        "modelProbs": {
+          "home": 0.3367,
+          "draw": 0.2744,
+          "away": 0.3889
+        },
+        "expectedHomeGoals": 1.27,
+        "expectedAwayGoals": 1.17,
+        "over25": 0.4237,
+        "btts": 0.484,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1295
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1109
+          },
+          {
+            "score": "0-1",
+            "prob": 0.102
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0873
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0823
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0757
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0704
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0595
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0349
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Tottenham win",
+          "prob": 0.5016,
+          "odds": 1.87,
+          "ev": -0.0619
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Tottenham win",
+          "prob": 0.5016,
+          "odds": 1.87,
+          "ev": -0.0619
+        },
+        "confidence": 0.5016,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Premier League",
+      "home": "West Ham",
+      "away": "Leeds",
+      "score": "3-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:E0",
+      "prediction": {
+        "homeElo": 1457.6,
+        "awayElo": 1523.3,
+        "probs": {
+          "home": 0.5542,
+          "away": 0.2166,
+          "draw": 0.2292
+        },
+        "marketProbs": {
+          "home": 0.5542,
+          "away": 0.2166,
+          "draw": 0.2292
+        },
+        "modelProbs": {
+          "home": 0.3399,
+          "draw": 0.2771,
+          "away": 0.383
+        },
+        "expectedHomeGoals": 1.28,
+        "expectedAwayGoals": 1.16,
+        "over25": 0.4245,
+        "btts": 0.4843,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1293
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1115
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1009
+          },
+          {
+            "score": "0-0",
+            "prob": 0.087
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0829
+          },
+          {
+            "score": "1-2",
+            "prob": 0.075
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0715
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0585
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0355
+          }
+        ],
+        "best": {
+          "key": "away",
+          "label": "Leeds win",
+          "prob": 0.2166,
+          "odds": 4.35,
+          "ev": -0.0579
+        },
+        "topSide": {
+          "key": "home",
+          "label": "West Ham win",
+          "prob": 0.5542,
+          "odds": 1.7,
+          "ev": -0.0579
+        },
+        "confidence": 0.5542,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Serie A",
+      "home": "Cremonese",
+      "away": "Como",
+      "score": "1-4",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1444.1,
+        "awayElo": 1585.8,
+        "probs": {
+          "home": 0.1678,
+          "away": 0.6088,
+          "draw": 0.2234
+        },
+        "marketProbs": {
+          "home": 0.1678,
+          "away": 0.6088,
+          "draw": 0.2234
+        },
+        "modelProbs": {
+          "home": 0.2806,
+          "draw": 0.2295,
+          "away": 0.4898
+        },
+        "expectedHomeGoals": 1.07,
+        "expectedAwayGoals": 1.31,
+        "over25": 0.4087,
+        "btts": 0.4687,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1298
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1212
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0994
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0928
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0848
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0792
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0695
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0532
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0454
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0369
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Cremonese win",
+          "prob": 0.1678,
+          "odds": 5.55,
+          "ev": -0.0685
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Como win",
+          "prob": 0.6088,
+          "odds": 1.53,
+          "ev": -0.0685
+        },
+        "confidence": 0.6088,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Serie A",
+      "home": "Lecce",
+      "away": "Genoa",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1426.3,
+        "awayElo": 1480.6,
+        "probs": {
+          "home": 0.4891,
+          "away": 0.2143,
+          "draw": 0.2966
+        },
+        "marketProbs": {
+          "home": 0.4891,
+          "away": 0.2143,
+          "draw": 0.2966
+        },
+        "modelProbs": {
+          "home": 0.3483,
+          "draw": 0.2842,
+          "away": 0.3676
+        },
+        "expectedHomeGoals": 1.31,
+        "expectedAwayGoals": 1.14,
+        "over25": 0.4265,
+        "btts": 0.4849,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1288
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1132
+          },
+          {
+            "score": "0-1",
+            "prob": 0.098
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0861
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0846
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0743
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0733
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0558
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0481
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0371
+          }
+        ],
+        "best": {
+          "key": "over25",
+          "label": "Over 2.5",
+          "prob": 0.4265,
+          "odds": 2.58,
+          "ev": 0.1004
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Lecce win",
+          "prob": 0.4891,
+          "odds": 1.91,
+          "ev": -0.0658
+        },
+        "confidence": 0.4891,
+        "tier": "medium",
+        "isValue": true
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Serie A",
+      "home": "Milan",
+      "away": "Cagliari",
+      "score": "1-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1610.7,
+        "awayElo": 1442.9,
+        "probs": {
+          "home": 0.6914,
+          "away": 0.1083,
+          "draw": 0.2003
+        },
+        "marketProbs": {
+          "home": 0.6914,
+          "away": 0.1083,
+          "draw": 0.2003
+        },
+        "modelProbs": {
+          "home": 0.6339,
+          "draw": 0.18,
+          "away": 0.1861
+        },
+        "expectedHomeGoals": 1.93,
+        "expectedAwayGoals": 0.71,
+        "over25": 0.4446,
+        "btts": 0.4105,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.1376
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1328
+          },
+          {
+            "score": "1-1",
+            "prob": 0.0978
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0944
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0855
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0712
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0608
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0506
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0413
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0347
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2003,
+          "odds": 4.66,
+          "ev": -0.0666
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Milan win",
+          "prob": 0.6914,
+          "odds": 1.35,
+          "ev": -0.0666
+        },
+        "confidence": 0.6914,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Serie A",
+      "home": "Napoli",
+      "away": "Udinese",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1636.1,
+        "awayElo": 1487.2,
+        "probs": {
+          "home": 0.6185,
+          "away": 0.1564,
+          "draw": 0.225
+        },
+        "marketProbs": {
+          "home": 0.6185,
+          "away": 0.1564,
+          "draw": 0.225
+        },
+        "modelProbs": {
+          "home": 0.6177,
+          "draw": 0.18,
+          "away": 0.2023
+        },
+        "expectedHomeGoals": 1.88,
+        "expectedAwayGoals": 0.75,
+        "over25": 0.4446,
+        "btts": 0.4227,
+        "scoreGrid": [
+          {
+            "score": "1-0",
+            "prob": 0.136
+          },
+          {
+            "score": "2-0",
+            "prob": 0.1277
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1016
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0954
+          },
+          {
+            "score": "3-0",
+            "prob": 0.08
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0724
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0598
+          },
+          {
+            "score": "0-1",
+            "prob": 0.0541
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0379
+          },
+          {
+            "score": "4-0",
+            "prob": 0.0376
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Napoli win",
+          "prob": 0.6185,
+          "odds": 1.51,
+          "ev": -0.066
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Napoli win",
+          "prob": 0.6185,
+          "odds": 1.51,
+          "ev": -0.066
+        },
+        "confidence": 0.6185,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Serie A",
+      "home": "Parma",
+      "away": "Sassuolo",
+      "score": "1-0",
+      "result": "home",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1475.8,
+        "awayElo": 1467.3,
+        "probs": {
+          "home": 0.3059,
+          "away": 0.4132,
+          "draw": 0.2809
+        },
+        "marketProbs": {
+          "home": 0.3059,
+          "away": 0.4132,
+          "draw": 0.2809
+        },
+        "modelProbs": {
+          "home": 0.4285,
+          "draw": 0.2566,
+          "away": 0.3149
+        },
+        "expectedHomeGoals": 1.49,
+        "expectedAwayGoals": 1.02,
+        "over25": 0.4357,
+        "btts": 0.4798,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1236
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1215
+          },
+          {
+            "score": "2-1",
+            "prob": 0.092
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0904
+          },
+          {
+            "score": "0-1",
+            "prob": 0.083
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0816
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0628
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0468
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0456
+          },
+          {
+            "score": "3-0",
+            "prob": 0.0449
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Parma win",
+          "prob": 0.3059,
+          "odds": 3.04,
+          "ev": -0.0702
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Sassuolo win",
+          "prob": 0.4132,
+          "odds": 2.25,
+          "ev": -0.0702
+        },
+        "confidence": 0.4132,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Serie A",
+      "home": "Torino",
+      "away": "Juventus",
+      "score": "2-2",
+      "result": "draw",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1479.0,
+        "awayElo": 1626.9,
+        "probs": {
+          "home": 0.1479,
+          "away": 0.6394,
+          "draw": 0.2126
+        },
+        "marketProbs": {
+          "home": 0.1479,
+          "away": 0.6394,
+          "draw": 0.2126
+        },
+        "modelProbs": {
+          "home": 0.2757,
+          "draw": 0.2257,
+          "away": 0.4986
+        },
+        "expectedHomeGoals": 1.05,
+        "expectedAwayGoals": 1.32,
+        "over25": 0.4072,
+        "btts": 0.4665,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1296
+          },
+          {
+            "score": "0-1",
+            "prob": 0.1229
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0983
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0933
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0854
+          },
+          {
+            "score": "0-2",
+            "prob": 0.081
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0683
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0518
+          },
+          {
+            "score": "2-2",
+            "prob": 0.045
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0375
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2126,
+          "odds": 4.39,
+          "ev": -0.0665
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Juventus win",
+          "prob": 0.6394,
+          "odds": 1.46,
+          "ev": -0.0665
+        },
+        "confidence": 0.6394,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Serie A",
+      "home": "Verona",
+      "away": "Roma",
+      "score": "0-2",
+      "result": "away",
+      "oddsTiming": "closing",
+      "source": "football-data:2526:I1",
+      "prediction": {
+        "homeElo": 1377.3,
+        "awayElo": 1622.9,
+        "probs": {
+          "home": 0.0988,
+          "away": 0.7078,
+          "draw": 0.1934
+        },
+        "marketProbs": {
+          "home": 0.0988,
+          "away": 0.7078,
+          "draw": 0.1934
+        },
+        "modelProbs": {
+          "home": 0.1965,
+          "draw": 0.18,
+          "away": 0.6235
+        },
+        "expectedHomeGoals": 0.78,
+        "expectedAwayGoals": 1.51,
+        "over25": 0.3808,
+        "btts": 0.4112,
+        "scoreGrid": [
+          {
+            "score": "0-1",
+            "prob": 0.1527
+          },
+          {
+            "score": "1-1",
+            "prob": 0.1195
+          },
+          {
+            "score": "0-2",
+            "prob": 0.115
+          },
+          {
+            "score": "0-0",
+            "prob": 0.1014
+          },
+          {
+            "score": "1-2",
+            "prob": 0.09
+          },
+          {
+            "score": "1-0",
+            "prob": 0.0794
+          },
+          {
+            "score": "0-3",
+            "prob": 0.0577
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0468
+          },
+          {
+            "score": "1-3",
+            "prob": 0.0452
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0352
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Verona win",
+          "prob": 0.0988,
+          "odds": 9.46,
+          "ev": -0.0657
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Roma win",
+          "prob": 0.7078,
+          "odds": 1.32,
+          "ev": -0.0657
+        },
+        "confidence": 0.7078,
+        "tier": "high",
+        "isValue": false
+      }
+    }
+  ]
+};

@@ -1,0 +1,7 @@
+id,sport,league,kickoff,home,away,odds_home,odds_draw,odds_away,odds_over25,odds_btts
+m1,soccer,Premier League,手動更新,Arsenal,Chelsea,1.82,3.75,4.40,1.86,1.74
+m2,soccer,Premier League,手動更新,Man City,Liverpool,2.05,3.70,3.35,1.62,1.54
+m3,soccer,La Liga,手動更新,Real Madrid,Barcelona,2.18,3.65,3.05,1.66,1.58
+m4,soccer,Serie A,手動更新,Inter,Milan,2.12,3.28,3.55,1.94,1.82
+m5,baseball,MLB,手動更新,New York Yankees,Boston Red Sox,1.78,,2.08,,
+m6,esports,LoL,手動更新,T1,Gen.G,1.92,,1.88,,

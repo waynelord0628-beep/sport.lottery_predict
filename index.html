@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Private Match Predictor</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">P</div>
+        <div>
+          <p class="eyebrow">PRIVATE MODEL</p>
+          <h1>AI 運動預測儀表板</h1>
+        </div>
+      </div>
+      <nav class="nav-tabs" aria-label="頁面切換">
+        <button class="tab active" data-view="predictions">預測</button>
+        <button class="tab" data-view="backtest">回測</button>
+        <button class="tab" data-view="model">模型</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="predictions" class="view active">
+        <div class="toolbar">
+          <div>
+            <p class="eyebrow">MATCH BOARD</p>
+            <h2>今日預測</h2>
+          </div>
+          <div class="controls" aria-label="篩選">
+            <button class="seg active" data-filter="all">全部</button>
+            <button class="seg" data-filter="value">價值單</button>
+            <button class="seg" data-filter="high">高信心</button>
+          </div>
+        </div>
+        <div id="matchGrid" class="match-grid"></div>
+      </section>
+
+      <section id="backtest" class="view">
+        <div class="toolbar">
+          <div>
+            <p class="eyebrow">VERIFICATION</p>
+            <h2>樣本外回測</h2>
+          </div>
+          <span class="status-pill">自動用歷史資料計算</span>
+        </div>
+        <div id="backtestStats" class="stats-grid"></div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>日期</th>
+                <th>比賽</th>
+                <th>預測</th>
+                <th>信心</th>
+                <th>賠率</th>
+                <th>結果</th>
+              </tr>
+            </thead>
+            <tbody id="historyRows"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="model" class="view">
+        <div class="model-layout">
+          <article class="panel">
+            <p class="eyebrow">MODEL PIPELINE</p>
+            <h2>私用版運作邏輯</h2>
+            <ol class="steps">
+              <li>匯入賽程、隊伍 Elo、賠率與歷史比分。</li>
+              <li>用 Elo 差距估出主勝、和局、客勝基礎機率。</li>
+              <li>用 Poisson 分佈估預期進球、比分、大小分與 BTTS。</li>
+              <li>把模型機率和賠率隱含機率比較，算出 EV。</li>
+              <li>比賽結束後寫入實際結果，回測頁自動更新命中率。</li>
+            </ol>
+          </article>
+          <article class="panel compact">
+            <p class="eyebrow">FORMULA</p>
+            <h3>EV 判斷</h3>
+            <code>EV = model_probability * odds - 1</code>
+            <p>EV 大於 0 代表模型認為賠率有價值；高於 8% 會標成價值單。</p>
+          </article>
+          <article class="panel compact">
+            <p class="eyebrow">NEXT STEP</p>
+            <h3>接真實資料</h3>
+            <p>把 <code>app.js</code> 裡的 <code>upcomingMatches</code> 和 <code>settledMatches</code> 換成 API 或 CSV 匯入即可。</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <aside id="drawer" class="drawer" aria-live="polite"></aside>
+    <script>
+      window.PREDICTOR_DATA = null;
+    </script>
+    <script src="./dashboard_data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

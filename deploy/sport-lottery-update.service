@@ -1,0 +1,10 @@
+[Unit]
+Description=Update sport lottery predictor data
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/sport-lottery-predictor
+EnvironmentFile=/opt/sport-lottery-predictor/.env
+ExecStart=/usr/bin/python3 /opt/sport-lottery-predictor/server_update.py

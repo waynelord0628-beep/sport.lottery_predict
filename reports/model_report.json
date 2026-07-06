@@ -1,0 +1,122 @@
+{
+  "generatedAt": "2026-07-06T16:02:33",
+  "params": {
+    "home_adv": 45,
+    "elo_k": 16,
+    "model_weight": 0.0,
+    "draw_floor": 0.18
+  },
+  "leaderboard": [
+    {
+      "rank": 1,
+      "logLoss": 0.9567,
+      "homeAdv": 45,
+      "eloK": 16,
+      "modelWeight": 0.0,
+      "drawFloor": 0.18
+    },
+    {
+      "rank": 2,
+      "logLoss": 0.9567,
+      "homeAdv": 45,
+      "eloK": 16,
+      "modelWeight": 0.0,
+      "drawFloor": 0.21
+    },
+    {
+      "rank": 3,
+      "logLoss": 0.9567,
+      "homeAdv": 45,
+      "eloK": 16,
+      "modelWeight": 0.0,
+      "drawFloor": 0.24
+    },
+    {
+      "rank": 4,
+      "logLoss": 0.9567,
+      "homeAdv": 45,
+      "eloK": 24,
+      "modelWeight": 0.0,
+      "drawFloor": 0.18
+    },
+    {
+      "rank": 5,
+      "logLoss": 0.9567,
+      "homeAdv": 45,
+      "eloK": 24,
+      "modelWeight": 0.0,
+      "drawFloor": 0.21
+    },
+    {
+      "rank": 6,
+      "logLoss": 0.9567,
+      "homeAdv": 45,
+      "eloK": 24,
+      "modelWeight": 0.0,
+      "drawFloor": 0.24
+    },
+    {
+      "rank": 7,
+      "logLoss": 0.9567,
+      "homeAdv": 45,
+      "eloK": 32,
+      "modelWeight": 0.0,
+      "drawFloor": 0.18
+    },
+    {
+      "rank": 8,
+      "logLoss": 0.9567,
+      "homeAdv": 45,
+      "eloK": 32,
+      "modelWeight": 0.0,
+      "drawFloor": 0.21
+    }
+  ],
+  "metrics": {
+    "matches": 1577,
+    "accuracy": 0.5314,
+    "logLoss": 0.9823,
+    "brier": 0.5857,
+    "roi": -0.0238,
+    "valueBets": 114,
+    "valueRoi": 0.1322,
+    "highConfidence": {
+      "matches": 437,
+      "accuracy": 0.7002
+    },
+    "calibration": [
+      {
+        "range": "0-40%",
+        "matches": 305,
+        "avgConfidence": 0.3755,
+        "hitRate": 0.3967
+      },
+      {
+        "range": "40-50%",
+        "matches": 542,
+        "avgConfidence": 0.4489,
+        "hitRate": 0.4742
+      },
+      {
+        "range": "50-60%",
+        "matches": 350,
+        "avgConfidence": 0.5476,
+        "hitRate": 0.5457
+      },
+      {
+        "range": "60-70%",
+        "matches": 235,
+        "avgConfidence": 0.6445,
+        "hitRate": 0.6553
+      },
+      {
+        "range": "70-101%",
+        "matches": 145,
+        "avgConfidence": 0.7604,
+        "hitRate": 0.7931
+      }
+    ]
+  },
+  "displayBacktestRows": 350,
+  "ratingsCount": 119
+}
