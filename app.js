@@ -104,7 +104,7 @@ const sportLabels = {
   esports: "電競",
   football: "美足",
   hockey: "冰球",
-  cricket: "板球",
+  cricket: "足球",
   tennis: "網球",
   mma: "格鬥",
   boxing: "拳擊",
@@ -138,6 +138,20 @@ const teamZh = {
 
 function zhTeam(name) {
   return teamZh[name] || name;
+}
+
+function formatKickoff(value) {
+  if (!value || !/^\d{4}-\d{2}-\d{2}T/.test(value)) return value || "";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return value;
+  return new Intl.DateTimeFormat("zh-TW", {
+    timeZone: "Asia/Taipei",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  }).format(date);
 }
 
 function sportOf(match) {
@@ -268,7 +282,7 @@ function renderPredictions() {
             <div class="league">${match.league}</div>
             <div class="teams">${zhTeam(match.home)}<br />${zhTeam(match.away)}</div>
           </div>
-          <div class="kickoff">${match.kickoff}</div>
+          <div class="kickoff">${formatKickoff(match.kickoff)}</div>
         </div>
         <div class="badges">
           <span class="badge ${p.tier}">${p.tier === "high" ? "高信心" : p.tier === "medium" ? "中信心" : "觀察"}</span>

@@ -66,7 +66,7 @@ def sport_group(sport_key: str) -> str:
     if sport_key.startswith("icehockey_"):
         return "hockey"
     if sport_key.startswith("cricket_"):
-        return "cricket"
+        return "soccer"
     return sport_key.split("_", 1)[0] if "_" in sport_key else sport_key
 
 
@@ -105,7 +105,7 @@ def main() -> int:
         "requests_remaining": None,
         "requests_used": None,
     }
-    default_sports = "upcoming,baseball_mlb,esports_lol"
+    default_sports = "upcoming,soccer_fifa_world_cup,baseball_mlb,esports_lol"
     sport_keys = [item.strip() for item in os.environ.get("ODDS_SPORT_KEYS", default_sports).split(",") if item.strip()]
     seen_events: set[str] = set()
 

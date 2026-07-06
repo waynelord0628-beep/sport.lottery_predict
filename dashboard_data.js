@@ -1,5 +1,5 @@
 window.PREDICTOR_DATA = {
-  "generatedAt": "2026-07-06T16:26:10",
+  "generatedAt": "2026-07-06T16:40:00",
   "params": {
     "home_adv": 45,
     "elo_k": 16,
@@ -241,13 +241,13 @@ window.PREDICTOR_DATA = {
   "predictions": [
     {
       "id": "1c2ab6c7f27b71ee78d71e3ac1a56bf7",
-      "sport": "cricket",
+      "sport": "soccer",
       "league": "One Day Internationals",
       "kickoff": "2026-07-06T07:30:00Z",
       "home": "Zimbabwe",
       "away": "Bangladesh",
       "odds": {
-        "home": 5.3,
+        "home": 4.7,
         "draw": null,
         "away": 1.67,
         "over25": null,
@@ -257,12 +257,12 @@ window.PREDICTOR_DATA = {
         "homeElo": 1500,
         "awayElo": 1500,
         "probs": {
-          "home": 0.2396,
-          "away": 0.7604
+          "home": 0.2622,
+          "away": 0.7378
         },
         "marketProbs": {
-          "home": 0.2396,
-          "away": 0.7604
+          "home": 0.2622,
+          "away": 0.7378
         },
         "modelProbs": {
           "home": 0.5644,
@@ -317,18 +317,18 @@ window.PREDICTOR_DATA = {
         "best": {
           "key": "home",
           "label": "Zimbabwe win",
-          "prob": 0.2396,
-          "odds": 5.3,
-          "ev": 0.2699
+          "prob": 0.2622,
+          "odds": 4.7,
+          "ev": 0.2322
         },
         "topSide": {
           "key": "away",
           "label": "Bangladesh win",
-          "prob": 0.7604,
+          "prob": 0.7378,
           "odds": 1.67,
-          "ev": 0.2699
+          "ev": 0.2322
         },
-        "confidence": 0.7604,
+        "confidence": 0.7378,
         "tier": "high",
         "isValue": true
       }
@@ -531,7 +531,7 @@ window.PREDICTOR_DATA = {
       "odds": {
         "home": 2.14,
         "draw": null,
-        "away": 1.87,
+        "away": 1.86,
         "over25": null,
         "btts": null
       },
@@ -539,12 +539,12 @@ window.PREDICTOR_DATA = {
         "homeElo": 1500,
         "awayElo": 1500,
         "probs": {
-          "home": 0.4663,
-          "away": 0.5337
+          "home": 0.465,
+          "away": 0.535
         },
         "marketProbs": {
-          "home": 0.4663,
-          "away": 0.5337
+          "home": 0.465,
+          "away": 0.535
         },
         "modelProbs": {
           "home": 0.5644,
@@ -599,18 +599,18 @@ window.PREDICTOR_DATA = {
         "best": {
           "key": "home",
           "label": "Marie Bouzkova win",
-          "prob": 0.4663,
+          "prob": 0.465,
           "odds": 2.14,
-          "ev": -0.002
+          "ev": -0.0049
         },
         "topSide": {
           "key": "away",
           "label": "Elise Mertens win",
-          "prob": 0.5337,
-          "odds": 1.87,
-          "ev": -0.002
+          "prob": 0.535,
+          "odds": 1.86,
+          "ev": -0.0049
         },
-        "confidence": 0.5337,
+        "confidence": 0.535,
         "tier": "medium",
         "isValue": false
       }
@@ -623,7 +623,7 @@ window.PREDICTOR_DATA = {
       "home": "Jasmine Paolini",
       "away": "Alexandra Eala",
       "odds": {
-        "home": 2.48,
+        "home": 2.5,
         "draw": null,
         "away": 1.66,
         "over25": null,
@@ -633,12 +633,12 @@ window.PREDICTOR_DATA = {
         "homeElo": 1500,
         "awayElo": 1500,
         "probs": {
-          "home": 0.401,
-          "away": 0.599
+          "home": 0.399,
+          "away": 0.601
         },
         "marketProbs": {
-          "home": 0.401,
-          "away": 0.599
+          "home": 0.399,
+          "away": 0.601
         },
         "modelProbs": {
           "home": 0.5644,
@@ -693,18 +693,18 @@ window.PREDICTOR_DATA = {
         "best": {
           "key": "home",
           "label": "Jasmine Paolini win",
-          "prob": 0.401,
-          "odds": 2.48,
-          "ev": -0.0056
+          "prob": 0.399,
+          "odds": 2.5,
+          "ev": -0.0024
         },
         "topSide": {
           "key": "away",
           "label": "Alexandra Eala win",
-          "prob": 0.599,
+          "prob": 0.601,
           "odds": 1.66,
-          "ev": -0.0056
+          "ev": -0.0024
         },
-        "confidence": 0.599,
+        "confidence": 0.601,
         "tier": "high",
         "isValue": false
       }
@@ -717,7 +717,7 @@ window.PREDICTOR_DATA = {
       "home": "Madison Keys",
       "away": "Linda Noskova",
       "odds": {
-        "home": 1.74,
+        "home": 1.72,
         "draw": null,
         "away": 2.36,
         "over25": null,
@@ -727,12 +727,12 @@ window.PREDICTOR_DATA = {
         "homeElo": 1500,
         "awayElo": 1500,
         "probs": {
-          "home": 0.5756,
-          "away": 0.4244
+          "home": 0.5784,
+          "away": 0.4216
         },
         "marketProbs": {
-          "home": 0.5756,
-          "away": 0.4244
+          "home": 0.5784,
+          "away": 0.4216
         },
         "modelProbs": {
           "home": 0.5644,
@@ -785,27 +785,27 @@ window.PREDICTOR_DATA = {
           }
         ],
         "best": {
-          "key": "home",
-          "label": "Madison Keys win",
-          "prob": 0.5756,
-          "odds": 1.74,
-          "ev": 0.0016
+          "key": "away",
+          "label": "Linda Noskova win",
+          "prob": 0.4216,
+          "odds": 2.36,
+          "ev": -0.0051
         },
         "topSide": {
           "key": "home",
           "label": "Madison Keys win",
-          "prob": 0.5756,
-          "odds": 1.74,
-          "ev": 0.0016
+          "prob": 0.5784,
+          "odds": 1.72,
+          "ev": -0.0051
         },
-        "confidence": 0.5756,
+        "confidence": 0.5784,
         "tier": "medium",
         "isValue": false
       }
     },
     {
       "id": "fd8ee510baf056e9e2fdcfda17993f2e",
-      "sport": "cricket",
+      "sport": "soccer",
       "league": "Test Matches",
       "kickoff": "2026-07-06T14:00:00Z",
       "home": "West Indies",
@@ -813,7 +813,7 @@ window.PREDICTOR_DATA = {
       "odds": {
         "home": 7.6,
         "draw": 1.35,
-        "away": 7.8,
+        "away": 7.6,
         "over25": null,
         "btts": null
       },
@@ -821,14 +821,14 @@ window.PREDICTOR_DATA = {
         "homeElo": 1500,
         "awayElo": 1500,
         "probs": {
-          "home": 0.1315,
-          "away": 0.1281,
-          "draw": 0.7404
+          "home": 0.1311,
+          "away": 0.1311,
+          "draw": 0.7379
         },
         "marketProbs": {
-          "home": 0.1315,
-          "away": 0.1281,
-          "draw": 0.7404
+          "home": 0.1311,
+          "away": 0.1311,
+          "draw": 0.7379
         },
         "modelProbs": {
           "home": 0.4166,
@@ -882,20 +882,20 @@ window.PREDICTOR_DATA = {
           }
         ],
         "best": {
-          "key": "away",
-          "label": "Sri Lanka win",
-          "prob": 0.1281,
-          "odds": 7.8,
-          "ev": -0.0005
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.7379,
+          "odds": 1.35,
+          "ev": -0.0039
         },
         "topSide": {
           "key": "draw",
           "label": "Draw",
-          "prob": 0.7404,
+          "prob": 0.7379,
           "odds": 1.35,
-          "ev": -0.0005
+          "ev": -0.0039
         },
-        "confidence": 0.7404,
+        "confidence": 0.7379,
         "tier": "high",
         "isValue": false
       }
@@ -908,7 +908,7 @@ window.PREDICTOR_DATA = {
       "home": "Grigor Dimitrov",
       "away": "Arthur Fery",
       "odds": {
-        "home": 1.48,
+        "home": 1.47,
         "draw": null,
         "away": 3.05,
         "over25": null,
@@ -918,12 +918,12 @@ window.PREDICTOR_DATA = {
         "homeElo": 1500,
         "awayElo": 1500,
         "probs": {
-          "home": 0.6733,
-          "away": 0.3267
+          "home": 0.6748,
+          "away": 0.3252
         },
         "marketProbs": {
-          "home": 0.6733,
-          "away": 0.3267
+          "home": 0.6748,
+          "away": 0.3252
         },
         "modelProbs": {
           "home": 0.5644,
@@ -976,20 +976,20 @@ window.PREDICTOR_DATA = {
           }
         ],
         "best": {
-          "key": "away",
-          "label": "Arthur Fery win",
-          "prob": 0.3267,
-          "odds": 3.05,
-          "ev": -0.0035
+          "key": "home",
+          "label": "Grigor Dimitrov win",
+          "prob": 0.6748,
+          "odds": 1.47,
+          "ev": -0.0081
         },
         "topSide": {
           "key": "home",
           "label": "Grigor Dimitrov win",
-          "prob": 0.6733,
-          "odds": 1.48,
-          "ev": -0.0035
+          "prob": 0.6748,
+          "odds": 1.47,
+          "ev": -0.0081
         },
-        "confidence": 0.6733,
+        "confidence": 0.6748,
         "tier": "high",
         "isValue": false
       }
@@ -1002,9 +1002,9 @@ window.PREDICTOR_DATA = {
       "home": "Taylor Fritz",
       "away": "Alexander Bublik",
       "odds": {
-        "home": 1.52,
+        "home": 1.51,
         "draw": null,
-        "away": 2.9,
+        "away": 2.92,
         "over25": null,
         "btts": null
       },
@@ -1012,12 +1012,12 @@ window.PREDICTOR_DATA = {
         "homeElo": 1500,
         "awayElo": 1500,
         "probs": {
-          "home": 0.6561,
-          "away": 0.3439
+          "home": 0.6591,
+          "away": 0.3409
         },
         "marketProbs": {
-          "home": 0.6561,
-          "away": 0.3439
+          "home": 0.6591,
+          "away": 0.3409
         },
         "modelProbs": {
           "home": 0.5644,
@@ -1072,19 +1072,601 @@ window.PREDICTOR_DATA = {
         "best": {
           "key": "home",
           "label": "Taylor Fritz win",
-          "prob": 0.6561,
-          "odds": 1.52,
-          "ev": -0.0027
+          "prob": 0.6591,
+          "odds": 1.51,
+          "ev": -0.0047
         },
         "topSide": {
           "key": "home",
           "label": "Taylor Fritz win",
-          "prob": 0.6561,
-          "odds": 1.52,
-          "ev": -0.0027
+          "prob": 0.6591,
+          "odds": 1.51,
+          "ev": -0.0047
         },
-        "confidence": 0.6561,
+        "confidence": 0.6591,
         "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "id": "16ed3adcf661b3a9bea39871a2d204df",
+      "sport": "soccer",
+      "league": "FIFA World Cup",
+      "kickoff": "2026-07-06T19:00:00Z",
+      "home": "Portugal",
+      "away": "Spain",
+      "odds": {
+        "home": 4.4,
+        "draw": 3.75,
+        "away": 1.98,
+        "over25": null,
+        "btts": null
+      },
+      "prediction": {
+        "homeElo": 1500,
+        "awayElo": 1500,
+        "probs": {
+          "home": 0.2275,
+          "away": 0.5056,
+          "draw": 0.2669
+        },
+        "marketProbs": {
+          "home": 0.2275,
+          "away": 0.5056,
+          "draw": 0.2669
+        },
+        "modelProbs": {
+          "home": 0.4166,
+          "draw": 0.2619,
+          "away": 0.3215
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.4347,
+        "btts": 0.4813,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1245
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-1",
+            "prob": 0.085
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0822
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0445
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Portugal win",
+          "prob": 0.2275,
+          "odds": 4.4,
+          "ev": 0.001
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Spain win",
+          "prob": 0.5056,
+          "odds": 1.98,
+          "ev": 0.001
+        },
+        "confidence": 0.5056,
+        "tier": "medium",
+        "isValue": false
+      }
+    },
+    {
+      "id": "810f80b3ae79f5e86b3747ca15718ed8",
+      "sport": "soccer",
+      "league": "FIFA World Cup",
+      "kickoff": "2026-07-07T00:00:00Z",
+      "home": "USA",
+      "away": "Belgium",
+      "odds": {
+        "home": 2.65,
+        "draw": 3.6,
+        "away": 2.9,
+        "over25": null,
+        "btts": null
+      },
+      "prediction": {
+        "homeElo": 1500,
+        "awayElo": 1500,
+        "probs": {
+          "home": 0.3774,
+          "away": 0.3448,
+          "draw": 0.2778
+        },
+        "marketProbs": {
+          "home": 0.3774,
+          "away": 0.3448,
+          "draw": 0.2778
+        },
+        "modelProbs": {
+          "home": 0.4166,
+          "draw": 0.2619,
+          "away": 0.3215
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.4347,
+        "btts": 0.4813,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1245
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-1",
+            "prob": 0.085
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0822
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0445
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "USA win",
+          "prob": 0.3774,
+          "odds": 2.65,
+          "ev": 0.0
+        },
+        "topSide": {
+          "key": "home",
+          "label": "USA win",
+          "prob": 0.3774,
+          "odds": 2.65,
+          "ev": 0.0
+        },
+        "confidence": 0.3774,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "id": "190922affd0be754bfefd71548dbf90d",
+      "sport": "soccer",
+      "league": "FIFA World Cup",
+      "kickoff": "2026-07-07T16:00:00Z",
+      "home": "Argentina",
+      "away": "Egypt",
+      "odds": {
+        "home": 1.43,
+        "draw": 5.0,
+        "away": 11.0,
+        "over25": null,
+        "btts": null
+      },
+      "prediction": {
+        "homeElo": 1500,
+        "awayElo": 1500,
+        "probs": {
+          "home": 0.7062,
+          "away": 0.0918,
+          "draw": 0.202
+        },
+        "marketProbs": {
+          "home": 0.7062,
+          "away": 0.0918,
+          "draw": 0.202
+        },
+        "modelProbs": {
+          "home": 0.4166,
+          "draw": 0.2619,
+          "away": 0.3215
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.4347,
+        "btts": 0.4813,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1245
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-1",
+            "prob": 0.085
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0822
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0445
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Argentina win",
+          "prob": 0.7062,
+          "odds": 1.43,
+          "ev": 0.0099
+        },
+        "topSide": {
+          "key": "home",
+          "label": "Argentina win",
+          "prob": 0.7062,
+          "odds": 1.43,
+          "ev": 0.0099
+        },
+        "confidence": 0.7062,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "id": "a6da973c5749ce60adab77d64b3664f4",
+      "sport": "soccer",
+      "league": "FIFA World Cup",
+      "kickoff": "2026-07-07T20:00:00Z",
+      "home": "Switzerland",
+      "away": "Colombia",
+      "odds": {
+        "home": 3.7,
+        "draw": 3.2,
+        "away": 2.4,
+        "over25": null,
+        "btts": null
+      },
+      "prediction": {
+        "homeElo": 1500,
+        "awayElo": 1500,
+        "probs": {
+          "home": 0.2704,
+          "away": 0.4169,
+          "draw": 0.3127
+        },
+        "marketProbs": {
+          "home": 0.2704,
+          "away": 0.4169,
+          "draw": 0.3127
+        },
+        "modelProbs": {
+          "home": 0.4166,
+          "draw": 0.2619,
+          "away": 0.3215
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.4347,
+        "btts": 0.4813,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1245
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-1",
+            "prob": 0.085
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0822
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0445
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.3127,
+          "odds": 3.2,
+          "ev": 0.0006
+        },
+        "topSide": {
+          "key": "away",
+          "label": "Colombia win",
+          "prob": 0.4169,
+          "odds": 2.4,
+          "ev": 0.0006
+        },
+        "confidence": 0.4169,
+        "tier": "low",
+        "isValue": false
+      }
+    },
+    {
+      "id": "b6e926d7f026782b9cab2fa02b823d92",
+      "sport": "soccer",
+      "league": "FIFA World Cup",
+      "kickoff": "2026-07-09T20:00:00Z",
+      "home": "France",
+      "away": "Morocco",
+      "odds": {
+        "home": 1.64,
+        "draw": 4.1,
+        "away": 7.2,
+        "over25": null,
+        "btts": null
+      },
+      "prediction": {
+        "homeElo": 1500,
+        "awayElo": 1500,
+        "probs": {
+          "home": 0.6143,
+          "away": 0.1399,
+          "draw": 0.2457
+        },
+        "marketProbs": {
+          "home": 0.6143,
+          "away": 0.1399,
+          "draw": 0.2457
+        },
+        "modelProbs": {
+          "home": 0.4166,
+          "draw": 0.2619,
+          "away": 0.3215
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.4347,
+        "btts": 0.4813,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1245
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-1",
+            "prob": 0.085
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0822
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0445
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2457,
+          "odds": 4.1,
+          "ev": 0.0075
+        },
+        "topSide": {
+          "key": "home",
+          "label": "France win",
+          "prob": 0.6143,
+          "odds": 1.64,
+          "ev": 0.0075
+        },
+        "confidence": 0.6143,
+        "tier": "high",
+        "isValue": false
+      }
+    },
+    {
+      "id": "e66e4478b739fa0657a7a11235e1fcee",
+      "sport": "soccer",
+      "league": "FIFA World Cup",
+      "kickoff": "2026-07-11T21:00:00Z",
+      "home": "Norway",
+      "away": "England",
+      "odds": {
+        "home": 4.2,
+        "draw": 3.73,
+        "away": 2.03,
+        "over25": null,
+        "btts": null
+      },
+      "prediction": {
+        "homeElo": 1500,
+        "awayElo": 1500,
+        "probs": {
+          "home": 0.2384,
+          "away": 0.4932,
+          "draw": 0.2684
+        },
+        "marketProbs": {
+          "home": 0.2384,
+          "away": 0.4932,
+          "draw": 0.2684
+        },
+        "modelProbs": {
+          "home": 0.4166,
+          "draw": 0.2619,
+          "away": 0.3215
+        },
+        "expectedHomeGoals": 1.47,
+        "expectedAwayGoals": 1.03,
+        "over25": 0.4347,
+        "btts": 0.4813,
+        "scoreGrid": [
+          {
+            "score": "1-1",
+            "prob": 0.1245
+          },
+          {
+            "score": "1-0",
+            "prob": 0.1204
+          },
+          {
+            "score": "2-1",
+            "prob": 0.0912
+          },
+          {
+            "score": "2-0",
+            "prob": 0.0882
+          },
+          {
+            "score": "0-1",
+            "prob": 0.085
+          },
+          {
+            "score": "0-0",
+            "prob": 0.0822
+          },
+          {
+            "score": "1-2",
+            "prob": 0.0643
+          },
+          {
+            "score": "2-2",
+            "prob": 0.0471
+          },
+          {
+            "score": "3-1",
+            "prob": 0.0445
+          },
+          {
+            "score": "0-2",
+            "prob": 0.0439
+          }
+        ],
+        "best": {
+          "key": "home",
+          "label": "Norway win",
+          "prob": 0.2384,
+          "odds": 4.2,
+          "ev": 0.0012
+        },
+        "topSide": {
+          "key": "away",
+          "label": "England win",
+          "prob": 0.4932,
+          "odds": 2.03,
+          "ev": 0.0012
+        },
+        "confidence": 0.4932,
+        "tier": "medium",
         "isValue": false
       }
     },
@@ -1096,7 +1678,7 @@ window.PREDICTOR_DATA = {
       "home": "Kansas City Royals",
       "away": "Philadelphia Phillies",
       "odds": {
-        "home": 2.8,
+        "home": 2.82,
         "draw": null,
         "away": 1.55,
         "over25": null,
@@ -1106,12 +1688,12 @@ window.PREDICTOR_DATA = {
         "homeElo": 1500,
         "awayElo": 1500,
         "probs": {
-          "home": 0.3563,
-          "away": 0.6437
+          "home": 0.3547,
+          "away": 0.6453
         },
         "marketProbs": {
-          "home": 0.3563,
-          "away": 0.6437
+          "home": 0.3547,
+          "away": 0.6453
         },
         "modelProbs": {
           "home": 0.5644,
@@ -1164,20 +1746,20 @@ window.PREDICTOR_DATA = {
           }
         ],
         "best": {
-          "key": "away",
-          "label": "Philadelphia Phillies win",
-          "prob": 0.6437,
-          "odds": 1.55,
-          "ev": -0.0023
+          "key": "home",
+          "label": "Kansas City Royals win",
+          "prob": 0.3547,
+          "odds": 2.82,
+          "ev": 0.0002
         },
         "topSide": {
           "key": "away",
           "label": "Philadelphia Phillies win",
-          "prob": 0.6437,
+          "prob": 0.6453,
           "odds": 1.55,
-          "ev": -0.0023
+          "ev": 0.0002
         },
-        "confidence": 0.6437,
+        "confidence": 0.6453,
         "tier": "high",
         "isValue": false
       }
@@ -1284,7 +1866,7 @@ window.PREDICTOR_DATA = {
       "home": "Washington Nationals",
       "away": "Houston Astros",
       "odds": {
-        "home": 1.88,
+        "home": 1.89,
         "draw": null,
         "away": 2.15,
         "over25": null,
@@ -1294,12 +1876,12 @@ window.PREDICTOR_DATA = {
         "homeElo": 1500,
         "awayElo": 1500,
         "probs": {
-          "home": 0.5335,
-          "away": 0.4665
+          "home": 0.5322,
+          "away": 0.4678
         },
         "marketProbs": {
-          "home": 0.5335,
-          "away": 0.4665
+          "home": 0.5322,
+          "away": 0.4678
         },
         "modelProbs": {
           "home": 0.5644,
@@ -1354,18 +1936,18 @@ window.PREDICTOR_DATA = {
         "best": {
           "key": "home",
           "label": "Washington Nationals win",
-          "prob": 0.5335,
-          "odds": 1.88,
-          "ev": 0.003
+          "prob": 0.5322,
+          "odds": 1.89,
+          "ev": 0.0058
         },
         "topSide": {
           "key": "home",
           "label": "Washington Nationals win",
-          "prob": 0.5335,
-          "odds": 1.88,
-          "ev": 0.003
+          "prob": 0.5322,
+          "odds": 1.89,
+          "ev": 0.0058
         },
-        "confidence": 0.5335,
+        "confidence": 0.5322,
         "tier": "medium",
         "isValue": false
       }

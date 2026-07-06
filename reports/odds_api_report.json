@@ -1,8 +1,11 @@
 {
-  "generated_at": "2026-07-06T16:25:34",
+  "generated_at": "2026-07-06T16:39:26",
   "sports": {
     "upcoming": {
       "events": 9
+    },
+    "soccer_fifa_world_cup": {
+      "events": 6
     },
     "baseball_mlb": {
       "events": 8
@@ -11,7 +14,7 @@
       "events": 0
     }
   },
-  "requests_remaining": "478",
-  "requests_used": "22",
-  "written_rows": 17
+  "requests_remaining": "458",
+  "requests_used": "42",
+  "written_rows": 23
 }
