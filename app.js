@@ -253,6 +253,11 @@ function marketLabel(match, market) {
   return market.label;
 }
 
+function valueText(match, p) {
+  if (!p.best || p.best.ev < 0.04) return "無明顯價值";
+  return `${marketLabel(match, p.best)} @${p.best.odds}`;
+}
+
 function signedPct(value) {
   const number = Number(value || 0);
   const sign = number > 0 ? "+" : "";
@@ -406,8 +411,10 @@ function renderPredictions() {
         </div>
         <div class="pick-line">
           <div>
-            <span class="league">最佳方向</span><br />
-            <b>${marketLabel(match, p.best)}</b> <span class="league">@${p.best.odds}</span>
+            <span class="league">勝率最高</span><br />
+            <b>${marketLabel(match, p.topSide)}</b> <span class="league">${pct(p.topSide.prob)}</span>
+            <br />
+            <span class="league">價值方向：${valueText(match, p)}</span>
           </div>
           <button class="details-btn" data-match="${match.id}">細節</button>
         </div>
@@ -498,6 +505,18 @@ function openDetails(matchId) {
   const p = predict(match);
   const expectedHome = p.expectedHomeGoals ?? p.homeGoals;
   const expectedAway = p.expectedAwayGoals ?? p.awayGoals;
+  const isSoccer = sportOf(match) === "soccer";
+  const topSideLabel = marketLabel(match, p.topSide);
+  const soccerDetails = isSoccer
+    ? `
+      <p><b>預期進球：</b>${zhTeam(match.home)} ${num.format(expectedHome)}，${zhTeam(match.away)} ${num.format(expectedAway)}</p>
+      <p><b>大小分：</b>大 2.5 ${pct(p.over25)}，BTTS ${pct(p.btts)}</p>
+      <p><b>最可能比分：</b>${p.scoreGrid[0].score} (${pct(p.scoreGrid[0].prob)})</p>
+    `
+    : `
+      <p><b>模型勝率：</b>${zhTeam(match.home)} ${pct(p.probs.home)}，${zhTeam(match.away)} ${pct(p.probs.away)}</p>
+      <p><b>最高勝率：</b>${topSideLabel} (${pct(p.topSide.prob)})</p>
+    `;
   const drawer = document.querySelector("#drawer");
   drawer.classList.add("open");
   drawer.innerHTML = `
@@ -509,17 +528,16 @@ function openDetails(matchId) {
       <button class="details-btn" id="closeDrawer">關閉</button>
     </div>
     <div class="drawer-body">
-      <p><b>模型推薦：</b>${marketLabel(match, p.best)} @${p.best.odds}，EV ${pct(p.best.ev)}</p>
-      <p><b>預期得分：</b>${zhTeam(match.home)} ${num.format(expectedHome)}，${zhTeam(match.away)} ${num.format(expectedAway)}</p>
-      <p><b>大小分：</b>大 2.5 ${pct(p.over25)}，BTTS ${pct(p.btts)}</p>
-      <p><b>最可能比分：</b>${p.scoreGrid[0].score} (${pct(p.scoreGrid[0].prob)})</p>
+      <p><b>勝率最高：</b>${marketLabel(match, p.topSide)}，${pct(p.topSide.prob)}</p>
+      <p><b>價值方向：</b>${valueText(match, p)}${p.best ? `，最佳 EV ${pct(p.best.ev)}` : ""}</p>
+      ${soccerDetails}
       <div class="factor-box">
         <b>客觀因素</b>
         ${factorRows(p)}
       </div>
-      <div class="score-grid">
+      ${isSoccer ? `<div class="score-grid">
         ${p.scoreGrid.slice(0, 10).map((item) => `<div class="score-cell"><b>${item.score}</b>${pct(item.prob)}</div>`).join("")}
-      </div>
+      </div>` : ""}
     </div>
   `;
   document.querySelector("#closeDrawer").addEventListener("click", () => drawer.classList.remove("open"));
