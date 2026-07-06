@@ -40,6 +40,11 @@ def main() -> int:
     if factors_code != 0:
         print("fetch_factors.py failed; keeping existing team factors")
 
+    if os.environ.get("THE_ODDS_API_KEY"):
+        results_code = run([sys.executable, str(ROOT / "fetch_results.py")])
+        if results_code != 0:
+            print("fetch_results.py failed; keeping existing settled results")
+
     model_code = run([sys.executable, str(ROOT / "model.py")])
     if model_code != 0:
         return model_code

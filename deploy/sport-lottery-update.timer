@@ -1,9 +1,9 @@
 [Unit]
-Description=Run sport lottery predictor updater every 15 minutes
+Description=Run sport lottery predictor updater every 3 minutes
 
 [Timer]
 OnBootSec=2min
-OnUnitActiveSec=15min
+OnUnitActiveSec=3min
 Persistent=true
 Unit=sport-lottery-update.service
 

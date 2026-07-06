@@ -253,9 +253,13 @@ function marketLabel(match, market) {
   return market.label;
 }
 
+function sportLeagueLabel(match) {
+  return `${sportLabels[sportOf(match)] || sportOf(match)} · ${zhLeague(match.league)}`;
+}
+
 function valueText(match, p) {
   if (!p.best || p.best.ev < 0.04) return "無明顯價值";
-  return `${marketLabel(match, p.best)} @${p.best.odds}`;
+  return `${marketLabel(match, p.best)}`;
 }
 
 function signedPct(value) {
@@ -395,7 +399,7 @@ function renderPredictions() {
       <article class="match-card">
         <div class="match-head">
           <div>
-            <div class="league">${zhLeague(match.league)}</div>
+            <div class="league">${sportLeagueLabel(match)}</div>
             <div class="teams">${zhTeam(match.home)}<br />${zhTeam(match.away)}</div>
           </div>
           <div class="kickoff">${formatKickoff(match.kickoff)}</div>
@@ -483,10 +487,9 @@ function renderBacktest() {
     .map(({ match, p, pick, won }) => `
       <tr>
         <td>${match.date}</td>
-        <td>${zhTeam(match.home)} vs ${zhTeam(match.away)}</td>
+        <td><span class="league">${sportLeagueLabel(match)}</span><br />${zhTeam(match.home)} vs ${zhTeam(match.away)}</td>
         <td>${marketLabel(match, pick)}</td>
         <td>${pct(p.confidence)}</td>
-        <td>${pick.odds}</td>
         <td class="${won ? "win" : "loss"}">${won ? "命中" : "未中"} (${match.result}${match.score ? ` ${match.score}` : ""})</td>
       </tr>
     `)
