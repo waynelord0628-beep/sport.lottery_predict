@@ -368,6 +368,20 @@ def read_factors() -> dict[str, dict[str, str]]:
     return {row["team"]: row for row in read_csv(path) if row.get("team")}
 
 
+def read_settled_results() -> list[dict[str, str]]:
+    path = DATA / "settled_results.csv"
+    if not path.exists():
+        return []
+    return read_csv(path)
+
+
+def read_snapshot_backtest() -> list[dict[str, str]]:
+    path = DATA / "snapshot_backtest.csv"
+    if not path.exists():
+        return []
+    return read_csv(path)
+
+
 def build_dashboard() -> dict:
     historical = sorted(read_csv(DATA / "historical_matches.csv"), key=lambda item: item["date"])
     params, leaderboard = calibrate(historical)
@@ -429,6 +443,8 @@ def build_dashboard() -> dict:
         "ratings": dict(sorted((team, round(rating, 1)) for team, rating in ratings.items())),
         "predictions": predictions,
         "backtest": backtest,
+        "settledResults": read_settled_results(),
+        "snapshotBacktest": read_snapshot_backtest(),
     }
 
 

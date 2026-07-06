@@ -20,6 +20,8 @@ SPORTS = {
     "upcoming": {"sport": "mixed", "league": "Upcoming"},
     "baseball_mlb": {"sport": "baseball", "league": "MLB"},
     "esports_lol": {"sport": "esports", "league": "LoL"},
+    "tennis_atp_wimbledon": {"sport": "tennis", "league": "ATP Wimbledon"},
+    "tennis_wta_wimbledon": {"sport": "tennis", "league": "WTA Wimbledon"},
     "esports_cs2": {"sport": "esports", "league": "CS2"},
     "esports_dota2": {"sport": "esports", "league": "Dota 2"},
 }
@@ -105,7 +107,7 @@ def main() -> int:
         "requests_remaining": None,
         "requests_used": None,
     }
-    default_sports = "upcoming,soccer_fifa_world_cup,baseball_mlb,esports_lol"
+    default_sports = "upcoming,soccer_fifa_world_cup,baseball_mlb,tennis_atp_wimbledon,tennis_wta_wimbledon,esports_lol"
     sport_keys = [item.strip() for item in os.environ.get("ODDS_SPORT_KEYS", default_sports).split(",") if item.strip()]
     seen_events: set[str] = set()
 

@@ -49,6 +49,15 @@ def main() -> int:
     if model_code != 0:
         return model_code
 
+    snapshot_code = run([sys.executable, str(ROOT / "snapshot_store.py")])
+    if snapshot_code != 0:
+        print("snapshot_store.py failed; dashboard still published without new snapshot backtest")
+
+    # Rebuild once so dashboard_data.js includes newly matched snapshot backtest rows.
+    model_code = run([sys.executable, str(ROOT / "model.py")])
+    if model_code != 0:
+        return model_code
+
     copy_web()
     print(f"Published dashboard to {WEB_ROOT}")
     return 0

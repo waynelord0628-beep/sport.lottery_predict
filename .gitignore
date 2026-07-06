@@ -5,3 +5,5 @@ __pycache__/
 deploy/package.zip
 work/
 outputs/
+data/prediction_snapshots.csv
+data/snapshot_backtest.csv

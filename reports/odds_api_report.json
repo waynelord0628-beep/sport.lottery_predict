@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-06T16:39:26",
+  "generated_at": "2026-07-06T18:13:28",
   "sports": {
     "upcoming": {
-      "events": 9
+      "events": 10
     },
     "soccer_fifa_world_cup": {
       "events": 6
@@ -10,11 +10,17 @@
     "baseball_mlb": {
       "events": 8
     },
+    "tennis_atp_wimbledon": {
+      "events": 2
+    },
+    "tennis_wta_wimbledon": {
+      "events": 2
+    },
     "esports_lol": {
       "events": 0
     }
   },
-  "requests_remaining": "458",
-  "requests_used": "42",
-  "written_rows": 23
+  "requests_remaining": "104",
+  "requests_used": "396",
+  "written_rows": 28
 }

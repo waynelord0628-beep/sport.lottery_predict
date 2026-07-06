@@ -95,6 +95,7 @@ const fmt = new Intl.NumberFormat("zh-TW", { style: "percent", maximumFractionDi
 const num = new Intl.NumberFormat("zh-TW", { maximumFractionDigits: 2 });
 let activeQualityFilter = "all";
 let activeSportFilter = "all";
+let activeBacktestFilter = "all";
 let backtestSortMode = "latest";
 let backtestPage = 1;
 const backtestPageSize = 10;
@@ -257,6 +258,20 @@ function sportLeagueLabel(match) {
   return `${sportLabels[sportOf(match)] || sportOf(match)} · ${zhLeague(match.league)}`;
 }
 
+function resultSportOf(item) {
+  const key = item.sport_key || "";
+  if (key.startsWith("soccer_")) return "soccer";
+  if (key.startsWith("baseball_")) return "baseball";
+  if (key.startsWith("tennis_")) return "tennis";
+  if (key.startsWith("esports_")) return "esports";
+  if (key.startsWith("cricket_")) return "soccer";
+  return item.sport || "soccer";
+}
+
+function settledSportLabel(item) {
+  return `${sportLabels[resultSportOf(item)] || resultSportOf(item)} · ${zhLeague(item.sport_title || item.league)}`;
+}
+
 function valueText(match, p) {
   if (!p.best || p.best.ev < 0.04) return "無明顯價值";
   return `${marketLabel(match, p.best)}`;
@@ -383,6 +398,20 @@ function renderSportFilters() {
     .join("");
 }
 
+function renderBacktestFilters() {
+  const holder = document.querySelector("#backtestFilters");
+  const settled = generatedData?.settledResults || [];
+  const available = new Set([
+    ...settledMatches.map((match) => sportOf(match)),
+    ...settled.map((item) => resultSportOf(item)),
+  ]);
+  const preferred = ["all", "soccer", "basketball", "baseball", "esports", "tennis"];
+  const filters = [...preferred, ...[...available].filter((sport) => !preferred.includes(sport))];
+  holder.innerHTML = filters
+    .map((sport) => `<button class="sport-chip ${sport === activeBacktestFilter ? "active" : ""}" data-backtest-sport="${sport}">${sportLabels[sport] || sport}</button>`)
+    .join("");
+}
+
 function renderPredictions() {
   const grid = document.querySelector("#matchGrid");
   const cards = upcomingMatches
@@ -440,7 +469,10 @@ function renderBacktest() {
     return { match, p, pick, won, index };
   });
 
-  const m = generatedData?.metrics;
+  const filteredRows = activeBacktestFilter === "all" ? rows : rows.filter((row) => sportOf(row.match) === activeBacktestFilter);
+  const settledResults = (generatedData?.settledResults || []).filter((item) => activeBacktestFilter === "all" || resultSportOf(item) === activeBacktestFilter);
+  const snapshotBacktest = (generatedData?.snapshotBacktest || []).filter((item) => activeBacktestFilter === "all" || (item.sport || "soccer") === activeBacktestFilter);
+  const m = activeBacktestFilter === "all" ? generatedData?.metrics : null;
   let statItems;
   if (m) {
     statItems = [
@@ -450,19 +482,24 @@ function renderBacktest() {
       ["Log Loss", m.logLoss],
       ["平注 ROI", pct(m.roi)],
       ["價值單 ROI", m.valueRoi === null ? "無" : pct(m.valueRoi)],
+      ["真實快照回測", `${generatedData?.snapshotBacktest?.length || 0} 筆`],
+      ["已完賽結果", `${generatedData?.settledResults?.length || 0} 筆`],
     ];
   } else {
-    const total = rows.length;
-    const wins = rows.filter((row) => row.won).length;
-    const high = rows.filter((row) => row.p.tier === "high");
+    const total = filteredRows.length;
+    const wins = filteredRows.filter((row) => row.won).length;
+    const high = filteredRows.filter((row) => row.p.tier === "high");
     const highWins = high.filter((row) => row.won).length;
-    const valueRows = rows.filter((row) => row.p.best.ev >= 0.08);
-    const profit = rows.reduce((sum, row) => sum + (row.won ? row.pick.odds - 1 : -1), 0);
+    const valueRows = filteredRows.filter((row) => row.p.best.ev >= 0.08);
+    const profit = filteredRows.reduce((sum, row) => sum + (row.won ? row.pick.odds - 1 : -1), 0);
     statItems = [
-      ["總命中率", pct(wins / total)],
+      ["回測場次", `${total} 場`],
+      ["總命中率", total ? pct(wins / total) : "無"],
       ["高信心", high.length ? `${pct(highWins / high.length)} (${highWins}/${high.length})` : "無"],
       ["價值單數", `${valueRows.length} 場`],
-      ["平注 ROI", pct(profit / total)],
+      ["平注 ROI", total ? pct(profit / total) : "無"],
+      ["真實快照回測", `${snapshotBacktest.length} 筆`],
+      ["已完賽結果", `${settledResults.length} 筆`],
     ];
   }
 
@@ -470,7 +507,40 @@ function renderBacktest() {
     .map(([label, value]) => `<div class="stat-card"><span>${label}</span><strong>${value}</strong></div>`)
     .join("");
 
-  const sortedRows = [...rows].sort((a, b) => {
+  const resultRows = settledResults.map((item, index) => ({
+    kind: "result",
+    index: rows.length + index,
+    match: {
+      date: (item.commence_time || "").slice(0, 10),
+      league: item.sport_title,
+      home: item.home,
+      away: item.away,
+      score: `${item.home_score}-${item.away_score}`,
+      result: item.result,
+      sport: resultSportOf(item),
+    },
+    item,
+  }));
+  const snapshotRows = snapshotBacktest.map((item, index) => ({
+    kind: "snapshot",
+    index: rows.length + resultRows.length + index,
+    match: {
+      date: (item.kickoff || "").slice(0, 10),
+      league: item.league,
+      home: item.home,
+      away: item.away,
+      score: item.score,
+      result: item.result,
+      sport: item.sport,
+    },
+    item,
+  }));
+  const combinedRows = [
+    ...filteredRows.map((row) => ({ ...row, kind: "backtest" })),
+    ...snapshotRows,
+    ...resultRows,
+  ];
+  const sortedRows = combinedRows.sort((a, b) => {
     if (backtestSortMode === "oldest") return new Date(a.match.date) - new Date(b.match.date);
     if (backtestSortMode === "restore") return b.index - a.index;
     return new Date(b.match.date) - new Date(a.match.date);
@@ -484,7 +554,23 @@ function renderBacktest() {
   }
 
   document.querySelector("#historyRows").innerHTML = visibleRows
-    .map(({ match, p, pick, won }) => `
+    .map(({ match, p, pick, won, kind, item }) => kind === "snapshot" ? `
+      <tr>
+        <td>${match.date}</td>
+        <td><span class="league">${sportLeagueLabel(match)} · 快照</span><br />${zhTeam(match.home)} vs ${zhTeam(match.away)}</td>
+        <td>${marketLabel(match, { key: item.pick_key, label: item.pick_label })}</td>
+        <td>${item.pick_prob ? pct(Number(item.pick_prob)) : "—"}</td>
+        <td class="${item.won === "true" ? "win" : "loss"}">${item.won === "true" ? "命中" : "未中"} (${match.result}${match.score ? ` ${match.score}` : ""})</td>
+      </tr>
+    ` : kind === "result" ? `
+      <tr>
+        <td>${match.date}</td>
+        <td><span class="league">${settledSportLabel(item)}</span><br />${zhTeam(match.home)} vs ${zhTeam(match.away)}</td>
+        <td>已完賽結果</td>
+        <td>—</td>
+        <td>${match.result} ${match.score ? `(${match.score})` : ""}</td>
+      </tr>
+    ` : `
       <tr>
         <td>${match.date}</td>
         <td><span class="league">${sportLeagueLabel(match)}</span><br />${zhTeam(match.home)} vs ${zhTeam(match.away)}</td>
@@ -573,6 +659,16 @@ document.querySelector("#sportFilters").addEventListener("click", (event) => {
   renderPredictions();
 });
 
+document.querySelector("#backtestFilters").addEventListener("click", (event) => {
+  const button = event.target.closest("[data-backtest-sport]");
+  if (!button) return;
+  activeBacktestFilter = button.dataset.backtestSport;
+  backtestPage = 1;
+  document.querySelectorAll("[data-backtest-sport]").forEach((chip) => chip.classList.remove("active"));
+  button.classList.add("active");
+  renderBacktest();
+});
+
 document.querySelector("#dateSortBtn").addEventListener("click", () => {
   backtestSortMode = backtestSortMode === "latest" ? "oldest" : backtestSortMode === "oldest" ? "restore" : "latest";
   backtestPage = 1;
@@ -592,5 +688,6 @@ document.addEventListener("click", (event) => {
 });
 
 renderSportFilters();
+renderBacktestFilters();
 renderPredictions();
 renderBacktest();
