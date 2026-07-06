@@ -52,7 +52,11 @@
           <table>
             <thead>
               <tr>
-                <th>日期</th>
+                <th>
+                  <button id="dateSortBtn" class="sort-btn" type="button" aria-label="切換日期排序">
+                    日期 <span id="dateSortIcon">↓</span>
+                  </button>
+                </th>
                 <th>比賽</th>
                 <th>預測</th>
                 <th>信心</th>
@@ -63,6 +67,7 @@
             <tbody id="historyRows"></tbody>
           </table>
         </div>
+        <div id="backtestPager" class="pager" aria-label="回測分頁"></div>
       </section>
 
       <section id="model" class="view">

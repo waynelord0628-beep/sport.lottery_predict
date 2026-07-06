@@ -36,6 +36,10 @@ def main() -> int:
     else:
         print("THE_ODDS_API_KEY is not set; keeping manual upcoming CSV")
 
+    factors_code = run([sys.executable, str(ROOT / "fetch_factors.py")])
+    if factors_code != 0:
+        print("fetch_factors.py failed; keeping existing team factors")
+
     model_code = run([sys.executable, str(ROOT / "model.py")])
     if model_code != 0:
         return model_code

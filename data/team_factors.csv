@@ -1,7 +1,50 @@
 team,injury_impact,form_impact,rest_days,travel_impact,notes,source,updated_at
+Alex de Minaur,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Alexander Bublik,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Alexandra Eala,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
 Argentina,0.00,0.02,5,0.00,近期狀態穩定；未輸入重大傷兵,manual,2026-07-06
-France,-0.01,0.01,5,0.00,留意主力輪換；未輸入重大傷兵,manual,2026-07-06
-Brazil,0.00,0.01,5,0.00,未輸入重大傷兵,manual,2026-07-06
-Germany,0.00,0.00,5,0.00,未輸入重大傷兵,manual,2026-07-06
-New York Yankees,-0.02,0.01,1,0.00,範例：若主力打者/先發投手缺陣可調低 injury_impact,manual,2026-07-06
+Arizona Diamondbacks,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Arthur Fery,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Ashlyn Krueger,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Atlanta Braves,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Bangladesh,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Belgium,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
 Boston Red Sox,0.00,0.00,1,0.00,未輸入重大傷兵,manual,2026-07-06
+Brazil,0.00,0.01,5,0.00,未輸入重大傷兵,manual,2026-07-06
+Colombia,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Colorado Rockies,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Egypt,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Elise Mertens,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+England,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Flavio Cobolli,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+France,-0.01,0.01,5,0.00,留意主力輪換；未輸入重大傷兵,manual,2026-07-06
+Germany,0.00,0.00,5,0.00,未輸入重大傷兵,manual,2026-07-06
+Grigor Dimitrov,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Houston Astros,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Jasmine Paolini,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Kansas City Royals,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Linda Noskova,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Los Angeles Dodgers,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Madison Keys,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Marie Bouzkova,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Marta Kostyuk,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Milwaukee Brewers,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Morocco,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+New York Mets,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+New York Yankees,-0.02,0.01,1,0.00,範例：若主力打者/先發投手缺陣可調低 injury_impact,manual,2026-07-06
+Norway,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Philadelphia Phillies,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Portugal,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+San Diego Padres,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+San Francisco Giants,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Spain,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Sri Lanka,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+St. Louis Cardinals,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Switzerland,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Tampa Bay Rays,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Taylor Fritz,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Toronto Blue Jays,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+USA,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Washington Nationals,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+West Indies,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06
+Zimbabwe,0.00,0.00,,0.00,尚無可比對的近期賽果；未輸入傷兵資料,auto:historical_rest,2026-07-06

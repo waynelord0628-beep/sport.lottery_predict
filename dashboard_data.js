@@ -1,5 +1,5 @@
 window.PREDICTOR_DATA = {
-  "generatedAt": "2026-07-06T16:49:12",
+  "generatedAt": "2026-07-06T17:00:46",
   "params": {
     "home_adv": 45,
     "elo_k": 16,
@@ -269,8 +269,8 @@ window.PREDICTOR_DATA = {
           "away": 0.4356
         },
         "factorAdjustment": {
-          "homeScore": 0.0,
-          "awayScore": 0.0,
+          "homeScore": 0.0075,
+          "awayScore": 0.0075,
           "edge": 0.0,
           "applied": false
         },
@@ -281,9 +281,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           },
           "away": {
             "team": "Bangladesh",
@@ -291,9 +291,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           }
         },
         "expectedHomeGoals": 1.47,
@@ -391,8 +391,8 @@ window.PREDICTOR_DATA = {
           "away": 0.4356
         },
         "factorAdjustment": {
-          "homeScore": 0.0,
-          "awayScore": 0.0,
+          "homeScore": 0.0075,
+          "awayScore": 0.0075,
           "edge": 0.0,
           "applied": false
         },
@@ -403,9 +403,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           },
           "away": {
             "team": "Marta Kostyuk",
@@ -413,9 +413,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           }
         },
         "expectedHomeGoals": 1.47,
@@ -513,8 +513,8 @@ window.PREDICTOR_DATA = {
           "away": 0.4356
         },
         "factorAdjustment": {
-          "homeScore": 0.0,
-          "awayScore": 0.0,
+          "homeScore": 0.0075,
+          "awayScore": 0.0075,
           "edge": 0.0,
           "applied": false
         },
@@ -525,9 +525,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           },
           "away": {
             "team": "Flavio Cobolli",
@@ -535,9 +535,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           }
         },
         "expectedHomeGoals": 1.47,
@@ -635,8 +635,8 @@ window.PREDICTOR_DATA = {
           "away": 0.4356
         },
         "factorAdjustment": {
-          "homeScore": 0.0,
-          "awayScore": 0.0,
+          "homeScore": 0.0075,
+          "awayScore": 0.0075,
           "edge": 0.0,
           "applied": false
         },
@@ -647,9 +647,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           },
           "away": {
             "team": "Elise Mertens",
@@ -657,9 +657,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           }
         },
         "expectedHomeGoals": 1.47,
@@ -757,8 +757,8 @@ window.PREDICTOR_DATA = {
           "away": 0.4356
         },
         "factorAdjustment": {
-          "homeScore": 0.0,
-          "awayScore": 0.0,
+          "homeScore": 0.0075,
+          "awayScore": 0.0075,
           "edge": 0.0,
           "applied": false
         },
@@ -769,9 +769,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           },
           "away": {
             "team": "Alexandra Eala",
@@ -779,9 +779,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           }
         },
         "expectedHomeGoals": 1.47,
@@ -879,8 +879,8 @@ window.PREDICTOR_DATA = {
           "away": 0.4356
         },
         "factorAdjustment": {
-          "homeScore": 0.0,
-          "awayScore": 0.0,
+          "homeScore": 0.0075,
+          "awayScore": 0.0075,
           "edge": 0.0,
           "applied": false
         },
@@ -891,9 +891,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           },
           "away": {
             "team": "Linda Noskova",
@@ -901,9 +901,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           }
         },
         "expectedHomeGoals": 1.47,
@@ -1004,8 +1004,8 @@ window.PREDICTOR_DATA = {
           "away": 0.3215
         },
         "factorAdjustment": {
-          "homeScore": 0.0,
-          "awayScore": 0.0,
+          "homeScore": 0.0075,
+          "awayScore": 0.0075,
           "edge": 0.0,
           "applied": false
         },
@@ -1016,9 +1016,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           },
           "away": {
             "team": "Sri Lanka",
@@ -1026,9 +1026,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           }
         },
         "expectedHomeGoals": 1.47,
@@ -1126,8 +1126,8 @@ window.PREDICTOR_DATA = {
           "away": 0.4356
         },
         "factorAdjustment": {
-          "homeScore": 0.0,
-          "awayScore": 0.0,
+          "homeScore": 0.0075,
+          "awayScore": 0.0075,
           "edge": 0.0,
           "applied": false
         },
@@ -1138,9 +1138,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           },
           "away": {
             "team": "Arthur Fery",
@@ -1148,9 +1148,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           }
         },
         "expectedHomeGoals": 1.47,
@@ -1248,8 +1248,8 @@ window.PREDICTOR_DATA = {
           "away": 0.4356
         },
         "factorAdjustment": {
-          "homeScore": 0.0,
-          "awayScore": 0.0,
+          "homeScore": 0.0075,
+          "awayScore": 0.0075,
           "edge": 0.0,
           "applied": false
         },
@@ -1260,9 +1260,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           },
           "away": {
             "team": "Alexander Bublik",
@@ -1270,9 +1270,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           }
         },
         "expectedHomeGoals": 1.47,
@@ -1373,8 +1373,8 @@ window.PREDICTOR_DATA = {
           "away": 0.3215
         },
         "factorAdjustment": {
-          "homeScore": 0.0,
-          "awayScore": 0.0,
+          "homeScore": 0.0075,
+          "awayScore": 0.0075,
           "edge": 0.0,
           "applied": false
         },
@@ -1385,9 +1385,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           },
           "away": {
             "team": "Spain",
@@ -1395,9 +1395,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           }
         },
         "expectedHomeGoals": 1.47,
@@ -1498,8 +1498,8 @@ window.PREDICTOR_DATA = {
           "away": 0.3215
         },
         "factorAdjustment": {
-          "homeScore": 0.0,
-          "awayScore": 0.0,
+          "homeScore": 0.0075,
+          "awayScore": 0.0075,
           "edge": 0.0,
           "applied": false
         },
@@ -1510,9 +1510,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           },
           "away": {
             "team": "Belgium",
@@ -1520,9 +1520,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           }
         },
         "expectedHomeGoals": 1.47,
@@ -1608,9 +1608,9 @@ window.PREDICTOR_DATA = {
         "homeElo": 1500,
         "awayElo": 1500,
         "probs": {
-          "home": 0.7311,
-          "away": 0.0747,
-          "draw": 0.1942
+          "home": 0.7243,
+          "away": 0.0794,
+          "draw": 0.1964
         },
         "marketProbs": {
           "home": 0.7062,
@@ -1624,8 +1624,8 @@ window.PREDICTOR_DATA = {
         },
         "factorAdjustment": {
           "homeScore": 0.0275,
-          "awayScore": 0.0,
-          "edge": 0.0275,
+          "awayScore": 0.0075,
+          "edge": 0.02,
           "applied": true
         },
         "factors": {
@@ -1645,9 +1645,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           }
         },
         "expectedHomeGoals": 1.47,
@@ -1699,20 +1699,20 @@ window.PREDICTOR_DATA = {
         "best": {
           "key": "home",
           "label": "Argentina win",
-          "prob": 0.7311,
+          "prob": 0.7243,
           "odds": 1.43,
-          "ev": 0.0455
+          "ev": 0.0357
         },
         "topSide": {
           "key": "home",
           "label": "Argentina win",
-          "prob": 0.7311,
+          "prob": 0.7243,
           "odds": 1.43,
-          "ev": 0.0455
+          "ev": 0.0357
         },
-        "confidence": 0.7311,
+        "confidence": 0.7243,
         "tier": "high",
-        "isValue": true
+        "isValue": false
       }
     },
     {
@@ -1748,8 +1748,8 @@ window.PREDICTOR_DATA = {
           "away": 0.3215
         },
         "factorAdjustment": {
-          "homeScore": 0.0,
-          "awayScore": 0.0,
+          "homeScore": 0.0075,
+          "awayScore": 0.0075,
           "edge": 0.0,
           "applied": false
         },
@@ -1760,9 +1760,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           },
           "away": {
             "team": "Colombia",
@@ -1770,9 +1770,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           }
         },
         "expectedHomeGoals": 1.47,
@@ -1858,9 +1858,9 @@ window.PREDICTOR_DATA = {
         "homeElo": 1500,
         "awayElo": 1500,
         "probs": {
-          "home": 0.6208,
-          "away": 0.1354,
-          "draw": 0.2437
+          "home": 0.6143,
+          "away": 0.1399,
+          "draw": 0.2457
         },
         "marketProbs": {
           "home": 0.6143,
@@ -1874,9 +1874,9 @@ window.PREDICTOR_DATA = {
         },
         "factorAdjustment": {
           "homeScore": 0.0075,
-          "awayScore": 0.0,
-          "edge": 0.0075,
-          "applied": true
+          "awayScore": 0.0075,
+          "edge": 0.0,
+          "applied": false
         },
         "factors": {
           "home": {
@@ -1895,9 +1895,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           }
         },
         "expectedHomeGoals": 1.47,
@@ -1947,20 +1947,20 @@ window.PREDICTOR_DATA = {
           }
         ],
         "best": {
-          "key": "home",
-          "label": "France win",
-          "prob": 0.6208,
-          "odds": 1.64,
-          "ev": 0.0182
+          "key": "draw",
+          "label": "Draw",
+          "prob": 0.2457,
+          "odds": 4.1,
+          "ev": 0.0075
         },
         "topSide": {
           "key": "home",
           "label": "France win",
-          "prob": 0.6208,
+          "prob": 0.6143,
           "odds": 1.64,
-          "ev": 0.0182
+          "ev": 0.0075
         },
-        "confidence": 0.6208,
+        "confidence": 0.6143,
         "tier": "high",
         "isValue": false
       }
@@ -1998,8 +1998,8 @@ window.PREDICTOR_DATA = {
           "away": 0.3215
         },
         "factorAdjustment": {
-          "homeScore": 0.0,
-          "awayScore": 0.0,
+          "homeScore": 0.0075,
+          "awayScore": 0.0075,
           "edge": 0.0,
           "applied": false
         },
@@ -2010,9 +2010,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           },
           "away": {
             "team": "England",
@@ -2020,9 +2020,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           }
         },
         "expectedHomeGoals": 1.47,
@@ -2120,8 +2120,8 @@ window.PREDICTOR_DATA = {
           "away": 0.4356
         },
         "factorAdjustment": {
-          "homeScore": 0.0,
-          "awayScore": 0.0,
+          "homeScore": 0.0075,
+          "awayScore": 0.0075,
           "edge": 0.0,
           "applied": false
         },
@@ -2132,9 +2132,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           },
           "away": {
             "team": "Philadelphia Phillies",
@@ -2142,9 +2142,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           }
         },
         "expectedHomeGoals": 1.47,
@@ -2230,8 +2230,8 @@ window.PREDICTOR_DATA = {
         "homeElo": 1500,
         "awayElo": 1500,
         "probs": {
-          "home": 0.5476,
-          "away": 0.4524
+          "home": 0.5551,
+          "away": 0.4449
         },
         "marketProbs": {
           "home": 0.5151,
@@ -2242,9 +2242,9 @@ window.PREDICTOR_DATA = {
           "away": 0.4356
         },
         "factorAdjustment": {
-          "homeScore": 0.0,
+          "homeScore": 0.0075,
           "awayScore": -0.0325,
-          "edge": 0.0325,
+          "edge": 0.04,
           "applied": true
         },
         "factors": {
@@ -2254,9 +2254,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           },
           "away": {
             "team": "New York Yankees",
@@ -2318,18 +2318,18 @@ window.PREDICTOR_DATA = {
         "best": {
           "key": "home",
           "label": "Tampa Bay Rays win",
-          "prob": 0.5476,
+          "prob": 0.5551,
           "odds": 1.93,
-          "ev": 0.0568
+          "ev": 0.0713
         },
         "topSide": {
           "key": "home",
           "label": "Tampa Bay Rays win",
-          "prob": 0.5476,
+          "prob": 0.5551,
           "odds": 1.93,
-          "ev": 0.0568
+          "ev": 0.0713
         },
-        "confidence": 0.5476,
+        "confidence": 0.5551,
         "tier": "medium",
         "isValue": true
       }
@@ -2364,8 +2364,8 @@ window.PREDICTOR_DATA = {
           "away": 0.4356
         },
         "factorAdjustment": {
-          "homeScore": 0.0,
-          "awayScore": 0.0,
+          "homeScore": 0.0075,
+          "awayScore": 0.0075,
           "edge": 0.0,
           "applied": false
         },
@@ -2376,9 +2376,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           },
           "away": {
             "team": "Houston Astros",
@@ -2386,9 +2386,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           }
         },
         "expectedHomeGoals": 1.47,
@@ -2486,8 +2486,8 @@ window.PREDICTOR_DATA = {
           "away": 0.4356
         },
         "factorAdjustment": {
-          "homeScore": 0.0,
-          "awayScore": 0.0,
+          "homeScore": 0.0075,
+          "awayScore": 0.0075,
           "edge": 0.0,
           "applied": false
         },
@@ -2498,9 +2498,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           },
           "away": {
             "team": "New York Mets",
@@ -2508,9 +2508,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           }
         },
         "expectedHomeGoals": 1.47,
@@ -2608,8 +2608,8 @@ window.PREDICTOR_DATA = {
           "away": 0.4356
         },
         "factorAdjustment": {
-          "homeScore": 0.0,
-          "awayScore": 0.0,
+          "homeScore": 0.0075,
+          "awayScore": 0.0075,
           "edge": 0.0,
           "applied": false
         },
@@ -2620,9 +2620,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           },
           "away": {
             "team": "Milwaukee Brewers",
@@ -2630,9 +2630,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           }
         },
         "expectedHomeGoals": 1.47,
@@ -2730,8 +2730,8 @@ window.PREDICTOR_DATA = {
           "away": 0.4356
         },
         "factorAdjustment": {
-          "homeScore": 0.0,
-          "awayScore": 0.0,
+          "homeScore": 0.0075,
+          "awayScore": 0.0075,
           "edge": 0.0,
           "applied": false
         },
@@ -2742,9 +2742,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           },
           "away": {
             "team": "Arizona Diamondbacks",
@@ -2752,9 +2752,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           }
         },
         "expectedHomeGoals": 1.47,
@@ -2852,8 +2852,8 @@ window.PREDICTOR_DATA = {
           "away": 0.4356
         },
         "factorAdjustment": {
-          "homeScore": 0.0,
-          "awayScore": 0.0,
+          "homeScore": 0.0075,
+          "awayScore": 0.0075,
           "edge": 0.0,
           "applied": false
         },
@@ -2864,9 +2864,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           },
           "away": {
             "team": "Toronto Blue Jays",
@@ -2874,9 +2874,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           }
         },
         "expectedHomeGoals": 1.47,
@@ -2974,8 +2974,8 @@ window.PREDICTOR_DATA = {
           "away": 0.4356
         },
         "factorAdjustment": {
-          "homeScore": 0.0,
-          "awayScore": 0.0,
+          "homeScore": 0.0075,
+          "awayScore": 0.0075,
           "edge": 0.0,
           "applied": false
         },
@@ -2986,9 +2986,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           },
           "away": {
             "team": "Colorado Rockies",
@@ -2996,9 +2996,9 @@ window.PREDICTOR_DATA = {
             "formImpact": 0.0,
             "restDays": null,
             "travelImpact": 0.0,
-            "notes": "",
-            "source": "",
-            "updatedAt": ""
+            "notes": "尚無可比對的近期賽果；未輸入傷兵資料",
+            "source": "auto:historical_rest",
+            "updatedAt": "2026-07-06"
           }
         },
         "expectedHomeGoals": 1.47,

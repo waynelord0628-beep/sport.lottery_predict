@@ -95,6 +95,9 @@ const fmt = new Intl.NumberFormat("zh-TW", { style: "percent", maximumFractionDi
 const num = new Intl.NumberFormat("zh-TW", { maximumFractionDigits: 2 });
 let activeQualityFilter = "all";
 let activeSportFilter = "all";
+let backtestSortMode = "latest";
+let backtestPage = 1;
+const backtestPageSize = 10;
 
 const sportLabels = {
   all: "全部",
@@ -419,11 +422,11 @@ function renderPredictions() {
 }
 
 function renderBacktest() {
-  const rows = settledMatches.map((match) => {
+  const rows = settledMatches.map((match, index) => {
     const p = predict(match);
     const pick = p.topSide;
     const won = pick.key === match.result;
-    return { match, p, pick, won };
+    return { match, p, pick, won, index };
   });
 
   const m = generatedData?.metrics;
@@ -456,7 +459,20 @@ function renderBacktest() {
     .map(([label, value]) => `<div class="stat-card"><span>${label}</span><strong>${value}</strong></div>`)
     .join("");
 
-  document.querySelector("#historyRows").innerHTML = rows
+  const sortedRows = [...rows].sort((a, b) => {
+    if (backtestSortMode === "oldest") return new Date(a.match.date) - new Date(b.match.date);
+    if (backtestSortMode === "restore") return b.index - a.index;
+    return new Date(b.match.date) - new Date(a.match.date);
+  });
+  const totalPages = Math.max(1, Math.ceil(sortedRows.length / backtestPageSize));
+  backtestPage = Math.min(Math.max(1, backtestPage), totalPages);
+  const visibleRows = sortedRows.slice((backtestPage - 1) * backtestPageSize, backtestPage * backtestPageSize);
+  const sortIcon = document.querySelector("#dateSortIcon");
+  if (sortIcon) {
+    sortIcon.textContent = backtestSortMode === "oldest" ? "↑" : backtestSortMode === "restore" ? "↕" : "↓";
+  }
+
+  document.querySelector("#historyRows").innerHTML = visibleRows
     .map(({ match, p, pick, won }) => `
       <tr>
         <td>${match.date}</td>
@@ -468,6 +484,12 @@ function renderBacktest() {
       </tr>
     `)
     .join("");
+
+  document.querySelector("#backtestPager").innerHTML = `
+    <button type="button" data-page="prev" ${backtestPage <= 1 ? "disabled" : ""}>上一頁</button>
+    <span>第 ${backtestPage} / ${totalPages} 頁 · 共 ${sortedRows.length} 筆</span>
+    <button type="button" data-page="next" ${backtestPage >= totalPages ? "disabled" : ""}>下一頁</button>
+  `;
 }
 
 function openDetails(matchId) {
@@ -528,6 +550,19 @@ document.querySelector("#sportFilters").addEventListener("click", (event) => {
   document.querySelectorAll(".sport-chip").forEach((chip) => chip.classList.remove("active"));
   button.classList.add("active");
   renderPredictions();
+});
+
+document.querySelector("#dateSortBtn").addEventListener("click", () => {
+  backtestSortMode = backtestSortMode === "latest" ? "oldest" : backtestSortMode === "oldest" ? "restore" : "latest";
+  backtestPage = 1;
+  renderBacktest();
+});
+
+document.querySelector("#backtestPager").addEventListener("click", (event) => {
+  const button = event.target.closest("[data-page]");
+  if (!button || button.disabled) return;
+  backtestPage += button.dataset.page === "next" ? 1 : -1;
+  renderBacktest();
 });
 
 document.addEventListener("click", (event) => {
